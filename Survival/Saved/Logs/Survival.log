@@ -314,6 +314,7 @@ LogInit: Object subsystem initialized
 [2018.02.14-13.12.50:263][749]LogSavePackage: Moving 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/getRoamLocation_Auto13AA06066476A3D7FB62B8FA21473493F.tmp' to 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/AI/getRoamLocation_Auto1.uasset'
 [2018.02.14-13.12.50:266][749]LogSavePackage:Display: Finished SavePackage C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/AI/getRoamLocation_Auto1.uasset
 [2018.02.14-13.12.50:266][749]LogFileHelpers: Auto-saving content packages took 0.048
+<<<<<<< HEAD
 [2018.02.14-14.23.18:859][449]LogLinker:Warning: The file 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Models/DoorFrame_Exterior.uasset' contains unrecognizable data, check that it is of the expected type.
 [2018.02.14-14.23.18:861][449]LogLinker:Warning: The file 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Models/DoorFrame_Exterior.uasset' contains unrecognizable data, check that it is of the expected type.
 [2018.02.14-14.23.18:863][449]LogLinker:Warning: The file 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Models/DoorFrame_Exterior.uasset' contains unrecognizable data, check that it is of the expected type.
@@ -2057,3 +2058,5 @@ LogInit: Object subsystem initialized
 [2018.02.14-21.04.15:599][230]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
 [2018.02.14-21.04.19:276][419]SourceControl: Info fatal: D:/UE_4.16/Engine/Content/: 'D:/UE_4.16/Engine/Content/' is outside repository
 [2018.02.14-21.04.21:550][419]EditorErrors:Warning: Warning No assets to check in!
+=======
+>>>>>>> parent of 43712c4... delete junk
