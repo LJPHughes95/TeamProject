@@ -6321,3 +6321,801 @@ Make sure 'HOLLO' has been compiled for  Invalid Message Node
 [2018.02.14-15.44.43:608][605]LogEditorViewport: Clicking on Actor (context menu): TextRenderActor (TextRenderActor)
 [2018.02.14-15.44.45:025][605]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (CubeMesh)
 [2018.02.14-15.44.46:753][642]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.02.14-15.58.22:526][658]LogHttp:Warning: 000001D148BAD180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-15.58.22:527][658]LogHttp:Warning: 000001D148BAD180: libcurl info message cache 0 (Connection 31 seems to be dead!)
+[2018.02.14-15.58.22:527][658]LogHttp:Warning: 000001D148BAD180: libcurl info message cache 1 (Closing connection 31)
+[2018.02.14-15.58.22:527][658]LogHttp:Warning: 000001D148BAD180: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.02.14-15.58.22:527][658]LogHttp:Warning: 000001D148BAD180: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-15.58.22:527][658]LogHttp:Warning: 000001D148BAD180: libcurl info message cache 4 (Closing connection 32)
+[2018.02.14-15.59.22:661][838]LogHttp:Warning: 000001D148BADA80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-15.59.22:661][838]LogHttp:Warning: 000001D148BADA80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-15.59.22:661][838]LogHttp:Warning: 000001D148BADA80: libcurl info message cache 1 (Closing connection 33)
+[2018.02.14-16.01.22:832][189]LogHttp:Warning: 000001D148BAD180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.01.22:832][189]LogHttp:Warning: 000001D148BAD180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.01.22:832][189]LogHttp:Warning: 000001D148BAD180: libcurl info message cache 1 (Closing connection 34)
+[2018.02.14-16.03.22:646][545]LogHttp:Warning: 000001D148BACB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.03.22:646][545]LogHttp:Warning: 000001D148BACB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.03.22:646][545]LogHttp:Warning: 000001D148BACB80: libcurl info message cache 1 (Closing connection 35)
+[2018.02.14-16.05.22:487][896]LogHttp:Warning: 000001D148BAC880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.05.22:487][896]LogHttp:Warning: 000001D148BAC880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.05.22:487][896]LogHttp:Warning: 000001D148BAC880: libcurl info message cache 1 (Closing connection 36)
+[2018.02.14-16.06.22:721][ 72]LogHttp:Warning: 000001D148BAD180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.06.22:721][ 72]LogHttp:Warning: 000001D148BAD180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.06.22:721][ 72]LogHttp:Warning: 000001D148BAD180: libcurl info message cache 1 (Closing connection 37)
+[2018.02.14-16.08.22:578][428]LogHttp:Warning: 000001D148BAC880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.08.22:578][428]LogHttp:Warning: 000001D148BAC880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.08.22:578][428]LogHttp:Warning: 000001D148BAC880: libcurl info message cache 1 (Closing connection 38)
+[2018.02.14-16.10.22:833][784]LogHttp:Warning: 000001D148BADA80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.10.22:833][784]LogHttp:Warning: 000001D148BADA80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.10.22:833][784]LogHttp:Warning: 000001D148BADA80: libcurl info message cache 1 (Closing connection 39)
+[2018.02.14-16.12.22:391][142]LogHttp:Warning: 000001D148BACB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.12.22:391][142]LogHttp:Warning: 000001D148BACB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.12.22:391][142]LogHttp:Warning: 000001D148BACB80: libcurl info message cache 1 (Closing connection 40)
+[2018.02.14-16.13.22:504][322]LogHttp:Warning: 000001D148BACB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.13.22:504][322]LogHttp:Warning: 000001D148BACB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.13.22:504][322]LogHttp:Warning: 000001D148BACB80: libcurl info message cache 1 (Closing connection 41)
+[2018.02.14-16.14.22:525][502]LogHttp:Warning: 000001D148BAF580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.14.22:525][502]LogHttp:Warning: 000001D148BAF580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.14.22:525][502]LogHttp:Warning: 000001D148BAF580: libcurl info message cache 1 (Closing connection 42)
+[2018.02.14-16.16.22:357][856]LogHttp:Warning: 000001D148BAD180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.16.22:357][856]LogHttp:Warning: 000001D148BAD180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.16.22:357][856]LogHttp:Warning: 000001D148BAD180: libcurl info message cache 1 (Closing connection 43)
+[2018.02.14-16.17.22:411][ 36]LogHttp:Warning: 000001D148BAD180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.17.22:411][ 36]LogHttp:Warning: 000001D148BAD180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.17.22:411][ 36]LogHttp:Warning: 000001D148BAD180: libcurl info message cache 1 (Closing connection 44)
+[2018.02.14-16.18.22:466][216]LogHttp:Warning: 000001D148BAD180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.18.22:466][216]LogHttp:Warning: 000001D148BAD180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.18.22:466][216]LogHttp:Warning: 000001D148BAD180: libcurl info message cache 1 (Closing connection 45)
+[2018.02.14-16.19.22:542][396]LogHttp:Warning: 000001D148BADA80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.19.22:542][396]LogHttp:Warning: 000001D148BADA80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.19.22:543][396]LogHttp:Warning: 000001D148BADA80: libcurl info message cache 1 (Closing connection 46)
+[2018.02.14-16.21.22:333][754]LogHttp:Warning: 000001D148BAC880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.21.22:333][754]LogHttp:Warning: 000001D148BAC880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.21.22:334][754]LogHttp:Warning: 000001D148BAC880: libcurl info message cache 1 (Closing connection 47)
+[2018.02.14-16.22.22:661][934]LogHttp:Warning: 000001D148BAF580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.22.22:662][934]LogHttp:Warning: 000001D148BAF580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.22.22:662][934]LogHttp:Warning: 000001D148BAF580: libcurl info message cache 1 (Closing connection 48)
+[2018.02.14-16.24.22:526][293]LogHttp:Warning: 000001D148BAC880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.24.22:526][293]LogHttp:Warning: 000001D148BAC880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.24.22:526][293]LogHttp:Warning: 000001D148BAC880: libcurl info message cache 1 (Closing connection 49)
+[2018.02.14-16.26.22:563][652]LogHttp:Warning: 000001D148BACB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.26.22:563][652]LogHttp:Warning: 000001D148BACB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.26.22:563][652]LogHttp:Warning: 000001D148BACB80: libcurl info message cache 1 (Closing connection 50)
+[2018.02.14-16.28.22:489][ 11]LogHttp:Warning: 000001D148BADA80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.28.22:489][ 11]LogHttp:Warning: 000001D148BADA80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.28.22:489][ 11]LogHttp:Warning: 000001D148BADA80: libcurl info message cache 1 (Closing connection 51)
+[2018.02.14-16.29.22:753][191]LogHttp:Warning: 000001D148BAC880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.29.22:753][191]LogHttp:Warning: 000001D148BAC880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.29.22:753][191]LogHttp:Warning: 000001D148BAC880: libcurl info message cache 1 (Closing connection 52)
+[2018.02.14-16.31.22:531][550]LogHttp:Warning: 000001D148BADA80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.31.22:531][550]LogHttp:Warning: 000001D148BADA80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.31.22:531][550]LogHttp:Warning: 000001D148BADA80: libcurl info message cache 1 (Closing connection 53)
+[2018.02.14-16.33.22:361][908]LogHttp:Warning: 000001D148BAD180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.33.22:361][908]LogHttp:Warning: 000001D148BAD180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.33.22:361][908]LogHttp:Warning: 000001D148BAD180: libcurl info message cache 1 (Closing connection 54)
+[2018.02.14-16.34.22:508][ 88]LogHttp:Warning: 000001D148BAD180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.34.22:508][ 88]LogHttp:Warning: 000001D148BAD180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.34.22:508][ 88]LogHttp:Warning: 000001D148BAD180: libcurl info message cache 1 (Closing connection 55)
+[2018.02.14-16.35.22:583][268]LogHttp:Warning: 000001D148BAF580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.35.22:583][268]LogHttp:Warning: 000001D148BAF580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.35.22:583][268]LogHttp:Warning: 000001D148BAF580: libcurl info message cache 1 (Closing connection 56)
+[2018.02.14-16.37.22:271][627]LogHttp:Warning: 000001D148BACB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.37.22:271][627]LogHttp:Warning: 000001D148BACB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.37.22:271][627]LogHttp:Warning: 000001D148BACB80: libcurl info message cache 1 (Closing connection 57)
+[2018.02.14-16.38.22:477][807]LogHttp:Warning: 000001D148BACB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.38.22:477][807]LogHttp:Warning: 000001D148BACB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.38.22:477][807]LogHttp:Warning: 000001D148BACB80: libcurl info message cache 1 (Closing connection 58)
+[2018.02.14-16.40.10:975][787]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Jamesrigby777\Downloads\Cricket-Bat-Low-Poly.obj)
+[2018.02.14-16.40.11:172][787]LogFbx: Loading FBX Scene from C:\Users\Jamesrigby777\Downloads\Cricket-Bat-Low-Poly.obj
+[2018.02.14-16.40.11:191][787]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.14-16.42.13:078][254]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Jamesrigby777\Downloads\Cricket-Bat-Low-Poly.obj)
+[2018.02.14-16.42.13:104][254]LogFbx: Loading FBX Scene from C:\Users\Jamesrigby777\Downloads\Cricket-Bat-Low-Poly.obj
+[2018.02.14-16.42.13:121][254]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.14-16.42.43:479][254]LogFbx: Loading FBX Scene from C:\Users\Jamesrigby777\Downloads\Cricket-Bat-Low-Poly.obj
+[2018.02.14-16.42.43:493][254]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.14-16.42.43:496][254]LogFbx: =================================================
+[2018.02.14-16.42.43:496][254]LogFbx: Dumping Node START [Cricket_Bat] 
+[2018.02.14-16.42.43:496][254]LogFbx: 	Total Deformer Count -381761600.
+[2018.02.14-16.42.43:496][254]LogFbx: 	Attribute () Type (4).
+[2018.02.14-16.42.43:496][254]LogFbx: 		[Node Attribute Child 1] Cricket_Bat (Type Mesh).
+[2018.02.14-16.42.43:496][254]LogFbx: Dumping Node END [Cricket_Bat]
+[2018.02.14-16.42.43:496][254]LogFbx: =================================================
+[2018.02.14-16.42.43:496][254]LogFbx: Dumping Node START [Cricket_Bat] 
+[2018.02.14-16.42.43:496][254]LogFbx: 	Total Deformer Count -381757888.
+[2018.02.14-16.42.43:496][254]LogFbx: 	Attribute () Type (4).
+[2018.02.14-16.42.43:496][254]LogFbx: 		[Node Attribute Child 1] Cricket_Bat (Type Mesh).
+[2018.02.14-16.42.43:496][254]LogFbx: Dumping Node END [Cricket_Bat]
+[2018.02.14-16.42.43:496][254]LogFbx: =================================================
+[2018.02.14-16.42.43:496][254]LogFbx: Dumping Node START [Cricket_Bat] 
+[2018.02.14-16.42.43:496][254]LogFbx: 	Total Deformer Count -381757888.
+[2018.02.14-16.42.43:496][254]LogFbx: 	Attribute () Type (4).
+[2018.02.14-16.42.43:496][254]LogFbx: 		[Node Attribute Child 1] Cricket_Bat (Type Mesh).
+[2018.02.14-16.42.43:496][254]LogFbx: Dumping Node END [Cricket_Bat]
+[2018.02.14-16.42.43:556][254]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_BatMat'
+[2018.02.14-16.42.43:557][254]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_BatMat'
+[2018.02.14-16.42.43:559][254]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_BatMat.Cricket_BatMat needed to have new flag set bUsedWithSkeletalMesh !
+[2018.02.14-16.42.43:584][254]LogMaterial: Missing cached shader map for material Cricket_BatMat, compiling. 
+[2018.02.14-16.42.43:712][254]LogMaterial: Missing cached shader map for material Cricket_BatMat, compiling. 
+[2018.02.14-16.42.43:855][254]LogFbx: Triangulating skeletal mesh Cricket_Bat
+[2018.02.14-16.42.44:316][254]LogFbx:Warning: Bones digested - 1  Depth of hierarchy - 1
+[2018.02.14-16.42.44:409][254]LogSkeletalMesh: Section 0: 604 vertices, 1 active bones
+[2018.02.14-16.42.44:421][254]LogSkeletalMesh: Section 0: Material=0, 932 triangles
+[2018.02.14-16.42.44:423][254]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly_Skeleton'
+[2018.02.14-16.42.44:424][254]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly_Skeleton'
+[2018.02.14-16.42.44:429][254]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly_PhysicsAsset'
+[2018.02.14-16.42.44:429][254]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly_PhysicsAsset'
+[2018.02.14-16.42.44:460][254]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: SkeletalMeshComponent0
+[2018.02.14-16.42.44:491][254]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.14-16.42.44:491][254]FBXImport:Warning: Warning Could not find the bind pose.  It will use time 0 as bind pose. 
+[2018.02.14-16.42.54:473][511]LogSavePackage: Save=7.22ms
+[2018.02.14-16.42.54:473][511]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/eve_j_gonzales_SkeletonB28532674DCC10074C6E2392468590C3.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales_Skeleton.uasset'
+[2018.02.14-16.42.54:509][511]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales_Skeleton.uasset
+[2018.02.14-16.42.54:574][511]LogSavePackage: Save=20.76ms
+[2018.02.14-16.42.54:574][511]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Cricket-Bat-Low-Poly2A0AFFB34789BAA69256688A2CAAB2A3.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly.uasset'
+[2018.02.14-16.42.54:581][511]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly.uasset
+[2018.02.14-16.42.54:603][511]LogSavePackage: Save=4.68ms
+[2018.02.14-16.42.54:603][511]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Cricket-Bat-Low-Poly_PhysicsAssetEBE3C53F4C3705225743E091123334F7.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly_PhysicsAsset.uasset'
+[2018.02.14-16.42.54:610][511]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly_PhysicsAsset.uasset
+[2018.02.14-16.42.54:626][511]LogSavePackage: Save=3.21ms
+[2018.02.14-16.42.54:626][511]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Cricket-Bat-Low-Poly_Skeleton4F8148144C9AF0F8EB69E79113E4E4E3.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly_Skeleton.uasset'
+[2018.02.14-16.42.54:633][511]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly_Skeleton.uasset
+[2018.02.14-16.43.04:354][511]LogSavePackage: Save=17.16ms
+[2018.02.14-16.43.04:354][511]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Cricket_BatMatB256608D42004742497D74B43DA883AA.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_BatMat.uasset'
+[2018.02.14-16.43.04:361][511]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_BatMat.uasset
+[2018.02.14-16.44.30:756][812]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Jamesrigby777\Downloads\Cricket-Bat-Low-Poly.obj)
+[2018.02.14-16.44.30:789][812]LogFbx: Loading FBX Scene from C:\Users\Jamesrigby777\Downloads\Cricket-Bat-Low-Poly.obj
+[2018.02.14-16.44.30:804][812]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.14-16.44.37:414][812]LogFbx: Loading FBX Scene from C:\Users\Jamesrigby777\Downloads\Cricket-Bat-Low-Poly.obj
+[2018.02.14-16.44.37:427][812]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.14-16.44.37:475][812]LogMaterial: Missing cached shader map for material Cricket_BatMat, compiling. 
+[2018.02.14-16.44.37:503][812]LogFbx:Warning: Triangulating static mesh Cricket_Bat
+[2018.02.14-16.44.37:806][812]LogStaticMesh: Building static mesh Cricket-Bat-Low-Poly...
+[2018.02.14-16.44.37:856][812]LogStaticMesh: Built static mesh [0.08s] /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly.Cricket-Bat-Low-Poly
+[2018.02.14-16.44.37:915][812]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.14-16.44.44:614][985]LogSavePackage: Save=18.46ms
+[2018.02.14-16.44.44:614][985]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Cricket-Bat-Low-PolyA1FCEA7D46A3E93322BEB999775B0C21.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly.uasset'
+[2018.02.14-16.44.44:621][985]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly.uasset
+[2018.02.14-16.44.45:578][985]LogSavePackage: Save=15.96ms
+[2018.02.14-16.44.45:578][985]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Cricket_BatMatC560BD1144ED0A10747030B18C5D34D8.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_BatMat.uasset'
+[2018.02.14-16.44.45:582][985]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_BatMat.uasset
+[2018.02.14-16.44.48:507][ 18]LogRenderer: Reallocating scene render targets to support 1016x612 NumSamples 1 (Frame:1).
+[2018.02.14-16.46.06:992][749]LogSavePackage: Save=12.39ms
+[2018.02.14-16.46.06:992][749]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Cricket-Bat-Low-PolyFB76E7F2423B924A45F69EBDC43B3133.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly.uasset'
+[2018.02.14-16.46.06:998][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly.uasset
+[2018.02.14-16.47.22:303][189]LogHttp:Warning: 000001D15A910B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.47.22:303][189]LogHttp:Warning: 000001D15A910B80: libcurl info message cache 0 (Connection 63 seems to be dead!)
+[2018.02.14-16.47.22:303][189]LogHttp:Warning: 000001D15A910B80: libcurl info message cache 1 (Closing connection 63)
+[2018.02.14-16.47.22:303][189]LogHttp:Warning: 000001D15A910B80: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.02.14-16.47.22:303][189]LogHttp:Warning: 000001D15A910B80: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.47.22:303][189]LogHttp:Warning: 000001D15A910B80: libcurl info message cache 4 (Closing connection 64)
+[2018.02.14-16.47.32:033][361]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.Actor_9.DebugSkelMeshComponent_12) Already registered. Aborting.
+[2018.02.14-16.47.32:174][361]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_37:PersistentLevel.Actor_9.DebugSkelMeshComponent_12) - call TermArticulated first.
+[2018.02.14-16.48.22:480][531]LogHttp:Warning: 000001D0F4007100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.48.22:480][531]LogHttp:Warning: 000001D0F4007100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.48.22:480][531]LogHttp:Warning: 000001D0F4007100: libcurl info message cache 1 (Closing connection 65)
+[2018.02.14-16.49.22:552][688]LogHttp:Warning: 000001D0E923BA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-16.49.22:552][688]LogHttp:Warning: 000001D0E923BA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-16.49.22:552][688]LogHttp:Warning: 000001D0E923BA00: libcurl info message cache 1 (Closing connection 66)
+[2018.02.14-16.50.25:031][877]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.096
+[2018.02.14-16.50.25:035][877]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales_Skeleton] ([1] browsable assets)...
+[2018.02.14-16.50.25:035][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales_Skeleton]
+[2018.02.14-16.50.25:055][877]LogSavePackage: Save=4.56ms
+[2018.02.14-16.50.25:055][877]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/eve_j_gonzales_Skeleton_Auto5E98D32D347A651CCD4DFF6A28D316825.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales_Skeleton_Auto5.uasset'
+[2018.02.14-16.50.25:058][877]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales_Skeleton_Auto5.uasset
+[2018.02.14-16.50.25:058][877]LogFileHelpers: Auto-saving content packages took 0.025
+[2018.02.14-16.52.11:447][873]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_249' or package '/Engine/Transient'.
+[2018.02.14-16.52.24:474][990]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Jamesrigby777\Downloads\Cricket-Bat-Low-Poly (1).obj)
+[2018.02.14-16.52.24:509][990]LogFbx: Loading FBX Scene from C:\Users\Jamesrigby777\Downloads\Cricket-Bat-Low-Poly (1).obj
+[2018.02.14-16.52.24:531][990]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.14-16.52.30:948][990]LogFbx: Loading FBX Scene from C:\Users\Jamesrigby777\Downloads\Cricket-Bat-Low-Poly (1).obj
+[2018.02.14-16.52.30:959][990]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.14-16.52.30:970][990]LogMaterial: Missing cached shader map for material Cricket_BatMat, compiling. 
+[2018.02.14-16.52.30:995][990]LogFbx:Warning: Triangulating static mesh Cricket_Bat
+[2018.02.14-16.52.31:278][990]LogStaticMesh: Building static mesh Cricket-Bat-Low-Poly__1_...
+[2018.02.14-16.52.31:312][990]LogStaticMesh: Built static mesh [0.03s] /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly__1_.Cricket-Bat-Low-Poly__1_
+[2018.02.14-16.52.31:540][990]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.14-16.52.39:179][ 97]LogSavePackage: Save=3.65ms
+[2018.02.14-16.52.39:179][ 97]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/eve_j_gonzales_SkeletonE4DE511A471AF8E6186AF988F1E0CC4F.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales_Skeleton.uasset'
+[2018.02.14-16.52.39:188][ 97]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales_Skeleton.uasset
+[2018.02.14-16.52.39:235][ 97]LogSavePackage: Save=12.96ms
+[2018.02.14-16.52.39:235][ 97]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Cricket-Bat-Low-Poly__1_7056BD334F0CBA4DFB6FE0AC8CD0758B.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly__1_.uasset'
+[2018.02.14-16.52.39:242][ 97]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly__1_.uasset
+[2018.02.14-16.52.39:286][ 97]LogSavePackage: Save=15.55ms
+[2018.02.14-16.52.39:286][ 97]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Cricket_BatMatDEF3437D4671877D87AD89AB898EDA42.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_BatMat.uasset'
+[2018.02.14-16.52.39:292][ 97]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_BatMat.uasset
+[2018.02.14-16.53.21:478][ 38]LogSavePackage: Save=12.54ms
+[2018.02.14-16.53.21:478][ 38]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Cricket-Bat-Low-Poly__1_4E00FBC84EE27682FB9918AD61841EBD.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly__1_.uasset'
+[2018.02.14-16.53.21:484][ 38]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly__1_.uasset
+[2018.02.14-16.53.38:144][430]LogSavePackage: Save=11.77ms
+[2018.02.14-16.53.38:144][430]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Cricket-Bat-Low-Poly__1_068695E9490C7D8AA14146BF04E42567.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly__1_.uasset'
+[2018.02.14-16.53.38:151][430]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly__1_.uasset
+[2018.02.14-16.56.09:416][253]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly'
+[2018.02.14-16.56.09:417][253]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly'
+[2018.02.14-16.56.09:418][253]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly.Cricket-Bat-Low-Poly'
+[2018.02.14-16.56.09:422][253]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_42:PersistentLevel.Actor_10.DebugSkelMeshComponent_13) Already registered. Aborting.
+[2018.02.14-16.56.09:464][253]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_42:PersistentLevel.Actor_10.DebugSkelMeshComponent_13) - call TermArticulated first.
+[2018.02.14-16.57.32:488][217]LogSavePackage: Save=11.93ms
+[2018.02.14-16.57.32:488][217]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Cricket-Bat-Low-Poly__1_506BE4F54ED781CAE32528A0AB39C7FF.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly__1_.uasset'
+[2018.02.14-16.57.32:496][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly__1_.uasset
+[2018.02.14-17.03.22:393][802]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.074
+[2018.02.14-17.03.22:396][802]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales_Skeleton] ([1] browsable assets)...
+[2018.02.14-17.03.22:396][802]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales_Skeleton]
+[2018.02.14-17.03.22:416][802]LogSavePackage: Save=5.15ms
+[2018.02.14-17.03.22:416][802]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/eve_j_gonzales_Skeleton_Auto669440E984E01DD650D42D9AB502B8726.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales_Skeleton_Auto6.uasset'
+[2018.02.14-17.03.22:419][802]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales_Skeleton_Auto6.uasset
+[2018.02.14-17.03.22:421][802]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales] ([1] browsable assets)...
+[2018.02.14-17.03.22:444][802]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales.eve_j_gonzales]
+[2018.02.14-17.03.22:444][802]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales]
+[2018.02.14-17.03.22:771][802]LogSavePackage: Save=114.91ms
+[2018.02.14-17.03.22:771][802]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/eve_j_gonzales_Auto6683B6D0B4DD440F3B4D628B5B46EE4E6.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales_Auto6.uasset'
+[2018.02.14-17.03.22:775][802]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales_Auto6.uasset
+[2018.02.14-17.03.22:791][802]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_Bat] ([1] browsable assets)...
+[2018.02.14-17.03.22:815][802]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_Bat.Cricket_Bat]
+[2018.02.14-17.03.22:815][802]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_Bat]
+[2018.02.14-17.03.22:843][802]LogSavePackage: Save=24.74ms
+[2018.02.14-17.03.22:843][802]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Cricket_Bat_Auto6CA556B4D43F7633B12D4B0B93656944C.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_Bat_Auto6.uasset'
+[2018.02.14-17.03.22:846][802]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_Bat_Auto6.uasset
+[2018.02.14-17.03.22:846][802]LogFileHelpers: Auto-saving content packages took 0.452
+[2018.02.14-17.04.17:284][706]Cmd: MODE GRID=0
+[2018.02.14-17.08.52:367][511]LogSavePackage: Save=9.67ms
+[2018.02.14-17.08.52:367][511]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/eve_j_gonzales_Skeleton7EC2A968430E72CAF83F6DBB2B0D3D72.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales_Skeleton.uasset'
+[2018.02.14-17.08.52:375][511]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales_Skeleton.uasset
+[2018.02.14-17.10.23:409][398]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_269' or package '/Engine/Transient'.
+[2018.02.14-17.10.23:410][398]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_268' or package '/Engine/Transient'.
+[2018.02.14-17.10.23:410][398]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_267' or package '/Engine/Transient'.
+[2018.02.14-17.10.23:410][398]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'StaticMeshComponent_263' or package '/Engine/Transient'.
+[2018.02.14-17.10.23:410][398]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Bat' or package '/Engine/Transient'.
+[2018.02.14-17.10.23:410][398]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot' or package '/Engine/Transient'.
+[2018.02.14-17.10.23:410][398]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Bat' or package '/Engine/Transient'.
+[2018.02.14-17.10.23:410][398]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Cricket_Bat_C_204' or package '/Engine/Transient'.
+[2018.02.14-17.10.23:411][398]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Bat_GEN_VARIABLE' or package '/Engine/Transient'.
+[2018.02.14-17.10.23:411][398]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Bat_GEN_VARIABLE' or package '/Engine/Transient'.
+[2018.02.14-17.10.23:411][398]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2018.02.14-17.10.23:411][398]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Cricket_Bat_C_1' or package '/Engine/Transient'.
+[2018.02.14-17.10.23:411][398]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2018.02.14-17.10.23:411][398]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2018.02.14-17.10.23:411][398]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Cricket_Bat_C_0' or package '/Engine/Transient'.
+[2018.02.14-17.10.23:411][398]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Cricket_Bat_C_203' or package '/Engine/Transient'.
+[2018.02.14-17.10.30:797][510]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Jamesrigby777\Downloads\Cricket-Bat-Low-Poly (1).obj)
+[2018.02.14-17.10.30:821][510]LogFbx: Loading FBX Scene from C:\Users\Jamesrigby777\Downloads\Cricket-Bat-Low-Poly (1).obj
+[2018.02.14-17.10.30:838][510]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.14-17.10.40:197][510]LogFbx: Loading FBX Scene from C:\Users\Jamesrigby777\Downloads\Cricket-Bat-Low-Poly (1).obj
+[2018.02.14-17.10.40:209][510]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.14-17.10.40:212][510]LogFbx: =================================================
+[2018.02.14-17.10.40:212][510]LogFbx: Dumping Node START [Cricket_Bat] 
+[2018.02.14-17.10.40:212][510]LogFbx: 	Total Deformer Count 475367168.
+[2018.02.14-17.10.40:212][510]LogFbx: 	Attribute () Type (4).
+[2018.02.14-17.10.40:212][510]LogFbx: 		[Node Attribute Child 1] Cricket_Bat (Type Mesh).
+[2018.02.14-17.10.40:212][510]LogFbx: Dumping Node END [Cricket_Bat]
+[2018.02.14-17.10.40:212][510]LogFbx: =================================================
+[2018.02.14-17.10.40:212][510]LogFbx: Dumping Node START [Cricket_Bat] 
+[2018.02.14-17.10.40:212][510]LogFbx: 	Total Deformer Count 475372480.
+[2018.02.14-17.10.40:212][510]LogFbx: 	Attribute () Type (4).
+[2018.02.14-17.10.40:212][510]LogFbx: 		[Node Attribute Child 1] Cricket_Bat (Type Mesh).
+[2018.02.14-17.10.40:212][510]LogFbx: Dumping Node END [Cricket_Bat]
+[2018.02.14-17.10.40:212][510]LogFbx: =================================================
+[2018.02.14-17.10.40:212][510]LogFbx: Dumping Node START [Cricket_Bat] 
+[2018.02.14-17.10.40:213][510]LogFbx: 	Total Deformer Count 475372480.
+[2018.02.14-17.10.40:213][510]LogFbx: 	Attribute () Type (4).
+[2018.02.14-17.10.40:213][510]LogFbx: 		[Node Attribute Child 1] Cricket_Bat (Type Mesh).
+[2018.02.14-17.10.40:213][510]LogFbx: Dumping Node END [Cricket_Bat]
+[2018.02.14-17.10.40:215][510]LogMaterial:Warning: Material /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_BatMat.Cricket_BatMat needed to have new flag set bUsedWithSkeletalMesh !
+[2018.02.14-17.10.40:219][510]LogMaterial: Missing cached shader map for material Cricket_BatMat, compiling. 
+[2018.02.14-17.10.40:299][510]LogMaterial: Missing cached shader map for material Cricket_BatMat, compiling. 
+[2018.02.14-17.10.40:375][510]LogFbx: Triangulating skeletal mesh Cricket_Bat
+[2018.02.14-17.10.40:657][510]LogFbx:Warning: Bones digested - 1  Depth of hierarchy - 1
+[2018.02.14-17.10.40:706][510]LogSkeletalMesh: Section 0: 604 vertices, 1 active bones
+[2018.02.14-17.10.40:715][510]LogSkeletalMesh: Section 0: Material=0, 932 triangles
+[2018.02.14-17.10.40:717][510]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly__1__Skeleton'
+[2018.02.14-17.10.40:718][510]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly__1__Skeleton'
+[2018.02.14-17.10.40:736][510]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly__1__PhysicsAsset'
+[2018.02.14-17.10.40:737][510]LogLinker: Can't find file '/Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly__1__PhysicsAsset'
+[2018.02.14-17.10.40:746][510]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: SkeletalMeshComponent0
+[2018.02.14-17.10.40:759][510]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.02.14-17.10.40:759][510]FBXImport:Warning: Warning Could not find the bind pose.  It will use time 0 as bind pose. 
+[2018.02.14-17.10.51:149][818]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_46:PersistentLevel.Actor_11.DebugSkelMeshComponent_14) Already registered. Aborting.
+[2018.02.14-17.10.51:192][818]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_46:PersistentLevel.Actor_11.DebugSkelMeshComponent_14) - call TermArticulated first.
+[2018.02.14-17.10.58:420][963]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Wood_Oak.M_Wood_Oak needed to have new flag set bUsedWithSkeletalMesh !
+[2018.02.14-17.10.58:425][963]LogMaterial: Missing cached shader map for material M_Wood_Oak, compiling. 
+[2018.02.14-17.11.00:912][  9]LogSavePackage: Save=18.82ms
+[2018.02.14-17.11.00:912][  9]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Cricket-Bat-Low-Poly__1_18BAD81042D5F81E450990A051D6C43C.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly__1_.uasset'
+[2018.02.14-17.11.00:918][  9]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly__1_.uasset
+[2018.02.14-17.11.17:903][114]LogSavePackage: Save=31.90ms
+[2018.02.14-17.11.17:903][114]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/M_Wood_Oak1AEAD17C4708215CB9D44BA4B3B76E41.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/StarterContent/Materials/M_Wood_Oak.uasset'
+[2018.02.14-17.11.17:920][114]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/StarterContent/Materials/M_Wood_Oak.uasset
+[2018.02.14-17.11.18:013][114]LogSavePackage: Save=59.85ms
+[2018.02.14-17.11.18:013][114]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/eve_j_gonzalesD7B461A34ECC37D92AE89B8A2BFD4EB3.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales.uasset'
+[2018.02.14-17.11.18:020][114]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales.uasset
+[2018.02.14-17.11.18:033][114]LogSavePackage: Save=3.79ms
+[2018.02.14-17.11.18:033][114]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Cricket-Bat-Low-Poly__1__PhysicsAsset4CC9286E466C9279ABA4939142B20312.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly__1__PhysicsAsset.uasset'
+[2018.02.14-17.11.18:041][114]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly__1__PhysicsAsset.uasset
+[2018.02.14-17.11.18:052][114]LogSavePackage: Save=2.32ms
+[2018.02.14-17.11.18:052][114]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Cricket-Bat-Low-Poly__1__Skeleton80C83D44458999B5BF9387952960604A.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly__1__Skeleton.uasset'
+[2018.02.14-17.11.18:057][114]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket-Bat-Low-Poly__1__Skeleton.uasset
+[2018.02.14-17.11.18:099][114]LogSavePackage: Save=14.67ms
+[2018.02.14-17.11.18:099][114]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Cricket_BatMat427CFD3548A8F1EAABE3AD82145F1026.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_BatMat.uasset'
+[2018.02.14-17.11.18:104][114]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_BatMat.uasset
+[2018.02.14-17.11.28:242][454]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.Actor_12.DebugSkelMeshComponent_15) Already registered. Aborting.
+[2018.02.14-17.11.28:290][454]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_47:PersistentLevel.Actor_12.DebugSkelMeshComponent_15) - call TermArticulated first.
+[2018.02.14-17.12.21:068][681]LogHttp:Warning: 000001D0B3766B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.12.21:068][681]LogHttp:Warning: 000001D0B3766B00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1d0e13df118 [can pipeline])
+[2018.02.14-17.12.21:068][681]LogHttp:Warning: 000001D0B3766B00: libcurl info message cache 1 (Re-using existing connection! (#73) with host datarouter.ol.epicgames.com)
+[2018.02.14-17.12.21:068][681]LogHttp:Warning: 000001D0B3766B00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.239.61.187) port 443 (#73))
+[2018.02.14-17.12.21:068][681]LogHttp:Warning: 000001D0B3766B00: libcurl info message cache 3 (upload completely sent off: 533 out of 533 bytes)
+[2018.02.14-17.12.21:068][681]LogHttp:Warning: 000001D0B3766B00: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2018.02.14-17.12.21:068][681]LogHttp:Warning: 000001D0B3766B00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2018.02.14-17.12.21:068][681]LogHttp:Warning: 000001D0B3766B00: libcurl info message cache 6 (Closing connection 73)
+[2018.02.14-17.12.21:068][681]LogHttp:Warning: 000001D0B3766B00: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E0A4C66-4038-9DC8-034A-56B0F8E0378C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=6140b6574f24a1073c856d9d824d9450%7Cb7b84c186b104f498b17bcb99c9ae371%7C0dd6eb62-b4f9-4fb0-8495-cc4890088561&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2018.02.14-17.12.21:068][681]LogHttp:Warning: 000001D0B3766B00: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.12.21:068][681]LogHttp:Warning: 000001D0B3766B00: libcurl info message cache 9 (Closing connection 74)
+[2018.02.14-17.13.22:285][ 52]LogHttp:Warning: 000001D12D017B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.13.22:285][ 52]LogHttp:Warning: 000001D12D017B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.13.22:285][ 52]LogHttp:Warning: 000001D12D017B80: libcurl info message cache 1 (Closing connection 75)
+[2018.02.14-17.15.07:611][523]LogSavePackage: Save=4.87ms
+[2018.02.14-17.15.07:611][523]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/eve_j_gonzales_Skeleton077F06E4441B9CB68E855489C42411AC.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales_Skeleton.uasset'
+[2018.02.14-17.15.07:617][523]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales_Skeleton.uasset
+[2018.02.14-17.15.22:209][944]LogHttp:Warning: 000001D10FC08B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.15.22:209][944]LogHttp:Warning: 000001D10FC08B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.15.22:209][944]LogHttp:Warning: 000001D10FC08B80: libcurl info message cache 1 (Closing connection 76)
+[2018.02.14-17.16.02:951][447]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.057
+[2018.02.14-17.16.02:954][447]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_Bat] ([1] browsable assets)...
+[2018.02.14-17.16.02:979][447]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_Bat.Cricket_Bat]
+[2018.02.14-17.16.02:979][447]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_Bat]
+[2018.02.14-17.16.03:008][447]LogSavePackage: Save=25.28ms
+[2018.02.14-17.16.03:008][447]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Cricket_Bat_Auto7BDC12B85402256BB4D2947817CE9E3DE.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_Bat_Auto7.uasset'
+[2018.02.14-17.16.03:011][447]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_Bat_Auto7.uasset
+[2018.02.14-17.16.03:011][447]LogFileHelpers: Auto-saving content packages took 0.059
+[2018.02.14-17.16.22:298][855]LogHttp:Warning: 000001D156B11480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.16.22:298][855]LogHttp:Warning: 000001D156B11480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.16.22:298][855]LogHttp:Warning: 000001D156B11480: libcurl info message cache 1 (Closing connection 77)
+[2018.02.14-17.17.16:537][ 97]BlueprintLog: New page: Compile Cricket_Bat
+[2018.02.14-17.17.18:634][127]LogSavePackage: Save=33.45ms
+[2018.02.14-17.17.18:634][127]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Cricket_Bat360EDB2B44E0E08C0E4FBFA1DC2BC575.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_Bat.uasset'
+[2018.02.14-17.17.18:639][127]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_Bat.uasset
+[2018.02.14-17.18.16:570][216]LogHttp:Warning: 000001D0E8087A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.18.16:570][216]LogHttp:Warning: 000001D0E8087A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.18.16:570][216]LogHttp:Warning: 000001D0E8087A00: libcurl info message cache 1 (Closing connection 78)
+[2018.02.14-17.18.40:203][  0]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.14-17.19.22:264][531]LogHttp:Warning: 000001D143C37D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.19.22:264][531]LogHttp:Warning: 000001D143C37D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.19.22:264][531]LogHttp:Warning: 000001D143C37D00: libcurl info message cache 1 (Closing connection 79)
+[2018.02.14-17.20.24:555][592]LogHttp:Warning: 000001D12AA26200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.20.24:555][592]LogHttp:Warning: 000001D12AA26200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.20.24:555][592]LogHttp:Warning: 000001D12AA26200: libcurl info message cache 1 (Closing connection 80)
+[2018.02.14-17.21.51:661][593]LogHttp:Warning: 000001D1417E5C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.21.51:661][593]LogHttp:Warning: 000001D1417E5C00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.21.51:661][593]LogHttp:Warning: 000001D1417E5C00: libcurl info message cache 1 (Closing connection 81)
+[2018.02.14-17.23.03:564][832]LogHttp:Warning: 000001D0BFDFF880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.23.03:564][832]LogHttp:Warning: 000001D0BFDFF880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.23.03:564][832]LogHttp:Warning: 000001D0BFDFF880: libcurl info message cache 1 (Closing connection 82)
+[2018.02.14-17.23.05:794][867]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.02.14-17.23.07:939][867]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.02.14-17.23.07:939][867]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.02.14-17.23.09:744][902]LogSavePackage: Save=284.09ms
+[2018.02.14-17.23.09:744][902]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonCharacter25E634B645C0936CB11133971EF19284.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.02.14-17.23.09:769][902]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.02.14-17.23.12:298][991]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.14-17.23.12:333][991]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.23.12:333][991]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-17.23.12:333][991]PIE: New page: PIE session: ThirdPersonExampleMap (14 Feb 2018 17:23:12)
+[2018.02.14-17.23.12:333][991]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.14-17.23.12:451][991]LogPlayLevel: PIE: StaticDuplicateObject took: (0.117635s)
+[2018.02.14-17.23.12:453][991]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.14-17.23.12:453][991]LogPlayLevel: PIE: World Init took: (0.001757s)
+[2018.02.14-17.23.12:454][991]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.119815s)
+[2018.02.14-17.23.12:515][991]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-17.23.12:533][991]LogInit: FAudioDevice initialized.
+[2018.02.14-17.23.12:569][991]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.14-17.23.12:573][991]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.02.14-17.23.12
+[2018.02.14-17.23.12:573][991]LogWorld: Bringing up level for play took: 0.003860
+[2018.02.14-17.23.12:629][991]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.398
+[2018.02.14-17.23.12:630][991]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.23.17:756][291]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.23.17:848][291]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.23.31:924][661]Cmd: TRANSACTION UNDO
+[2018.02.14-17.23.31:924][661]LogEditorTransaction: Undo Modify Component(s)
+[2018.02.14-17.23.34:338][716]Cmd: MODE GRID=1
+[2018.02.14-17.23.54:946][218]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.02.14-17.23.55:863][218]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.02.14-17.23.55:863][218]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.02.14-17.23.56:765][226]LogSavePackage: Save=291.74ms
+[2018.02.14-17.23.56:765][226]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonCharacter88CB5D0A4C949984D48CBCA856F65643.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.02.14-17.23.56:773][226]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.02.14-17.23.59:196][296]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.14-17.23.59:226][296]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.23.59:226][296]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-17.23.59:227][296]PIE: New page: PIE session: ThirdPersonExampleMap (14 Feb 2018 17:23:59)
+[2018.02.14-17.23.59:227][296]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.14-17.23.59:258][296]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030407s)
+[2018.02.14-17.23.59:259][296]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.14-17.23.59:259][296]LogPlayLevel: PIE: World Init took: (0.001124s)
+[2018.02.14-17.23.59:260][296]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.031884s)
+[2018.02.14-17.23.59:312][296]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-17.23.59:326][296]LogInit: FAudioDevice initialized.
+[2018.02.14-17.23.59:360][296]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.14-17.23.59:363][296]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.02.14-17.23.59
+[2018.02.14-17.23.59:363][296]LogWorld: Bringing up level for play took: 0.002939
+[2018.02.14-17.23.59:367][296]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.34
+[2018.02.14-17.23.59:368][296]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.24.01:611][425]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.24.01:678][425]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.24.05:833][581]LogHttp:Warning: 000001D142060100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.24.05:833][581]LogHttp:Warning: 000001D142060100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.24.05:833][581]LogHttp:Warning: 000001D142060100: libcurl info message cache 1 (Closing connection 83)
+[2018.02.14-17.24.08:892][688]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_50:PersistentLevel.Actor_13.DebugSkelMeshComponent_16) Already registered. Aborting.
+[2018.02.14-17.24.08:930][688]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_50:PersistentLevel.Actor_13.DebugSkelMeshComponent_16) - call TermArticulated first.
+[2018.02.14-17.24.42:560][641]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.02.14-17.24.43:483][641]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.02.14-17.24.43:483][641]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.02.14-17.24.44:919][663]LogSavePackage: Save=284.88ms
+[2018.02.14-17.24.44:919][663]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonCharacterD8B2E040482F7C50AFD5E88561BA98C6.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.02.14-17.24.44:926][663]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.02.14-17.24.47:010][735]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.14-17.24.47:038][735]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.24.47:039][735]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-17.24.47:039][735]PIE: New page: PIE session: ThirdPersonExampleMap (14 Feb 2018 17:24:47)
+[2018.02.14-17.24.47:040][735]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.14-17.24.47:076][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036453s)
+[2018.02.14-17.24.47:077][735]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.14-17.24.47:077][735]LogPlayLevel: PIE: World Init took: (0.001160s)
+[2018.02.14-17.24.47:078][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.038082s)
+[2018.02.14-17.24.47:130][735]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-17.24.47:145][735]LogInit: FAudioDevice initialized.
+[2018.02.14-17.24.47:176][735]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.14-17.24.47:179][735]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.02.14-17.24.47
+[2018.02.14-17.24.47:180][735]LogWorld: Bringing up level for play took: 0.002827
+[2018.02.14-17.24.47:184][735]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.157
+[2018.02.14-17.24.47:184][735]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.24.57:073][322]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.24.57:164][322]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.25.22:247][348]LogHttp:Warning: 000001D11C520D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.25.22:247][348]LogHttp:Warning: 000001D11C520D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.25.22:247][348]LogHttp:Warning: 000001D11C520D00: libcurl info message cache 1 (Closing connection 84)
+[2018.02.14-17.26.13:807][505]Cmd: MODE GRID=0
+[2018.02.14-17.26.22:305][697]LogHttp:Warning: 000001D0CE375000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.26.22:305][697]LogHttp:Warning: 000001D0CE375000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.26.22:305][697]LogHttp:Warning: 000001D0CE375000: libcurl info message cache 1 (Closing connection 85)
+[2018.02.14-17.27.27:611][182]LogSavePackage: Save=4.90ms
+[2018.02.14-17.27.27:611][182]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/eve_j_gonzales_Skeleton01FF9100428E392FB5CA469AD3273ADE.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales_Skeleton.uasset'
+[2018.02.14-17.27.27:618][182]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/eve_j_gonzales_Skeleton.uasset
+[2018.02.14-17.27.29:981][255]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.14-17.27.30:023][255]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.27.30:023][255]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-17.27.30:023][255]PIE: New page: PIE session: ThirdPersonExampleMap (14 Feb 2018 17:27:30)
+[2018.02.14-17.27.30:023][255]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.14-17.27.30:054][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030554s)
+[2018.02.14-17.27.30:055][255]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.14-17.27.30:056][255]LogPlayLevel: PIE: World Init took: (0.001374s)
+[2018.02.14-17.27.30:056][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.032426s)
+[2018.02.14-17.27.30:117][255]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-17.27.30:136][255]LogInit: FAudioDevice initialized.
+[2018.02.14-17.27.30:169][255]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.14-17.27.30:172][255]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.02.14-17.27.30
+[2018.02.14-17.27.30:173][255]LogWorld: Bringing up level for play took: 0.003564
+[2018.02.14-17.27.30:178][255]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.151
+[2018.02.14-17.27.30:178][255]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.27.38:418][742]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.27.38:513][742]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.28.11:660][605]LogSavePackage: Save=42.12ms
+[2018.02.14-17.28.11:660][605]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Cricket_BatF6D9762D413107C585C1679ED0C542FF.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_Bat.uasset'
+[2018.02.14-17.28.11:667][605]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_Bat.uasset
+[2018.02.14-17.28.13:157][636]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.02.14-17.28.13:927][662]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.14-17.28.13:949][662]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.28.13:950][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-17.28.13:950][662]PIE: New page: PIE session: ThirdPersonExampleMap (14 Feb 2018 17:28:13)
+[2018.02.14-17.28.13:950][662]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.14-17.28.13:981][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031457s)
+[2018.02.14-17.28.13:983][662]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.14-17.28.13:983][662]LogPlayLevel: PIE: World Init took: (0.001872s)
+[2018.02.14-17.28.13:983][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.033674s)
+[2018.02.14-17.28.14:034][662]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-17.28.14:052][662]LogInit: FAudioDevice initialized.
+[2018.02.14-17.28.14:086][662]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.14-17.28.14:089][662]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.02.14-17.28.14
+[2018.02.14-17.28.14:090][662]LogWorld: Bringing up level for play took: 0.003028
+[2018.02.14-17.28.14:094][662]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.067
+[2018.02.14-17.28.14:094][662]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.28.22:197][143]LogHttp:Warning: 000001D160928280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.28.22:197][143]LogHttp:Warning: 000001D160928280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.28.22:197][143]LogHttp:Warning: 000001D160928280: libcurl info message cache 1 (Closing connection 86)
+[2018.02.14-17.28.35:906][953]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.28.35:969][953]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.28.38:943][ 45]LogSavePackage: Save=372.77ms
+[2018.02.14-17.28.38:943][ 45]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonExampleMap3FD070114C8EAA6EB15315AAC2FCD61B.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.02.14-17.28.38:979][ 45]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.02.14-17.29.22:679][480]LogHttp:Warning: 000001D15B247D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.29.22:679][480]LogHttp:Warning: 000001D15B247D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.29.22:679][480]LogHttp:Warning: 000001D15B247D00: libcurl info message cache 1 (Closing connection 87)
+[2018.02.14-17.30.26:138][885]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_52:PersistentLevel.Actor_14.DebugSkelMeshComponent_17) Already registered. Aborting.
+[2018.02.14-17.30.26:517][885]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_52:PersistentLevel.Actor_14.DebugSkelMeshComponent_17) - call TermArticulated first.
+[2018.02.14-17.30.27:070][885]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.02.14-17.30.38:138][204]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_54:PersistentLevel.Actor_15.DebugSkelMeshComponent_19) Already registered. Aborting.
+[2018.02.14-17.30.38:170][204]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_54:PersistentLevel.Actor_15.DebugSkelMeshComponent_19) - call TermArticulated first.
+[2018.02.14-17.30.38:625][204]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.02.14-17.31.22:257][396]LogHttp:Warning: 000001D12A37B100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.31.22:257][396]LogHttp:Warning: 000001D12A37B100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.31.22:257][396]LogHttp:Warning: 000001D12A37B100: libcurl info message cache 1 (Closing connection 88)
+[2018.02.14-17.32.22:274][311]LogHttp:Warning: 000001D156A32080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.32.22:274][311]LogHttp:Warning: 000001D156A32080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.32.22:274][311]LogHttp:Warning: 000001D156A32080: libcurl info message cache 1 (Closing connection 89)
+[2018.02.14-17.32.23:728][352]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Animations/great_sword_casting.great_sword_casting
+[2018.02.14-17.32.23:788][353]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Animations/great_sword_180_turn__2_.great_sword_180_turn__2_
+[2018.02.14-17.32.24:120][364]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Animations/great_sword_180_turn.great_sword_180_turn
+[2018.02.14-17.32.26:594][432]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Animations/great_sword_attack.great_sword_attack
+[2018.02.14-17.32.29:714][522]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Animations/great_sword_blocking__2_.great_sword_blocking__2_
+[2018.02.14-17.33.06:827][928]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Animations/great_sword_slash.great_sword_slash
+[2018.02.14-17.33.42:153][949]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Animations/great_sword_impact.great_sword_impact
+[2018.02.14-17.33.42:218][949]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_57:PersistentLevel.Actor_16.DebugSkelMeshComponent_22) Already registered. Aborting.
+[2018.02.14-17.33.42:251][949]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_57:PersistentLevel.Actor_16.DebugSkelMeshComponent_22) - call TermArticulated first.
+[2018.02.14-17.33.42:797][949]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.02.14-17.34.22:260][ 20]LogHttp:Warning: 000001D123885A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.34.22:260][ 20]LogHttp:Warning: 000001D123885A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.34.22:260][ 20]LogHttp:Warning: 000001D123885A80: libcurl info message cache 1 (Closing connection 90)
+[2018.02.14-17.34.23:299][ 48]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Animations/great_sword_slash__2_.great_sword_slash__2_
+[2018.02.14-17.34.33:842][332]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Animations/great_sword_slash__3_.great_sword_slash__3_
+[2018.02.14-17.34.41:665][543]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Animations/great_sword_slash__4_.great_sword_slash__4_
+[2018.02.14-17.34.48:779][735]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Animations/great_sword_slash__5_.great_sword_slash__5_
+[2018.02.14-17.35.06:623][213]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Animations/great_sword_run.great_sword_run
+[2018.02.14-17.36.11:660][117]LogHttp:Warning: 000001D0CDEF5C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.36.11:660][117]LogHttp:Warning: 000001D0CDEF5C00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.36.11:660][117]LogHttp:Warning: 000001D0CDEF5C00: libcurl info message cache 1 (Closing connection 91)
+[2018.02.14-17.36.24:372][220]BlueprintLog: New page: Compile Character_Anim_BP
+[2018.02.14-17.36.24:406][220]LogBlueprint:Warning: [Compiler Character_Anim_BP] Warning  Movement to SwingWeapon  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.36.24:406][220]LogBlueprint:Warning: [Compiler Character_Anim_BP] Warning  SwingWeapon to Movement  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.36.24:723][220]BlueprintEditorCompileResults:Warning: Warning  Movement to SwingWeapon  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.36.24:723][220]BlueprintEditorCompileResults:Warning: Warning  SwingWeapon to Movement  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.36.24:724][220]LogBlueprint:Warning: [Compiler Character_Anim_BP] Warning [1570.21] Compile of Character_Anim_BP successful, but with 2 Warning(s) [in 351 ms] (/Game/ThirdPersonBP/Blueprints/Cricket_Bat/Character_Anim_BP.Character_Anim_BP)
+[2018.02.14-17.36.25:880][249]LogSavePackage: Save=92.25ms
+[2018.02.14-17.36.25:880][249]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Character_Anim_BP2147364848B9154B24C24BA96158023A.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Character_Anim_BP.uasset'
+[2018.02.14-17.36.25:888][249]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Character_Anim_BP.uasset
+[2018.02.14-17.36.37:030][533]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Survival
+[2018.02.14-17.36.37:030][533]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.14-17.36.37:030][533]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2018.02.14-17.36.37:030][533]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.14-17.36.37:030][533]LogTemp: BranchPath = LAPTOP-RA57JA6K/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = LAPTOP-RA57JA6K/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2018.02.14-17.36.37:030][533]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Jamesrigby777\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.14-17.36.37:030][533]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.14-17.37.22:254][130]LogHttp:Warning: 000001D12A5B5D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.37.22:255][130]LogHttp:Warning: 000001D12A5B5D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.37.22:255][130]LogHttp:Warning: 000001D12A5B5D80: libcurl info message cache 1 (Closing connection 92)
+[2018.02.14-17.38.22:243][293]LogHttp:Warning: 000001D11D76D300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.38.22:243][293]LogHttp:Warning: 000001D11D76D300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.38.22:243][293]LogHttp:Warning: 000001D11D76D300: libcurl info message cache 1 (Closing connection 93)
+[2018.02.14-17.39.29:173][633]LogHttp:Warning: 000001D15F81A380: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.39.29:173][633]LogHttp:Warning: 000001D15F81A380: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.39.29:173][633]LogHttp:Warning: 000001D15F81A380: libcurl info message cache 1 (Closing connection 94)
+[2018.02.14-17.40.37:986][369]LogHttp:Warning: 000001D138B25300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.40.37:986][369]LogHttp:Warning: 000001D138B25300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.40.37:986][369]LogHttp:Warning: 000001D138B25300: libcurl info message cache 1 (Closing connection 95)
+[2018.02.14-17.40.46:475][453]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.02.14-17.40.46:636][453]LogBlueprint:Warning: [Compiler Character_Anim_BP] Warning  Movement to SwingWeapon  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.40.46:636][453]LogBlueprint:Warning: [Compiler Character_Anim_BP] Warning  SwingWeapon to Movement  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.40.48:234][453]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.02.14-17.40.48:234][453]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.02.14-17.40.49:006][454]LogSavePackage: Save=318.99ms
+[2018.02.14-17.40.49:006][454]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonCharacterAB90595F4181B3D2080160A99D0BDFB8.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.02.14-17.40.49:014][454]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.02.14-17.41.46:534][296]LogHttp:Warning: 000001D1BC7F5180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.41.46:534][296]LogHttp:Warning: 000001D1BC7F5180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.41.46:534][296]LogHttp:Warning: 000001D1BC7F5180: libcurl info message cache 1 (Closing connection 96)
+[2018.02.14-17.42.27:877][ 89]LogSavePackage: Save=345.55ms
+[2018.02.14-17.42.27:877][ 89]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonExampleMap_Auto830BD5D0F45FAEC26DB39589A7ACEB2A7.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto8.umap'
+[2018.02.14-17.42.27:880][ 89]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto8.umap
+[2018.02.14-17.42.27:883][ 89]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.446
+[2018.02.14-17.42.27:883][ 89]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.446
+[2018.02.14-17.42.27:887][ 89]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.02.14-17.42.27:910][ 89]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.02.14-17.42.27:910][ 89]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2018.02.14-17.42.28:213][ 89]LogSavePackage: Save=291.92ms
+[2018.02.14-17.42.28:213][ 89]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonCharacter_Auto82B98C7734A9D60D09A1E1FB7B44DE4EE.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto8.uasset'
+[2018.02.14-17.42.28:216][ 89]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto8.uasset
+[2018.02.14-17.42.28:216][ 89]LogFileHelpers: Auto-saving content packages took 0.332
+[2018.02.14-17.42.50:832][233]LogHttp:Warning: 000001D0C57B6200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.42.50:832][233]LogHttp:Warning: 000001D0C57B6200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.42.50:832][233]LogHttp:Warning: 000001D0C57B6200: libcurl info message cache 1 (Closing connection 97)
+[2018.02.14-17.43.53:718][713]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.02.14-17.43.53:902][713]LogBlueprint:Warning: [Compiler Character_Anim_BP] Warning  Movement to SwingWeapon  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.43.53:902][713]LogBlueprint:Warning: [Compiler Character_Anim_BP] Warning  SwingWeapon to Movement  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.43.54:766][713]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.02.14-17.43.54:766][713]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.02.14-17.43.55:971][725]LogSavePackage: Save=329.83ms
+[2018.02.14-17.43.55:971][725]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonCharacterCEE3A8724279A938A00D81A4DD298B57.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.02.14-17.43.55:978][725]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.02.14-17.44.22:397][981]LogHttp:Warning: 000001D139961C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.44.22:397][981]LogHttp:Warning: 000001D139961C00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.44.22:397][981]LogHttp:Warning: 000001D139961C00: libcurl info message cache 1 (Closing connection 98)
+[2018.02.14-17.45.22:519][ 26]LogHttp:Warning: 000001D1921B8880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.45.22:519][ 26]LogHttp:Warning: 000001D1921B8880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.45.22:519][ 26]LogHttp:Warning: 000001D1921B8880: libcurl info message cache 1 (Closing connection 99)
+[2018.02.14-17.45.38:466][397]BlueprintLog: New page: Compile Character_Anim_BP
+[2018.02.14-17.45.38:506][397]LogBlueprint:Warning: [Compiler Character_Anim_BP] Warning  Movement to SwingWeapon  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.45.38:506][397]LogBlueprint:Warning: [Compiler Character_Anim_BP] Warning  SwingWeapon to Movement  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.45.38:853][397]BlueprintEditorCompileResults:Warning: Warning  Movement to SwingWeapon  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.45.38:853][397]BlueprintEditorCompileResults:Warning: Warning  SwingWeapon to Movement  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.45.38:854][397]LogBlueprint:Warning: [Compiler Character_Anim_BP] Warning [2124.34] Compile of Character_Anim_BP successful, but with 2 Warning(s) [in 387 ms] (/Game/ThirdPersonBP/Blueprints/Cricket_Bat/Character_Anim_BP.Character_Anim_BP)
+[2018.02.14-17.45.39:584][413]LogSavePackage: Save=108.52ms
+[2018.02.14-17.45.39:584][413]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Character_Anim_BP4DE760F846D744155C0EDE88368F9DF3.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Character_Anim_BP.uasset'
+[2018.02.14-17.45.39:591][413]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Character_Anim_BP.uasset
+[2018.02.14-17.46.22:208][965]LogHttp:Warning: 000001D155F6BD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.46.22:208][965]LogHttp:Warning: 000001D155F6BD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.46.22:208][965]LogHttp:Warning: 000001D155F6BD00: libcurl info message cache 1 (Closing connection 100)
+[2018.02.14-17.46.38:229][429]BlueprintLog: New page: Compile Character_Anim_BP
+[2018.02.14-17.46.39:492][451]LogSavePackage: Save=101.63ms
+[2018.02.14-17.46.39:492][451]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Character_Anim_BP9664E1F144D796B8DEE6338DED03C37C.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Character_Anim_BP.uasset'
+[2018.02.14-17.46.39:500][451]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Character_Anim_BP.uasset
+[2018.02.14-17.47.03:330][593]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.14-17.47.03:367][593]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.47.03:367][593]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-17.47.03:367][593]PIE: New page: PIE session: ThirdPersonExampleMap (14 Feb 2018 17:47:03)
+[2018.02.14-17.47.03:367][593]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.14-17.47.03:399][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032278s)
+[2018.02.14-17.47.03:400][593]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.14-17.47.03:401][593]LogPlayLevel: PIE: World Init took: (0.001361s)
+[2018.02.14-17.47.03:401][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.034125s)
+[2018.02.14-17.47.03:460][593]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-17.47.03:478][593]LogInit: FAudioDevice initialized.
+[2018.02.14-17.47.03:509][593]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.14-17.47.03:513][593]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.02.14-17.47.03
+[2018.02.14-17.47.03:513][593]LogWorld: Bringing up level for play took: 0.003091
+[2018.02.14-17.47.03:517][593]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.491
+[2018.02.14-17.47.03:517][593]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.47.22:211][705]LogHttp:Warning: 000001D0B6C3B580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.47.22:211][705]LogHttp:Warning: 000001D0B6C3B580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.47.22:211][705]LogHttp:Warning: 000001D0B6C3B580: libcurl info message cache 1 (Closing connection 101)
+[2018.02.14-17.47.43:541][984]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.47.43:636][984]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.49.22:436][787]LogHttp:Warning: 000001D15BDC5F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.49.22:436][787]LogHttp:Warning: 000001D15BDC5F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.49.22:436][787]LogHttp:Warning: 000001D15BDC5F00: libcurl info message cache 1 (Closing connection 102)
+[2018.02.14-17.50.12:819][628]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.02.14-17.50.13:806][628]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.02.14-17.50.13:807][628]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.02.14-17.50.15:435][651]LogSavePackage: Save=365.28ms
+[2018.02.14-17.50.15:435][651]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonCharacter2859D32D4271F194AF45B9863D448BA7.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.02.14-17.50.15:443][651]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.02.14-17.50.22:510][795]LogHttp:Warning: 000001D0CDEE1C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.50.22:510][795]LogHttp:Warning: 000001D0CDEE1C00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.50.22:510][795]LogHttp:Warning: 000001D0CDEE1C00: libcurl info message cache 1 (Closing connection 103)
+[2018.02.14-17.51.22:240][697]LogHttp:Warning: 000001D192B9DA80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.51.22:240][697]LogHttp:Warning: 000001D192B9DA80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.51.22:240][697]LogHttp:Warning: 000001D192B9DA80: libcurl info message cache 1 (Closing connection 104)
+[2018.02.14-17.52.22:702][968]LogHttp:Warning: 000001D13858C280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.52.22:702][968]LogHttp:Warning: 000001D13858C280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.52.22:702][968]LogHttp:Warning: 000001D13858C280: libcurl info message cache 1 (Closing connection 105)
+[2018.02.14-17.52.32:689][997]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.02.14-17.52.33:690][997]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.02.14-17.52.33:690][997]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.02.14-17.52.35:104][ 20]LogSavePackage: Save=304.20ms
+[2018.02.14-17.52.35:104][ 20]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonCharacter6E64A4C848614658EC89EABE897E0EC0.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.02.14-17.52.35:111][ 20]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.02.14-17.53.31:093][639]BlueprintLog: New page: Compile Character_Anim_BP
+[2018.02.14-17.53.31:141][639]LogBlueprint:Warning: [Compiler Character_Anim_BP] Warning  Movement to UltimateAttackSwing  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.53.31:141][639]LogBlueprint:Warning: [Compiler Character_Anim_BP] Warning  UltimateAttackSwing to Movement  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.53.31:451][639]BlueprintEditorCompileResults:Warning: Warning  Movement to UltimateAttackSwing  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.53.31:451][639]BlueprintEditorCompileResults:Warning: Warning  UltimateAttackSwing to Movement  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.53.31:452][639]LogBlueprint:Warning: [Compiler Character_Anim_BP] Warning [2596.94] Compile of Character_Anim_BP successful, but with 2 Warning(s) [in 358 ms] (/Game/ThirdPersonBP/Blueprints/Cricket_Bat/Character_Anim_BP.Character_Anim_BP)
+[2018.02.14-17.53.32:419][669]LogHttp:Warning: 000001D192F16980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.53.32:419][669]LogHttp:Warning: 000001D192F16980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.53.32:419][669]LogHttp:Warning: 000001D192F16980: libcurl info message cache 1 (Closing connection 106)
+[2018.02.14-17.55.10:668][983]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.02.14-17.55.10:841][983]LogBlueprint:Warning: [Compiler Character_Anim_BP] Warning  Movement to UltimateAttackSwing  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.55.10:841][983]LogBlueprint:Warning: [Compiler Character_Anim_BP] Warning  UltimateAttackSwing to Movement  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.55.12:344][983]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.02.14-17.55.12:344][983]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.02.14-17.55.22:220][310]LogHttp:Warning: 000001D1A399E080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.55.22:220][310]LogHttp:Warning: 000001D1A399E080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.55.22:220][310]LogHttp:Warning: 000001D1A399E080: libcurl info message cache 1 (Closing connection 107)
+[2018.02.14-17.55.59:879][516]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Animations/great_sword_slide_attack.great_sword_slide_attack
+[2018.02.14-17.55.59:909][516]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Animations/great_sword_strafe.great_sword_strafe
+[2018.02.14-17.56.22:268][214]LogHttp:Warning: 000001D12B248E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.56.22:268][214]LogHttp:Warning: 000001D12B248E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.56.22:268][214]LogHttp:Warning: 000001D12B248E80: libcurl info message cache 1 (Closing connection 108)
+[2018.02.14-17.56.32:781][581]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.02.14-17.56.32:954][581]LogBlueprint:Warning: [Compiler Character_Anim_BP] Warning  Movement to UltimateAttackSwing  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.56.32:954][581]LogBlueprint:Warning: [Compiler Character_Anim_BP] Warning  UltimateAttackSwing to Movement  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.56.33:778][581]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.02.14-17.56.33:778][581]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.02.14-17.56.35:215][604]LogSavePackage: Save=331.21ms
+[2018.02.14-17.56.35:215][604]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonCharacter405535E54472675CF760B0807A311D96.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.02.14-17.56.35:222][604]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.02.14-17.57.19:598][975]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.02.14-17.57.19:768][975]LogBlueprint:Warning: [Compiler Character_Anim_BP] Warning  Movement to UltimateAttackSwing  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.57.19:769][975]LogBlueprint:Warning: [Compiler Character_Anim_BP] Warning  UltimateAttackSwing to Movement  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.57.21:242][975]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.02.14-17.57.21:242][975]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.02.14-17.57.22:277][993]LogHttp:Warning: 000001D1CFB77B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.57.22:277][993]LogHttp:Warning: 000001D1CFB77B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.57.22:277][993]LogHttp:Warning: 000001D1CFB77B80: libcurl info message cache 1 (Closing connection 109)
+[2018.02.14-17.57.44:554][652]BlueprintLog: New page: Compile Character_Anim_BP
+[2018.02.14-17.57.44:599][652]LogBlueprint:Warning: [Compiler Character_Anim_BP] Warning  Movement to UltimateAttackSwing  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.57.44:599][652]LogBlueprint:Warning: [Compiler Character_Anim_BP] Warning  UltimateAttackSwing to Movement  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.57.44:906][652]BlueprintEditorCompileResults:Warning: Warning  Movement to UltimateAttackSwing  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.57.44:906][652]BlueprintEditorCompileResults:Warning: Warning  UltimateAttackSwing to Movement  will never be taken, please connect something to  Can Enter Transition
+[2018.02.14-17.57.44:906][652]LogBlueprint:Warning: [Compiler Character_Anim_BP] Warning [2850.39] Compile of Character_Anim_BP successful, but with 2 Warning(s) [in 352 ms] (/Game/ThirdPersonBP/Blueprints/Cricket_Bat/Character_Anim_BP.Character_Anim_BP)
+[2018.02.14-17.57.45:811][672]LogSavePackage: Save=157.28ms
+[2018.02.14-17.57.45:812][672]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Character_Anim_BP4D5A1A3C4D497EAD4B2D54AB6B8F0A3B.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Character_Anim_BP.uasset'
+[2018.02.14-17.57.45:819][672]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Character_Anim_BP.uasset
+[2018.02.14-17.58.11:495][434]BlueprintLog: New page: Compile Character_Anim_BP
+[2018.02.14-17.58.13:238][470]LogSavePackage: Save=136.54ms
+[2018.02.14-17.58.13:238][470]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Character_Anim_BPC73A6072424D20050438C4A17B7B380C.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Character_Anim_BP.uasset'
+[2018.02.14-17.58.13:245][470]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Character_Anim_BP.uasset
+[2018.02.14-17.58.18:693][629]LogSavePackage: Save=328.24ms
+[2018.02.14-17.58.18:693][629]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonCharacter23EC10994916B6A54B2A99841C0ABE5C.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.02.14-17.58.18:699][629]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.02.14-17.58.20:367][694]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.14-17.58.20:402][694]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.58.20:402][694]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-17.58.20:402][694]PIE: New page: PIE session: ThirdPersonExampleMap (14 Feb 2018 17:58:20)
+[2018.02.14-17.58.20:402][694]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.14-17.58.20:436][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032768s)
+[2018.02.14-17.58.20:437][694]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.14-17.58.20:437][694]LogPlayLevel: PIE: World Init took: (0.001360s)
+[2018.02.14-17.58.20:437][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.034649s)
+[2018.02.14-17.58.20:496][694]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-17.58.20:511][694]LogInit: FAudioDevice initialized.
+[2018.02.14-17.58.20:542][694]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.14-17.58.20:545][694]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.02.14-17.58.20
+[2018.02.14-17.58.20:545][694]LogWorld: Bringing up level for play took: 0.002854
+[2018.02.14-17.58.20:549][694]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.478
+[2018.02.14-17.58.20:549][694]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.58.27:008][ 73]LogHttp:Warning: 000001D193B96E00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-17.58.27:008][ 73]LogHttp:Warning: 000001D193B96E00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-17.58.27:008][ 73]LogHttp:Warning: 000001D193B96E00: libcurl info message cache 1 (Closing connection 110)
+[2018.02.14-17.58.42:485][  1]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.58.42:587][  1]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.59.22:193][173]BlueprintLog: New page: Compile Character_Anim_BP
+[2018.02.14-17.59.32:264][500]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.14-17.59.32:296][500]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.59.32:296][500]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-17.59.32:296][500]PIE: New page: PIE session: ThirdPersonExampleMap (14 Feb 2018 17:59:32)
+[2018.02.14-17.59.32:296][500]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.14-17.59.32:327][500]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030752s)
+[2018.02.14-17.59.32:328][500]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.14-17.59.32:328][500]LogPlayLevel: PIE: World Init took: (0.000945s)
+[2018.02.14-17.59.32:328][500]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.032004s)
+[2018.02.14-17.59.32:381][500]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-17.59.32:396][500]LogInit: FAudioDevice initialized.
+[2018.02.14-17.59.32:433][500]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.14-17.59.32:437][500]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.02.14-17.59.32
+[2018.02.14-17.59.32:437][500]LogWorld: Bringing up level for play took: 0.002983
+[2018.02.14-17.59.32:441][500]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.586
+[2018.02.14-17.59.32:441][500]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.59.47:460][394]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.59.47:558][394]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-17.59.50:102][476]LogSavePackage: Save=346.63ms
+[2018.02.14-17.59.50:102][476]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonExampleMapECB92B854E3EA92E631499A6C95F3429.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.02.14-17.59.50:110][476]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.02.14-18.00.15:405][649]LogHttp:Warning: 000001D12F686980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-18.00.15:405][649]LogHttp:Warning: 000001D12F686980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-18.00.15:405][649]LogHttp:Warning: 000001D12F686980: libcurl info message cache 1 (Closing connection 111)
+[2018.02.14-18.01.22:426][850]LogHttp:Warning: 000001D12F686B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-18.01.22:426][850]LogHttp:Warning: 000001D12F686B00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-18.01.22:427][850]LogHttp:Warning: 000001D12F686B00: libcurl info message cache 1 (Closing connection 112)
+[2018.02.14-18.01.50:295][ 25]LogSavePackage: Save=142.41ms
+[2018.02.14-18.01.50:295][ 25]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Character_Anim_BPFDA3BDEF4A586B574D4567BC898B94C5.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Character_Anim_BP.uasset'
+[2018.02.14-18.01.50:313][ 25]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Character_Anim_BP.uasset
+[2018.02.14-18.02.22:674][897]LogHttp:Warning: 000001D1A3AB3E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-18.02.22:674][897]LogHttp:Warning: 000001D1A3AB3E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-18.02.22:674][897]LogHttp:Warning: 000001D1A3AB3E80: libcurl info message cache 1 (Closing connection 113)
+[2018.02.14-18.03.33:357][ 63]Cmd: MODE GRID=1
+[2018.02.14-18.04.19:562][142]Cmd: MODE GRID=0
+[2018.02.14-18.04.22:287][205]LogHttp:Warning: 000001D1D2703700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-18.04.22:288][205]LogHttp:Warning: 000001D1D2703700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-18.04.22:288][205]LogHttp:Warning: 000001D1D2703700: libcurl info message cache 1 (Closing connection 114)
+[2018.02.14-18.06.22:636][519]LogHttp:Warning: 000001D12C355480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-18.06.22:636][519]LogHttp:Warning: 000001D12C355480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-18.06.22:636][519]LogHttp:Warning: 000001D12C355480: libcurl info message cache 1 (Closing connection 115)
+[2018.02.14-18.06.54:050][845]BlueprintLog: New page: Compile Cricket_Bat
+[2018.02.14-18.06.55:645][856]LogSavePackage: Save=30.74ms
+[2018.02.14-18.06.55:645][856]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Cricket_Bat1EC4FB5340D1DBE5EA49B7B4E75B2D8A.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_Bat.uasset'
+[2018.02.14-18.06.55:654][856]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/Cricket_Bat/Weapon/Cricket_Bat.uasset
+[2018.02.14-18.07.54:659][ 87]LogHttp:Warning: 000001D12B249600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-18.07.54:659][ 87]LogHttp:Warning: 000001D12B249600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-18.07.54:659][ 87]LogHttp:Warning: 000001D12B249600: libcurl info message cache 1 (Closing connection 116)
+[2018.02.14-18.08.12:674][395]LogSavePackage: Save=345.61ms
+[2018.02.14-18.08.12:675][395]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonExampleMap8D0A61BC44BE6DFC92F296BFAF60D4AA.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.02.14-18.08.12:682][395]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.02.14-18.09.12:643][341]LogHttp:Warning: 000001D1A3DA3B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.02.14-18.09.12:643][341]LogHttp:Warning: 000001D1A3DA3B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.02.14-18.09.12:643][341]LogHttp:Warning: 000001D1A3DA3B80: libcurl info message cache 1 (Closing connection 117)
