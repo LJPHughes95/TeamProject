@@ -1,0 +1,795 @@
+﻿Log file open, 02/14/18 15:11:01
+LogInit:Display: Running engine for game: Survival
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(775179874) SRandInit(775179874).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.105520
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.14-15.11.02:619][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.14-15.11.02:619][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.14-15.11.02:629][  0]LogInit: Computer: HA217-19
+[2018.02.14-15.11.02:629][  0]LogInit: User: u1557081
+[2018.02.14-15.11.02:629][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.14-15.11.02:629][  0]LogInit: High frequency timer resolution =3.328125 MHz
+[2018.02.14-15.11.02:629][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2018.02.14-15.11.02:629][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.14-15.11.02:629][  0]LogMemory: Process Physical Memory: 273.63 MB used, 273.63 MB peak
+[2018.02.14-15.11.02:629][  0]LogMemory: Process Virtual Memory: 261.02 MB used, 261.02 MB peak
+[2018.02.14-15.11.02:629][  0]LogMemory: Physical Memory: 9543.24 MB used,  6685.97 MB free, 16229.21 MB total
+[2018.02.14-15.11.02:629][  0]LogMemory: Virtual Memory: 638.63 MB used,  6685.97 MB free, 134217728.00 MB total
+[2018.02.14-15.11.02:847][  0]LogInit: Using OS detected language (en-US).
+[2018.02.14-15.11.02:847][  0]LogInit: Using OS detected locale (en-GB).
+[2018.02.14-15.11.02:853][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.02.14-15.11.04:036][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.14-15.11.04:074][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.02.14-15.11.04:074][  0]LogD3D11RHI:       4059/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.02.14-15.11.04:083][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2018.02.14-15.11.04:083][  0]LogD3D11RHI:       128/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.02.14-15.11.04:085][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.14-15.11.04:085][  0]LogD3D11RHI:       0/0/8114 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.14-15.11.04:085][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.14-15.11.04:090][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.14-15.11.04:090][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.14-15.11.04:090][  0]LogWindows: EnumDisplayDevices:
+[2018.02.14-15.11.04:091][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.02.14-15.11.04:091][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2018.02.14-15.11.04:091][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.02.14-15.11.04:091][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.02.14-15.11.04:092][  0]LogWindows:    4. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.02.14-15.11.04:092][  0]LogWindows:    5. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.02.14-15.11.04:092][  0]LogWindows:    6. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2018.02.14-15.11.04:092][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.02.14-15.11.04:092][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.02.14-15.11.04:092][  0]LogD3D11RHI:   Driver Version: 381.89 (internal:22.21.13.8189, unified:381.89)
+[2018.02.14-15.11.04:092][  0]LogD3D11RHI:      Driver Date: 4-19-2017
+[2018.02.14-15.11.04:092][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.14-15.11.04:120][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.14-15.11.04:131][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.02.14-15.11.04:229][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Intermediate/Shaders/WorkingDirectory/8648/).
+[2018.02.14-15.11.04:230][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/u1557081/AppData/Local/Temp/UnrealShaderWorkingDir/0024CCAD434A4BFC13AA3C8E45B13C1D/'.
+[2018.02.14-15.11.04:230][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.02.14-15.11.05:638][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.14-15.11.05:777][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.02.14-15.11.05:934][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.14-15.11.06:078][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.02.14-15.11.06:237][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.02.14-15.11.06:379][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.14-15.11.06:518][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.14-15.11.06:660][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.14-15.11.06:793][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.02.14-15.11.06:945][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.02.14-15.11.07:079][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.14-15.11.07:213][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.14-15.11.07:355][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.14-15.11.07:492][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.14-15.11.07:633][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.14-15.11.07:958][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.14-15.11.07:958][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.14-15.11.08:083][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.02.14-15.11.08:316][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.02.14-15.11.08:404][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.02.14-15.11.08:550][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.14-15.11.08:706][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.14-15.11.08:848][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.14-15.11.09:058][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.02.14-15.11.09:058][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.02.14-15.11.10:873][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.02.14-15.11.10:990][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/u1557081/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.14-15.11.10:991][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/u1557081/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.02.14-15.11.10:991][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.14-15.11.10:991][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.14-15.11.10:991][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.14-15.11.10:991][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.14-15.11.11:014][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.14-15.11.11:027][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u1557081/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.14-15.11.11:040][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.14-15.11.11:040][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.14-15.11.11:041][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.14-15.11.11:042][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.14-15.11.11:553][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.14-15.11.11:666][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.14-15.11.12:049][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.14-15.11.12:208][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.14-15.11.12:368][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.14-15.11.12:368][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.02.14-15.11.12:368][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.02.14-15.11.13:592][  0]LogNetVersion: Survival , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3038584403)
+[2018.02.14-15.11.13:724][  0]LogAssetRegistry: FAssetRegistry took 0.0276 seconds to start up
+[2018.02.14-15.11.13:879][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.063479 seconds
+[2018.02.14-15.11.13:888][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.02.14-15.11.13:888][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.02.14-15.11.13:888][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.14-15.11.14:129][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.14-15.11.20:318][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.14-15.11.20:427][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.14-15.11.21:894][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.14-15.11.23:017][  0]SourceControl: Info Source control is disabled
+[2018.02.14-15.11.23:104][  0]SourceControl: Info Source control is disabled
+[2018.02.14-15.11.23:253][  0]SourceControl: Info Source control is disabled
+[2018.02.14-15.11.23:401][  0]SourceControl: Info Source control is disabled
+[2018.02.14-15.11.25:606][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.14-15.11.27:465][  0]LogEngine: Initializing Engine...
+[2018.02.14-15.11.27:466][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.14-15.11.27:706][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.14-15.11.27:706][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.14-15.11.28:153][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.14-15.11.28:164][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-15.11.28:181][  0]LogInit: FAudioDevice initialized.
+[2018.02.14-15.11.28:245][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/u1557081/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.14-15.11.28:255][  0]LogInit: Texture streaming: Enabled
+[2018.02.14-15.11.28:613][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.14-15.11.29:364][  0]LogInit: Transaction tracking system initialized
+[2018.02.14-15.11.30:500][  0]BlueprintLog: New page: Editor Load
+[2018.02.14-15.11.33:903][  0]LocalizationService: Info Localization service is disabled
+[2018.02.14-15.11.36:238][  0]LogConsoleResponse:Display: 
+[2018.02.14-15.11.36:478][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.14-15.11.36:479][  0]LogCook:Display: Mobile HDR setting 1
+[2018.02.14-15.11.36:965][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/' took 0.02s
+[2018.02.14-15.11.39:866][  0]SourceControl: Info Source control is disabled
+[2018.02.14-15.11.39:866][  0]Cmd: MAP LOAD FILE="../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.14-15.11.39:867][  0]LightingResults: New page: Lighting Build
+[2018.02.14-15.11.40:013][  0]MapCheck: New page: Map Check
+[2018.02.14-15.11.40:013][  0]LightingResults: New page: Lighting Build
+[2018.02.14-15.11.40:593][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.14-15.11.40:604][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.14-15.11.40:620][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.14-15.11.40:745][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 124.528ms to complete.
+[2018.02.14-15.11.40:745][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.879
+[2018.02.14-15.11.40:960][  0]LogCollectionManager: Loaded 0 collections in 0.001806 seconds
+[2018.02.14-15.11.41:145][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/Collections/' took 0.01s
+[2018.02.14-15.11.41:145][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/Developers/u1557081/Collections/' took 0.01s
+[2018.02.14-15.11.41:145][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/Collections/' took 0.01s
+[2018.02.14-15.11.41:145][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.02.14-15.11.41:156][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2329 classes and 491 folders.
+[2018.02.14-15.11.41:386][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.02.14-15.11.41:461][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.02.14-15.11.41:607][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.02.14-15.11.41:705][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.02.14-15.11.41:710][  0]LogSlate: Took 0.000315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.14-15.11.41:713][  0]LogSlate: Took 0.000821 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.14-15.11.41:719][  0]LogSlate: Took 0.000370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.14-15.11.41:831][  0]LogRenderer: Reallocating scene render targets to support 1616x808 NumSamples 1 (Frame:1).
+[2018.02.14-15.11.42:163][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.02.14-15.11.42:163][  0]LogLoad: (Engine Initialization) Total time: 42.69 seconds
+[2018.02.14-15.11.42:163][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.33 seconds
+[2018.02.14-15.11.42:163][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.02.14-15.11.42:163][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.02.14-15.11.42:503][  0]LogOcInput: OculusInput pre-init called
+[2018.02.14-15.11.42:503][  0]LogHMD: Starting GearVRController plugin
+[2018.02.14-15.11.42:536][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.14-15.11.42:837][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/' took 0.32s
+[2018.02.14-15.11.42:852][  1]LogAssetRegistry: Asset discovery search completed in 29.1498 seconds
+[2018.02.14-15.11.42:854][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.02.14-15.11.42:854][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2018.02.14-15.11.45:849][ 10]LogSlate: Took 0.000483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.14-15.22.13:899][742]LogLinker:Warning: The file '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Models/DoorFrame_Exterior.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.02.14-15.22.13:899][742]LogLinker:Warning: The file '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Models/DoorFrame_Exterior.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.02.14-15.22.13:900][742]LogLinker:Warning: The file '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Models/DoorFrame_Exterior.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.02.14-15.22.13:900][742]LogLinker:Warning: The file '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Models/DoorFrame_Exterior.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.02.14-15.22.13:901][742]LogLinker:Warning: The file '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Models/DoorFrame_Exterior.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.02.14-15.22.13:902][742]LogLinker:Warning: The file '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Models/DoorFrame_Exterior.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.02.14-15.22.13:902][742]LogLinker:Warning: The file '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Models/DoorFrame_Exterior.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.02.14-15.22.13:902][742]LogLinker:Warning: The file '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Models/DoorFrame_Exterior.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.02.14-15.22.13:904][742]LogLinker:Warning: The file '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Models/DoorFrame_Exterior.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.02.14-15.22.13:905][742]LogLinker:Warning: The file '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Models/DoorFrame_Exterior.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.02.14-15.22.13:920][742]PIE:Warning: Warning Constraint in '/Engine/Transient.World_0:PersistentLevel.DoorStore_Single_C_0.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.02.14-15.22.22:702][213]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.02.14-15.22.28:977][838]LogEditorViewport: Clicking on Actor (LMB): DoorStore_Single_C (DoorStore_Single)
+[2018.02.14-15.22.39:417][ 18]LogContentBrowser: Native class hierarchy updated for 'Matinee' in 0.0007 seconds. Added 15 classes and 2 folders.
+[2018.02.14-15.22.39:419][ 18]LogInit: Transaction tracking system initialized
+[2018.02.14-15.22.39:419][ 18]EditorErrors: New page: Matinee Initialization
+[2018.02.14-15.22.47:773][212]LogEditorViewport: Clicking on Actor (LMB): DoorStore_Single_C (DoorStore_Single)
+[2018.02.14-15.25.11:753][ 24]LogSlate: Took 0.000460 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.14-15.25.11:781][ 24]LogExit: Transaction tracking system shut down
+[2018.02.14-15.25.11:913][ 24]LogSavePackage: Save=115.81ms
+[2018.02.14-15.25.11:913][ 24]LogSavePackage: Moving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonExampleMap_Auto129F9E3504F274967E9123B8F99BA5857.tmp' to '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2018.02.14-15.25.11:916][ 24]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2018.02.14-15.25.11:919][ 24]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.148
+[2018.02.14-15.25.11:919][ 24]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.148
+[2018.02.14-15.27.23:410][419]LogEditorViewport: Clicking on Actor (LMB): DoorStore_Single_C (DoorStore_Single)
+[2018.02.14-15.27.23:587][424]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Door)
+[2018.02.14-15.27.24:693][527]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Door)
+[2018.02.14-15.27.24:776][532]LogEditorViewport: Clicking on Actor (double click): DoorStore_Single_C (DoorStore_Single)
+[2018.02.14-15.27.28:291][891]LogSlate: Took 0.002128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.14-15.27.30:292][ 51]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2018.02.14-15.27.30:847][ 51]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.14-15.29.41:801][892]BlueprintLog: New page: Compile DoorStore_Single
+[2018.02.14-15.29.42:147][892]PIE:Warning: Warning Constraint in '/Engine/Transient.World_0:PersistentLevel.DoorStore_Single_C_10.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.02.14-15.38.05:823][721]BlueprintLog: New page: Compile DoorStore_Single
+[2018.02.14-15.38.06:104][721]PIE:Warning: Warning Constraint in '/Engine/Transient.World_0:PersistentLevel.DoorStore_Single_C_12.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.02.14-15.38.21:170][904]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.14-15.38.21:230][904]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.38.21:230][904]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-15.38.21:230][904]PIE: New page: PIE session: ThirdPersonExampleMap (14 Feb 2018 15:38:21)
+[2018.02.14-15.38.21:230][904]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.14-15.38.21:249][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019309s)
+[2018.02.14-15.38.21:251][904]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.14-15.38.21:251][904]LogPlayLevel: PIE: World Init took: (0.001883s)
+[2018.02.14-15.38.21:252][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021653s)
+[2018.02.14-15.38.21:276][904]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-15.38.21:285][904]LogInit: FAudioDevice initialized.
+[2018.02.14-15.38.21:338][904]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.14-15.38.21:342][904]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.02.14-15.38.21
+[2018.02.14-15.38.21:343][904]LogWorld: Bringing up level for play took: 0.001758
+[2018.02.14-15.38.21:454][904]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.02.14-15.38.21:456][904]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.535
+[2018.02.14-15.38.21:456][904]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.38.23:630][ 75]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.38.23:673][ 75]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.38.26:678][336]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.14-15.38.26:692][336]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.38.26:692][336]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-15.38.26:692][336]PIE: New page: PIE session: ThirdPersonExampleMap (14 Feb 2018 15:38:26)
+[2018.02.14-15.38.26:692][336]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.14-15.38.26:709][336]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017231s)
+[2018.02.14-15.38.26:711][336]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.14-15.38.26:711][336]LogPlayLevel: PIE: World Init took: (0.001684s)
+[2018.02.14-15.38.26:711][336]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019271s)
+[2018.02.14-15.38.26:731][336]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-15.38.26:739][336]LogInit: FAudioDevice initialized.
+[2018.02.14-15.38.26:775][336]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.14-15.38.26:778][336]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.02.14-15.38.26
+[2018.02.14-15.38.26:779][336]LogWorld: Bringing up level for play took: 0.003025
+[2018.02.14-15.38.26:780][336]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.141
+[2018.02.14-15.38.26:781][336]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.38.37:244][581]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.38.37:283][581]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.38.39:759][830]Cmd: SELECT NONE
+[2018.02.14-15.39.05:175][ 43]LogSavePackage: Save=142.19ms
+[2018.02.14-15.39.05:175][ 43]LogSavePackage: Moving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonExampleMap_Auto2EA03A1684600EF6EE9ACE7A43C3BA2C6.tmp' to '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2018.02.14-15.39.05:178][ 43]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2018.02.14-15.39.05:180][ 43]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.182
+[2018.02.14-15.39.05:180][ 43]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.182
+[2018.02.14-15.39.05:185][ 43]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PostApoc/Blueprint/DoorStore_Single] ([1] browsable assets)...
+[2018.02.14-15.39.05:222][ 43]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PostApoc/Blueprint/DoorStore_Single.DoorStore_Single]
+[2018.02.14-15.39.05:222][ 43]OBJ SavePackage: Finished generating thumbnails for package [/Game/PostApoc/Blueprint/DoorStore_Single]
+[2018.02.14-15.39.05:267][ 43]LogSavePackage: Save=32.33ms
+[2018.02.14-15.39.05:267][ 43]LogSavePackage: Moving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/DoorStore_Single_Auto28CD6D5F5433432D66FD550A5D59D5913.tmp' to '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/PostApoc/Blueprint/DoorStore_Single_Auto2.uasset'
+[2018.02.14-15.39.05:269][ 43]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/PostApoc/Blueprint/DoorStore_Single_Auto2.uasset
+[2018.02.14-15.39.05:269][ 43]LogFileHelpers: Auto-saving content packages took 0.087
+[2018.02.14-15.39.23:585][ 22]LogSavePackage: Save=137.88ms
+[2018.02.14-15.39.23:585][ 22]LogSavePackage: Moving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonExampleMap4913ADE44AD4D6FB5F0CBD87ED571672.tmp' to '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.02.14-15.39.23:590][ 22]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.02.14-15.39.23:610][ 22]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.294
+[2018.02.14-15.39.23:650][ 22]LogSavePackage: Save=25.45ms
+[2018.02.14-15.39.23:650][ 22]LogSavePackage: Moving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/DoorStore_Single6E8358A944F59F668B4B53A5A57C2556.tmp' to '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.39.23:651][ 22]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset', retrying in .5s...
+[2018.02.14-15.39.24:151][ 22]LogFileManager:Error: Error deleting file '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'.
+[2018.02.14-15.39.24:151][ 22]LogSavePackage:Error: Error saving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.39.24:153][ 22]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset
+[2018.02.14-15.39.33:501][ 22]LogSavePackage: Save=25.22ms
+[2018.02.14-15.39.33:501][ 22]LogSavePackage: Moving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/DoorStore_SingleB43501CC4AEDFFA27C5C0DAB2CC6B247.tmp' to '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.39.33:502][ 22]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset', retrying in .5s...
+[2018.02.14-15.39.34:003][ 22]LogFileManager:Error: Error deleting file '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'.
+[2018.02.14-15.39.34:003][ 22]LogSavePackage:Error: Error saving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.39.34:003][ 22]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset
+[2018.02.14-15.39.34:935][ 22]LogSavePackage: Save=25.64ms
+[2018.02.14-15.39.34:935][ 22]LogSavePackage: Moving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/DoorStore_Single778CAD5345B66AF7C7C2EB8967587866.tmp' to '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.39.34:936][ 22]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset', retrying in .5s...
+[2018.02.14-15.39.35:436][ 22]LogFileManager:Error: Error deleting file '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'.
+[2018.02.14-15.39.35:436][ 22]LogSavePackage:Error: Error saving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.39.35:438][ 22]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset
+[2018.02.14-15.39.35:983][ 22]EditorErrors: New page: Save Output
+[2018.02.14-15.39.35:983][ 22]EditorErrors:Warning: Warning Error saving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.39.35:983][ 22]EditorErrors:Warning: Warning Error saving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.39.35:983][ 22]EditorErrors:Warning: Warning Error saving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.39.54:564][913]LogEditorViewport: Clicking on Actor (LMB): DoorStore_Single_C (DoorStore_Single)
+[2018.02.14-15.39.55:447][  7]LogEditorViewport: Clicking on Actor (LMB): DoorStore_Single_C (DoorStore_Single)
+[2018.02.14-15.39.55:538][ 14]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Door)
+[2018.02.14-15.40.07:591][ 69]LogSavePackage: Save=25.86ms
+[2018.02.14-15.40.07:591][ 69]LogSavePackage: Moving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/DoorStore_Single648A05F649CEBFC9433FD8A208CB08D9.tmp' to '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.40.07:592][ 69]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset', retrying in .5s...
+[2018.02.14-15.40.08:092][ 69]LogFileManager:Error: Error deleting file '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'.
+[2018.02.14-15.40.08:092][ 69]LogSavePackage:Error: Error saving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.40.08:094][ 69]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset
+[2018.02.14-15.40.09:485][ 69]EditorErrors: New page: Save Output
+[2018.02.14-15.40.09:485][ 69]EditorErrors:Warning: Warning Error saving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.40.55:011][360]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall10)
+[2018.02.14-15.40.59:978][801]LogSavePackage: Save=25.43ms
+[2018.02.14-15.40.59:978][801]LogSavePackage: Moving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/DoorStore_Single317EB34A412CE357293ABA8C40CCBA89.tmp' to '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.40.59:979][801]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset', retrying in .5s...
+[2018.02.14-15.41.00:480][801]LogFileManager:Error: Error deleting file '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'.
+[2018.02.14-15.41.00:480][801]LogSavePackage:Error: Error saving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.41.00:482][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset
+[2018.02.14-15.41.05:480][801]LogSavePackage: Save=24.69ms
+[2018.02.14-15.41.05:480][801]LogSavePackage: Moving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/DoorStore_Single6A739E0F41FAD968CC2E2CA9686AA662.tmp' to '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.41.05:481][801]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset', retrying in .5s...
+[2018.02.14-15.41.05:982][801]LogFileManager:Error: Error deleting file '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'.
+[2018.02.14-15.41.05:982][801]LogSavePackage:Error: Error saving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.41.05:983][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset
+[2018.02.14-15.41.06:779][801]LogSavePackage: Save=26.52ms
+[2018.02.14-15.41.06:779][801]LogSavePackage: Moving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/DoorStore_SingleEFC580304E04D645FD5B04BBE8B302EF.tmp' to '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.41.06:780][801]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset', retrying in .5s...
+[2018.02.14-15.41.07:281][801]LogFileManager:Error: Error deleting file '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'.
+[2018.02.14-15.41.07:281][801]LogSavePackage:Error: Error saving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.41.07:282][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset
+[2018.02.14-15.41.07:716][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PostApoc/Blueprint/NewDoor" FILE="../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/NewDoor.uasset" SILENT=true
+[2018.02.14-15.41.07:752][801]LogSavePackage: Save=33.77ms
+[2018.02.14-15.41.07:752][801]LogSavePackage: Moving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/NewDoor338221C847918E2499CF4A8635550E29.tmp' to '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/NewDoor.uasset'
+[2018.02.14-15.41.07:756][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/NewDoor.uasset
+[2018.02.14-15.41.07:761][801]EditorErrors: New page: Save Output
+[2018.02.14-15.41.07:761][801]EditorErrors:Warning: Warning Error saving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.41.07:761][801]EditorErrors:Warning: Warning Error saving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.41.07:761][801]EditorErrors:Warning: Warning Error saving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.41.43:681][661]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.14-15.41.43:695][661]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.41.43:695][661]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-15.41.43:695][661]PIE: New page: PIE session: ThirdPersonExampleMap (14 Feb 2018 15:41:43)
+[2018.02.14-15.41.43:696][661]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.14-15.41.43:716][661]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020157s)
+[2018.02.14-15.41.43:717][661]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.14-15.41.43:717][661]LogPlayLevel: PIE: World Init took: (0.001369s)
+[2018.02.14-15.41.43:717][661]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021794s)
+[2018.02.14-15.41.43:738][661]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-15.41.43:747][661]LogInit: FAudioDevice initialized.
+[2018.02.14-15.41.43:780][661]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.14-15.41.43:784][661]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.02.14-15.41.43
+[2018.02.14-15.41.43:785][661]LogWorld: Bringing up level for play took: 0.002319
+[2018.02.14-15.41.43:786][661]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.865
+[2018.02.14-15.41.43:786][661]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.42.08:054][563]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.42.08:099][563]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.42.09:381][689]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.14-15.42.09:393][689]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.42.09:393][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-15.42.09:394][689]PIE: New page: PIE session: ThirdPersonExampleMap (14 Feb 2018 15:42:09)
+[2018.02.14-15.42.09:394][689]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.14-15.42.09:412][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018124s)
+[2018.02.14-15.42.09:413][689]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.14-15.42.09:413][689]LogPlayLevel: PIE: World Init took: (0.001499s)
+[2018.02.14-15.42.09:414][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019916s)
+[2018.02.14-15.42.09:440][689]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-15.42.09:452][689]LogInit: FAudioDevice initialized.
+[2018.02.14-15.42.09:486][689]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.14-15.42.09:489][689]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.02.14-15.42.09
+[2018.02.14-15.42.09:489][689]LogWorld: Bringing up level for play took: 0.001917
+[2018.02.14-15.42.09:491][689]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.57
+[2018.02.14-15.42.09:491][689]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.42.31:396][309]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.42.31:442][309]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.42.35:216][710]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.14-15.42.35:230][710]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.42.35:230][710]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-15.42.35:230][710]PIE: New page: PIE session: ThirdPersonExampleMap (14 Feb 2018 15:42:35)
+[2018.02.14-15.42.35:230][710]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.14-15.42.35:247][710]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016824s)
+[2018.02.14-15.42.35:248][710]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.14-15.42.35:248][710]LogPlayLevel: PIE: World Init took: (0.001387s)
+[2018.02.14-15.42.35:248][710]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018564s)
+[2018.02.14-15.42.35:265][710]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-15.42.35:274][710]LogInit: FAudioDevice initialized.
+[2018.02.14-15.42.35:309][710]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.14-15.42.35:312][710]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.02.14-15.42.35
+[2018.02.14-15.42.35:313][710]LogWorld: Bringing up level for play took: 0.001843
+[2018.02.14-15.42.35:314][710]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.393
+[2018.02.14-15.42.35:314][710]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.42.54:015][948]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.42.54:057][948]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.45.00:594][972]BlueprintLog: New page: Compile DoorStore_Single
+[2018.02.14-15.46.05:039][674]BlueprintLog: New page: Compile DoorStore_Single
+[2018.02.14-15.46.05:321][674]PIE:Warning: Warning Constraint in '/Engine/Transient.World_0:PersistentLevel.DoorStore_Single_C_13.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.02.14-15.46.24:267][143]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.14-15.46.24:281][143]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.46.24:281][143]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-15.46.24:281][143]PIE: New page: PIE session: ThirdPersonExampleMap (14 Feb 2018 15:46:24)
+[2018.02.14-15.46.24:281][143]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.14-15.46.24:299][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017952s)
+[2018.02.14-15.46.24:300][143]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.14-15.46.24:301][143]LogPlayLevel: PIE: World Init took: (0.001302s)
+[2018.02.14-15.46.24:301][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.019592s)
+[2018.02.14-15.46.24:324][143]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-15.46.24:337][143]LogInit: FAudioDevice initialized.
+[2018.02.14-15.46.24:367][143]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.14-15.46.24:370][143]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.02.14-15.46.24
+[2018.02.14-15.46.24:371][143]LogWorld: Bringing up level for play took: 0.001900
+[2018.02.14-15.46.24:372][143]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.549
+[2018.02.14-15.46.24:372][143]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.46.45:314][636]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.46.45:364][636]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.47.35:070][986]LogSavePackage: Save=143.16ms
+[2018.02.14-15.47.35:070][986]LogSavePackage: Moving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonExampleMap264B44C4411351FD1B5730A89A447003.tmp' to '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.02.14-15.47.35:076][986]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.02.14-15.47.35:107][986]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.322
+[2018.02.14-15.47.35:176][986]LogSavePackage: Save=37.52ms
+[2018.02.14-15.47.35:176][986]LogSavePackage: Moving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/DoorStore_Single7FA4119843F515CD5A44308DBE28B21B.tmp' to '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.47.35:177][986]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset', retrying in .5s...
+[2018.02.14-15.47.35:678][986]LogFileManager:Error: Error deleting file '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'.
+[2018.02.14-15.47.35:678][986]LogSavePackage:Error: Error saving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.47.35:679][986]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset
+[2018.02.14-15.47.42:490][986]LogSavePackage: Save=29.97ms
+[2018.02.14-15.47.42:490][986]LogSavePackage: Moving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/DoorStore_Single784971154DB2732529AFA1B4919A1472.tmp' to '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.47.42:491][986]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset', retrying in .5s...
+[2018.02.14-15.47.42:991][986]LogFileManager:Error: Error deleting file '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'.
+[2018.02.14-15.47.42:991][986]LogSavePackage:Error: Error saving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.47.42:995][986]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset
+[2018.02.14-15.47.49:591][986]LogSavePackage: Save=29.29ms
+[2018.02.14-15.47.49:591][986]LogSavePackage: Moving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/DoorStore_SingleE9CB2D57407B50F5600EEC92396F325D.tmp' to '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.47.49:592][986]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset', retrying in .5s...
+[2018.02.14-15.47.50:093][986]LogFileManager:Error: Error deleting file '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'.
+[2018.02.14-15.47.50:093][986]LogSavePackage:Error: Error saving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.47.50:094][986]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset
+[2018.02.14-15.47.51:591][986]EditorErrors: New page: Save Output
+[2018.02.14-15.47.51:592][986]EditorErrors:Warning: Warning Error saving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.47.51:592][986]EditorErrors:Warning: Warning Error saving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.47.51:592][986]EditorErrors:Warning: Warning Error saving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.48.36:293][272]LogEditorViewport: Clicking on Actor (LMB): DoorStore_Single_C (DoorStore_Single)
+[2018.02.14-15.48.37:338][385]Cmd: DELETE
+[2018.02.14-15.48.37:338][385]Cmd: ACTOR DELETE
+[2018.02.14-15.48.39:411][385]LogEditorActor: Deleted Actor: DoorStore_Single_C
+[2018.02.14-15.48.39:428][385]LogEditorActor: Deleted 1 Actors (2.089 secs)
+[2018.02.14-15.48.42:309][723]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.14-15.48.42:322][723]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.48.42:322][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-15.48.42:323][723]PIE: New page: PIE session: ThirdPersonExampleMap (14 Feb 2018 15:48:42)
+[2018.02.14-15.48.42:323][723]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.14-15.48.42:342][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019323s)
+[2018.02.14-15.48.42:343][723]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.14-15.48.42:343][723]LogPlayLevel: PIE: World Init took: (0.001310s)
+[2018.02.14-15.48.42:344][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020975s)
+[2018.02.14-15.48.42:362][723]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-15.48.42:371][723]LogInit: FAudioDevice initialized.
+[2018.02.14-15.48.42:401][723]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.14-15.48.42:405][723]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.02.14-15.48.42
+[2018.02.14-15.48.42:405][723]LogWorld: Bringing up level for play took: 0.001928
+[2018.02.14-15.48.42:407][723]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.514
+[2018.02.14-15.48.42:407][723]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.48.58:486][643]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.48.58:518][643]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-15.49.30:334][395]LogSavePackage: Save=137.89ms
+[2018.02.14-15.49.30:334][395]LogSavePackage: Moving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonExampleMapCB245BB140114F5207182B9E5E4572D6.tmp' to '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.02.14-15.49.30:339][395]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.02.14-15.49.30:360][395]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.296
+[2018.02.14-15.49.30:401][395]LogSavePackage: Save=29.42ms
+[2018.02.14-15.49.30:401][395]LogSavePackage: Moving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/DoorStore_Single02BEFE814BFE7983A514F9821D644DF1.tmp' to '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.49.30:402][395]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset', retrying in .5s...
+[2018.02.14-15.49.30:903][395]LogFileManager:Error: Error deleting file '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'.
+[2018.02.14-15.49.30:903][395]LogSavePackage:Error: Error saving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.49.30:904][395]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset
+[2018.02.14-15.49.37:577][395]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PostApoc/Blueprint/BetaDoor" FILE="../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/BetaDoor.uasset" SILENT=true
+[2018.02.14-15.49.37:617][395]LogSavePackage: Save=38.09ms
+[2018.02.14-15.49.37:617][395]LogSavePackage: Moving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/BetaDoor1256C9F64A3B78637332A4938E770844.tmp' to '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/BetaDoor.uasset'
+[2018.02.14-15.49.37:621][395]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/BetaDoor.uasset
+[2018.02.14-15.49.37:626][395]EditorErrors: New page: Save Output
+[2018.02.14-15.49.37:626][395]EditorErrors:Warning: Warning Error saving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.49.46:555][853]LogSavePackage: Save=29.17ms
+[2018.02.14-15.49.46:555][853]LogSavePackage: Moving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/DoorStore_Single1A8335B94AFCF2868D5539B1BE2F0761.tmp' to '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.49.46:557][853]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset', retrying in .5s...
+[2018.02.14-15.49.47:058][853]LogFileManager:Error: Error deleting file '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'.
+[2018.02.14-15.49.47:058][853]LogSavePackage:Error: Error saving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.49.47:059][853]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset
+[2018.02.14-15.49.48:513][853]EditorErrors: New page: Save Output
+[2018.02.14-15.49.48:513][853]EditorErrors:Warning: Warning Error saving '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/PostApoc/Blueprint/DoorStore_Single.uasset'
+[2018.02.14-15.49.49:442][853]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.14-15.49.49:635][854]Cmd: QUIT_EDITOR
+[2018.02.14-15.49.50:005][854]LogExit: Preparing to exit.
+[2018.02.14-15.49.50:913][854]LogDirectoryWatcher: A directory notification for 'C:/Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/' was aborted.
+[2018.02.14-15.49.50:994][854]LogExit: Editor shut down
+[2018.02.14-15.49.51:015][854]LogExit: Transaction tracking system shut down
+[2018.02.14-15.49.51:135][854]LogObj: Freed 0b from 0 cluster array pools.
+[2018.02.14-15.49.51:135][854]LogExit: Object subsystem successfully closed.
+[2018.02.14-15.49.51:161][854]LogD3D11RHI: Shutdown
+[2018.02.14-15.49.51:161][854]LogD3D11RHI: CleanupD3DDevice
+[2018.02.14-15.49.51:288][854]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.14-15.49.51:309][854]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2018.02.14-15.49.51:309][854]LogModuleManager: Shutting down and abandoning module BlueprintGraph (532)
+[2018.02.14-15.49.51:309][854]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (530)
+[2018.02.14-15.49.51:309][854]LogModuleManager: Shutting down and abandoning module DistCurveEditor (528)
+[2018.02.14-15.49.51:309][854]LogModuleManager: Shutting down and abandoning module Matinee (526)
+[2018.02.14-15.49.51:309][854]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.02.14-15.49.51:309][854]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.02.14-15.49.51:309][854]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.02.14-15.49.51:309][854]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.02.14-15.49.51:310][854]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.02.14-15.49.51:314][854]LogDirectoryWatcher: A directory notification for 'C:/Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/Collections/' was aborted.
+[2018.02.14-15.49.51:314][854]LogDirectoryWatcher: A directory notification for 'C:/Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/Developers/u1557081/Collections/' was aborted.
+[2018.02.14-15.49.51:314][854]LogDirectoryWatcher: A directory notification for 'C:/Users/u1557081/Documents/GitHub/TeamProject/Survival/Saved/Collections/' was aborted.
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.02.14-15.49.51:314][854]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.02.14-15.49.51:315][854]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.02.14-15.49.51:315][854]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.02.14-15.49.51:315][854]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.02.14-15.49.51:315][854]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.02.14-15.49.51:315][854]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.02.14-15.49.51:315][854]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.02.14-15.49.51:315][854]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.02.14-15.49.51:315][854]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.02.14-15.49.51:315][854]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.02.14-15.49.51:315][854]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.02.14-15.49.51:315][854]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.02.14-15.49.51:315][854]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.02.14-15.49.51:315][854]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.02.14-15.49.51:315][854]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.02.14-15.49.51:315][854]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.02.14-15.49.51:315][854]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.02.14-15.49.51:836][854]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.02.14-15.49.51:836][854]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.02.14-15.49.51:836][854]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.02.14-15.49.51:836][854]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.02.14-15.49.51:836][854]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.02.14-15.49.51:836][854]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.02.14-15.49.51:836][854]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.02.14-15.49.51:836][854]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.02.14-15.49.51:836][854]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.02.14-15.49.51:836][854]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.02.14-15.49.51:836][854]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.02.14-15.49.51:836][854]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.02.14-15.49.51:836][854]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.02.14-15.49.51:836][854]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.02.14-15.49.51:836][854]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.02.14-15.49.51:836][854]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.02.14-15.49.51:836][854]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.02.14-15.49.51:836][854]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.02.14-15.49.51:836][854]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.02.14-15.49.51:836][854]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.02.14-15.49.51:836][854]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.02.14-15.49.51:836][854]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.02.14-15.49.51:836][854]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.02.14-15.49.51:837][854]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.02.14-15.49.51:900][854]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.02.14-15.49.51:900][854]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.02.14-15.49.51:900][854]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.02.14-15.49.51:900][854]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.02.14-15.49.51:900][854]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.02.14-15.49.51:900][854]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.02.14-15.49.51:901][854]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.02.14-15.49.51:901][854]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.02.14-15.49.51:901][854]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.02.14-15.49.51:901][854]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.02.14-15.49.51:908][854]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.02.14-15.49.51:908][854]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.02.14-15.49.51:908][854]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.02.14-15.49.51:908][854]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.02.14-15.49.51:908][854]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.02.14-15.49.51:908][854]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.02.14-15.49.51:908][854]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.02.14-15.49.51:908][854]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.02.14-15.49.51:908][854]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.02.14-15.49.51:908][854]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.02.14-15.49.51:908][854]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.02.14-15.49.51:908][854]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.02.14-15.49.51:908][854]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.02.14-15.49.51:908][854]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.02.14-15.49.51:908][854]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.02.14-15.49.51:909][854]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.02.14-15.49.51:909][854]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.02.14-15.49.51:909][854]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.02.14-15.49.51:909][854]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.02.14-15.49.51:909][854]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.02.14-15.49.51:919][854]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.02.14-15.49.51:919][854]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.02.14-15.49.51:919][854]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.02.14-15.49.51:919][854]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.02.14-15.49.51:919][854]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.02.14-15.49.51:919][854]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.02.14-15.49.51:919][854]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.02.14-15.49.51:919][854]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.02.14-15.49.51:919][854]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.02.14-15.49.51:919][854]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.02.14-15.49.51:919][854]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.02.14-15.49.51:919][854]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.02.14-15.49.51:919][854]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.02.14-15.49.51:919][854]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.02.14-15.49.51:919][854]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.02.14-15.49.51:919][854]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.02.14-15.49.51:919][854]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.02.14-15.49.51:920][854]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.02.14-15.49.51:920][854]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.02.14-15.49.51:920][854]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.02.14-15.49.51:920][854]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.02.14-15.49.51:920][854]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.02.14-15.49.51:920][854]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.02.14-15.49.51:920][854]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.02.14-15.49.51:920][854]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.02.14-15.49.51:920][854]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.02.14-15.49.51:920][854]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.02.14-15.49.51:920][854]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.02.14-15.49.51:920][854]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.02.14-15.49.51:920][854]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.02.14-15.49.51:920][854]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.02.14-15.49.51:920][854]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.02.14-15.49.51:920][854]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.02.14-15.49.51:920][854]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.02.14-15.49.51:920][854]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.02.14-15.49.51:920][854]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.02.14-15.49.51:921][854]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.02.14-15.49.51:921][854]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.02.14-15.49.51:921][854]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.02.14-15.49.51:922][854]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.02.14-15.49.51:922][854]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.02.14-15.49.51:922][854]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.02.14-15.49.51:922][854]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.02.14-15.49.51:922][854]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.02.14-15.49.51:922][854]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.02.14-15.49.52:023][854]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.02.14-15.49.52:124][854]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.02.14-15.49.52:124][854]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.02.14-15.49.52:124][854]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.02.14-15.49.52:124][854]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.02.14-15.49.52:124][854]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.02.14-15.49.52:124][854]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.02.14-15.49.52:126][854]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.02.14-15.49.52:126][854]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.02.14-15.49.52:126][854]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.02.14-15.49.52:126][854]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.02.14-15.49.52:126][854]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.02.14-15.49.52:126][854]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.02.14-15.49.52:126][854]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.02.14-15.49.52:126][854]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.02.14-15.49.52:127][854]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.02.14-15.49.52:127][854]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.02.14-15.49.52:127][854]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.02.14-15.49.52:127][854]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.02.14-15.49.52:127][854]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.02.14-15.49.52:127][854]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.02.14-15.49.52:127][854]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.02.14-15.49.52:127][854]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.02.14-15.49.52:127][854]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.02.14-15.49.52:127][854]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.02.14-15.49.52:127][854]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.02.14-15.49.52:127][854]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.02.14-15.49.52:127][854]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.02.14-15.49.52:127][854]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.02.14-15.49.52:127][854]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.02.14-15.49.52:130][854]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.02.14-15.49.52:130][854]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.02.14-15.49.52:130][854]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.02.14-15.49.52:130][854]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.02.14-15.49.52:130][854]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.02.14-15.49.52:130][854]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.02.14-15.49.52:353][854]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.02.14-15.49.52:353][854]LogDirectoryWatcher: A directory notification for '../../../../../../Users/u1557081/Documents/GitHub/TeamProject/Survival/Content/' was aborted.
+[2018.02.14-15.49.52:353][854]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.02.14-15.49.52:353][854]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.02.14-15.49.52:358][854]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.02.14-15.49.52:363][854]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.02.14-15.49.52:363][854]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.02.14-15.49.52:363][854]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.02.14-15.49.52:363][854]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.02.14-15.49.52:363][854]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.02.14-15.49.52:363][854]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.02.14-15.49.52:363][854]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.02.14-15.49.52:363][854]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.02.14-15.49.52:459][854]LogDerivedDataCache: Shutdown
+[2018.02.14-15.49.52:459][854]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.02.14-15.49.52:459][854]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.02.14-15.49.52:459][854]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.02.14-15.49.52:459][854]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.02.14-15.49.52:459][854]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.02.14-15.49.52:459][854]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.02.14-15.49.52:459][854]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.02.14-15.49.52:459][854]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.02.14-15.49.52:459][854]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.02.14-15.49.52:459][854]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.02.14-15.49.52:459][854]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.02.14-15.49.52:459][854]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.02.14-15.49.52:459][854]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.02.14-15.49.52:459][854]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.02.14-15.49.52:459][854]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.02.14-15.49.52:459][854]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.02.14-15.49.52:459][854]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.02.14-15.49.52:459][854]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.02.14-15.49.52:459][854]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.02.14-15.49.52:459][854]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.02.14-15.49.52:460][854]LogOnline:Display: Unloading online subsystem: NULL
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.02.14-15.49.52:460][854]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.02.14-15.49.52:460][854]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.02.14-15.49.52:460][854]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4CFD6DA4-4761-6DEB-EBE3-A9AC2BE4BF98%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=cbd191f64827f8a8f8e1638411f41e7a%7Cb9230cfc4cbd41ddaed4c46bfb639bcb%7C04621a74-11ec-4102-a260-a3de8aa44d67&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.14-15.49.52:486][854]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.02.14-15.49.52:487][854]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.02.14-15.49.52:487][854]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.02.14-15.49.52:487][854]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.02.14-15.49.52:487][854]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.02.14-15.49.52:487][854]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.02.14-15.49.52:487][854]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.02.14-15.49.52:487][854]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.02.14-15.49.52:487][854]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.02.14-15.49.52:490][854]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.02.14-15.49.52:490][854]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.02.14-15.49.52:490][854]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.02.14-15.49.52:490][854]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.02.14-15.49.52:490][854]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.02.14-15.49.52:490][854]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.02.14-15.49.52:490][854]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.02.14-15.49.52:490][854]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.02.14-15.49.52:490][854]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.02.14-15.49.52:490][854]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.02.14-15.49.52:493][854]LogExit: Exiting.
+[2018.02.14-15.49.52:506][854]Log file closed, 02/14/18 15:49:52
