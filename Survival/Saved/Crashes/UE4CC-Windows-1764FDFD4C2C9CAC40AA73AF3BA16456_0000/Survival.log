@@ -1,0 +1,7 @@
+﻿Log file open, 02/15/18 21:14:23
+LogInit:Display: Running engine for game: Survival
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1492238584) SRandInit(1492238584).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 8.934635
+LogWindows: Windows GetLastError: The operation completed successfully. (0)
