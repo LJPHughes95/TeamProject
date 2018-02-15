@@ -1,0 +1,946 @@
+﻿Log file open, 02/15/18 21:26:35
+LogInit:Display: Running engine for game: Survival
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1240069692) SRandInit(-1240069692).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.211138
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.15-21.26.41:755][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.15-21.26.41:755][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.15-21.26.42:119][  0]LogInit: Computer: MATTPC
+[2018.02.15-21.26.42:119][  0]LogInit: User: MattParker
+[2018.02.15-21.26.42:119][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.15-21.26.42:119][  0]LogInit: High frequency timer resolution =2.143632 MHz
+[2018.02.15-21.26.42:259][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.02.15-21.26.42:259][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.15-21.26.42:259][  0]LogMemory: Process Physical Memory: 276.28 MB used, 276.28 MB peak
+[2018.02.15-21.26.42:259][  0]LogMemory: Process Virtual Memory: 264.45 MB used, 264.45 MB peak
+[2018.02.15-21.26.42:259][  0]LogMemory: Physical Memory: 6027.06 MB used,  2076.05 MB free, 8103.12 MB total
+[2018.02.15-21.26.42:259][  0]LogMemory: Virtual Memory: 619.11 MB used,  2076.05 MB free, 8388608.00 MB total
+[2018.02.15-21.26.50:450][  0]LogInit: Using OS detected language (en-GB).
+[2018.02.15-21.26.50:450][  0]LogInit: Using OS detected locale (en-GB).
+[2018.02.15-21.26.50:974][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.02.15-21.28.14:969][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.15-21.28.15:047][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 540M' (Feature Level 11_0)
+[2018.02.15-21.28.15:047][  0]LogD3D11RHI:       1999/0/3795 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.15-21.28.15:133][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GT 540M' (Feature Level 11_0)
+[2018.02.15-21.28.15:133][  0]LogD3D11RHI:       1999/0/3795 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2018.02.15-21.28.15:133][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.15-21.28.15:236][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.15-21.28.15:255][  0]LogD3D11RHI:     GPU DeviceId: 0xdf4 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.15-21.28.15:255][  0]LogWindows: EnumDisplayDevices:
+[2018.02.15-21.28.15:256][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2018.02.15-21.28.15:257][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2018.02.15-21.28.15:258][  0]LogWindows:    2. 'NVIDIA GeForce GT 540M' (P:0 D:0)
+[2018.02.15-21.28.15:258][  0]LogWindows:    3. 'RDPDD Chained DD' (P:0 D:0)
+[2018.02.15-21.28.15:259][  0]LogWindows:    4. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.02.15-21.28.15:259][  0]LogWindows:    5. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.02.15-21.28.15:260][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter 
+[2018.02.15-21.28.15:260][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 540M
+[2018.02.15-21.28.15:303][  0]LogD3D11RHI:   Driver Version: 376.54 (internal:21.21.13.7654, unified:376.54)
+[2018.02.15-21.28.15:303][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2018.02.15-21.28.15:344][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.15-21.28.15:913][  0]LogD3D11RHI:Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2018.02.15-21.28.16:035][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.15-21.28.19:823][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 43)
+[2018.02.15-21.28.22:350][  0]LogShaderCompilers: Guid format shader working directory is -69 characters bigger than the processId version (../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Intermediate/Shaders/WorkingDirectory/15660/).
+[2018.02.15-21.28.22:350][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MattParker/AppData/Local/Temp/UnrealShaderWorkingDir/D71701994CFF3926E2C768BF243C69B7/'.
+[2018.02.15-21.28.22:351][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.02.15-21.32.29:652][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.15-21.32.29:844][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.02.15-21.32.30:021][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.15-21.32.30:207][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.02.15-21.32.30:840][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.02.15-21.32.31:089][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.15-21.32.31:260][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.15-21.32.31:457][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.15-21.32.31:790][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.02.15-21.32.32:076][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.02.15-21.32.32:858][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.15-21.32.33:211][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.15-21.32.33:580][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.15-21.32.33:842][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.15-21.32.34:126][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.15-21.32.35:944][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.15-21.32.35:944][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.15-21.32.36:673][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.02.15-21.32.38:016][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.02.15-21.32.38:230][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.02.15-21.32.38:665][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.15-21.32.39:081][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.15-21.32.39:456][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.15-21.32.39:821][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.02.15-21.32.39:822][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.02.15-21.32.46:693][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.02.15-21.32.48:195][  0]LogDerivedDataCache: Loaded boot cache 1.48s 90MB C:/Users/MattParker/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.15-21.32.48:195][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/MattParker/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.02.15-21.32.48:196][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.15-21.32.48:196][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.15-21.32.48:196][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.15-21.32.48:196][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.15-21.32.48:458][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.15-21.32.48:504][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MattParker/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.15-21.32.49:037][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.15-21.32.49:745][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.15-21.32.49:844][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.15-21.32.49:844][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.15-21.33.15:977][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.15-21.33.16:606][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.15-21.33.21:720][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.15-21.33.22:233][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.15-21.33.22:496][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.15-21.33.22:496][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.02.15-21.33.22:496][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.02.15-21.33.37:364][  0]LogNetVersion: Survival , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3038584403)
+[2018.02.15-21.33.38:204][  0]LogAssetRegistry: FAssetRegistry took 0.0631 seconds to start up
+[2018.02.15-21.33.45:964][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 5.314632 seconds
+[2018.02.15-21.33.45:996][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.02.15-21.33.45:996][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.02.15-21.33.45:996][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.15-21.33.46:629][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.15-21.37.28:299][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.15-21.37.28:515][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.15-21.37.40:080][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.15-21.37.46:353][  0]SourceControl: Info Source control is disabled
+[2018.02.15-21.37.46:433][  0]SourceControl: Info Source control is disabled
+[2018.02.15-21.37.47:368][  0]SourceControl: Info Source control is disabled
+[2018.02.15-21.37.47:638][  0]SourceControl: Info Source control is disabled
+[2018.02.15-21.38.01:192][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.15-21.38.09:140][  0]LogEngine: Initializing Engine...
+[2018.02.15-21.38.09:344][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.15-21.38.10:361][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.15-21.38.10:397][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.019 s
+[2018.02.15-21.38.16:662][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.15-21.38.17:997][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.15-21.38.18:246][  0]LogInit: FAudioDevice initialized.
+[2018.02.15-21.38.18:340][  0]LogDerivedDataCache: Saved boot cache 0.09s 90MB C:/Users/MattParker/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.15-21.38.18:381][  0]LogInit: Texture streaming: Enabled
+[2018.02.15-21.38.19:154][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.15-21.38.26:066][  0]LogInit: Transaction tracking system initialized
+[2018.02.15-21.38.27:967][  0]BlueprintLog: New page: Editor Load
+[2018.02.15-21.38.33:127][  0]LocalizationService: Info Localization service is disabled
+[2018.02.15-21.38.37:640][  0]LogConsoleResponse:Display: 
+[2018.02.15-21.38.43:465][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/' took 0.09s
+[2018.02.15-21.38.43:465][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.15-21.38.43:465][  0]LogCook:Display: Mobile HDR setting 1
+[2018.02.15-21.38.53:062][  0]SourceControl: Info Source control is disabled
+[2018.02.15-21.38.53:672][  0]LogSlate: Took 0.019849 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.15-21.39.51:218][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.15-21.39.57:386][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.15-21.39.58:164][  0]LightingResults: New page: Lighting Build
+[2018.02.15-21.39.58:639][  0]MapCheck: New page: Map Check
+[2018.02.15-21.39.58:639][  0]LightingResults: New page: Lighting Build
+[2018.02.15-21.39.59:665][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_MacroVariation'
+[2018.02.15-21.39.59:665][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_MacroVariation' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/StarterContent/Materials/M_Wood_Oak.uasset.
+[2018.02.15-21.39.59:665][  0]LoadErrors:Error: Error /Game/StarterContent/Materials/M_Wood_Oak : Can't find file for asset. /Game/StarterContent/Textures/T_MacroVariation
+[2018.02.15-21.39.59:666][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Wood_Oak_D'
+[2018.02.15-21.39.59:666][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Wood_Oak_D' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/StarterContent/Materials/M_Wood_Oak.uasset.
+[2018.02.15-21.39.59:666][  0]LoadErrors:Error: Error /Game/StarterContent/Materials/M_Wood_Oak : Can't find file for asset. /Game/StarterContent/Textures/T_Wood_Oak_D
+[2018.02.15-21.39.59:667][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Wood_Oak_N'
+[2018.02.15-21.39.59:667][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Wood_Oak_N' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/StarterContent/Materials/M_Wood_Oak.uasset.
+[2018.02.15-21.39.59:668][  0]LoadErrors:Error: Error /Game/StarterContent/Materials/M_Wood_Oak : Can't find file for asset. /Game/StarterContent/Textures/T_Wood_Oak_N
+[2018.02.15-21.39.59:668][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_MacroVariation'
+[2018.02.15-21.39.59:669][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_MacroVariation' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/StarterContent/Materials/M_Wood_Oak.uasset.
+[2018.02.15-21.39.59:669][  0]LoadErrors:Error: Error /Game/StarterContent/Materials/M_Wood_Oak : Can't find file for asset. /Game/StarterContent/Textures/T_MacroVariation
+[2018.02.15-21.39.59:670][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Wood_Oak_D'
+[2018.02.15-21.39.59:670][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Wood_Oak_D' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/StarterContent/Materials/M_Wood_Oak.uasset.
+[2018.02.15-21.39.59:670][  0]LoadErrors:Error: Error /Game/StarterContent/Materials/M_Wood_Oak : Can't find file for asset. /Game/StarterContent/Textures/T_Wood_Oak_D
+[2018.02.15-21.39.59:671][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Wood_Oak_N'
+[2018.02.15-21.39.59:672][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Wood_Oak_N' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/StarterContent/Materials/M_Wood_Oak.uasset.
+[2018.02.15-21.39.59:672][  0]LoadErrors:Error: Error /Game/StarterContent/Materials/M_Wood_Oak : Can't find file for asset. /Game/StarterContent/Textures/T_Wood_Oak_N
+[2018.02.15-21.40.01:270][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Burnished_Steel'
+[2018.02.15-21.40.01:270][  0]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Metal_Burnished_Steel.M_Metal_Burnished_Steel Referenced by CharacterMesh0
+[2018.02.15-21.40.01:270][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Burnished_Steel' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.01:270][  0]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Metal_Burnished_Steel.M_Metal_Burnished_Steel Referenced by CharacterMesh0
+[2018.02.15-21.40.01:270][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Materials/M_Metal_Burnished_Steel
+[2018.02.15-21.40.01:271][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Burnished_Steel'
+[2018.02.15-21.40.01:271][  0]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Metal_Burnished_Steel Referenced by CharacterMesh0
+[2018.02.15-21.40.01:271][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Burnished_Steel' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.01:271][  0]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Metal_Burnished_Steel Referenced by CharacterMesh0
+[2018.02.15-21.40.01:271][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Materials/M_Metal_Burnished_Steel
+[2018.02.15-21.40.01:272][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2018.02.15-21.40.01:272][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cylinder Referenced by CharacterMesh0
+[2018.02.15-21.40.01:272][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.01:272][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cylinder Referenced by CharacterMesh0
+[2018.02.15-21.40.01:272][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cylinder
+[2018.02.15-21.40.01:273][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2018.02.15-21.40.01:273][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder Referenced by CharacterMesh0
+[2018.02.15-21.40.01:273][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.01:274][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder Referenced by CharacterMesh0
+[2018.02.15-21.40.01:274][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cylinder
+[2018.02.15-21.40.01:289][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2018.02.15-21.40.01:290][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder Referenced by StaticMesh_GEN_VARIABLE
+[2018.02.15-21.40.01:290][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.01:290][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder Referenced by StaticMesh_GEN_VARIABLE
+[2018.02.15-21.40.01:290][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cylinder
+[2018.02.15-21.40.01:290][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Burnished_Steel'
+[2018.02.15-21.40.01:290][  0]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Metal_Burnished_Steel.M_Metal_Burnished_Steel Referenced by StaticMesh_GEN_VARIABLE
+[2018.02.15-21.40.01:291][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Burnished_Steel' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.01:291][  0]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Metal_Burnished_Steel.M_Metal_Burnished_Steel Referenced by StaticMesh_GEN_VARIABLE
+[2018.02.15-21.40.01:291][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Materials/M_Metal_Burnished_Steel
+[2018.02.15-21.40.01:487][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2018.02.15-21.40.01:487][  0]LoadErrors: Info Failed to load /Game/ItemSpawner/Items/CarKey.CarKey_C Referenced by CharacterMesh0
+[2018.02.15-21.40.01:488][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/CarKey.uasset.
+[2018.02.15-21.40.01:488][  0]LoadErrors: Info Failed to load /Game/ItemSpawner/Items/CarKey.CarKey_C Referenced by CharacterMesh0
+[2018.02.15-21.40.01:488][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/CarKey : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cylinder
+[2018.02.15-21.40.01:490][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2018.02.15-21.40.01:490][  0]LoadErrors: Info Failed to load /Game/ItemSpawner/Items/CarKey.CarKey_C Referenced by CharacterMesh0
+[2018.02.15-21.40.01:491][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/CarKey.uasset.
+[2018.02.15-21.40.01:491][  0]LoadErrors: Info Failed to load /Game/ItemSpawner/Items/CarKey.CarKey_C Referenced by CharacterMesh0
+[2018.02.15-21.40.01:491][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/CarKey : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cylinder
+[2018.02.15-21.40.01:498][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2018.02.15-21.40.01:498][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cylinder Referenced by CharacterMesh0
+[2018.02.15-21.40.01:499][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.01:499][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cylinder Referenced by CharacterMesh0
+[2018.02.15-21.40.01:499][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cylinder
+[2018.02.15-21.40.01:499][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2018.02.15-21.40.01:499][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder Referenced by CharacterMesh0
+[2018.02.15-21.40.01:499][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.01:500][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder Referenced by CharacterMesh0
+[2018.02.15-21.40.01:500][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cylinder
+[2018.02.15-21.40.01:513][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2018.02.15-21.40.01:513][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder Referenced by StaticMesh_GEN_VARIABLE
+[2018.02.15-21.40.01:513][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.01:513][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder Referenced by StaticMesh_GEN_VARIABLE
+[2018.02.15-21.40.01:514][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cylinder
+[2018.02.15-21.40.01:578][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cube'
+[2018.02.15-21.40.01:579][  0]LoadErrors: Info Failed to load /Game/ItemSpawner/Items/HealthKit.HealthKit_C Referenced by CharacterMesh0
+[2018.02.15-21.40.01:579][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cube' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/HealthKit.uasset.
+[2018.02.15-21.40.01:579][  0]LoadErrors: Info Failed to load /Game/ItemSpawner/Items/HealthKit.HealthKit_C Referenced by CharacterMesh0
+[2018.02.15-21.40.01:580][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/HealthKit : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cube
+[2018.02.15-21.40.01:582][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cube'
+[2018.02.15-21.40.01:582][  0]LoadErrors: Info Failed to load /Game/ItemSpawner/Items/HealthKit.HealthKit_C Referenced by CharacterMesh0
+[2018.02.15-21.40.01:582][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cube' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/HealthKit.uasset.
+[2018.02.15-21.40.01:582][  0]LoadErrors: Info Failed to load /Game/ItemSpawner/Items/HealthKit.HealthKit_C Referenced by CharacterMesh0
+[2018.02.15-21.40.01:583][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/HealthKit : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cube
+[2018.02.15-21.40.01:589][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cube'
+[2018.02.15-21.40.01:589][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cube Referenced by CharacterMesh0
+[2018.02.15-21.40.01:589][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cube' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.01:590][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cube Referenced by CharacterMesh0
+[2018.02.15-21.40.01:590][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cube
+[2018.02.15-21.40.01:590][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cube'
+[2018.02.15-21.40.01:590][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube Referenced by CharacterMesh0
+[2018.02.15-21.40.01:591][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cube' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.01:591][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube Referenced by CharacterMesh0
+[2018.02.15-21.40.01:591][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cube
+[2018.02.15-21.40.01:605][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cube'
+[2018.02.15-21.40.01:605][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube Referenced by StaticMesh_GEN_VARIABLE
+[2018.02.15-21.40.01:605][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cube' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.01:606][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube Referenced by StaticMesh_GEN_VARIABLE
+[2018.02.15-21.40.01:606][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cube
+[2018.02.15-21.40.01:651][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Door'
+[2018.02.15-21.40.01:651][  0]LoadErrors: Info Failed to load /Game/ItemSpawner/Items/Key.Key_C Referenced by CharacterMesh0
+[2018.02.15-21.40.01:652][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Door' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Key.uasset.
+[2018.02.15-21.40.01:652][  0]LoadErrors: Info Failed to load /Game/ItemSpawner/Items/Key.Key_C Referenced by CharacterMesh0
+[2018.02.15-21.40.01:652][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Key : Can't find file for asset. /Game/StarterContent/Props/Materials/M_Door
+[2018.02.15-21.40.01:653][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Door'
+[2018.02.15-21.40.01:653][  0]LoadErrors: Info Failed to load /Game/ItemSpawner/Items/Key.Key_C Referenced by CharacterMesh0
+[2018.02.15-21.40.01:654][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Door' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Key.uasset.
+[2018.02.15-21.40.01:654][  0]LoadErrors: Info Failed to load /Game/ItemSpawner/Items/Key.Key_C Referenced by CharacterMesh0
+[2018.02.15-21.40.01:654][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Key : Can't find file for asset. /Game/StarterContent/Props/Materials/M_Door
+[2018.02.15-21.40.01:654][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2018.02.15-21.40.01:654][  0]LoadErrors: Info Failed to load /Game/ItemSpawner/Items/Key.Key_C Referenced by CharacterMesh0
+[2018.02.15-21.40.01:654][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Key.uasset.
+[2018.02.15-21.40.01:655][  0]LoadErrors: Info Failed to load /Game/ItemSpawner/Items/Key.Key_C Referenced by CharacterMesh0
+[2018.02.15-21.40.01:655][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Key : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cylinder
+[2018.02.15-21.40.01:656][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2018.02.15-21.40.01:656][  0]LoadErrors: Info Failed to load /Game/ItemSpawner/Items/Key.Key_C Referenced by CharacterMesh0
+[2018.02.15-21.40.01:656][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Key.uasset.
+[2018.02.15-21.40.01:657][  0]LoadErrors: Info Failed to load /Game/ItemSpawner/Items/Key.Key_C Referenced by CharacterMesh0
+[2018.02.15-21.40.01:657][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Key : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cylinder
+[2018.02.15-21.40.01:661][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Door'
+[2018.02.15-21.40.01:661][  0]LoadErrors: Info Failed to load /Game/StarterContent/Props/Materials/M_Door.M_Door Referenced by CharacterMesh0
+[2018.02.15-21.40.01:661][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Door' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.01:661][  0]LoadErrors: Info Failed to load /Game/StarterContent/Props/Materials/M_Door.M_Door Referenced by CharacterMesh0
+[2018.02.15-21.40.01:661][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Props/Materials/M_Door
+[2018.02.15-21.40.01:662][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Door'
+[2018.02.15-21.40.01:662][  0]LoadErrors: Info Failed to load /Game/StarterContent/Props/Materials/M_Door Referenced by CharacterMesh0
+[2018.02.15-21.40.01:662][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Door' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.01:662][  0]LoadErrors: Info Failed to load /Game/StarterContent/Props/Materials/M_Door Referenced by CharacterMesh0
+[2018.02.15-21.40.01:662][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Props/Materials/M_Door
+[2018.02.15-21.40.01:663][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2018.02.15-21.40.01:663][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cylinder Referenced by CharacterMesh0
+[2018.02.15-21.40.01:663][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.01:663][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cylinder Referenced by CharacterMesh0
+[2018.02.15-21.40.01:663][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cylinder
+[2018.02.15-21.40.01:663][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2018.02.15-21.40.01:664][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder Referenced by CharacterMesh0
+[2018.02.15-21.40.01:664][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.01:664][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder Referenced by CharacterMesh0
+[2018.02.15-21.40.01:664][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cylinder
+[2018.02.15-21.40.01:680][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2018.02.15-21.40.01:681][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder Referenced by StaticMesh_GEN_VARIABLE
+[2018.02.15-21.40.01:681][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.01:681][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder Referenced by StaticMesh_GEN_VARIABLE
+[2018.02.15-21.40.01:681][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cylinder
+[2018.02.15-21.40.01:682][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/Materials/M_Door'
+[2018.02.15-21.40.01:682][  0]LoadErrors: Info Failed to load /Game/StarterContent/Props/Materials/M_Door.M_Door Referenced by StaticMesh_GEN_VARIABLE
+[2018.02.15-21.40.01:682][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_Door' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.01:682][  0]LoadErrors: Info Failed to load /Game/StarterContent/Props/Materials/M_Door.M_Door Referenced by StaticMesh_GEN_VARIABLE
+[2018.02.15-21.40.01:683][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Props/Materials/M_Door
+[2018.02.15-21.40.01:733][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cube'
+[2018.02.15-21.40.01:734][  0]LoadErrors: Info Failed to load /Game/ItemSpawner/Items/WoodPickUp.WoodPickUp_C Referenced by CharacterMesh0
+[2018.02.15-21.40.01:734][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cube' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/WoodPickUp.uasset.
+[2018.02.15-21.40.01:734][  0]LoadErrors: Info Failed to load /Game/ItemSpawner/Items/WoodPickUp.WoodPickUp_C Referenced by CharacterMesh0
+[2018.02.15-21.40.01:734][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/WoodPickUp : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cube
+[2018.02.15-21.40.01:735][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cube'
+[2018.02.15-21.40.01:735][  0]LoadErrors: Info Failed to load /Game/ItemSpawner/Items/WoodPickUp.WoodPickUp_C Referenced by CharacterMesh0
+[2018.02.15-21.40.01:736][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cube' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/WoodPickUp.uasset.
+[2018.02.15-21.40.01:736][  0]LoadErrors: Info Failed to load /Game/ItemSpawner/Items/WoodPickUp.WoodPickUp_C Referenced by CharacterMesh0
+[2018.02.15-21.40.01:736][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/WoodPickUp : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cube
+[2018.02.15-21.40.01:742][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cube'
+[2018.02.15-21.40.01:742][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cube Referenced by CharacterMesh0
+[2018.02.15-21.40.01:742][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cube' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.01:743][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cube Referenced by CharacterMesh0
+[2018.02.15-21.40.01:743][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cube
+[2018.02.15-21.40.01:743][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cube'
+[2018.02.15-21.40.01:743][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube Referenced by CharacterMesh0
+[2018.02.15-21.40.01:744][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cube' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.01:744][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube Referenced by CharacterMesh0
+[2018.02.15-21.40.01:744][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cube
+[2018.02.15-21.40.01:758][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cube'
+[2018.02.15-21.40.01:759][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube Referenced by StaticMesh_GEN_VARIABLE
+[2018.02.15-21.40.01:759][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cube' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.01:759][  0]LoadErrors: Info Failed to load /Game/StarterContent/Shapes/Shape_Cube.Shape_Cube Referenced by StaticMesh_GEN_VARIABLE
+[2018.02.15-21.40.01:759][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cube
+[2018.02.15-21.40.02:741][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Burnished_Steel'
+[2018.02.15-21.40.02:741][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Burnished_Steel' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.02:741][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Materials/M_Metal_Burnished_Steel
+[2018.02.15-21.40.02:741][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Burnished_Steel'
+[2018.02.15-21.40.02:742][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Burnished_Steel' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.02:742][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Materials/M_Metal_Burnished_Steel
+[2018.02.15-21.40.02:742][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2018.02.15-21.40.02:742][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.02:742][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cylinder
+[2018.02.15-21.40.02:744][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Shapes/Shape_Cylinder'
+[2018.02.15-21.40.02:744][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Shapes/Shape_Cylinder' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ItemSpawner/Items/Cannister.uasset.
+[2018.02.15-21.40.02:744][  0]LoadErrors:Error: Error /Game/ItemSpawner/Items/Cannister : Can't find file for asset. /Game/StarterContent/Shapes/Shape_Cylinder
+[2018.02.15-21.40.04:384][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/Bump_StaticMesh'
+[2018.02.15-21.40.04:384][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Bump_StaticMesh' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2018.02.15-21.40.04:384][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPerson/Meshes/Bump_StaticMesh
+[2018.02.15-21.40.04:385][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/LeftArm_StaticMesh'
+[2018.02.15-21.40.04:385][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/LeftArm_StaticMesh' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2018.02.15-21.40.04:385][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPerson/Meshes/LeftArm_StaticMesh
+[2018.02.15-21.40.04:386][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh'
+[2018.02.15-21.40.04:386][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2018.02.15-21.40.04:386][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh
+[2018.02.15-21.40.04:386][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/Ramp_StaticMesh'
+[2018.02.15-21.40.04:387][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Ramp_StaticMesh' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2018.02.15-21.40.04:387][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPerson/Meshes/Ramp_StaticMesh
+[2018.02.15-21.40.04:387][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/RightArm_StaticMesh'
+[2018.02.15-21.40.04:387][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/RightArm_StaticMesh' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2018.02.15-21.40.04:387][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPerson/Meshes/RightArm_StaticMesh
+[2018.02.15-21.40.04:391][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/Bump_StaticMesh'
+[2018.02.15-21.40.04:391][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Bump_StaticMesh' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2018.02.15-21.40.04:391][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPerson/Meshes/Bump_StaticMesh
+[2018.02.15-21.40.04:391][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/LeftArm_StaticMesh'
+[2018.02.15-21.40.04:391][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/LeftArm_StaticMesh' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2018.02.15-21.40.04:392][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPerson/Meshes/LeftArm_StaticMesh
+[2018.02.15-21.40.04:392][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh'
+[2018.02.15-21.40.04:392][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2018.02.15-21.40.04:392][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh
+[2018.02.15-21.40.04:392][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/Ramp_StaticMesh'
+[2018.02.15-21.40.04:393][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Ramp_StaticMesh' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2018.02.15-21.40.04:393][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPerson/Meshes/Ramp_StaticMesh
+[2018.02.15-21.40.04:393][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/RightArm_StaticMesh'
+[2018.02.15-21.40.04:393][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/RightArm_StaticMesh' while loading ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2018.02.15-21.40.04:393][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPerson/Meshes/RightArm_StaticMesh
+[2018.02.15-21.40.04:417][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/Bump_StaticMesh'
+[2018.02.15-21.40.04:417][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Bump_StaticMesh' while loading NULL.
+[2018.02.15-21.40.04:417][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/LeftArm_StaticMesh'
+[2018.02.15-21.40.04:418][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/LeftArm_StaticMesh' while loading NULL.
+[2018.02.15-21.40.04:418][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh'
+[2018.02.15-21.40.04:418][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh' while loading NULL.
+[2018.02.15-21.40.04:419][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/Ramp_StaticMesh'
+[2018.02.15-21.40.04:419][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Ramp_StaticMesh' while loading NULL.
+[2018.02.15-21.40.04:419][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/RightArm_StaticMesh'
+[2018.02.15-21.40.04:419][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/RightArm_StaticMesh' while loading NULL.
+[2018.02.15-21.40.04:420][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/Bump_StaticMesh'
+[2018.02.15-21.40.04:420][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Bump_StaticMesh' while loading NULL.
+[2018.02.15-21.40.04:420][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/LeftArm_StaticMesh'
+[2018.02.15-21.40.04:420][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/LeftArm_StaticMesh' while loading NULL.
+[2018.02.15-21.40.04:421][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh'
+[2018.02.15-21.40.04:421][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh' while loading NULL.
+[2018.02.15-21.40.04:421][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/Ramp_StaticMesh'
+[2018.02.15-21.40.04:421][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Ramp_StaticMesh' while loading NULL.
+[2018.02.15-21.40.04:422][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/RightArm_StaticMesh'
+[2018.02.15-21.40.04:422][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/RightArm_StaticMesh' while loading NULL.
+[2018.02.15-21.40.04:956][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/Bump_StaticMesh'
+[2018.02.15-21.40.04:956][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/Meshes/Bump_StaticMesh.Bump_StaticMesh Referenced by StaticMeshComponent0
+[2018.02.15-21.40.04:956][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Bump_StaticMesh' while loading NULL.
+[2018.02.15-21.40.04:956][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/Meshes/Bump_StaticMesh.Bump_StaticMesh Referenced by StaticMeshComponent0
+[2018.02.15-21.40.04:957][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/LeftArm_StaticMesh'
+[2018.02.15-21.40.04:957][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/Meshes/LeftArm_StaticMesh.LeftArm_StaticMesh Referenced by StaticMeshComponent0
+[2018.02.15-21.40.04:957][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/LeftArm_StaticMesh' while loading NULL.
+[2018.02.15-21.40.04:958][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/Meshes/LeftArm_StaticMesh.LeftArm_StaticMesh Referenced by StaticMeshComponent0
+[2018.02.15-21.40.04:959][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh'
+[2018.02.15-21.40.04:959][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh.Linear_Stair_StaticMesh Referenced by StaticMeshComponent0
+[2018.02.15-21.40.04:959][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh' while loading NULL.
+[2018.02.15-21.40.04:960][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/Meshes/Linear_Stair_StaticMesh.Linear_Stair_StaticMesh Referenced by StaticMeshComponent0
+[2018.02.15-21.40.04:961][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/Ramp_StaticMesh'
+[2018.02.15-21.40.04:961][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/Meshes/Ramp_StaticMesh.Ramp_StaticMesh Referenced by StaticMeshComponent0
+[2018.02.15-21.40.04:961][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/Ramp_StaticMesh' while loading NULL.
+[2018.02.15-21.40.04:961][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/Meshes/Ramp_StaticMesh.Ramp_StaticMesh Referenced by StaticMeshComponent0
+[2018.02.15-21.40.04:962][  0]LogLinker:Warning: Can't find file '/Game/ThirdPerson/Meshes/RightArm_StaticMesh'
+[2018.02.15-21.40.04:962][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/Meshes/RightArm_StaticMesh.RightArm_StaticMesh Referenced by StaticMeshComponent0
+[2018.02.15-21.40.04:963][  0]LogLinker:Warning: Can't find file for asset '/Game/ThirdPerson/Meshes/RightArm_StaticMesh' while loading NULL.
+[2018.02.15-21.40.04:963][  0]LoadErrors: Info Failed to load /Game/ThirdPerson/Meshes/RightArm_StaticMesh.RightArm_StaticMesh Referenced by StaticMeshComponent0
+[2018.02.15-21.40.04:974][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Wood_Oak_D'
+[2018.02.15-21.40.04:974][  0]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Wood_Oak_D.T_Wood_Oak_D Referenced by MaterialExpressionTextureSample_82
+[2018.02.15-21.40.04:975][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Wood_Oak_D' while loading NULL.
+[2018.02.15-21.40.04:975][  0]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Wood_Oak_D.T_Wood_Oak_D Referenced by MaterialExpressionTextureSample_82
+[2018.02.15-21.40.04:975][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Wood_Oak_N'
+[2018.02.15-21.40.04:975][  0]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Wood_Oak_N.T_Wood_Oak_N Referenced by MaterialExpressionTextureSample_83
+[2018.02.15-21.40.04:976][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Wood_Oak_N' while loading NULL.
+[2018.02.15-21.40.04:976][  0]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Wood_Oak_N.T_Wood_Oak_N Referenced by MaterialExpressionTextureSample_83
+[2018.02.15-21.40.04:976][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_MacroVariation'
+[2018.02.15-21.40.04:976][  0]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_MacroVariation.T_MacroVariation Referenced by MaterialExpressionTextureSample_85
+[2018.02.15-21.40.04:976][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_MacroVariation' while loading NULL.
+[2018.02.15-21.40.04:977][  0]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_MacroVariation.T_MacroVariation Referenced by MaterialExpressionTextureSample_85
+[2018.02.15-21.40.04:977][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_MacroVariation'
+[2018.02.15-21.40.04:977][  0]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_MacroVariation.T_MacroVariation Referenced by MaterialExpressionTextureSample_86
+[2018.02.15-21.40.04:977][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_MacroVariation' while loading NULL.
+[2018.02.15-21.40.04:977][  0]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_MacroVariation.T_MacroVariation Referenced by MaterialExpressionTextureSample_86
+[2018.02.15-21.40.04:978][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_MacroVariation'
+[2018.02.15-21.40.04:978][  0]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_MacroVariation.T_MacroVariation Referenced by MaterialExpressionTextureSample_87
+[2018.02.15-21.40.04:978][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_MacroVariation' while loading NULL.
+[2018.02.15-21.40.04:978][  0]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_MacroVariation.T_MacroVariation Referenced by MaterialExpressionTextureSample_87
+[2018.02.15-21.40.04:993][  0]LogTexture:Display: Building textures: EndScreenBackground (AutoDXT, 640X400)
+[2018.02.15-21.40.05:254][  0]LogTexture:Display: Building textures: wood-pile (AutoDXT, 512X512)
+[2018.02.15-21.40.05:440][  0]LogTexture:Display: Building textures: skeleton-key (AutoDXT, 512X512)
+[2018.02.15-21.40.05:581][  0]LogTexture:Display: Building textures: inventory (BGRA8, 1000X227)
+[2018.02.15-21.40.05:862][  0]LogTexture:Display: Building textures: wood (BGRA8, 275X183)
+[2018.02.15-21.40.05:911][  0]LogMaterial: Missing cached shader map for material wood_Mat, compiling. 
+[2018.02.15-21.40.07:278][  0]LogTexture:Display: Building textures: SpacePirate_normal (BC5, 2048X2048)
+[2018.02.15-21.40.09:339][  0]LogTexture:Display: Building textures: SpacePirate_specular (AutoDXT, 2048X2048)
+[2018.02.15-21.40.15:021][  0]LogTexture:Display: Building textures: SpacePirate_diffuse (AutoDXT, 2048X2048)
+[2018.02.15-21.40.21:070][  0]LogMaterial: Missing cached shader map for material SpacePirate_M, compiling. 
+[2018.02.15-21.40.22:616][  0]LogTexture:Display: Building textures: health_kit (BGRA8, 1231X1500)
+[2018.02.15-21.40.23:650][  0]LogMaterial: Missing cached shader map for material health_kit_Mat, compiling. 
+[2018.02.15-21.40.23:830][  0]LogTexture:Display: Building textures: car_key (BGRA8, 345X731)
+[2018.02.15-21.40.23:976][  0]LogMaterial: Missing cached shader map for material car_key_Mat, compiling. 
+[2018.02.15-21.40.25:279][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Animations/great_sword_slash__2_.great_sword_slash__2_
+[2018.02.15-21.40.25:427][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Animations/great_sword_slash__4_.great_sword_slash__4_
+[2018.02.15-21.40.25:544][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Animations/great_sword_idle.great_sword_idle
+[2018.02.15-21.40.25:571][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Animations/great_sword_idle__5_.great_sword_idle__5_
+[2018.02.15-21.40.25:669][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Animations/great_sword_idle__4_.great_sword_idle__4_
+[2018.02.15-21.40.25:705][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Animations/great_sword_idle__3_.great_sword_idle__3_
+[2018.02.15-21.40.25:748][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Animations/great_sword_idle__2_.great_sword_idle__2_
+[2018.02.15-21.40.25:794][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Animations/great_sword_walk.great_sword_walk
+[2018.02.15-21.40.25:834][  0]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPersonBP/Blueprints/Cricket_Bat/Animations/great_sword_run__2_.great_sword_run__2_
+[2018.02.15-21.40.25:859][  0]LogMaterial: Missing cached shader map for material M_Wood_Oak, compiling. 
+[2018.02.15-21.40.25:881][  0]LogMaterial:Warning: Failed to compile Material /Game/StarterContent/Materials/M_Wood_Oak.M_Wood_Oak for platform PCD3D_SM5, Default Material will be used in game.
+[2018.02.15-21.40.25:881][  0]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2018.02.15-21.40.27:051][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.15-21.40.30:577][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.15-21.40.30:894][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.15-21.40.31:282][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 382.163ms to complete.
+[2018.02.15-21.40.31:283][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 33.774
+[2018.02.15-21.40.34:351][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_45f0_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_2950_0///####STATCAT_Advanced####
+[2018.02.15-21.40.34:351][  0]LogCollectionManager: Loaded 0 collections in 0.009563 seconds
+[2018.02.15-21.40.35:165][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/Collections/' took 0.01s
+[2018.02.15-21.40.35:165][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/Developers/MattParker/Collections/' took 0.02s
+[2018.02.15-21.40.35:165][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/Collections/' took 0.02s
+[2018.02.15-21.40.35:165][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2018.02.15-21.40.35:235][  0]LogContentBrowser: Native class hierarchy populated in 0.0574 seconds. Added 2329 classes and 491 folders.
+[2018.02.15-21.40.35:930][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2018.02.15-21.40.40:538][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2018.02.15-21.40.40:938][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2018.02.15-21.40.42:019][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.02.15-21.40.42:158][  0]LogSlate: Took 0.027715 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.15-21.40.42:265][  0]LogSlate: Took 0.033310 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.15-21.40.43:406][  0]LogRenderer: Reallocating scene render targets to support 1004x456 NumSamples 1 (Frame:1).
+[2018.02.15-21.40.45:338][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.02.15-21.40.45:684][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
+[2018.02.15-21.40.45:684][  0]LogLoad: (Engine Initialization) Total time: 872.29 seconds
+[2018.02.15-21.40.45:684][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 4.04 seconds
+[2018.02.15-21.40.45:684][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.15-21.40.45:713][  0]LogOcInput: OculusInput pre-init called
+[2018.02.15-21.40.45:743][  0]LogHMD: Starting GearVRController plugin
+[2018.02.15-21.40.46:397][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.15-21.40.48:077][  4]LogSlate: Took 0.083540 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.15-21.40.48:390][  6]LogAssetRegistry: Asset discovery search completed in 430.1932 seconds
+[2018.02.15-21.40.48:402][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2018.02.15-21.40.48:402][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.004366 seconds (updated 0 objects)
+[2018.02.15-21.40.49:263][  7]LogSlate: Took 0.000698 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.15-21.40.52:010][ 56]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/' took 6.12s
+[2018.02.15-21.40.59:776][207]AssetReimport: New page: Outstanding source content changes 21:40:59
+[2018.02.15-21.40.59:941][209]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/Zombie_Running.Zombie_Running
+[2018.02.15-21.41.00:159][209]LogEditorFactories: Performing atomic reimport of [C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/Zombie Running.fbx]
+[2018.02.15-21.41.00:614][209]LogFbx: Loading FBX Scene from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/Zombie Running.fbx
+[2018.02.15-21.41.00:741][209]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.15-21.41.00:893][209]LogFbx: Parsing AnimStack mixamo.com
+[2018.02.15-21.41.01:287][209]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/Zombie_Running.Zombie_Running
+[2018.02.15-21.41.01:341][209]LogEditorFactories: -- imported successfully
+[2018.02.15-21.41.01:467][210]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/animations/running_crawl.running_crawl
+[2018.02.15-21.41.01:486][210]LogEditorFactories: Performing atomic reimport of [C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/running crawl.fbx]
+[2018.02.15-21.41.01:512][210]LogFbx: Loading FBX Scene from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/running crawl.fbx
+[2018.02.15-21.41.01:598][210]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.15-21.41.01:615][210]LogFbx: Parsing AnimStack mixamo.com
+[2018.02.15-21.41.03:124][210]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/animations/running_crawl.running_crawl
+[2018.02.15-21.41.03:174][210]LogEditorFactories: -- imported successfully
+[2018.02.15-21.41.03:264][211]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/animations/zombie_attack.zombie_attack
+[2018.02.15-21.41.03:278][211]LogEditorFactories: Performing atomic reimport of [C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie attack.fbx]
+[2018.02.15-21.41.03:312][211]LogFbx: Loading FBX Scene from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie attack.fbx
+[2018.02.15-21.41.03:408][211]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.15-21.41.03:425][211]LogFbx: Parsing AnimStack mixamo.com
+[2018.02.15-21.41.04:653][211]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/animations/zombie_attack.zombie_attack
+[2018.02.15-21.41.04:693][211]LogEditorFactories: -- imported successfully
+[2018.02.15-21.41.04:743][212]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/animations/zombie_biting__2_.zombie_biting__2_
+[2018.02.15-21.41.04:754][212]LogEditorFactories: Performing atomic reimport of [C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie biting (2).fbx]
+[2018.02.15-21.41.04:783][212]LogFbx: Loading FBX Scene from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie biting (2).fbx
+[2018.02.15-21.41.04:859][212]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.15-21.41.04:877][212]LogFbx: Parsing AnimStack mixamo.com
+[2018.02.15-21.41.05:746][212]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/animations/zombie_biting__2_.zombie_biting__2_
+[2018.02.15-21.41.05:791][212]LogEditorFactories: -- imported successfully
+[2018.02.15-21.41.05:842][213]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/animations/zombie_biting.zombie_biting
+[2018.02.15-21.41.05:889][213]LogEditorFactories: Performing atomic reimport of [C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie biting.fbx]
+[2018.02.15-21.41.05:924][213]LogFbx: Loading FBX Scene from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie biting.fbx
+[2018.02.15-21.41.06:044][213]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.15-21.41.06:071][213]LogFbx: Parsing AnimStack mixamo.com
+[2018.02.15-21.41.10:085][213]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/animations/zombie_biting.zombie_biting
+[2018.02.15-21.41.10:178][213]LogEditorFactories: -- imported successfully
+[2018.02.15-21.41.10:276][214]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/animations/zombie_crawl.zombie_crawl
+[2018.02.15-21.41.10:314][214]LogEditorFactories: Performing atomic reimport of [C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie crawl.fbx]
+[2018.02.15-21.41.10:347][214]LogFbx: Loading FBX Scene from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie crawl.fbx
+[2018.02.15-21.41.10:432][214]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.15-21.41.10:451][214]LogFbx: Parsing AnimStack mixamo.com
+[2018.02.15-21.41.14:037][214]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/animations/zombie_crawl.zombie_crawl
+[2018.02.15-21.41.14:119][214]LogEditorFactories: -- imported successfully
+[2018.02.15-21.41.14:216][215]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/animations/zombie_death.zombie_death
+[2018.02.15-21.41.14:237][215]LogEditorFactories: Performing atomic reimport of [C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie death.fbx]
+[2018.02.15-21.41.14:265][215]LogFbx: Loading FBX Scene from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie death.fbx
+[2018.02.15-21.41.14:339][215]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.15-21.41.14:355][215]LogFbx: Parsing AnimStack mixamo.com
+[2018.02.15-21.41.16:702][215]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/animations/zombie_death.zombie_death
+[2018.02.15-21.41.16:759][215]LogEditorFactories: -- imported successfully
+[2018.02.15-21.41.16:810][216]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/animations/zombie_dying.zombie_dying
+[2018.02.15-21.41.16:833][216]LogEditorFactories: Performing atomic reimport of [C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie dying.fbx]
+[2018.02.15-21.41.16:864][216]LogFbx: Loading FBX Scene from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie dying.fbx
+[2018.02.15-21.41.16:934][216]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.15-21.41.16:951][216]LogFbx: Parsing AnimStack mixamo.com
+[2018.02.15-21.41.18:840][216]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/animations/zombie_dying.zombie_dying
+[2018.02.15-21.41.18:909][216]LogEditorFactories: -- imported successfully
+[2018.02.15-21.41.18:979][217]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/animations/zombie_idle.zombie_idle
+[2018.02.15-21.41.18:998][217]LogEditorFactories: Performing atomic reimport of [C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie idle.fbx]
+[2018.02.15-21.41.19:033][217]LogFbx: Loading FBX Scene from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie idle.fbx
+[2018.02.15-21.41.19:121][217]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.15-21.41.19:136][217]LogFbx: Parsing AnimStack mixamo.com
+[2018.02.15-21.41.20:636][217]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/animations/zombie_idle.zombie_idle
+[2018.02.15-21.41.20:689][217]LogEditorFactories: -- imported successfully
+[2018.02.15-21.41.20:753][218]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/animations/zombie_neck_bite.zombie_neck_bite
+[2018.02.15-21.41.20:782][218]LogEditorFactories: Performing atomic reimport of [C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie neck bite.fbx]
+[2018.02.15-21.41.20:818][218]LogFbx: Loading FBX Scene from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie neck bite.fbx
+[2018.02.15-21.41.20:895][218]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.15-21.41.20:912][218]LogFbx: Parsing AnimStack mixamo.com
+[2018.02.15-21.41.23:294][218]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/animations/zombie_neck_bite.zombie_neck_bite
+[2018.02.15-21.41.23:357][218]LogEditorFactories: -- imported successfully
+[2018.02.15-21.41.23:396][219]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/animations/zombie_run.zombie_run
+[2018.02.15-21.41.23:402][219]LogEditorFactories: Performing atomic reimport of [C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie run.fbx]
+[2018.02.15-21.41.23:427][219]LogFbx: Loading FBX Scene from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie run.fbx
+[2018.02.15-21.41.23:501][219]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.15-21.41.23:515][219]LogFbx: Parsing AnimStack mixamo.com
+[2018.02.15-21.41.23:887][219]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/animations/zombie_run.zombie_run
+[2018.02.15-21.41.23:922][219]LogEditorFactories: -- imported successfully
+[2018.02.15-21.41.24:001][220]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/animations/zombie_scream.zombie_scream
+[2018.02.15-21.41.24:031][220]LogEditorFactories: Performing atomic reimport of [C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie scream.fbx]
+[2018.02.15-21.41.24:070][220]LogFbx: Loading FBX Scene from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie scream.fbx
+[2018.02.15-21.41.24:157][220]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.15-21.41.24:176][220]LogFbx: Parsing AnimStack mixamo.com
+[2018.02.15-21.41.25:747][220]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/animations/zombie_scream.zombie_scream
+[2018.02.15-21.41.25:821][220]LogEditorFactories: -- imported successfully
+[2018.02.15-21.41.25:882][221]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/animations/zombie_walk.zombie_walk
+[2018.02.15-21.41.25:899][221]LogEditorFactories: Performing atomic reimport of [C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie walk.fbx]
+[2018.02.15-21.41.25:924][221]LogFbx: Loading FBX Scene from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie walk.fbx
+[2018.02.15-21.41.26:020][221]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.15-21.41.26:047][221]LogFbx: Parsing AnimStack mixamo.com
+[2018.02.15-21.41.27:566][221]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/zombies_models/animations/zombie_walk.zombie_walk
+[2018.02.15-21.41.27:621][221]LogEditorFactories: -- imported successfully
+[2018.02.15-21.41.27:755][222]LogSlate: Took 0.000373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.15-21.41.28:679][222]LogTexture:Display: Building textures: FuzZombie__diffuse (AutoDXT, 2048X2048)
+[2018.02.15-21.41.36:786][222]LogTexture:Display: Building textures: FuzZombie__specular (AutoDXT, 2048X2048)
+[2018.02.15-21.41.43:731][222]LogSlate: Took 0.000708 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.15-21.41.44:383][222]LogTexture:Display: Building textures: FuzZombie__normal (BC5, 2048X2048)
+[2018.02.15-21.41.45:783][222]LogMaterial: Missing cached shader map for material glass_hair_M_ncl1_1, compiling. 
+[2018.02.15-21.41.46:030][222]LogMaterial: Missing cached shader map for material glass_hair_M, compiling. 
+[2018.02.15-21.41.46:261][222]LogMaterial: Missing cached shader map for material body_M, compiling. 
+[2018.02.15-21.41.47:328][222]LogSavePackage: Save=181.05ms
+[2018.02.15-21.41.47:328][222]LogSavePackage: Moving '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/Zombie_Running6341A2F3459E2325B170AEAD23B4F249.tmp' to '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/Zombie_Running.uasset'
+[2018.02.15-21.41.47:436][222]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/Zombie_Running.uasset
+[2018.02.15-21.41.48:048][222]LogSavePackage: Save=123.73ms
+[2018.02.15-21.41.48:048][222]LogSavePackage: Moving '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/running_crawl38F351C1436E7AA4471A5EB19EA478DE.tmp' to '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/running_crawl.uasset'
+[2018.02.15-21.41.48:114][222]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/running_crawl.uasset
+[2018.02.15-21.41.48:657][222]LogSavePackage: Save=172.65ms
+[2018.02.15-21.41.48:658][222]LogSavePackage: Moving '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/zombie_attack5843D0854696B8CABBA6B588A50B20EA.tmp' to '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie_attack.uasset'
+[2018.02.15-21.41.48:786][222]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie_attack.uasset
+[2018.02.15-21.41.49:620][222]LogSavePackage: Save=387.46ms
+[2018.02.15-21.41.49:620][222]LogSavePackage: Moving '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/zombie_biting__2_CE089F9B4CFE69DC2B7958A881536CD5.tmp' to '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie_biting__2_.uasset'
+[2018.02.15-21.41.49:716][222]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie_biting__2_.uasset
+[2018.02.15-21.41.50:214][222]LogSavePackage: Save=115.48ms
+[2018.02.15-21.41.50:214][222]LogSavePackage: Moving '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/zombie_biting08D457EC4AF69C1691FA7EB7B6752CE4.tmp' to '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie_biting.uasset'
+[2018.02.15-21.41.50:422][222]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie_biting.uasset
+[2018.02.15-21.41.50:910][222]LogSavePackage: Save=151.10ms
+[2018.02.15-21.41.50:910][222]LogSavePackage: Moving '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/zombie_crawl977D06814A8FE8605191D5979BB6FB72.tmp' to '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie_crawl.uasset'
+[2018.02.15-21.41.50:983][222]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie_crawl.uasset
+[2018.02.15-21.41.51:427][222]LogSavePackage: Save=106.43ms
+[2018.02.15-21.41.51:434][222]LogSavePackage: Moving '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/zombie_death192C9AF749A898521ABE5D9BCB9A6E58.tmp' to '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie_death.uasset'
+[2018.02.15-21.41.51:508][222]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie_death.uasset
+[2018.02.15-21.41.52:067][222]LogSavePackage: Save=109.16ms
+[2018.02.15-21.41.52:067][222]LogSavePackage: Moving '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/zombie_dying54980CC042E0E8FBCAD89EAF5D46ED32.tmp' to '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie_dying.uasset'
+[2018.02.15-21.41.52:161][222]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie_dying.uasset
+[2018.02.15-21.41.52:642][222]LogSavePackage: Save=134.97ms
+[2018.02.15-21.41.52:642][222]LogSavePackage: Moving '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/zombie_idle73B2BC4848CCF914448564ADA655E9A8.tmp' to '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie_idle.uasset'
+[2018.02.15-21.41.52:708][222]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie_idle.uasset
+[2018.02.15-21.41.53:144][222]LogSavePackage: Save=112.38ms
+[2018.02.15-21.41.53:150][222]LogSavePackage: Moving '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/zombie_neck_biteA4B39A2D4AEC1B77CBE14889592698A4.tmp' to '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie_neck_bite.uasset'
+[2018.02.15-21.41.53:264][222]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie_neck_bite.uasset
+[2018.02.15-21.41.53:707][222]LogSavePackage: Save=98.53ms
+[2018.02.15-21.41.53:707][222]LogSavePackage: Moving '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/zombie_run2A3D8E034EBCD93B6E0D6DAA3AD08DE0.tmp' to '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie_run.uasset'
+[2018.02.15-21.41.53:775][222]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie_run.uasset
+[2018.02.15-21.41.54:223][222]LogSavePackage: Save=124.68ms
+[2018.02.15-21.41.54:227][222]LogSavePackage: Moving '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/zombie_screamD32F90C04DF53D17FD3E4A9097A7D5C9.tmp' to '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie_scream.uasset'
+[2018.02.15-21.41.54:304][222]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie_scream.uasset
+[2018.02.15-21.41.54:771][222]LogSavePackage: Save=89.85ms
+[2018.02.15-21.41.54:771][222]LogSavePackage: Moving '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/zombie_walk23DC63C64FA1B60DACA12791DED5FBDA.tmp' to '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie_walk.uasset'
+[2018.02.15-21.41.54:844][222]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie_walk.uasset
+[2018.02.15-21.41.57:982][232]AssetReimport: Info Reimported asset Zombie_Running from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/Zombie Running.fbx.
+[2018.02.15-21.41.57:982][232]AssetReimport: Info Reimported asset running_crawl from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/running crawl.fbx.
+[2018.02.15-21.41.57:982][232]AssetReimport: Info Reimported asset zombie_attack from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie attack.fbx.
+[2018.02.15-21.41.57:982][232]AssetReimport: Info Reimported asset zombie_biting__2_ from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie biting (2).fbx.
+[2018.02.15-21.41.57:982][232]AssetReimport: Info Reimported asset zombie_biting from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie biting.fbx.
+[2018.02.15-21.41.57:982][232]AssetReimport: Info Reimported asset zombie_crawl from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie crawl.fbx.
+[2018.02.15-21.41.57:983][232]AssetReimport: Info Reimported asset zombie_death from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie death.fbx.
+[2018.02.15-21.41.57:983][232]AssetReimport: Info Reimported asset zombie_dying from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie dying.fbx.
+[2018.02.15-21.41.57:983][232]AssetReimport: Info Reimported asset zombie_idle from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie idle.fbx.
+[2018.02.15-21.41.57:983][232]AssetReimport: Info Reimported asset zombie_neck_bite from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie neck bite.fbx.
+[2018.02.15-21.41.57:983][232]AssetReimport: Info Reimported asset zombie_run from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie run.fbx.
+[2018.02.15-21.41.57:983][232]AssetReimport: Info Reimported asset zombie_scream from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie scream.fbx.
+[2018.02.15-21.41.57:983][232]AssetReimport: Info Reimported asset zombie_walk from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/zombies_models/animations/zombie walk.fbx.
+[2018.02.15-21.45.26:082][989]Cmd: QUIT_EDITOR
+[2018.02.15-21.45.26:592][989]LogExit: Preparing to exit.
+[2018.02.15-21.45.27:948][989]LogDirectoryWatcher: A directory notification for 'C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/' was aborted.
+[2018.02.15-21.45.28:123][989]LogExit: Editor shut down
+[2018.02.15-21.45.28:133][989]LogExit: Transaction tracking system shut down
+[2018.02.15-21.45.29:423][989]LogObj: Freed 0b from 0 cluster array pools.
+[2018.02.15-21.45.29:423][989]LogExit: Object subsystem successfully closed.
+[2018.02.15-21.45.29:671][989]LogD3D11RHI: Shutdown
+[2018.02.15-21.45.29:671][989]LogD3D11RHI: CleanupD3DDevice
+[2018.02.15-21.45.29:884][989]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.02.15-21.45.30:476][989]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.02.15-21.45.30:476][989]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.02.15-21.45.30:476][989]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.02.15-21.45.30:476][989]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.02.15-21.45.30:476][989]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.02.15-21.45.30:479][989]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.02.15-21.45.30:479][989]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.02.15-21.45.30:479][989]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.02.15-21.45.30:479][989]LogDirectoryWatcher: A directory notification for 'C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/Collections/' was aborted.
+[2018.02.15-21.45.30:479][989]LogDirectoryWatcher: A directory notification for 'C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/Developers/MattParker/Collections/' was aborted.
+[2018.02.15-21.45.30:479][989]LogDirectoryWatcher: A directory notification for 'C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/Collections/' was aborted.
+[2018.02.15-21.45.30:479][989]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.02.15-21.45.30:479][989]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.02.15-21.45.30:479][989]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.02.15-21.45.30:486][989]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.02.15-21.45.30:486][989]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.02.15-21.45.30:486][989]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.02.15-21.45.30:486][989]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.02.15-21.45.30:486][989]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.02.15-21.45.30:486][989]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.02.15-21.45.30:486][989]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.02.15-21.45.30:487][989]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.02.15-21.45.30:487][989]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.02.15-21.45.30:487][989]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.02.15-21.45.30:487][989]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.02.15-21.45.30:525][989]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.02.15-21.45.30:525][989]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.02.15-21.45.30:525][989]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.02.15-21.45.30:525][989]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.02.15-21.45.30:525][989]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.02.15-21.45.30:525][989]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.02.15-21.45.30:525][989]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.02.15-21.45.30:525][989]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.02.15-21.45.30:525][989]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.02.15-21.45.30:525][989]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.02.15-21.45.30:525][989]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.02.15-21.45.30:534][989]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.02.15-21.45.30:534][989]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.02.15-21.45.30:534][989]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.02.15-21.45.30:535][989]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.02.15-21.45.30:535][989]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.02.15-21.45.30:583][989]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.02.15-21.45.30:596][989]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.02.15-21.45.30:596][989]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.02.15-21.45.30:619][989]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.02.15-21.45.30:619][989]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.02.15-21.45.30:631][989]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.02.15-21.45.30:631][989]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.02.15-21.45.30:631][989]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.02.15-21.45.30:683][989]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.02.15-21.45.30:683][989]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.02.15-21.45.30:683][989]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.02.15-21.45.30:694][989]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.02.15-21.45.30:700][989]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.02.15-21.45.30:700][989]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.02.15-21.45.30:714][989]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.02.15-21.45.30:714][989]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.02.15-21.45.30:733][989]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.02.15-21.45.30:733][989]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.02.15-21.45.30:733][989]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.02.15-21.45.30:747][989]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.02.15-21.45.30:747][989]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.02.15-21.45.30:747][989]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.02.15-21.45.30:747][989]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.02.15-21.45.30:747][989]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.02.15-21.45.30:747][989]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.02.15-21.45.30:747][989]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.02.15-21.45.30:747][989]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.02.15-21.45.30:747][989]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.02.15-21.45.30:784][989]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.02.15-21.45.30:789][989]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.02.15-21.45.30:789][989]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.02.15-21.45.30:803][989]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.02.15-21.45.30:853][989]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.02.15-21.45.30:853][989]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.02.15-21.45.30:913][989]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.02.15-21.45.30:934][989]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.02.15-21.45.30:934][989]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.02.15-21.45.30:942][989]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.02.15-21.45.30:943][989]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.02.15-21.45.30:957][989]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.02.15-21.45.30:957][989]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.02.15-21.45.30:957][989]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.02.15-21.45.30:960][989]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.02.15-21.45.30:960][989]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.02.15-21.45.30:960][989]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.02.15-21.45.30:965][989]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.02.15-21.45.30:982][989]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.02.15-21.45.30:982][989]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.02.15-21.45.31:007][989]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.02.15-21.45.31:007][989]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.02.15-21.45.31:007][989]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.02.15-21.45.31:007][989]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.02.15-21.45.31:007][989]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.02.15-21.45.31:026][989]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.02.15-21.45.31:026][989]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.02.15-21.45.31:026][989]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.02.15-21.45.31:026][989]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.02.15-21.45.31:026][989]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.02.15-21.45.31:026][989]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.02.15-21.45.31:048][989]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.02.15-21.45.31:048][989]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.02.15-21.45.31:048][989]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.02.15-21.45.31:240][989]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.02.15-21.45.31:257][989]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.02.15-21.45.31:257][989]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.02.15-21.45.31:257][989]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.02.15-21.45.31:257][989]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.02.15-21.45.31:257][989]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.02.15-21.45.31:257][989]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.02.15-21.45.31:257][989]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.02.15-21.45.31:257][989]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.02.15-21.45.31:257][989]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.02.15-21.45.31:257][989]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.02.15-21.45.31:257][989]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.02.15-21.45.31:257][989]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.02.15-21.45.31:273][989]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.02.15-21.45.31:273][989]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.02.15-21.45.31:273][989]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.02.15-21.45.31:273][989]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.02.15-21.45.31:273][989]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.02.15-21.45.31:273][989]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.02.15-21.45.31:273][989]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.02.15-21.45.31:273][989]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.02.15-21.45.31:273][989]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.02.15-21.45.31:273][989]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.02.15-21.45.31:273][989]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.02.15-21.45.31:273][989]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.02.15-21.45.31:273][989]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.02.15-21.45.31:273][989]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.02.15-21.45.31:273][989]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.02.15-21.45.31:274][989]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.02.15-21.45.31:274][989]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.02.15-21.45.31:274][989]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.02.15-21.45.31:274][989]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.02.15-21.45.31:274][989]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.02.15-21.45.31:274][989]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.02.15-21.45.31:274][989]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.02.15-21.45.31:274][989]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.02.15-21.45.31:275][989]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.02.15-21.45.31:275][989]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.02.15-21.45.31:276][989]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.02.15-21.45.31:277][989]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.02.15-21.45.31:277][989]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.02.15-21.45.31:278][989]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.02.15-21.45.31:278][989]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.02.15-21.45.31:278][989]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.02.15-21.45.31:278][989]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.02.15-21.45.31:378][989]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.02.15-21.45.31:478][989]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.02.15-21.45.31:487][989]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.02.15-21.45.31:487][989]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.02.15-21.45.31:487][989]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.02.15-21.45.31:499][989]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.02.15-21.45.31:572][989]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.02.15-21.45.31:575][989]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.02.15-21.45.31:575][989]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.02.15-21.45.31:591][989]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.02.15-21.45.31:591][989]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.02.15-21.45.31:614][989]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.02.15-21.45.31:615][989]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.02.15-21.45.31:615][989]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.02.15-21.45.31:615][989]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.02.15-21.45.31:616][989]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.02.15-21.45.31:616][989]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.02.15-21.45.31:637][989]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.02.15-21.45.31:637][989]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.02.15-21.45.31:659][989]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.02.15-21.45.31:659][989]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.02.15-21.45.31:666][989]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.02.15-21.45.31:687][989]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.02.15-21.45.31:700][989]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.02.15-21.45.31:718][989]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.02.15-21.45.31:772][989]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.02.15-21.45.31:772][989]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.02.15-21.45.31:773][989]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.02.15-21.45.31:788][989]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.02.15-21.45.31:789][989]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.02.15-21.45.31:795][989]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.02.15-21.45.31:795][989]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.02.15-21.45.31:795][989]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.02.15-21.45.31:795][989]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.02.15-21.45.31:795][989]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.02.15-21.45.31:795][989]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.02.15-21.45.31:966][989]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.02.15-21.45.31:966][989]LogDirectoryWatcher: A directory notification for '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/' was aborted.
+[2018.02.15-21.45.31:966][989]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.02.15-21.45.31:967][989]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.02.15-21.45.31:978][989]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.02.15-21.45.31:979][989]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.02.15-21.45.31:979][989]LogModuleManager: Shutting down and abandoning module PhysXFormats (156)
+[2018.02.15-21.45.31:979][989]LogModuleManager: Shutting down and abandoning module MeshUtilities (154)
+[2018.02.15-21.45.31:979][989]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (153)
+[2018.02.15-21.45.31:979][989]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (151)
+[2018.02.15-21.45.31:979][989]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (149)
+[2018.02.15-21.45.31:979][989]LogModuleManager: Shutting down and abandoning module LevelSequence (146)
+[2018.02.15-21.45.31:979][989]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.02.15-21.45.32:005][989]LogDerivedDataCache: Shutdown
+[2018.02.15-21.45.32:005][989]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.02.15-21.45.32:005][989]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.02.15-21.45.32:005][989]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.02.15-21.45.32:005][989]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.02.15-21.45.32:029][989]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.02.15-21.45.32:029][989]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.02.15-21.45.32:042][989]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.02.15-21.45.32:042][989]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.02.15-21.45.32:042][989]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.02.15-21.45.32:042][989]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.02.15-21.45.32:066][989]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.02.15-21.45.32:066][989]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.02.15-21.45.32:066][989]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.02.15-21.45.32:066][989]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.02.15-21.45.32:066][989]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.02.15-21.45.32:066][989]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.02.15-21.45.32:066][989]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.02.15-21.45.32:066][989]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.02.15-21.45.32:066][989]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.02.15-21.45.32:066][989]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.02.15-21.45.32:066][989]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.02.15-21.45.32:066][989]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.02.15-21.45.32:066][989]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.02.15-21.45.32:066][989]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.02.15-21.45.32:066][989]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.02.15-21.45.32:067][989]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.02.15-21.45.32:067][989]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.02.15-21.45.32:067][989]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.02.15-21.45.32:092][989]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.02.15-21.45.32:123][989]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.02.15-21.45.32:158][989]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.02.15-21.45.32:158][989]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.02.15-21.45.32:170][989]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.02.15-21.45.32:170][989]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.02.15-21.45.32:170][989]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.02.15-21.45.32:170][989]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.02.15-21.45.32:170][989]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.02.15-21.45.32:170][989]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.02.15-21.45.32:170][989]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.02.15-21.45.32:170][989]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.02.15-21.45.32:170][989]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.02.15-21.45.32:170][989]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.02.15-21.45.32:170][989]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.02.15-21.45.32:170][989]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.02.15-21.45.32:184][989]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.02.15-21.45.32:184][989]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.02.15-21.45.32:199][989]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.02.15-21.45.32:199][989]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.02.15-21.45.32:199][989]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.02.15-21.45.32:199][989]LogOnline:Display: Unloading online subsystem: NULL
+[2018.02.15-21.45.32:221][989]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.02.15-21.45.32:245][989]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.02.15-21.45.32:245][989]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.02.15-21.45.32:246][989]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B69AB3C26-4A0C-DDD2-9A7F-55ADD4C708CE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=a3d1758f4bf4d33d13226395187d9eb8%7C5fb228d513ee4f55baa51f6902e00119%7C67fbbe6e-2ff9-4e53-82fd-aeeb4aeae68b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.02.15-21.45.32:273][989]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.02.15-21.45.32:307][989]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.02.15-21.45.32:326][989]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.02.15-21.45.32:357][989]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.02.15-21.45.32:357][989]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.02.15-21.45.32:370][989]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.02.15-21.45.32:371][989]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.02.15-21.45.32:371][989]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.02.15-21.45.32:371][989]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.02.15-21.45.32:394][989]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.02.15-21.45.32:457][989]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.02.15-21.45.32:457][989]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.02.15-21.45.32:472][989]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.02.15-21.45.32:472][989]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.02.15-21.45.32:472][989]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.02.15-21.45.32:472][989]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.02.15-21.45.32:492][989]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.02.15-21.45.32:505][989]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.02.15-21.45.32:505][989]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.02.15-21.45.32:523][989]LogExit: Exiting.
+[2018.02.15-21.45.32:571][989]Log file closed, 02/15/18 21:45:32
