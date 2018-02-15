@@ -1,0 +1,448 @@
+﻿Log file open, 02/14/18 23:02:36
+LogInit:Display: Running engine for game: Survival
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(2026271520) SRandInit(2026271520).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.218190
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.14-23.02.38:109][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.14-23.02.38:109][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.14-23.02.38:361][  0]LogInit: Computer: MATTPC
+[2018.02.14-23.02.38:361][  0]LogInit: User: MattParker
+[2018.02.14-23.02.38:361][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.14-23.02.38:361][  0]LogInit: High frequency timer resolution =2.143632 MHz
+[2018.02.14-23.02.38:361][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.02.14-23.02.38:361][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.14-23.02.38:361][  0]LogMemory: Process Physical Memory: 276.05 MB used, 276.05 MB peak
+[2018.02.14-23.02.38:361][  0]LogMemory: Process Virtual Memory: 264.46 MB used, 264.46 MB peak
+[2018.02.14-23.02.38:361][  0]LogMemory: Physical Memory: 5241.49 MB used,  2861.63 MB free, 8103.12 MB total
+[2018.02.14-23.02.38:361][  0]LogMemory: Virtual Memory: 619.11 MB used,  2861.63 MB free, 8388608.00 MB total
+[2018.02.14-23.02.38:713][  0]LogInit: Using OS detected language (en-GB).
+[2018.02.14-23.02.38:713][  0]LogInit: Using OS detected locale (en-GB).
+[2018.02.14-23.02.38:830][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.02.14-23.02.48:658][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.14-23.02.48:743][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 540M' (Feature Level 11_0)
+[2018.02.14-23.02.48:743][  0]LogD3D11RHI:       1999/0/3795 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.14-23.02.48:782][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GT 540M' (Feature Level 11_0)
+[2018.02.14-23.02.48:782][  0]LogD3D11RHI:       1999/0/3795 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2018.02.14-23.02.48:782][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.14-23.02.48:803][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.14-23.02.48:803][  0]LogD3D11RHI:     GPU DeviceId: 0xdf4 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.14-23.02.48:803][  0]LogWindows: EnumDisplayDevices:
+[2018.02.14-23.02.48:804][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2018.02.14-23.02.48:805][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2018.02.14-23.02.48:805][  0]LogWindows:    2. 'NVIDIA GeForce GT 540M' (P:0 D:0)
+[2018.02.14-23.02.48:806][  0]LogWindows:    3. 'RDPDD Chained DD' (P:0 D:0)
+[2018.02.14-23.02.48:806][  0]LogWindows:    4. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.02.14-23.02.48:807][  0]LogWindows:    5. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.02.14-23.02.48:807][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter 
+[2018.02.14-23.02.48:807][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 540M
+[2018.02.14-23.02.48:807][  0]LogD3D11RHI:   Driver Version: 376.54 (internal:21.21.13.7654, unified:376.54)
+[2018.02.14-23.02.48:807][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2018.02.14-23.02.48:807][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.14-23.02.48:845][  0]LogD3D11RHI:Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2018.02.14-23.02.48:845][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.14-23.02.48:870][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.02.14-23.02.48:873][  0]LogShaderCompilers: Guid format shader working directory is -69 characters bigger than the processId version (../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Intermediate/Shaders/WorkingDirectory/11048/).
+[2018.02.14-23.02.48:874][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MattParker/AppData/Local/Temp/UnrealShaderWorkingDir/6BDAB8E943EC8A945D0CB58B7C5C148E/'.
+[2018.02.14-23.02.48:874][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.02.14-23.02.53:655][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.14-23.02.53:892][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.02.14-23.02.54:269][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.14-23.02.54:506][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.02.14-23.02.54:751][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.02.14-23.02.54:971][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.14-23.02.55:196][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.14-23.02.55:431][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.14-23.02.55:630][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.02.14-23.02.55:882][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.02.14-23.02.56:106][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.14-23.02.56:330][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.14-23.02.56:564][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.14-23.02.56:790][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.14-23.02.57:010][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.14-23.02.57:455][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.14-23.02.57:455][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.14-23.02.57:645][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.02.14-23.02.58:037][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.02.14-23.02.58:140][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.02.14-23.02.58:366][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.14-23.02.58:578][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.14-23.02.58:805][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.14-23.02.59:099][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.02.14-23.02.59:100][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.02.14-23.03.01:123][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.02.14-23.03.01:566][  0]LogDerivedDataCache: Loaded boot cache 0.44s 90MB C:/Users/MattParker/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.14-23.03.01:566][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/MattParker/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.02.14-23.03.01:567][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.14-23.03.01:567][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.14-23.03.01:567][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.14-23.03.01:567][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.14-23.03.01:634][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.14-23.03.01:664][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MattParker/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.14-23.03.01:694][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.14-23.03.01:695][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.14-23.03.01:722][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.14-23.03.01:722][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.14-23.03.04:701][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.14-23.03.04:713][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.14-23.03.05:635][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.14-23.03.05:843][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.14-23.03.06:078][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.14-23.03.06:078][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.02.14-23.03.06:078][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.02.14-23.03.08:218][  0]LogNetVersion: Survival , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3038584403)
+[2018.02.14-23.03.08:379][  0]LogAssetRegistry: FAssetRegistry took 0.0353 seconds to start up
+[2018.02.14-23.03.09:196][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.739067 seconds
+[2018.02.14-23.03.09:211][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.02.14-23.03.09:211][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.02.14-23.03.09:211][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.14-23.03.09:454][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.14-23.04.20:257][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.14-23.04.20:336][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.14-23.04.22:518][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.14-23.04.23:670][  0]SourceControl: Info Source control is disabled
+[2018.02.14-23.04.23:673][  0]SourceControl: Info Source control is disabled
+[2018.02.14-23.04.23:821][  0]SourceControl: Info Source control is disabled
+[2018.02.14-23.04.23:963][  0]SourceControl: Info Source control is disabled
+[2018.02.14-23.04.26:677][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.14-23.04.29:463][  0]LogEngine: Initializing Engine...
+[2018.02.14-23.04.29:466][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.14-23.04.30:129][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.14-23.04.30:129][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.14-23.04.30:851][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.14-23.04.30:893][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-23.04.30:935][  0]LogInit: FAudioDevice initialized.
+[2018.02.14-23.04.31:099][  0]LogDerivedDataCache: Saved boot cache 0.16s 90MB C:/Users/MattParker/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.14-23.04.31:150][  0]LogInit: Texture streaming: Enabled
+[2018.02.14-23.04.31:554][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.14-23.04.33:254][  0]LogInit: Transaction tracking system initialized
+[2018.02.14-23.04.34:790][  0]BlueprintLog: New page: Editor Load
+[2018.02.14-23.04.39:372][  0]LocalizationService: Info Localization service is disabled
+[2018.02.14-23.04.43:805][  0]LogConsoleResponse:Display: 
+[2018.02.14-23.04.44:554][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.14-23.04.44:555][  0]LogCook:Display: Mobile HDR setting 1
+[2018.02.14-23.04.45:159][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/' took 0.04s
+[2018.02.14-23.04.57:973][  0]SourceControl: Info Source control is disabled
+[2018.02.14-23.04.58:002][  0]LightingResults: New page: Lighting Build
+[2018.02.14-23.04.58:196][  0]MapCheck: New page: Map Check
+[2018.02.14-23.04.58:196][  0]LightingResults: New page: Lighting Build
+[2018.02.14-23.05.01:560][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.14-23.05.01:971][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.14-23.05.02:025][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.14-23.05.02:200][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 174.853ms to complete.
+[2018.02.14-23.05.02:201][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 4.227
+[2018.02.14-23.05.03:281][  0]LogCollectionManager: Loaded 0 collections in 0.005378 seconds
+[2018.02.14-23.05.03:960][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/Collections/' took 0.02s
+[2018.02.14-23.05.03:960][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/Developers/MattParker/Collections/' took 0.01s
+[2018.02.14-23.05.03:960][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/Collections/' took 0.01s
+[2018.02.14-23.05.03:960][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000018 seconds
+[2018.02.14-23.05.04:006][  0]LogContentBrowser: Native class hierarchy populated in 0.0336 seconds. Added 2329 classes and 491 folders.
+[2018.02.14-23.05.04:338][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2018.02.14-23.05.04:830][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0037 seconds. Added 0 classes and 0 folders.
+[2018.02.14-23.05.05:308][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0029 seconds. Added 1 classes and 2 folders.
+[2018.02.14-23.05.06:962][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.02.14-23.05.07:117][  0]LogSlate: Took 0.021475 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.14-23.05.07:158][  0]LogSlate: Took 0.032888 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.14-23.05.07:251][  0]LogSlate: Took 0.027909 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.14-23.05.07:939][  0]LogRenderer: Reallocating scene render targets to support 1004x456 NumSamples 1 (Frame:1).
+[2018.02.14-23.05.10:246][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2018.02.14-23.05.10:247][  0]LogLoad: (Engine Initialization) Total time: 162.04 seconds
+[2018.02.14-23.05.10:247][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.21 seconds
+[2018.02.14-23.05.10:247][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.14-23.05.10:270][  0]LogOcInput: OculusInput pre-init called
+[2018.02.14-23.05.10:270][  0]LogHMD: Starting GearVRController plugin
+[2018.02.14-23.05.10:373][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.14-23.05.10:720][  0]LogSlate: Took 0.067074 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.14-23.05.11:369][  4]LogAssetRegistry: Asset discovery search completed in 123.0091 seconds
+[2018.02.14-23.05.11:377][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.02.14-23.05.11:377][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000091 seconds (updated 0 objects)
+[2018.02.14-23.05.13:360][ 43]LogSlate: Took 0.000832 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.14-23.05.15:837][111]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/' took 5.55s
+[2018.02.14-23.05.18:846][175]AssetReimport: New page: Outstanding source content changes 23:05:18
+[2018.02.14-23.05.18:892][175]LogFactory: FactoryCreateFile: World with FbxSceneImportFactory (0 0 C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/Models/oil_tank_1_(high).obj)
+[2018.02.14-23.05.18:925][175]LogFbx: Loading FBX Scene from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/Models/oil_tank_1_(high).obj
+[2018.02.14-23.05.19:051][175]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.14-23.05.19:064][175]LogFbx: =================================================
+[2018.02.14-23.05.19:064][175]LogFbx: Dumping Node START [Cylinder002] 
+[2018.02.14-23.05.19:064][175]LogFbx: 	Total Deformer Count 1015838464.
+[2018.02.14-23.05.19:064][175]LogFbx: 	Attribute () Type (4).
+[2018.02.14-23.05.19:065][175]LogFbx: 		[Node Attribute Child 1] Cylinder002 (Type Mesh).
+[2018.02.14-23.05.19:065][175]LogFbx: Dumping Node END [Cylinder002]
+[2018.02.14-23.05.19:065][175]LogFbx: =================================================
+[2018.02.14-23.05.19:065][175]LogFbx: Dumping Node START [oil_tank_006] 
+[2018.02.14-23.05.19:065][175]LogFbx: 	Total Deformer Count 1015624176.
+[2018.02.14-23.05.19:065][175]LogFbx: 	Attribute () Type (4).
+[2018.02.14-23.05.19:065][175]LogFbx: 		[Node Attribute Child 1] oil_tank_006 (Type Mesh).
+[2018.02.14-23.05.19:065][175]LogFbx: Dumping Node END [oil_tank_006]
+[2018.02.14-23.05.19:065][175]LogFbx: =================================================
+[2018.02.14-23.05.19:065][175]LogFbx: Dumping Node START [Cylinder002] 
+[2018.02.14-23.05.19:065][175]LogFbx: 	Total Deformer Count 1015838464.
+[2018.02.14-23.05.19:065][175]LogFbx: 	Attribute () Type (4).
+[2018.02.14-23.05.19:065][175]LogFbx: 		[Node Attribute Child 1] Cylinder002 (Type Mesh).
+[2018.02.14-23.05.19:065][175]LogFbx: Dumping Node END [Cylinder002]
+[2018.02.14-23.05.19:065][175]LogFbx: =================================================
+[2018.02.14-23.05.19:065][175]LogFbx: Dumping Node START [oil_tank_006] 
+[2018.02.14-23.05.19:065][175]LogFbx: 	Total Deformer Count 1015624496.
+[2018.02.14-23.05.19:065][175]LogFbx: 	Attribute () Type (4).
+[2018.02.14-23.05.19:065][175]LogFbx: 		[Node Attribute Child 1] oil_tank_006 (Type Mesh).
+[2018.02.14-23.05.19:065][175]LogFbx: Dumping Node END [oil_tank_006]
+[2018.02.14-23.05.19:065][175]LogFbx: =================================================
+[2018.02.14-23.05.19:065][175]LogFbx: Dumping Node START [Cylinder002] 
+[2018.02.14-23.05.19:065][175]LogFbx: 	Total Deformer Count 1015838464.
+[2018.02.14-23.05.19:065][175]LogFbx: 	Attribute () Type (4).
+[2018.02.14-23.05.19:065][175]LogFbx: 		[Node Attribute Child 1] Cylinder002 (Type Mesh).
+[2018.02.14-23.05.19:065][175]LogFbx: Dumping Node END [Cylinder002]
+[2018.02.14-23.05.19:065][175]LogFbx: =================================================
+[2018.02.14-23.05.19:065][175]LogFbx: Dumping Node START [oil_tank_006] 
+[2018.02.14-23.05.19:065][175]LogFbx: 	Total Deformer Count 1015624816.
+[2018.02.14-23.05.19:066][175]LogFbx: 	Attribute () Type (4).
+[2018.02.14-23.05.19:066][175]LogFbx: 		[Node Attribute Child 1] oil_tank_006 (Type Mesh).
+[2018.02.14-23.05.19:066][175]LogFbx: Dumping Node END [oil_tank_006]
+[2018.02.14-23.05.28:310][175]LogFbx: =================================================
+[2018.02.14-23.05.28:310][175]LogFbx: Dumping Node START [Cylinder002] 
+[2018.02.14-23.05.28:310][175]LogFbx: 	Total Deformer Count 1571401472.
+[2018.02.14-23.05.28:310][175]LogFbx: 	Attribute () Type (4).
+[2018.02.14-23.05.28:310][175]LogFbx: 		[Node Attribute Child 1] Cylinder002 (Type Mesh).
+[2018.02.14-23.05.28:310][175]LogFbx: Dumping Node END [Cylinder002]
+[2018.02.14-23.05.28:310][175]LogFbx: =================================================
+[2018.02.14-23.05.28:310][175]LogFbx: Dumping Node START [oil_tank_006] 
+[2018.02.14-23.05.28:310][175]LogFbx: 	Total Deformer Count 677830608.
+[2018.02.14-23.05.28:310][175]LogFbx: 	Attribute () Type (4).
+[2018.02.14-23.05.28:310][175]LogFbx: 		[Node Attribute Child 1] oil_tank_006 (Type Mesh).
+[2018.02.14-23.05.28:310][175]LogFbx: Dumping Node END [oil_tank_006]
+[2018.02.14-23.05.28:310][175]LogFbx: =================================================
+[2018.02.14-23.05.28:310][175]LogFbx: Dumping Node START [Cylinder002] 
+[2018.02.14-23.05.28:310][175]LogFbx: 	Total Deformer Count 1571401472.
+[2018.02.14-23.05.28:310][175]LogFbx: 	Attribute () Type (4).
+[2018.02.14-23.05.28:310][175]LogFbx: 		[Node Attribute Child 1] Cylinder002 (Type Mesh).
+[2018.02.14-23.05.28:310][175]LogFbx: Dumping Node END [Cylinder002]
+[2018.02.14-23.05.28:310][175]LogFbx: =================================================
+[2018.02.14-23.05.28:310][175]LogFbx: Dumping Node START [oil_tank_006] 
+[2018.02.14-23.05.28:310][175]LogFbx: 	Total Deformer Count 677828368.
+[2018.02.14-23.05.28:310][175]LogFbx: 	Attribute () Type (4).
+[2018.02.14-23.05.28:310][175]LogFbx: 		[Node Attribute Child 1] oil_tank_006 (Type Mesh).
+[2018.02.14-23.05.28:310][175]LogFbx: Dumping Node END [oil_tank_006]
+[2018.02.14-23.05.28:310][175]LogFbx: =================================================
+[2018.02.14-23.05.28:310][175]LogFbx: Dumping Node START [Cylinder002] 
+[2018.02.14-23.05.28:310][175]LogFbx: 	Total Deformer Count 1571401472.
+[2018.02.14-23.05.28:310][175]LogFbx: 	Attribute () Type (4).
+[2018.02.14-23.05.28:310][175]LogFbx: 		[Node Attribute Child 1] Cylinder002 (Type Mesh).
+[2018.02.14-23.05.28:310][175]LogFbx: Dumping Node END [Cylinder002]
+[2018.02.14-23.05.28:310][175]LogFbx: =================================================
+[2018.02.14-23.05.28:310][175]LogFbx: Dumping Node START [oil_tank_006] 
+[2018.02.14-23.05.28:310][175]LogFbx: 	Total Deformer Count 677828608.
+[2018.02.14-23.05.28:310][175]LogFbx: 	Attribute () Type (4).
+[2018.02.14-23.05.28:310][175]LogFbx: 		[Node Attribute Child 1] oil_tank_006 (Type Mesh).
+[2018.02.14-23.05.28:310][175]LogFbx: Dumping Node END [oil_tank_006]
+[2018.02.14-23.05.28:350][175]LogLinker: Can't find file '/Game/Models/Cylinder002Mat'
+[2018.02.14-23.05.28:350][175]LogLinker: Can't find file '/Game/Models/Cylinder002Mat'
+[2018.02.14-23.05.28:441][175]LogMaterial: Missing cached shader map for material Cylinder002Mat, compiling. 
+[2018.02.14-23.05.28:776][175]LogStaticMesh: Building static mesh Cylinder002...
+[2018.02.14-23.05.28:816][175]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.02.14-23.05.28:864][175]LogStaticMesh: Built static mesh [0.19s] /Game/Models/Cylinder002.Cylinder002
+[2018.02.14-23.05.29:249][175]LogLinker: Can't find file '/Game/Models/oil_tank_006Mat'
+[2018.02.14-23.05.29:250][175]LogLinker: Can't find file '/Game/Models/oil_tank_006Mat'
+[2018.02.14-23.05.29:353][175]LogMaterial: Missing cached shader map for material oil_tank_006Mat, compiling. 
+[2018.02.14-23.05.31:075][175]LogStaticMesh: Building static mesh oil_tank_006...
+[2018.02.14-23.05.31:096][175]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.02.14-23.05.31:300][175]LogStaticMesh: Built static mesh [0.24s] /Game/Models/oil_tank_006.oil_tank_006
+[2018.02.14-23.05.35:364][175]LogMaterial: Missing cached shader map for material Sphere001Mat, compiling. 
+[2018.02.14-23.05.35:521][175]LogStaticMesh: Building static mesh Sphere001...
+[2018.02.14-23.05.35:522][175]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.02.14-23.05.35:548][175]LogStaticMesh: Built static mesh [0.09s] /Game/Models/Material/Sphere001.Sphere001
+[2018.02.14-23.05.35:661][175]LogStaticMesh: Building static mesh Cylinder001...
+[2018.02.14-23.05.35:662][175]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.02.14-23.05.35:691][175]LogStaticMesh: Built static mesh [0.05s] /Game/Models/Material/Cylinder001.Cylinder001
+[2018.02.14-23.05.35:781][175]LogMaterial: Missing cached shader map for material Cylinder001Mat, compiling. 
+[2018.02.14-23.05.35:933][175]LogStaticMesh: Building static mesh oil_tank_...
+[2018.02.14-23.05.35:936][175]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.02.14-23.05.35:967][175]LogStaticMesh: Built static mesh [0.08s] /Game/Models/oil_tank_.oil_tank_
+[2018.02.14-23.05.36:118][175]LogMaterial: Missing cached shader map for material oil_tank_Mat, compiling. 
+[2018.02.14-23.05.38:924][175]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0037 seconds. Added 112 classes and 0 folders.
+[2018.02.14-23.05.39:938][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Enemy_CreatureSpider2_Animation/ExoGame_Spider_Attack_Melee.ExoGame_Spider_Attack_Melee
+[2018.02.14-23.05.40:020][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Enemy_CreatureSpider2_Animation/ExoGame_Spider_Ceiling_Drop_Start.ExoGame_Spider_Ceiling_Drop_Start
+[2018.02.14-23.05.40:085][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Enemy_CreatureSpider2_Animation/ExoGame_Spider_Death.ExoGame_Spider_Death
+[2018.02.14-23.05.40:139][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Enemy_CreatureSpider2_Animation/ExoGame_Spider_Death_Curled.ExoGame_Spider_Death_Curled
+[2018.02.14-23.05.40:238][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Enemy_CreatureSpider2_Animation/ExoGame_Spider_Falling.ExoGame_Spider_Falling
+[2018.02.14-23.05.40:314][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Enemy_CreatureSpider2_Animation/ExoGame_Spider_Hatch.ExoGame_Spider_Hatch
+[2018.02.14-23.05.40:363][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Enemy_CreatureSpider2_Animation/ExoGame_Spider_Idle.ExoGame_Spider_Idle
+[2018.02.14-23.05.40:415][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Enemy_CreatureSpider2_Animation/ExoGame_Spider_Intro_ClimbUp.ExoGame_Spider_Intro_ClimbUp
+[2018.02.14-23.05.40:522][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Enemy_CreatureSpider2_Animation/ExoGame_Spider_Intro_DropDown.ExoGame_Spider_Intro_DropDown
+[2018.02.14-23.05.40:548][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Enemy_CreatureSpider2_Animation/ExoGame_Spider_Intro_DropDown_B.ExoGame_Spider_Intro_DropDown_B
+[2018.02.14-23.05.40:626][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Enemy_CreatureSpider2_Animation/ExoGame_Spider_Intro_DropDown_C.ExoGame_Spider_Intro_DropDown_C
+[2018.02.14-23.05.40:704][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Enemy_CreatureSpider2_Animation/ExoGame_Spider_React_Heavy_Front.ExoGame_Spider_React_Heavy_Front
+[2018.02.14-23.05.40:747][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Enemy_CreatureSpider2_Animation/ExoGame_Spider_React_Knockback_Front.ExoGame_Spider_React_Knockback_Front
+[2018.02.14-23.05.40:773][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Enemy_CreatureSpider2_Animation/ExoGame_Spider_React_Light_Front.ExoGame_Spider_React_Light_Front
+[2018.02.14-23.05.40:812][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Enemy_CreatureSpider2_Animation/ExoGame_Spider_React_Stunned_Enter.ExoGame_Spider_React_Stunned_Enter
+[2018.02.14-23.05.40:849][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Enemy_CreatureSpider2_Animation/ExoGame_Spider_React_Stunned_Exit.ExoGame_Spider_React_Stunned_Exit
+[2018.02.14-23.05.40:878][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Enemy_CreatureSpider2_Animation/ExoGame_Spider_React_Stunned_Idle.ExoGame_Spider_React_Stunned_Idle
+[2018.02.14-23.05.40:923][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Enemy_CreatureSpider2_Animation/ExoGame_Spider_Spit_AttackV2.ExoGame_Spider_Spit_AttackV2
+[2018.02.14-23.05.40:969][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Enemy_CreatureSpider2_Animation/ExoGame_Spider_TurnLeft_90.ExoGame_Spider_TurnLeft_90
+[2018.02.14-23.05.41:048][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Enemy_CreatureSpider2_Animation/ExoGame_Spider_TurnRight_90.ExoGame_Spider_TurnRight_90
+[2018.02.14-23.05.41:080][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Enemy_CreatureSpider2_Animation/ExoGame_Spider_Walk.ExoGame_Spider_Walk
+[2018.02.14-23.05.41:193][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Enemy_CreatureSpider2_Animation/ExoGame_Spider_Walk_Bwd.ExoGame_Spider_Walk_Bwd
+[2018.02.14-23.05.41:235][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Enemy_CreatureSpider2_Animation/ExoGame_Spider_Walk_Left.ExoGame_Spider_Walk_Left
+[2018.02.14-23.05.41:304][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Enemy_CreatureSpider2_Animation/ExoGame_Spider_Walk_Right.ExoGame_Spider_Walk_Right
+[2018.02.14-23.05.41:340][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Greater_Spider_Boss/Enemy_SpiderBoss_Animation/ExoGame_GreaterSpiderBoss_Dropdown.ExoGame_GreaterSpiderBoss_Dropdown
+[2018.02.14-23.05.41:479][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Greater_Spider_Boss/Enemy_SpiderBoss_Animation/ExoGame_Greater_Spider_Cine_Finale.ExoGame_Greater_Spider_Cine_Finale
+[2018.02.14-23.05.42:008][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Greater_Spider_Boss/Enemy_SpiderBoss_Cine_Animation/ExoGame_GreaterSpiderBoss_Dropdown.ExoGame_GreaterSpiderBoss_Dropdown
+[2018.02.14-23.05.42:133][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Greater_Spider_Boss/Enemy_SpiderBoss_Cine_Animation/ExoGame_Greater_Spider_Cine_Finale.ExoGame_Greater_Spider_Cine_Finale
+[2018.02.14-23.05.42:615][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_Attack_Melee.ExoGame_Greater_Spider_Attack_Melee
+[2018.02.14-23.05.42:765][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_Attack_Melee_B.ExoGame_Greater_Spider_Attack_Melee_B
+[2018.02.14-23.05.42:843][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_Attack_Melee_C.ExoGame_Greater_Spider_Attack_Melee_C
+[2018.02.14-23.05.42:941][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_Cast_Roar.ExoGame_Greater_Spider_Cast_Roar
+[2018.02.14-23.05.43:096][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_Cast_Summon.ExoGame_Greater_Spider_Cast_Summon
+[2018.02.14-23.05.43:269][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_Charge.ExoGame_Greater_Spider_Charge
+[2018.02.14-23.05.43:438][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_Death.ExoGame_Greater_Spider_Death
+[2018.02.14-23.05.43:585][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_Falling.ExoGame_Greater_Spider_Falling
+[2018.02.14-23.05.43:635][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_Idle.ExoGame_Greater_Spider_Idle
+[2018.02.14-23.05.43:792][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_React_Heavy_Front.ExoGame_Greater_Spider_React_Heavy_Front
+[2018.02.14-23.05.43:841][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_React_Knockback_Front.ExoGame_Greater_Spider_React_Knockback_Front
+[2018.02.14-23.05.43:926][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_React_Stunned.ExoGame_Greater_Spider_React_Stunned
+[2018.02.14-23.05.44:171][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_React_Stunned_Enter.ExoGame_Greater_Spider_React_Stunned_Enter
+[2018.02.14-23.05.44:241][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_React_Stunned_Exit.ExoGame_Greater_Spider_React_Stunned_Exit
+[2018.02.14-23.05.44:301][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_React_Stunned_Idle.ExoGame_Greater_Spider_React_Stunned_Idle
+[2018.02.14-23.05.44:442][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_Teleport.ExoGame_Greater_Spider_Teleport
+[2018.02.14-23.05.44:504][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_Walk_Bwd.ExoGame_Greater_Spider_Walk_Bwd
+[2018.02.14-23.05.44:571][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_Walk_Fwd.ExoGame_Greater_Spider_Walk_Fwd
+[2018.02.14-23.05.44:607][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_Walk_Left.ExoGame_Greater_Spider_Walk_Left
+[2018.02.14-23.05.44:688][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Enemy_SpiderGreater_Animation/ExoGame_Greater_Spider_Walk_Right.ExoGame_Greater_Spider_Walk_Right
+[2018.02.14-23.05.44:782][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Wolf/Enemy_Wolf_Armored_Animation/ExoGame_Wolf_Attack_Melee.ExoGame_Wolf_Attack_Melee
+[2018.02.14-23.05.44:938][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Wolf/Enemy_Wolf_Armored_Animation/ExoGame_Wolf_Idle.ExoGame_Wolf_Idle
+[2018.02.14-23.05.45:429][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Wolf/Enemy_Wolf_Base_Animation/ExoGame_Wolf_Attack_Melee.ExoGame_Wolf_Attack_Melee
+[2018.02.14-23.05.45:557][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/InfinityBladeAdversaries/Enemy/Enemy_Wolf/Enemy_Wolf_Base_Animation/ExoGame_Wolf_Idle.ExoGame_Wolf_Idle
+[2018.02.14-23.05.46:007][175]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Mannequin/Animations/ThirdPersonJump_End.ThirdPersonJump_End
+[2018.02.14-23.05.51:845][176]LogFactory: FactoryCreateFile: World with FbxSceneImportFactory (0 0 C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/Models/oil_tank_1_(low).obj)
+[2018.02.14-23.05.51:862][176]LogFbx: Loading FBX Scene from C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/Models/oil_tank_1_(low).obj
+[2018.02.14-23.05.51:922][176]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.14-23.05.51:930][176]LogFbx: =================================================
+[2018.02.14-23.05.51:930][176]LogFbx: Dumping Node START [Cylinder003] 
+[2018.02.14-23.05.51:930][176]LogFbx: 	Total Deformer Count 1846071936.
+[2018.02.14-23.05.51:930][176]LogFbx: 	Attribute () Type (4).
+[2018.02.14-23.05.51:930][176]LogFbx: 		[Node Attribute Child 1] Cylinder003 (Type Mesh).
+[2018.02.14-23.05.51:930][176]LogFbx: Dumping Node END [Cylinder003]
+[2018.02.14-23.05.51:930][176]LogFbx: =================================================
+[2018.02.14-23.05.51:930][176]LogFbx: Dumping Node START [oil_tank_007] 
+[2018.02.14-23.05.51:930][176]LogFbx: 	Total Deformer Count 1015618816.
+[2018.02.14-23.05.51:930][176]LogFbx: 	Attribute () Type (4).
+[2018.02.14-23.05.51:931][176]LogFbx: 		[Node Attribute Child 1] oil_tank_007 (Type Mesh).
+[2018.02.14-23.05.51:931][176]LogFbx: Dumping Node END [oil_tank_007]
+[2018.02.14-23.05.51:931][176]LogFbx: =================================================
+[2018.02.14-23.05.51:931][176]LogFbx: Dumping Node START [Cylinder003] 
+[2018.02.14-23.05.51:931][176]LogFbx: 	Total Deformer Count 1846071936.
+[2018.02.14-23.05.51:931][176]LogFbx: 	Attribute () Type (4).
+[2018.02.14-23.05.51:931][176]LogFbx: 		[Node Attribute Child 1] Cylinder003 (Type Mesh).
+[2018.02.14-23.05.51:931][176]LogFbx: Dumping Node END [Cylinder003]
+[2018.02.14-23.05.51:931][176]LogFbx: =================================================
+[2018.02.14-23.05.51:931][176]LogFbx: Dumping Node START [oil_tank_007] 
+[2018.02.14-23.05.51:931][176]LogFbx: 	Total Deformer Count 1015619216.
+[2018.02.14-23.05.51:931][176]LogFbx: 	Attribute () Type (4).
+[2018.02.14-23.05.51:931][176]LogFbx: 		[Node Attribute Child 1] oil_tank_007 (Type Mesh).
+[2018.02.14-23.05.51:931][176]LogFbx: Dumping Node END [oil_tank_007]
+[2018.02.14-23.05.51:931][176]LogFbx: =================================================
+[2018.02.14-23.05.51:931][176]LogFbx: Dumping Node START [Cylinder003] 
+[2018.02.14-23.05.51:931][176]LogFbx: 	Total Deformer Count 1846071936.
+[2018.02.14-23.05.51:931][176]LogFbx: 	Attribute () Type (4).
+[2018.02.14-23.05.51:931][176]LogFbx: 		[Node Attribute Child 1] Cylinder003 (Type Mesh).
+[2018.02.14-23.05.51:931][176]LogFbx: Dumping Node END [Cylinder003]
+[2018.02.14-23.05.51:931][176]LogFbx: =================================================
+[2018.02.14-23.05.51:931][176]LogFbx: Dumping Node START [oil_tank_007] 
+[2018.02.14-23.05.51:932][176]LogFbx: 	Total Deformer Count 1015611936.
+[2018.02.14-23.05.51:932][176]LogFbx: 	Attribute () Type (4).
+[2018.02.14-23.05.51:932][176]LogFbx: 		[Node Attribute Child 1] oil_tank_007 (Type Mesh).
+[2018.02.14-23.05.51:932][176]LogFbx: Dumping Node END [oil_tank_007]
+[2018.02.14-23.06.13:059][176]LogFbx: =================================================
+[2018.02.14-23.06.13:059][176]LogFbx: Dumping Node START [Cylinder003] 
+[2018.02.14-23.06.13:059][176]LogFbx: 	Total Deformer Count 1938366720.
+[2018.02.14-23.06.13:059][176]LogFbx: 	Attribute () Type (4).
+[2018.02.14-23.06.13:059][176]LogFbx: 		[Node Attribute Child 1] Cylinder003 (Type Mesh).
+[2018.02.14-23.06.13:059][176]LogFbx: Dumping Node END [Cylinder003]
+[2018.02.14-23.06.13:059][176]LogFbx: =================================================
+[2018.02.14-23.06.13:059][176]LogFbx: Dumping Node START [oil_tank_007] 
+[2018.02.14-23.06.13:059][176]LogFbx: 	Total Deformer Count 618371712.
+[2018.02.14-23.06.13:059][176]LogFbx: 	Attribute () Type (4).
+[2018.02.14-23.06.13:059][176]LogFbx: 		[Node Attribute Child 1] oil_tank_007 (Type Mesh).
+[2018.02.14-23.06.13:059][176]LogFbx: Dumping Node END [oil_tank_007]
+[2018.02.14-23.06.13:059][176]LogFbx: =================================================
+[2018.02.14-23.06.13:059][176]LogFbx: Dumping Node START [Cylinder003] 
+[2018.02.14-23.06.13:059][176]LogFbx: 	Total Deformer Count 1938366720.
+[2018.02.14-23.06.13:059][176]LogFbx: 	Attribute () Type (4).
+[2018.02.14-23.06.13:059][176]LogFbx: 		[Node Attribute Child 1] Cylinder003 (Type Mesh).
+[2018.02.14-23.06.13:059][176]LogFbx: Dumping Node END [Cylinder003]
+[2018.02.14-23.06.13:059][176]LogFbx: =================================================
+[2018.02.14-23.06.13:059][176]LogFbx: Dumping Node START [oil_tank_007] 
+[2018.02.14-23.06.13:059][176]LogFbx: 	Total Deformer Count 618372752.
+[2018.02.14-23.06.13:059][176]LogFbx: 	Attribute () Type (4).
+[2018.02.14-23.06.13:059][176]LogFbx: 		[Node Attribute Child 1] oil_tank_007 (Type Mesh).
+[2018.02.14-23.06.13:059][176]LogFbx: Dumping Node END [oil_tank_007]
+[2018.02.14-23.06.13:059][176]LogFbx: =================================================
+[2018.02.14-23.06.13:059][176]LogFbx: Dumping Node START [Cylinder003] 
+[2018.02.14-23.06.13:059][176]LogFbx: 	Total Deformer Count 1938366720.
+[2018.02.14-23.06.13:059][176]LogFbx: 	Attribute () Type (4).
+[2018.02.14-23.06.13:059][176]LogFbx: 		[Node Attribute Child 1] Cylinder003 (Type Mesh).
+[2018.02.14-23.06.13:059][176]LogFbx: Dumping Node END [Cylinder003]
+[2018.02.14-23.06.13:060][176]LogFbx: =================================================
+[2018.02.14-23.06.13:060][176]LogFbx: Dumping Node START [oil_tank_007] 
+[2018.02.14-23.06.13:060][176]LogFbx: 	Total Deformer Count 618373232.
+[2018.02.14-23.06.13:060][176]LogFbx: 	Attribute () Type (4).
+[2018.02.14-23.06.13:060][176]LogFbx: 		[Node Attribute Child 1] oil_tank_007 (Type Mesh).
+[2018.02.14-23.06.13:060][176]LogFbx: Dumping Node END [oil_tank_007]
+[2018.02.14-23.06.13:061][176]LogLinker: Can't find file '/Game/Models/Cylinder003Mat'
+[2018.02.14-23.06.13:061][176]LogLinker: Can't find file '/Game/Models/Cylinder003Mat'
+[2018.02.14-23.06.13:128][176]LogMaterial: Missing cached shader map for material Cylinder003Mat, compiling. 
+[2018.02.14-23.06.13:283][176]LogStaticMesh: Building static mesh Cylinder003...
+[2018.02.14-23.06.13:283][176]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.02.14-23.06.13:301][176]LogStaticMesh: Built static mesh [0.04s] /Game/Models/Cylinder003.Cylinder003
+[2018.02.14-23.06.13:438][176]LogLinker: Can't find file '/Game/Models/oil_tank_007Mat'
+[2018.02.14-23.06.13:439][176]LogLinker: Can't find file '/Game/Models/oil_tank_007Mat'
+[2018.02.14-23.06.13:508][176]LogMaterial: Missing cached shader map for material oil_tank_007Mat, compiling. 
+[2018.02.14-23.06.14:443][176]LogStaticMesh: Building static mesh oil_tank_007...
+[2018.02.14-23.06.14:453][176]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.02.14-23.06.14:594][176]LogStaticMesh: Built static mesh [0.17s] /Game/Models/oil_tank_007.oil_tank_007
+[2018.02.14-23.06.15:829][176]LogWindows: Windows GetLastError: The operation completed successfully. (0)

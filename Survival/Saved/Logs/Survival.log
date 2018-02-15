@@ -1,9 +1,9 @@
-﻿Log file open, 02/09/18 12:50:03
+﻿Log file open, 02/14/18 23:08:50
 LogInit:Display: Running engine for game: Survival
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(821954640) SRandInit(821954640).
+LogInit:Display: RandInit(-1458298911) SRandInit(-1458298911).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.102714
+LogStats: Stats thread started at 0.222054
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -45,196 +45,851 @@ LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.16
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.02.09-12.50.04:159][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.09-12.50.04:159][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.02.09-12.50.04:195][  0]LogInit: Computer: SJ304-12
-[2018.02.09-12.50.04:195][  0]LogInit: User: u1459276
-[2018.02.09-12.50.04:195][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.02.09-12.50.04:195][  0]LogInit: High frequency timer resolution =3.507505 MHz
-[2018.02.09-12.50.04:195][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2018.02.09-12.50.04:195][  0]LogMemory: Platform Memory Stats for Windows
-[2018.02.09-12.50.04:195][  0]LogMemory: Process Physical Memory: 273.44 MB used, 273.44 MB peak
-[2018.02.09-12.50.04:195][  0]LogMemory: Process Virtual Memory: 261.09 MB used, 261.09 MB peak
-[2018.02.09-12.50.04:195][  0]LogMemory: Physical Memory: 7413.94 MB used,  8808.42 MB free, 16222.36 MB total
-[2018.02.09-12.50.04:195][  0]LogMemory: Virtual Memory: 638.63 MB used,  8808.42 MB free, 134217728.00 MB total
-[2018.02.09-12.50.04:389][  0]LogInit: Using OS detected language (en-US).
-[2018.02.09-12.50.04:389][  0]LogInit: Using OS detected locale (en-GB).
-[2018.02.09-12.50.04:394][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.02.09-12.50.05:462][  0]LogD3D11RHI: D3D11 adapters:
-[2018.02.09-12.50.05:502][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2018.02.09-12.50.05:502][  0]LogD3D11RHI:       4058/0/8111 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.02.09-12.50.05:511][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2018.02.09-12.50.05:511][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.02.09-12.50.05:513][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.02.09-12.50.05:513][  0]LogD3D11RHI:       0/0/8111 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.02.09-12.50.05:513][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.02.09-12.50.05:517][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.02.09-12.50.05:517][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2018.02.09-12.50.05:517][  0]LogWindows: EnumDisplayDevices:
-[2018.02.09-12.50.05:517][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2018.02.09-12.50.05:517][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2018.02.09-12.50.05:517][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.02.09-12.50.05:518][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2018.02.09-12.50.05:518][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.02.09-12.50.05:518][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.02.09-12.50.05:518][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.02.09-12.50.05:518][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.02.09-12.50.05:518][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2018.02.09-12.50.05:518][  0]LogD3D11RHI:   Driver Version: 385.28 (internal:22.21.13.8528, unified:385.28)
-[2018.02.09-12.50.05:518][  0]LogD3D11RHI:      Driver Date: 8-9-2017
-[2018.02.09-12.50.05:518][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.02.09-12.50.05:541][  0]LogD3D11RHI: Async texture creation enabled
-[2018.02.09-12.50.05:551][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.02.09-12.50.05:554][  0]LogShaderCompilers: Guid format shader working directory is 13 characters bigger than the processId version (H:/Team Project/TeamProject/Survival/Intermediate/Shaders/WorkingDirectory/1232/).
-[2018.02.09-12.50.05:554][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/u1459276/AppData/Local/Temp/UnrealShaderWorkingDir/E74DB0094B5D369E21E706B08B347FB1/'.
-[2018.02.09-12.50.05:554][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2018.02.09-12.50.06:760][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2018.02.09-12.50.06:881][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2018.02.09-12.50.07:000][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2018.02.09-12.50.07:120][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2018.02.09-12.50.07:238][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2018.02.09-12.50.07:360][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2018.02.09-12.50.07:477][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.02.09-12.50.07:594][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2018.02.09-12.50.07:704][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2018.02.09-12.50.07:820][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2018.02.09-12.50.07:936][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2018.02.09-12.50.08:051][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2018.02.09-12.50.08:168][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2018.02.09-12.50.08:286][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2018.02.09-12.50.08:406][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2018.02.09-12.50.08:641][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2018.02.09-12.50.08:641][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.02.09-12.50.08:751][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2018.02.09-12.50.08:947][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2018.02.09-12.50.09:017][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2018.02.09-12.50.09:137][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2018.02.09-12.50.09:253][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.02.09-12.50.09:377][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2018.02.09-12.50.09:494][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2018.02.09-12.50.09:494][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2018.02.09-12.50.10:784][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2018.02.09-12.50.10:852][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/u1459276/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.02.09-12.50.10:852][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/u1459276/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2018.02.09-12.50.10:853][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file H:/Team Project/TeamProject/Survival/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.02.09-12.50.10:853][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.02.09-12.50.10:854][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file H:/Team Project/TeamProject/Survival/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.02.09-12.50.10:854][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.02.09-12.50.10:874][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.02.09-12.50.10:887][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u1459276/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.02.09-12.50.10:896][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.02.09-12.50.10:896][  0]LogSlate: Using Freetype 2.6.0
-[2018.02.09-12.50.10:898][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.09-12.50.10:898][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.02.09-12.50.11:282][  0]LogInit: Selected Device Profile: [Windows]
-[2018.02.09-12.50.11:349][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.02.09-12.50.11:615][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.02.09-12.50.11:732][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.02.09-12.50.11:854][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.02.09-12.50.11:854][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2018.02.09-12.50.11:854][  0]LogMeshUtilities: No automatic mesh merging module available
-[2018.02.09-12.50.12:709][  0]LogNetVersion: Survival , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3038584403)
-[2018.02.09-12.50.12:809][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
-[2018.02.09-12.50.13:010][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.138866 seconds
-[2018.02.09-12.50.13:016][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2018.02.09-12.50.13:016][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
-[2018.02.09-12.50.13:016][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.02.09-12.50.13:230][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.02.09-12.50.18:070][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.02.09-12.50.18:151][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.02.09-12.50.18:151][  0]LogDirectoryWatcher: A directory notification failed for 'H:/Team Project/TeamProject/Survival/Content/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.02.09-12.50.19:380][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.02.09-12.50.20:324][  0]SourceControl: Info Source control is disabled
-[2018.02.09-12.50.20:376][  0]SourceControl: Info Source control is disabled
-[2018.02.09-12.50.20:501][  0]SourceControl: Info Source control is disabled
-[2018.02.09-12.50.20:626][  0]SourceControl: Info Source control is disabled
-[2018.02.09-12.50.22:378][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.02.09-12.50.23:801][  0]LogEngine: Initializing Engine...
-[2018.02.09-12.50.23:803][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.02.09-12.50.23:981][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.02.09-12.50.23:981][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.02.09-12.50.24:311][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.02.09-12.50.24:319][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.02.09-12.50.24:331][  0]LogInit: FAudioDevice initialized.
-[2018.02.09-12.50.24:371][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/u1459276/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.02.09-12.50.24:380][  0]LogInit: Texture streaming: Enabled
-[2018.02.09-12.50.24:643][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.02.09-12.50.25:214][  0]LogInit: Transaction tracking system initialized
-[2018.02.09-12.50.26:109][  0]BlueprintLog: New page: Editor Load
-[2018.02.09-12.50.28:725][  0]LocalizationService: Info Localization service is disabled
-[2018.02.09-12.50.30:508][  0]LogConsoleResponse:Display: 
-[2018.02.09-12.50.30:687][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.02.09-12.50.30:687][  0]LogCook:Display: Mobile HDR setting 1
-[2018.02.09-12.50.31:379][  0]LogFileCache: Scanning file cache for directory 'H:/Team Project/TeamProject/Survival/Content/' took 0.02s
-[2018.02.09-12.50.33:366][  0]SourceControl: Info Source control is disabled
-[2018.02.09-12.50.33:366][  0]Cmd: MAP LOAD FILE="H:/Team Project/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.09-12.50.33:367][  0]LightingResults: New page: Lighting Build
-[2018.02.09-12.50.33:488][  0]MapCheck: New page: Map Check
-[2018.02.09-12.50.33:488][  0]LightingResults: New page: Lighting Build
-[2018.02.09-12.50.34:317][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.02.09-12.50.34:340][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.09-12.50.34:356][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.09-12.50.34:467][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 110.703ms to complete.
-[2018.02.09-12.50.34:467][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.101
-[2018.02.09-12.50.34:523][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.02.09-12.50.34:664][  0]LogCollectionManager: Loaded 0 collections in 0.002599 seconds
-[2018.02.09-12.50.34:819][  0]LogFileCache: Scanning file cache for directory 'H:/Team Project/TeamProject/Survival/Saved/Collections/' took 0.01s
-[2018.02.09-12.50.34:819][  0]LogFileCache: Scanning file cache for directory 'H:/Team Project/TeamProject/Survival/Content/Developers/u1459276/Collections/' took 0.01s
-[2018.02.09-12.50.34:819][  0]LogFileCache: Scanning file cache for directory 'H:/Team Project/TeamProject/Survival/Content/Collections/' took 0.01s
-[2018.02.09-12.50.34:819][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2018.02.09-12.50.34:828][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2329 classes and 491 folders.
-[2018.02.09-12.50.35:017][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2018.02.09-12.50.35:077][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2018.02.09-12.50.35:195][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.02.09-12.50.35:288][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2018.02.09-12.50.35:292][  0]LogSlate: Took 0.000396 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.09-12.50.35:294][  0]LogSlate: Took 0.000334 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.02.09-12.50.35:299][  0]LogSlate: Took 0.000435 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.02.09-12.50.35:397][  0]LogRenderer: Reallocating scene render targets to support 1208x652 NumSamples 1 (Frame:1).
-[2018.02.09-12.50.35:681][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
-[2018.02.09-12.50.35:682][  0]LogLoad: (Engine Initialization) Total time: 34.75 seconds
-[2018.02.09-12.50.35:682][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.26 seconds
-[2018.02.09-12.50.35:682][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.02.09-12.50.35:682][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.02.09-12.50.35:691][  0]LogOcInput: OculusInput pre-init called
-[2018.02.09-12.50.35:691][  0]LogHMD: Starting GearVRController plugin
-[2018.02.09-12.50.35:740][  0]LogDirectoryWatcher: A directory notification failed for 'H:/Team Project/TeamProject/Survival/Content/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.02.09-12.50.35:740][  0]LogDirectoryWatcher: A directory notification failed for 'H:/Team Project/TeamProject/Survival/Content/', and we were unable to create a new request.
-[2018.02.09-12.50.35:740][  0]LogDirectoryWatcher: A directory notification failed for 'H:/Team Project/TeamProject/Survival/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.02.09-12.50.35:741][  0]LogDirectoryWatcher: A directory notification failed for 'H:/Team Project/TeamProject/Survival/Content/Developers/u1459276/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.02.09-12.50.35:741][  0]LogDirectoryWatcher: A directory notification failed for 'H:/Team Project/TeamProject/Survival/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.02.09-12.50.35:743][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.02.09-12.50.35:797][  0]LogSlate: Took 0.000480 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.09-12.50.35:817][  1]LogFileCache: Retrieving MD5 hashes for directory 'H:/Team Project/TeamProject/Survival/Content/' took 0.11s
-[2018.02.09-12.50.35:837][  1]LogAssetRegistry: Asset discovery search completed in 23.0504 seconds
-[2018.02.09-12.50.35:839][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.02.09-12.50.35:839][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
-[2018.02.09-12.50.35:839][  1]LogDirectoryWatcher: A directory notification failed for 'H:/Team Project/TeamProject/Survival/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.02.09-12.50.35:840][  1]LogDirectoryWatcher: A directory notification failed for 'H:/Team Project/TeamProject/Survival/Saved/Collections/', and we were unable to create a new request.
-[2018.02.09-12.50.35:840][  1]LogDirectoryWatcher: A directory notification failed for 'H:/Team Project/TeamProject/Survival/Content/Developers/u1459276/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.02.09-12.50.35:840][  1]LogDirectoryWatcher: A directory notification failed for 'H:/Team Project/TeamProject/Survival/Content/Developers/u1459276/Collections/', and we were unable to create a new request.
-[2018.02.09-12.50.35:840][  1]LogDirectoryWatcher: A directory notification failed for 'H:/Team Project/TeamProject/Survival/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
-[2018.02.09-12.50.35:840][  1]LogDirectoryWatcher: A directory notification failed for 'H:/Team Project/TeamProject/Survival/Content/Collections/', and we were unable to create a new request.
-[2018.02.09-12.50.38:703][314]LogSlate: Took 0.000417 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.09-12.51.21:739][128]LogSlate: Took 0.000399 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.02.09-12.51.24:593][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/blockoutLevel" FILE="H:/Team Project/TeamProject/Survival/Content/blockoutLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.02.09-12.51.24:663][128]LogSavePackage: Save=55.96ms
-[2018.02.09-12.51.24:663][128]LogSavePackage: Moving 'H:/Team Project/TeamProject/Survival/Saved/blockoutLevel05B5B96E4D30F8E9592C40859563A6B9.tmp' to 'H:/Team Project/TeamProject/Survival/Content/blockoutLevel.umap'
-[2018.02.09-12.51.24:677][128]LogSavePackage:Display: Finished SavePackage H:/Team Project/TeamProject/Survival/Content/blockoutLevel.umap
-[2018.02.09-12.51.24:677][128]LogFileHelpers: Saving map 'blockoutLevel' took 0.210
-[2018.02.09-12.51.24:682][128]LogSlate: Took 0.000394 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.02.09-12.51.24:687][128]Cmd: MAP LOAD FILE="H:/Team Project/TeamProject/Survival/Content/blockoutLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.02.09-12.51.24:688][128]LightingResults: New page: Lighting Build
-[2018.02.09-12.51.24:688][128]LoadErrors: New page: Loading map: blockoutLevel.umap
-[2018.02.09-12.51.24:689][128]MapCheck: New page: Map Check
-[2018.02.09-12.51.24:689][128]LightingResults: New page: Lighting Build
-[2018.02.09-12.51.24:700][128]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.02.09-12.51.24:701][128]LogAIModule: Creating AISystem for world blockoutLevel
-[2018.02.09-12.51.24:740][128]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.02.09-12.51.24:851][128]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 110.698ms to complete.
-[2018.02.09-12.51.24:851][128]LogFileHelpers: Loading map 'blockoutLevel' took 0.165
+[2018.02.14-23.08.52:724][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.14-23.08.52:724][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.14-23.08.52:800][  0]LogInit: Computer: MATTPC
+[2018.02.14-23.08.52:800][  0]LogInit: User: MattParker
+[2018.02.14-23.08.52:800][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.14-23.08.52:800][  0]LogInit: High frequency timer resolution =2.143632 MHz
+[2018.02.14-23.08.52:800][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.02.14-23.08.52:800][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.14-23.08.52:800][  0]LogMemory: Process Physical Memory: 276.08 MB used, 276.08 MB peak
+[2018.02.14-23.08.52:800][  0]LogMemory: Process Virtual Memory: 264.46 MB used, 264.46 MB peak
+[2018.02.14-23.08.52:800][  0]LogMemory: Physical Memory: 5330.76 MB used,  2772.36 MB free, 8103.12 MB total
+[2018.02.14-23.08.52:800][  0]LogMemory: Virtual Memory: 619.11 MB used,  2772.36 MB free, 8388608.00 MB total
+[2018.02.14-23.08.53:090][  0]LogInit: Using OS detected language (en-GB).
+[2018.02.14-23.08.53:090][  0]LogInit: Using OS detected locale (en-GB).
+[2018.02.14-23.08.53:098][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.02.14-23.08.55:796][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.14-23.08.55:858][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 540M' (Feature Level 11_0)
+[2018.02.14-23.08.55:858][  0]LogD3D11RHI:       1999/0/3795 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.14-23.08.55:896][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GT 540M' (Feature Level 11_0)
+[2018.02.14-23.08.55:896][  0]LogD3D11RHI:       1999/0/3795 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2018.02.14-23.08.55:896][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.14-23.08.55:920][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.14-23.08.55:920][  0]LogD3D11RHI:     GPU DeviceId: 0xdf4 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.14-23.08.55:920][  0]LogWindows: EnumDisplayDevices:
+[2018.02.14-23.08.55:920][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2018.02.14-23.08.55:921][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2018.02.14-23.08.55:923][  0]LogWindows:    2. 'NVIDIA GeForce GT 540M' (P:0 D:0)
+[2018.02.14-23.08.55:923][  0]LogWindows:    3. 'RDPDD Chained DD' (P:0 D:0)
+[2018.02.14-23.08.55:924][  0]LogWindows:    4. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.02.14-23.08.55:924][  0]LogWindows:    5. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.02.14-23.08.55:925][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter 
+[2018.02.14-23.08.55:925][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 540M
+[2018.02.14-23.08.55:925][  0]LogD3D11RHI:   Driver Version: 376.54 (internal:21.21.13.7654, unified:376.54)
+[2018.02.14-23.08.55:925][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2018.02.14-23.08.55:925][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.14-23.08.55:966][  0]LogD3D11RHI:Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2018.02.14-23.08.55:967][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.14-23.08.55:990][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.02.14-23.08.55:992][  0]LogShaderCompilers: Guid format shader working directory is -69 characters bigger than the processId version (../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Intermediate/Shaders/WorkingDirectory/15836/).
+[2018.02.14-23.08.55:992][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MattParker/AppData/Local/Temp/UnrealShaderWorkingDir/722C5E924A7CA0BD69C33AB7E9A52809/'.
+[2018.02.14-23.08.55:992][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.02.14-23.08.59:970][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.14-23.09.00:180][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.02.14-23.09.00:401][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.14-23.09.00:616][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.02.14-23.09.00:841][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.02.14-23.09.01:070][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.14-23.09.01:308][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.14-23.09.01:525][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.14-23.09.01:723][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.02.14-23.09.01:960][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.02.14-23.09.02:174][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.14-23.09.02:419][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.14-23.09.02:672][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.14-23.09.02:900][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.14-23.09.03:130][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.14-23.09.03:560][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.14-23.09.03:560][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.14-23.09.03:762][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.02.14-23.09.04:094][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.02.14-23.09.04:202][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.02.14-23.09.04:419][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.14-23.09.04:636][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.14-23.09.04:873][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.14-23.09.05:084][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.02.14-23.09.05:084][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.02.14-23.09.07:034][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.02.14-23.09.07:318][  0]LogDerivedDataCache: Loaded boot cache 0.28s 90MB C:/Users/MattParker/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.14-23.09.07:318][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/MattParker/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.02.14-23.09.07:319][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.14-23.09.07:319][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.14-23.09.07:319][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.14-23.09.07:319][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.14-23.09.07:381][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.14-23.09.07:405][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MattParker/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.14-23.09.07:448][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.14-23.09.07:449][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.14-23.09.07:450][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.14-23.09.07:450][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.14-23.09.08:747][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.14-23.09.08:765][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.14-23.09.09:644][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.14-23.09.09:857][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.14-23.09.10:065][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.14-23.09.10:065][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.02.14-23.09.10:065][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.02.14-23.09.11:798][  0]LogNetVersion: Survival , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3038584403)
+[2018.02.14-23.09.11:993][  0]LogAssetRegistry: FAssetRegistry took 0.0675 seconds to start up
+[2018.02.14-23.09.12:478][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.358953 seconds
+[2018.02.14-23.09.12:490][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.02.14-23.09.12:490][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.02.14-23.09.12:490][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.14-23.09.12:714][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.14-23.09.22:025][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.14-23.09.22:143][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.14-23.09.24:326][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.14-23.09.26:061][  0]SourceControl: Info Source control is disabled
+[2018.02.14-23.09.26:064][  0]SourceControl: Info Source control is disabled
+[2018.02.14-23.09.26:274][  0]SourceControl: Info Source control is disabled
+[2018.02.14-23.09.26:482][  0]SourceControl: Info Source control is disabled
+[2018.02.14-23.09.29:436][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.14-23.09.32:098][  0]LogEngine: Initializing Engine...
+[2018.02.14-23.09.32:102][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.14-23.09.32:812][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.14-23.09.32:812][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.14-23.09.33:421][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.14-23.09.33:460][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-23.09.33:500][  0]LogInit: FAudioDevice initialized.
+[2018.02.14-23.09.33:695][  0]LogDerivedDataCache: Saved boot cache 0.19s 90MB C:/Users/MattParker/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.14-23.09.33:723][  0]LogInit: Texture streaming: Enabled
+[2018.02.14-23.09.34:081][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.14-23.09.34:081][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={D3010A8F-4DBA-3BB6-095A-E095615D0C9E}
+[2018.02.14-23.09.35:099][  0]LogInit: Transaction tracking system initialized
+[2018.02.14-23.09.36:526][  0]BlueprintLog: New page: Editor Load
+[2018.02.14-23.09.40:957][  0]LocalizationService: Info Localization service is disabled
+[2018.02.14-23.09.44:031][  0]LogConsoleResponse:Display: 
+[2018.02.14-23.09.44:464][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.14-23.09.44:464][  0]LogCook:Display: Mobile HDR setting 1
+[2018.02.14-23.09.45:487][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/' took 0.03s
+[2018.02.14-23.09.49:071][  0]SourceControl: Info Source control is disabled
+[2018.02.14-23.09.49:073][  0]LightingResults: New page: Lighting Build
+[2018.02.14-23.09.49:278][  0]MapCheck: New page: Map Check
+[2018.02.14-23.09.49:278][  0]LightingResults: New page: Lighting Build
+[2018.02.14-23.09.51:317][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.14-23.09.51:359][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.14-23.09.51:430][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.14-23.09.51:610][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 179.892ms to complete.
+[2018.02.14-23.09.51:610][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.539
+[2018.02.14-23.09.51:949][  0]LogCollectionManager: Loaded 0 collections in 0.004916 seconds
+[2018.02.14-23.09.52:200][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/Collections/' took 0.01s
+[2018.02.14-23.09.52:200][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/Developers/MattParker/Collections/' took 0.01s
+[2018.02.14-23.09.52:200][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/Collections/' took 0.01s
+[2018.02.14-23.09.52:200][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2018.02.14-23.09.52:234][  0]LogContentBrowser: Native class hierarchy populated in 0.0334 seconds. Added 2329 classes and 491 folders.
+[2018.02.14-23.09.52:532][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2018.02.14-23.09.52:638][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2018.02.14-23.09.52:854][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2018.02.14-23.09.52:996][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.02.14-23.09.53:013][  0]LogSlate: Took 0.000452 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.14-23.09.53:021][  0]LogSlate: Took 0.000657 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.14-23.09.53:043][  0]LogSlate: Took 0.000762 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.14-23.09.53:370][  0]LogRenderer: Reallocating scene render targets to support 1004x456 NumSamples 1 (Frame:1).
+[2018.02.14-23.09.54:249][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2018.02.14-23.09.54:249][  0]LogLoad: (Engine Initialization) Total time: 67.99 seconds
+[2018.02.14-23.09.54:249][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.78 seconds
+[2018.02.14-23.09.54:249][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.14-23.09.54:591][  0]LogOcInput: OculusInput pre-init called
+[2018.02.14-23.09.54:591][  0]LogHMD: Starting GearVRController plugin
+[2018.02.14-23.09.54:636][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.14-23.09.54:796][  0]LogSlate: Took 0.000453 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.14-23.09.54:926][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/' took 0.32s
+[2018.02.14-23.09.55:492][  5]LogAssetRegistry: Asset discovery search completed in 43.5201 seconds
+[2018.02.14-23.09.55:498][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.02.14-23.09.55:498][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000106 seconds (updated 0 objects)
+[2018.02.14-23.09.57:678][ 51]LogSlate: Took 0.001669 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.14-23.10.09:054][323]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall10)
+[2018.02.14-23.10.10:924][352]Cmd: DELETE
+[2018.02.14-23.10.10:924][352]Cmd: ACTOR DELETE
+[2018.02.14-23.10.11:050][352]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.14-23.10.11:091][352]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2018.02.14-23.10.11:929][373]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2018.02.14-23.10.12:475][383]Cmd: DELETE
+[2018.02.14-23.10.12:475][383]Cmd: ACTOR DELETE
+[2018.02.14-23.10.12:477][383]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.14-23.10.12:503][383]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2018.02.14-23.10.13:443][406]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall11)
+[2018.02.14-23.10.13:922][415]Cmd: DELETE
+[2018.02.14-23.10.13:922][415]Cmd: ACTOR DELETE
+[2018.02.14-23.10.13:923][415]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.14-23.10.13:950][415]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2018.02.14-23.10.14:673][433]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall9)
+[2018.02.14-23.10.15:198][443]Cmd: DELETE
+[2018.02.14-23.10.15:198][443]Cmd: ACTOR DELETE
+[2018.02.14-23.10.15:199][443]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.14-23.10.15:223][443]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2018.02.14-23.10.35:681][893]LogMaterial: Missing cached shader map for material CementB_mat, compiling. 
+[2018.02.14-23.10.35:835][893]LogStaticMesh: Building static mesh Road_Long...
+[2018.02.14-23.10.35:844][893]LogSlate: Took 0.000444 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.14-23.10.35:871][893]LogStaticMesh: Built static mesh [0.05s] /Game/PostApoc/Models/Road_Long.Road_Long
+[2018.02.14-23.10.35:991][893]LogMaterial: Missing cached shader map for material Sidewalk_A_mat, compiling. 
+[2018.02.14-23.10.36:104][893]LogMaterial: Missing cached shader map for material Road_mat, compiling. 
+[2018.02.14-23.10.36:367][893]LogActorFactory: Actor Factory created Road_Long
+[2018.02.14-23.10.39:171][936]LogActorFactory: Actor Factory created Road_Long
+[2018.02.14-23.11.09:316][438]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.02.14-23.11.13:028][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long)
+[2018.02.14-23.12.50:080][965]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.14-23.12.51:644][965]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-23.12.51:644][965]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.14-23.12.51:697][965]PIE: New page: PIE session: ThirdPersonExampleMap (14 Feb 2018 23:12:51)
+[2018.02.14-23.12.51:697][965]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.14-23.12.51:884][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.186534s)
+[2018.02.14-23.12.51:893][965]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.14-23.12.51:894][965]LogPlayLevel: PIE: World Init took: (0.009876s)
+[2018.02.14-23.12.51:895][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.197580s)
+[2018.02.14-23.12.51:980][965]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.14-23.12.52:034][965]LogInit: FAudioDevice initialized.
+[2018.02.14-23.12.52:156][965]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.14-23.12.52:206][965]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.02.14-23.12.52
+[2018.02.14-23.12.52:208][965]LogWorld: Bringing up level for play took: 0.012165
+[2018.02.14-23.12.52:699][965]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0027 seconds. Added 11 classes and 0 folders.
+[2018.02.14-23.12.52:738][965]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.145
+[2018.02.14-23.12.52:739][965]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-23.13.14:502][303]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-23.13.14:708][303]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.14-23.13.40:643][681]LogStaticMesh: Building static mesh Intersection_4way...
+[2018.02.14-23.13.40:771][681]LogStaticMesh: Built static mesh [0.17s] /Game/PostApoc/Models/Intersection_4way.Intersection_4way
+[2018.02.14-23.13.40:904][681]LogActorFactory: Actor Factory created Intersection_4way
+[2018.02.14-23.13.43:246][713]LogActorFactory: Actor Factory created Intersection_4way
+[2018.02.14-23.14.05:616][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long)
+[2018.02.14-23.14.06:788][ 44]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Road_Long2)
+[2018.02.14-23.14.07:643][ 54]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Road_Long3)
+[2018.02.14-23.14.08:421][ 63]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Road_Long4)
+[2018.02.14-23.14.09:210][ 72]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Road_Long5)
+[2018.02.14-23.14.36:019][458]Cmd: TRANSACTION UNDO
+[2018.02.14-23.14.36:019][458]LogEditorTransaction: Undo Rotate Actors
+[2018.02.14-23.15.39:986][316]Cmd: TRANSACTION UNDO
+[2018.02.14-23.15.39:986][316]LogEditorTransaction: Undo Move Actors
+[2018.02.14-23.15.41:043][325]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long10)
+[2018.02.14-23.16.24:502][898]LogStaticMesh: Building static mesh Intersection_T...
+[2018.02.14-23.16.24:576][898]LogStaticMesh: Built static mesh [0.07s] /Game/PostApoc/Models/Intersection_T.Intersection_T
+[2018.02.14-23.16.24:785][899]LogActorFactory: Actor Factory created Intersection_T
+[2018.02.14-23.16.28:017][944]LogActorFactory: Actor Factory created Intersection_T
+[2018.02.14-23.16.33:337][ 15]Cmd: TRANSACTION UNDO
+[2018.02.14-23.16.33:337][ 15]LogEditorTransaction: Undo Create Actors
+[2018.02.14-23.16.36:081][ 41]LogActorFactory: Actor Factory created Intersection_T
+[2018.02.14-23.16.38:739][ 76]LogActorFactory: Actor Factory created Intersection_T
+[2018.02.14-23.17.41:019][888]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Road_Long12)
+[2018.02.14-23.17.42:825][906]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long12)
+[2018.02.14-23.17.43:831][918]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Road_Long11)
+[2018.02.14-23.18.47:666][757]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long5)
+[2018.02.14-23.19.07:276][ 10]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Intersection_T)
+[2018.02.14-23.19.53:849][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long12)
+[2018.02.14-23.19.57:264][647]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Road_Long12)
+[2018.02.14-23.19.59:202][666]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long11)
+[2018.02.14-23.20.03:324][718]Cmd: TRANSACTION UNDO
+[2018.02.14-23.20.03:324][718]LogEditorTransaction: Undo Move Actors
+[2018.02.14-23.21.05:962][279]LogSavePackage: Save=786.88ms
+[2018.02.14-23.21.05:962][279]LogSavePackage: Moving '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/ThirdPersonExampleMap_Auto16FDD732B46EC811758E8478FCE989132.tmp' to '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2018.02.14-23.21.05:993][279]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2018.02.14-23.21.06:149][279]LogSlate: Took 0.000648 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.14-23.21.06:181][279]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 1.401
+[2018.02.14-23.21.06:181][279]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.401
+[2018.02.14-23.21.37:244][715]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Intersection_T2)
+[2018.02.14-23.21.39:388][749]Cmd: DELETE
+[2018.02.14-23.21.39:389][749]Cmd: ACTOR DELETE
+[2018.02.14-23.21.39:391][749]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.14-23.21.39:443][749]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2018.02.14-23.21.41:903][791]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Intersection_4way)
+[2018.02.14-23.22.29:223][484]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Road_Long16)
+[2018.02.14-23.22.35:616][569]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long16)
+[2018.02.14-23.23.44:398][480]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long16)
+[2018.02.14-23.23.56:227][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long17)
+[2018.02.14-23.24.01:537][694]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long18)
+[2018.02.14-23.24.13:771][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long15)
+[2018.02.14-23.24.34:959][106]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long17)
+[2018.02.14-23.24.37:849][140]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Road_Long19)
+[2018.02.14-23.25.40:623][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Intersection_T)
+[2018.02.14-23.26.25:265][533]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long16)
+[2018.02.14-23.26.26:243][544]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2018.02.14-23.26.28:596][569]Cmd: TRANSACTION UNDO
+[2018.02.14-23.26.28:596][569]LogEditorTransaction: Undo Clicking on Actors
+[2018.02.14-23.26.30:182][587]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Road_Long17)
+[2018.02.14-23.26.30:871][595]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Road_Long19)
+[2018.02.14-23.26.32:002][609]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Road_Long18)
+[2018.02.14-23.28.13:113][938]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long5)
+[2018.02.14-23.28.22:826][ 66]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Road_Long4)
+[2018.02.14-23.28.23:614][ 75]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Road_Long3)
+[2018.02.14-23.28.24:491][ 86]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Road_Long2)
+[2018.02.14-23.28.25:211][ 94]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Road_Long)
+[2018.02.14-23.29.40:154][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long25)
+[2018.02.14-23.29.41:857][113]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Road_Long25)
+[2018.02.14-23.29.48:680][201]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long26)
+[2018.02.14-23.29.56:610][308]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long27)
+[2018.02.14-23.30.02:253][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long28)
+[2018.02.14-23.30.07:190][457]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long29)
+[2018.02.14-23.31.05:695][230]LogActorFactory: Actor Factory created Plane
+[2018.02.14-23.31.08:422][266]LogActorFactory: Actor Factory created Plane
+[2018.02.14-23.31.49:231][786]LogSlate: Took 0.092655 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.02.14-23.35.26:573][620]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane)
+[2018.02.14-23.35.38:883][781]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane2)
+[2018.02.14-23.35.39:599][789]LogEditorViewport: Clicking on Actor (CTRL LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2018.02.14-23.35.41:409][814]Cmd: TRANSACTION UNDO
+[2018.02.14-23.35.41:409][814]LogEditorTransaction: Undo Clicking on Actors
+[2018.02.14-23.35.42:588][827]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane)
+[2018.02.14-23.36.28:474][442]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane7)
+[2018.02.14-23.36.29:310][452]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane8)
+[2018.02.14-23.36.31:208][477]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane4)
+[2018.02.14-23.36.31:874][484]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane3)
+[2018.02.14-23.36.32:854][497]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane3)
+[2018.02.14-23.37.08:873][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Intersection_T)
+[2018.02.14-23.37.55:036][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Intersection_T2)
+[2018.02.14-23.38.10:510][818]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long19)
+[2018.02.14-23.38.22:822][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long24)
+[2018.02.14-23.38.30:007][ 77]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane3)
+[2018.02.14-23.38.31:373][ 93]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane4)
+[2018.02.14-23.38.33:833][126]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane7)
+[2018.02.14-23.38.34:561][134]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane8)
+[2018.02.14-23.39.09:106][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane8)
+[2018.02.14-23.39.10:329][624]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane7)
+[2018.02.14-23.40.35:304][793]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane13)
+[2018.02.14-23.41.12:672][307]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane10)
+[2018.02.14-23.41.13:462][317]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane9)
+[2018.02.14-23.41.14:296][327]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane12)
+[2018.02.14-23.41.16:416][355]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane12)
+[2018.02.14-23.41.17:108][363]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane11)
+[2018.02.14-23.41.17:927][373]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane14)
+[2018.02.14-23.41.50:497][830]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane10)
+[2018.02.14-23.41.51:413][841]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane9)
+[2018.02.14-23.41.52:268][852]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane12)
+[2018.02.14-23.41.52:971][860]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane11)
+[2018.02.14-23.41.53:642][868]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane14)
+[2018.02.14-23.41.54:359][876]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane13)
+[2018.02.14-23.42.39:188][500]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane19)
+[2018.02.14-23.42.40:201][513]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane20)
+[2018.02.14-23.42.41:216][525]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane17)
+[2018.02.14-23.42.41:906][533]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane18)
+[2018.02.14-23.42.42:618][541]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane15)
+[2018.02.14-23.42.43:464][551]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane16)
+[2018.02.14-23.43.06:241][847]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane22)
+[2018.02.14-23.43.07:035][856]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane21)
+[2018.02.14-23.43.07:908][866]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane24)
+[2018.02.14-23.43.08:678][875]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane23)
+[2018.02.14-23.43.10:442][899]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane26)
+[2018.02.14-23.43.11:099][906]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane25)
+[2018.02.14-23.43.34:632][228]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane31)
+[2018.02.14-23.43.35:974][246]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane32)
+[2018.02.14-23.43.37:080][260]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane29)
+[2018.02.14-23.43.37:733][267]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane30)
+[2018.02.14-23.43.38:622][278]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane27)
+[2018.02.14-23.43.40:343][301]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane28)
+[2018.02.14-23.44.51:717][282]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane32)
+[2018.02.14-23.44.53:454][305]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane31)
+[2018.02.14-23.44.54:429][317]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane25)
+[2018.02.14-23.44.55:391][329]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane19)
+[2018.02.14-23.44.56:362][341]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane13)
+[2018.02.14-23.44.58:060][364]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane14)
+[2018.02.14-23.44.58:819][373]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane20)
+[2018.02.14-23.44.59:468][380]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane26)
+[2018.02.14-23.45.00:213][389]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane29)
+[2018.02.14-23.45.00:953][398]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane23)
+[2018.02.14-23.45.01:596][405]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane17)
+[2018.02.14-23.45.02:253][412]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane11)
+[2018.02.14-23.45.02:920][420]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane12)
+[2018.02.14-23.45.03:540][427]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane18)
+[2018.02.14-23.45.04:234][435]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane24)
+[2018.02.14-23.45.04:798][441]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane30)
+[2018.02.14-23.45.05:497][449]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane27)
+[2018.02.14-23.45.06:491][462]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane28)
+[2018.02.14-23.45.07:203][470]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane22)
+[2018.02.14-23.45.08:057][480]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane21)
+[2018.02.14-23.45.08:745][488]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane15)
+[2018.02.14-23.45.09:375][495]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane9)
+[2018.02.14-23.45.10:184][505]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane10)
+[2018.02.14-23.45.10:890][513]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane16)
+[2018.02.14-23.45.54:280][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane43)
+[2018.02.14-23.45.55:480][139]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane49)
+[2018.02.14-23.45.56:372][150]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane55)
+[2018.02.14-23.45.57:177][160]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane61)
+[2018.02.14-23.45.58:282][174]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane67)
+[2018.02.14-23.45.59:541][192]Cmd: DELETE
+[2018.02.14-23.45.59:541][192]Cmd: ACTOR DELETE
+[2018.02.14-23.45.59:545][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.14-23.45.59:546][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.14-23.45.59:546][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.14-23.45.59:547][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.14-23.45.59:547][192]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.14-23.45.59:601][192]LogEditorActor: Deleted 5 Actors (0.059 secs)
+[2018.02.14-23.46.11:453][366]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane68)
+[2018.02.14-23.46.12:414][378]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane65)
+[2018.02.14-23.46.13:118][387]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane66)
+[2018.02.14-23.46.13:939][397]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane63)
+[2018.02.14-23.46.14:698][406]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane64)
+[2018.02.14-23.46.15:372][414]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane58)
+[2018.02.14-23.46.16:122][423]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane57)
+[2018.02.14-23.46.16:732][429]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane60)
+[2018.02.14-23.46.17:286][435]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane59)
+[2018.02.14-23.46.17:853][441]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane62)
+[2018.02.14-23.46.18:540][449]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane56)
+[2018.02.14-23.46.19:649][464]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane53)
+[2018.02.14-23.46.20:384][473]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane54)
+[2018.02.14-23.46.20:995][480]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane51)
+[2018.02.14-23.46.21:636][487]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane52)
+[2018.02.14-23.46.22:325][495]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane46)
+[2018.02.14-23.46.22:950][502]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane45)
+[2018.02.14-23.46.23:588][509]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane48)
+[2018.02.14-23.46.24:213][516]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane47)
+[2018.02.14-23.46.24:838][523]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane50)
+[2018.02.14-23.46.25:466][530]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane44)
+[2018.02.14-23.46.26:220][539]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane41)
+[2018.02.14-23.46.26:967][548]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane42)
+[2018.02.14-23.46.27:595][555]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane39)
+[2018.02.14-23.46.28:341][564]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane40)
+[2018.02.14-23.47.51:709][676]LogSavePackage: Save=1249.71ms
+[2018.02.14-23.47.51:709][676]LogSavePackage: Moving '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/ThirdPersonExampleMap_Auto28E0C74CA450173B0B662F6A6345A3434.tmp' to '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2018.02.14-23.47.51:736][676]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2018.02.14-23.47.51:772][676]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 1.614
+[2018.02.14-23.47.51:772][676]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.614
+[2018.02.14-23.50.15:237][533]LogMaterial: Missing cached shader map for material Iron_mat, compiling. 
+[2018.02.14-23.50.15:423][533]LogMaterial: Missing cached shader map for material CementPainted_Tint_mat, compiling. 
+[2018.02.14-23.50.15:527][533]LogStaticMesh: Building static mesh Wall_A...
+[2018.02.14-23.50.15:567][533]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.02.14-23.50.15:584][533]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.02.14-23.50.15:613][533]LogStaticMesh: Built static mesh [0.09s] /Game/PostApoc/Models/Wall_A.Wall_A
+[2018.02.14-23.50.15:656][533]LogMaterial: Missing cached shader map for material Brick_E_mat, compiling. 
+[2018.02.14-23.50.15:858][533]LogActorFactory: Actor Factory created Wall_A
+[2018.02.14-23.50.20:076][573]LogActorFactory: Actor Factory created Wall_A
+[2018.02.14-23.51.18:262][322]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_A)
+[2018.02.14-23.51.20:113][345]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A2)
+[2018.02.14-23.51.28:337][452]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A2)
+[2018.02.14-23.51.29:286][464]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A)
+[2018.02.14-23.52.25:151][200]Cmd: TRANSACTION UNDO
+[2018.02.14-23.52.25:151][200]LogEditorTransaction: Undo Move Actors
+[2018.02.14-23.52.25:226][200]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_A11.StaticMeshComponent0) Component already registered.
+[2018.02.14-23.52.26:464][215]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_A12)
+[2018.02.14-23.52.48:455][495]LogStaticMesh: Building static mesh Wall_A_Post...
+[2018.02.14-23.52.48:514][495]LogStaticMesh: Built static mesh [0.06s] /Game/PostApoc/Models/Wall_A_Post.Wall_A_Post
+[2018.02.14-23.52.48:614][495]LogActorFactory: Actor Factory created Wall_A_Post
+[2018.02.14-23.52.58:947][631]LogActorFactory: Actor Factory created Wall_A_Post
+[2018.02.14-23.53.58:625][304]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_A13)
+[2018.02.14-23.55.22:832][382]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_A13)
+[2018.02.14-23.55.28:682][452]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_A_Post)
+[2018.02.14-23.55.29:918][466]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A14)
+[2018.02.14-23.55.33:325][504]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A15)
+[2018.02.14-23.55.34:188][513]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A14)
+[2018.02.14-23.55.56:554][781]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_A13)
+[2018.02.14-23.56.02:927][857]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_A12)
+[2018.02.14-23.56.12:985][974]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_A11)
+[2018.02.14-23.56.33:106][213]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_A10)
+[2018.02.14-23.56.59:280][511]LogMaterial: Missing cached shader map for material Brick_F_mat, compiling. 
+[2018.02.14-23.56.59:402][511]LogStaticMesh: Building static mesh Wall_B...
+[2018.02.14-23.56.59:508][511]LogStaticMesh: Built static mesh [0.11s] /Game/PostApoc/Models/Wall_B.Wall_B
+[2018.02.14-23.56.59:539][511]LogMaterial: Missing cached shader map for material CementA_Leaks_mat, compiling. 
+[2018.02.14-23.56.59:742][511]LogActorFactory: Actor Factory created Wall_B
+[2018.02.14-23.57.01:450][527]LogActorFactory: Actor Factory created Wall_B
+[2018.02.14-23.59.00:338][928]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_A14)
+[2018.02.14-23.59.01:295][939]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A15)
+[2018.02.14-23.59.42:409][483]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A14)
+[2018.02.14-23.59.43:130][491]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A15)
+[2018.02.15-00.00.35:161][889]LogSavePackage: Save=1684.53ms
+[2018.02.15-00.00.35:161][889]LogSavePackage: Moving '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/ThirdPersonExampleMap_Auto3C0581AA849AD6677A4425F8FEF809B67.tmp' to '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2018.02.15-00.00.35:191][889]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap
+[2018.02.15-00.00.35:255][889]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 2.154
+[2018.02.15-00.00.35:255][889]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.154
+[2018.02.15-00.01.44:617][669]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_A28)
+[2018.02.15-00.01.46:236][694]Cmd: DELETE
+[2018.02.15-00.01.46:236][694]Cmd: ACTOR DELETE
+[2018.02.15-00.01.46:239][694]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.15-00.01.46:264][694]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2018.02.15-00.01.47:355][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_A29)
+[2018.02.15-00.02.01:161][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_A10)
+[2018.02.15-00.02.02:070][936]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A11)
+[2018.02.15-00.02.02:732][944]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A12)
+[2018.02.15-00.02.03:564][955]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A13)
+[2018.02.15-00.02.27:429][285]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A15)
+[2018.02.15-00.02.28:589][299]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A14)
+[2018.02.15-00.02.29:394][308]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A17)
+[2018.02.15-00.02.30:106][316]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A16)
+[2018.02.15-00.02.30:650][321]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A19)
+[2018.02.15-00.02.31:260][327]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A18)
+[2018.02.15-00.02.40:032][446]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_A29)
+[2018.02.15-00.02.41:392][462]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A26)
+[2018.02.15-00.02.42:285][472]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A27)
+[2018.02.15-00.02.43:036][480]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A24)
+[2018.02.15-00.02.43:722][487]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A25)
+[2018.02.15-00.02.44:385][494]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A22)
+[2018.02.15-00.02.44:945][499]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A23)
+[2018.02.15-00.02.45:617][506]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A20)
+[2018.02.15-00.02.46:237][513]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.02.15-00.02.47:981][534]Cmd: TRANSACTION UNDO
+[2018.02.15-00.02.47:981][534]LogEditorTransaction: Undo Clicking on Actors
+[2018.02.15-00.02.49:449][550]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A21)
+[2018.02.15-00.02.50:120][557]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A18)
+[2018.02.15-00.02.50:735][563]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A19)
+[2018.02.15-00.02.51:377][570]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A16)
+[2018.02.15-00.02.52:001][576]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A17)
+[2018.02.15-00.02.52:879][586]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A14)
+[2018.02.15-00.02.53:605][594]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A15)
+[2018.02.15-00.03.05:017][750]Cmd: TRANSACTION UNDO
+[2018.02.15-00.03.05:017][750]LogEditorTransaction: Undo Move Actors
+[2018.02.15-00.03.05:096][750]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_A23.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.03.05:103][750]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_A15.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.03.40:440][217]Cmd: TRANSACTION UNDO
+[2018.02.15-00.03.40:440][217]LogEditorTransaction: Undo Move Actors
+[2018.02.15-00.03.40:467][217]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_A23.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.03.40:474][217]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_A15.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.03.53:376][380]Cmd: TRANSACTION UNDO
+[2018.02.15-00.03.53:376][380]LogEditorTransaction: Undo Move Actors
+[2018.02.15-00.03.53:468][380]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_A23.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.03.53:476][380]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_A15.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.04.28:402][821]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_A_Post)
+[2018.02.15-00.05.05:539][283]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane13)
+[2018.02.15-00.05.29:138][566]Cmd: TRANSACTION UNDO
+[2018.02.15-00.05.29:138][566]LogEditorTransaction: Undo Move Actors
+[2018.02.15-00.05.34:812][630]Cmd: TRANSACTION UNDO
+[2018.02.15-00.05.34:812][630]LogEditorTransaction: Undo Move Actors
+[2018.02.15-00.05.35:833][641]Cmd: TRANSACTION UNDO
+[2018.02.15-00.05.35:834][641]LogEditorTransaction: Undo Move Actors
+[2018.02.15-00.05.37:005][655]Cmd: TRANSACTION UNDO
+[2018.02.15-00.05.37:005][655]LogEditorTransaction: Undo Move Actors
+[2018.02.15-00.05.55:301][883]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane10)
+[2018.02.15-00.05.56:338][894]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane16)
+[2018.02.15-00.05.57:197][903]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane22)
+[2018.02.15-00.06.00:741][946]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane28)
+[2018.02.15-00.06.02:290][963]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane34)
+[2018.02.15-00.06.02:962][969]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane33)
+[2018.02.15-00.06.03:876][979]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane27)
+[2018.02.15-00.06.04:887][989]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane21)
+[2018.02.15-00.06.07:736][ 20]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane15)
+[2018.02.15-00.06.08:655][ 29]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane9)
+[2018.02.15-00.06.09:415][ 36]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane12)
+[2018.02.15-00.06.10:159][ 43]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane18)
+[2018.02.15-00.06.10:852][ 49]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane24)
+[2018.02.15-00.06.11:759][ 58]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane30)
+[2018.02.15-00.06.14:278][ 86]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane36)
+[2018.02.15-00.06.15:855][103]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane11)
+[2018.02.15-00.06.16:773][111]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane17)
+[2018.02.15-00.06.17:452][117]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane23)
+[2018.02.15-00.06.18:241][124]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane29)
+[2018.02.15-00.06.19:163][133]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane35)
+[2018.02.15-00.06.20:775][151]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane14)
+[2018.02.15-00.06.21:498][157]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane20)
+[2018.02.15-00.06.22:290][164]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane26)
+[2018.02.15-00.06.22:932][169]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane32)
+[2018.02.15-00.06.23:629][175]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane38)
+[2018.02.15-00.06.26:076][202]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane37)
+[2018.02.15-00.06.26:951][211]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane31)
+[2018.02.15-00.06.27:803][219]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane25)
+[2018.02.15-00.06.28:624][227]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane19)
+[2018.02.15-00.06.29:521][236]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane13)
+[2018.02.15-00.07.08:889][720]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_A_Post)
+[2018.02.15-00.07.10:408][735]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A29)
+[2018.02.15-00.07.11:846][751]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A26)
+[2018.02.15-00.07.12:487][757]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A27)
+[2018.02.15-00.07.13:352][766]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A24)
+[2018.02.15-00.07.13:999][772]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A25)
+[2018.02.15-00.07.14:692][779]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A22)
+[2018.02.15-00.07.15:440][786]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A23)
+[2018.02.15-00.07.16:158][793]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A20)
+[2018.02.15-00.07.17:075][803]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A21)
+[2018.02.15-00.07.17:787][810]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A18)
+[2018.02.15-00.07.18:814][821]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A19)
+[2018.02.15-00.07.26:772][923]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A16)
+[2018.02.15-00.07.27:382][929]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A17)
+[2018.02.15-00.07.28:048][935]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A14)
+[2018.02.15-00.07.28:643][940]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_A15)
+[2018.02.15-00.07.55:554][271]Cmd: TRANSACTION UNDO
+[2018.02.15-00.07.55:554][271]LogEditorTransaction: Undo Move Actors
+[2018.02.15-00.07.55:646][271]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_A40.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.07.55:649][271]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_A36.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.08.29:061][688]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_A30)
+[2018.02.15-00.08.31:024][711]Cmd: DELETE
+[2018.02.15-00.08.31:024][711]Cmd: ACTOR DELETE
+[2018.02.15-00.08.31:028][711]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.15-00.08.31:077][711]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2018.02.15-00.08.32:496][730]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_A28)
+[2018.02.15-00.09.14:417][251]Cmd: TRANSACTION UNDO
+[2018.02.15-00.09.14:418][251]LogEditorTransaction: Undo Move Actors
+[2018.02.15-00.12.04:096][340]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_B)
+[2018.02.15-00.12.59:039][ 14]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B)
+[2018.02.15-00.13.18:086][240]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B2)
+[2018.02.15-00.13.18:868][248]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B)
+[2018.02.15-00.13.53:709][426]LogSavePackage: Save=1921.33ms
+[2018.02.15-00.13.53:709][426]LogSavePackage: Moving '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/ThirdPersonExampleMap_Auto4AF89793D4CC0B9942CEEEE8A322B5DB6.tmp' to '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2018.02.15-00.13.53:734][426]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap
+[2018.02.15-00.13.53:813][426]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 2.423
+[2018.02.15-00.13.53:813][426]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.423
+[2018.02.15-00.14.43:325][957]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_B12)
+[2018.02.15-00.14.57:092][151]LogStaticMesh: Building static mesh Wall_B_Post...
+[2018.02.15-00.14.57:108][151]LogStaticMesh: Built static mesh [0.02s] /Game/PostApoc/Models/Wall_B_Post.Wall_B_Post
+[2018.02.15-00.14.57:183][151]LogActorFactory: Actor Factory created Wall_B_Post
+[2018.02.15-00.14.59:535][185]LogActorFactory: Actor Factory created Wall_B_Post
+[2018.02.15-00.17.43:103][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane5)
+[2018.02.15-00.17.49:099][274]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_B14)
+[2018.02.15-00.17.54:424][335]Cmd: TRANSACTION UNDO
+[2018.02.15-00.17.54:424][335]LogEditorTransaction: Undo Move Actors
+[2018.02.15-00.17.59:454][390]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B14)
+[2018.02.15-00.18.06:589][473]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_B17)
+[2018.02.15-00.18.30:460][750]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B_Post)
+[2018.02.15-00.18.31:371][759]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B14)
+[2018.02.15-00.18.32:222][767]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B15)
+[2018.02.15-00.18.32:970][774]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B16)
+[2018.02.15-00.18.33:866][783]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B17)
+[2018.02.15-00.19.10:802][230]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane5)
+[2018.02.15-00.19.13:639][261]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane6)
+[2018.02.15-00.19.29:221][425]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_B14)
+[2018.02.15-00.23.56:003][234]LogSavePackage: Save=1081.99ms
+[2018.02.15-00.23.56:003][234]LogSavePackage: Moving '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/ThirdPersonExampleMap_Auto5DB984E3C446CA9B8D34CE3B2A2F52FE8.tmp' to '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2018.02.15-00.23.56:018][234]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap
+[2018.02.15-00.23.56:040][234]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 1.329
+[2018.02.15-00.23.56:040][234]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.329
+[2018.02.15-00.37.36:383][933]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B15)
+[2018.02.15-00.37.37:313][952]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B16)
+[2018.02.15-00.37.38:427][975]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B17)
+[2018.02.15-00.37.41:229][ 38]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B18)
+[2018.02.15-00.38.11:944][715]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long21)
+[2018.02.15-00.38.13:860][752]Cmd: TRANSACTION UNDO
+[2018.02.15-00.38.13:860][752]LogEditorTransaction: Undo Clicking on Actors
+[2018.02.15-00.39.14:385][ 15]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B)
+[2018.02.15-00.39.15:954][ 43]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B2)
+[2018.02.15-00.39.16:611][ 53]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B3)
+[2018.02.15-00.39.17:274][ 63]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B4)
+[2018.02.15-00.39.17:832][ 72]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Road_Long2)
+[2018.02.15-00.39.19:018][ 93]Cmd: TRANSACTION UNDO
+[2018.02.15-00.39.19:018][ 93]LogEditorTransaction: Undo Clicking on Actors
+[2018.02.15-00.39.20:138][110]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B5)
+[2018.02.15-00.39.20:972][124]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B6)
+[2018.02.15-00.39.21:737][136]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B7)
+[2018.02.15-00.39.22:421][147]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B8)
+[2018.02.15-00.39.23:128][158]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B9)
+[2018.02.15-00.39.23:775][168]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B10)
+[2018.02.15-00.39.24:485][179]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B11)
+[2018.02.15-00.39.25:091][188]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B12)
+[2018.02.15-00.39.25:842][200]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B13)
+[2018.02.15-00.39.29:860][269]Cmd: TRANSACTION UNDO
+[2018.02.15-00.39.29:860][269]LogEditorTransaction: Undo Move Actors
+[2018.02.15-00.39.29:933][269]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_B12.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.39.29:934][269]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_B10.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.39.29:936][269]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_B36.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.39.29:936][269]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_B37.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.39.35:560][365]Cmd: TRANSACTION UNDO
+[2018.02.15-00.39.35:560][365]LogEditorTransaction: Undo Move Actors
+[2018.02.15-00.39.35:631][365]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_B12.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.39.35:633][365]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_B10.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.39.35:634][365]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_B36.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.39.35:635][365]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_B37.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.39.41:317][462]Cmd: TRANSACTION UNDO
+[2018.02.15-00.39.41:318][462]LogEditorTransaction: Undo Move Actors
+[2018.02.15-00.39.41:384][462]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_B38.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.39.41:392][462]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_B5.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.39.50:033][605]Cmd: TRANSACTION UNDO
+[2018.02.15-00.39.50:033][605]LogEditorTransaction: Undo Move Actors
+[2018.02.15-00.39.50:111][605]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_B12.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.39.50:112][605]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_B10.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.39.50:113][605]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_B36.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.39.50:114][605]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_B37.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.40.18:708][ 57]Cmd: TRANSACTION UNDO
+[2018.02.15-00.40.18:708][ 57]LogEditorTransaction: Undo Move Actors
+[2018.02.15-00.40.18:783][ 57]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_B12.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.40.18:784][ 57]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_B10.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.40.18:786][ 57]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_B36.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.40.18:786][ 57]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.Wall_B37.StaticMeshComponent0) Component already registered.
+[2018.02.15-00.40.19:353][ 65]Cmd: TRANSACTION UNDO
+[2018.02.15-00.40.19:353][ 65]LogEditorTransaction: Undo Clicking on Actors
+[2018.02.15-00.40.22:452][111]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_B13)
+[2018.02.15-00.40.23:887][132]Cmd: TRANSACTION UNDO
+[2018.02.15-00.40.23:887][132]LogEditorTransaction: Undo Clicking on Actors
+[2018.02.15-00.40.26:303][163]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B13)
+[2018.02.15-00.40.57:708][586]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long14)
+[2018.02.15-00.40.58:645][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_B23)
+[2018.02.15-00.40.59:515][604]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B22)
+[2018.02.15-00.41.00:300][613]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B21)
+[2018.02.15-00.41.01:217][624]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B20)
+[2018.02.15-00.41.02:122][635]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B19)
+[2018.02.15-00.41.05:739][688]Cmd: TRANSACTION UNDO
+[2018.02.15-00.41.05:739][688]LogEditorTransaction: Undo Move Actors
+[2018.02.15-00.41.06:993][704]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B_Post2)
+[2018.02.15-00.41.34:353][113]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B51)
+[2018.02.15-00.41.35:683][129]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B50)
+[2018.02.15-00.41.36:414][137]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B49)
+[2018.02.15-00.41.37:192][145]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B48)
+[2018.02.15-00.41.38:096][155]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B47)
+[2018.02.15-00.41.38:870][162]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B46)
+[2018.02.15-00.41.43:677][224]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B45)
+[2018.02.15-00.41.44:452][230]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B44)
+[2018.02.15-00.41.44:991][233]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B43)
+[2018.02.15-00.41.45:643][238]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B42)
+[2018.02.15-00.41.46:520][248]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B41)
+[2018.02.15-00.41.47:212][255]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B40)
+[2018.02.15-00.41.50:830][304]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_B39)
+[2018.02.15-00.42.01:028][451]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane4)
+[2018.02.15-00.42.01:889][460]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Plane3)
+[2018.02.15-00.43.37:398][750]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RightArm_StaticMesh)
+[2018.02.15-00.43.39:032][768]Cmd: DELETE
+[2018.02.15-00.43.39:032][768]Cmd: ACTOR DELETE
+[2018.02.15-00.43.39:037][768]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.15-00.43.39:128][768]LogEditorActor: Deleted 1 Actors (0.096 secs)
+[2018.02.15-00.43.40:091][781]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_StaticMesh)
+[2018.02.15-00.43.40:789][788]Cmd: DELETE
+[2018.02.15-00.43.40:789][788]Cmd: ACTOR DELETE
+[2018.02.15-00.43.40:793][788]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.15-00.43.40:842][788]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2018.02.15-00.43.41:330][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bump_StaticMesh)
+[2018.02.15-00.43.41:872][800]Cmd: DELETE
+[2018.02.15-00.43.41:872][800]Cmd: ACTOR DELETE
+[2018.02.15-00.43.41:880][800]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.15-00.43.41:929][800]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2018.02.15-00.43.42:493][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LeftArm_StaticMesh)
+[2018.02.15-00.43.43:049][813]Cmd: DELETE
+[2018.02.15-00.43.43:049][813]Cmd: ACTOR DELETE
+[2018.02.15-00.43.43:053][813]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.15-00.43.43:126][813]LogEditorActor: Deleted 1 Actors (0.077 secs)
+[2018.02.15-00.43.43:742][821]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ramp_StaticMesh)
+[2018.02.15-00.43.44:326][827]Cmd: DELETE
+[2018.02.15-00.43.44:326][827]Cmd: ACTOR DELETE
+[2018.02.15-00.43.44:333][827]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.15-00.43.44:393][827]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2018.02.15-00.43.45:209][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CubeMesh)
+[2018.02.15-00.43.45:850][844]Cmd: DELETE
+[2018.02.15-00.43.45:850][844]Cmd: ACTOR DELETE
+[2018.02.15-00.43.45:855][844]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.15-00.43.45:934][844]LogEditorActor: Deleted 1 Actors (0.083 secs)
+[2018.02.15-00.43.47:272][862]LogEditorViewport: Clicking on Actor (LMB): DocumentationActor (DocumentationActor1)
+[2018.02.15-00.43.48:109][871]Cmd: DELETE
+[2018.02.15-00.43.48:110][871]Cmd: ACTOR DELETE
+[2018.02.15-00.43.48:117][871]LogEditorActor: Deleted Actor: DocumentationActor
+[2018.02.15-00.43.48:200][871]LogEditorActor: Deleted 1 Actors (0.090 secs)
+[2018.02.15-00.43.49:326][886]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2018.02.15-00.43.50:307][895]Cmd: DELETE
+[2018.02.15-00.43.50:307][895]Cmd: ACTOR DELETE
+[2018.02.15-00.43.50:314][895]LogEditorActor: Deleted Actor: TextRenderActor
+[2018.02.15-00.43.50:365][895]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2018.02.15-00.44.01:830][ 45]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.15-00.44.01:947][ 45]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.15-00.44.01:947][ 45]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.15-00.44.01:948][ 45]PIE: New page: PIE session: ThirdPersonExampleMap (15 Feb 2018 00:44:01)
+[2018.02.15-00.44.01:948][ 45]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.02.15-00.44.02:154][ 45]LogPlayLevel: PIE: StaticDuplicateObject took: (0.206074s)
+[2018.02.15-00.44.02:158][ 45]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.02.15-00.44.02:158][ 45]LogPlayLevel: PIE: World Init took: (0.004130s)
+[2018.02.15-00.44.02:159][ 45]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.211359s)
+[2018.02.15-00.44.02:274][ 45]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.15-00.44.02:361][ 45]LogInit: FAudioDevice initialized.
+[2018.02.15-00.44.02:430][ 45]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.02.15-00.44.02:519][ 45]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.02.15-00.44.02
+[2018.02.15-00.44.02:522][ 45]LogWorld: Bringing up level for play took: 0.083727
+[2018.02.15-00.44.02:531][ 45]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.779
+[2018.02.15-00.44.02:533][ 45]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.15-00.44.24:657][335]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.15-00.44.24:792][335]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.02.15-00.45.32:996][144]LogSavePackage: Save=3292.94ms
+[2018.02.15-00.45.32:996][144]LogSavePackage: Moving '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/ThirdPersonExampleMap_Auto6AD865C8F4CE23643BC5EB2AA341CAFC7.tmp' to '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto6.umap'
+[2018.02.15-00.45.33:032][144]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto6.umap
+[2018.02.15-00.45.33:071][144]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 3.914
+[2018.02.15-00.45.33:071][144]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.914
+[2018.02.15-00.46.12:486][561]LogStaticMesh: Building static mesh StoreFront...
+[2018.02.15-00.46.12:604][561]LogStaticMesh: Built static mesh [0.12s] /Game/PostApoc/Models/StoreFront.StoreFront
+[2018.02.15-00.46.12:655][561]LogMaterial: Missing cached shader map for material Decal_Dirt_mat, compiling. 
+[2018.02.15-00.46.12:959][561]LogMaterial: Missing cached shader map for material CementA_mat, compiling. 
+[2018.02.15-00.46.13:125][561]LogMaterial: Missing cached shader map for material Tile, compiling. 
+[2018.02.15-00.46.13:266][561]LogMaterial: Missing cached shader map for material Brick_mat, compiling. 
+[2018.02.15-00.46.13:839][561]LogMaterial: Missing cached shader map for material Decal_Leaks_mat, compiling. 
+[2018.02.15-00.46.14:089][561]LogMaterial: Missing cached shader map for material Drywall_Mat, compiling. 
+[2018.02.15-00.46.14:280][561]LogMaterial: Missing cached shader map for material Wood_mat, compiling. 
+[2018.02.15-00.46.14:505][561]LogMaterial: Missing cached shader map for material WoodPainted_Blue_Mat, compiling. 
+[2018.02.15-00.46.14:734][561]LogMaterial: Missing cached shader map for material MetalPainted_Tint_mat, compiling. 
+[2018.02.15-00.46.14:985][561]LogMaterial: Missing cached shader map for material Glass_mat, compiling. 
+[2018.02.15-00.46.15:556][561]LogActorFactory: Actor Factory created StoreFront
+[2018.02.15-00.46.15:587][561]LogActorFactory: Actor Factory created StoreFront
+[2018.02.15-00.46.39:271][743]Cmd: TRANSACTION UNDO
+[2018.02.15-00.46.39:271][743]LogEditorTransaction: Undo Move Actors
+[2018.02.15-00.47.14:583][ 32]LogStaticMesh: Building static mesh StoreShelf_B_mdl...
+[2018.02.15-00.47.14:910][ 32]LogStaticMesh: Built static mesh [0.33s] /Game/PostApoc/Models/StoreShelf_B_mdl.StoreShelf_B_mdl
+[2018.02.15-00.47.14:951][ 32]LogMaterial: Missing cached shader map for material StoreShelf_mat, compiling. 
+[2018.02.15-00.47.15:367][ 32]LogActorFactory: Actor Factory created StoreShelf_B_mdl
+[2018.02.15-00.47.19:832][ 62]LogActorFactory: Actor Factory created StoreShelf_B_mdl
+[2018.02.15-00.50.47:602][874]LogMaterial: Missing cached shader map for material StoreFridge_mat, compiling. 
+[2018.02.15-00.50.47:716][874]LogMaterial: Missing cached shader map for material StoreFridge_Glass_mat, compiling. 
+[2018.02.15-00.50.47:788][874]LogStaticMesh: Building static mesh StoreFridge_mdl...
+[2018.02.15-00.50.48:676][874]LogStaticMesh: Built static mesh [0.89s] /Game/PostApoc/Models/StoreFridge_mdl.StoreFridge_mdl
+[2018.02.15-00.50.48:769][874]LogActorFactory: Actor Factory created StoreFridge_mdl
+[2018.02.15-00.50.52:816][921]LogActorFactory: Actor Factory created StoreFridge_mdl
+[2018.02.15-00.51.47:596][606]LogStaticMesh: Building static mesh StoreFridge_DoorL_mdl...
+[2018.02.15-00.51.47:668][606]LogStaticMesh: Built static mesh [0.07s] /Game/PostApoc/Models/StoreFridge_DoorL_mdl.StoreFridge_DoorL_mdl
+[2018.02.15-00.51.47:751][606]LogActorFactory: Actor Factory created StoreFridge_DoorL_mdl
+[2018.02.15-00.51.49:392][627]LogActorFactory: Actor Factory created StoreFridge_DoorL_mdl
+[2018.02.15-00.51.50:356][639]LogActorFactory: Actor Factory created StoreFridge_DoorL_mdl
+[2018.02.15-00.52.08:966][868]LogStaticMesh: Building static mesh StoreDoor_mdl...
+[2018.02.15-00.52.09:027][868]LogStaticMesh: Built static mesh [0.06s] /Game/PostApoc/Models/StoreDoor_mdl.StoreDoor_mdl
+[2018.02.15-00.52.09:050][868]LogMaterial: Missing cached shader map for material MetalClean_mat, compiling. 
+[2018.02.15-00.52.09:222][868]LogActorFactory: Actor Factory created StoreDoor_mdl
+[2018.02.15-00.52.15:362][942]LogActorFactory: Actor Factory created StoreDoor_mdl
+[2018.02.15-00.52.16:729][957]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoreFront)
+[2018.02.15-00.52.21:890][ 15]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoreFridge_DoorL_mdl)
+[2018.02.15-00.52.24:534][ 47]Cmd: DELETE
+[2018.02.15-00.52.24:534][ 47]Cmd: ACTOR DELETE
+[2018.02.15-00.52.24:538][ 47]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.15-00.52.24:615][ 47]LogEditorActor: Deleted 1 Actors (0.080 secs)
+[2018.02.15-00.52.25:517][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane43)
+[2018.02.15-00.52.26:658][ 72]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane61)
+[2018.02.15-00.52.27:757][ 85]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane43)
+[2018.02.15-00.52.28:941][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoreDoor_mdl)
+[2018.02.15-00.53.35:254][939]Cmd: ACTOR SELECT ALL
+[2018.02.15-00.53.37:963][964]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoreFront)
+[2018.02.15-00.53.39:701][978]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoreFront)
+[2018.02.15-00.53.41:564][  1]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoreDoor_mdl2)
+[2018.02.15-00.53.42:428][ 10]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoreDoor_mdl)
+[2018.02.15-00.54.01:551][250]Cmd: TRANSACTION UNDO
+[2018.02.15-00.54.01:551][250]LogEditorTransaction: Undo Rotate Actors
+[2018.02.15-00.54.10:717][359]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoreShelf_B_mdl)
+[2018.02.15-00.54.13:088][386]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoreFridge_mdl)
+[2018.02.15-00.54.19:159][460]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoreFront)
+[2018.02.15-00.55.35:778][707]LogSavePackage: Save=1030.36ms
+[2018.02.15-00.55.35:778][707]LogSavePackage: Moving '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/ThirdPersonExampleMap_Auto7074C0EDD4B1E1F5A1F4623A3FC2F20EF.tmp' to '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto7.umap'
+[2018.02.15-00.55.35:789][707]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto7.umap
+[2018.02.15-00.55.35:814][707]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 1.227
+[2018.02.15-00.55.35:814][707]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.227
+[2018.02.15-00.56.36:342][119]Cmd: TRANSACTION UNDO
+[2018.02.15-00.56.36:342][119]LogEditorTransaction: Undo Rotate Actors
+[2018.02.15-00.57.29:681][ 98]Cmd: TRANSACTION UNDO
+[2018.02.15-00.57.29:681][ 98]LogEditorTransaction: Undo Move Actors
+[2018.02.15-00.57.52:258][400]LogMaterial: Missing cached shader map for material WoodFloors_mat, compiling. 
+[2018.02.15-00.57.52:333][400]LogMaterial: Missing cached shader map for material WallPaper_mat, compiling. 
+[2018.02.15-00.57.52:425][400]LogMaterial: Missing cached shader map for material Stucco_mat, compiling. 
+[2018.02.15-00.57.52:495][400]LogStaticMesh: Building static mesh StoreApartmentA...
+[2018.02.15-00.58.48:933][400]LogStaticMesh: Built static mesh [56.44s] /Game/PostApoc/Models/StoreApartmentA.StoreApartmentA
+[2018.02.15-00.58.49:145][400]LogActorFactory: Actor Factory created StoreApartmentA
+[2018.02.15-00.59.12:577][688]LogActorFactory: Actor Factory created StoreApartmentA
+[2018.02.15-00.59.15:243][736]LogActorFactory: Actor Factory created StoreApartmentA
+[2018.02.15-01.00.29:267][832]Cmd: TRANSACTION UNDO
+[2018.02.15-01.00.29:267][832]LogEditorTransaction: Undo Move Actors
+[2018.02.15-01.02.25:314][299]LogStaticMesh: Building static mesh Shelf_B_mdl...
+[2018.02.15-01.02.25:404][299]LogStaticMesh: Built static mesh [0.09s] /Game/PostApoc/Models/Shelf_B_mdl.Shelf_B_mdl
+[2018.02.15-01.02.25:438][299]LogMaterial: Missing cached shader map for material Shelf_B_mat, compiling. 
+[2018.02.15-01.02.25:591][300]LogActorFactory: Actor Factory created Shelf_B_mdl
+[2018.02.15-01.02.26:682][315]LogActorFactory: Actor Factory created Shelf_B_mdl
+[2018.02.15-01.02.28:037][332]Cmd: DELETE
+[2018.02.15-01.02.28:037][332]Cmd: ACTOR DELETE
+[2018.02.15-01.02.28:041][332]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.15-01.02.28:114][332]LogEditorActor: Deleted 1 Actors (0.076 secs)
+[2018.02.15-01.02.34:917][382]LogMaterial: Missing cached shader map for material Store_CeilingLight_mat, compiling. 
+[2018.02.15-01.02.35:016][382]LogStaticMesh: Building static mesh Store_CeilingLight_mdl...
+[2018.02.15-01.02.35:132][382]LogStaticMesh: Built static mesh [0.12s] /Game/PostApoc/Models/Store_CeilingLight_mdl.Store_CeilingLight_mdl
+[2018.02.15-01.02.35:263][382]LogActorFactory: Actor Factory created Store_CeilingLight_mdl
+[2018.02.15-01.02.36:604][397]LogActorFactory: Actor Factory created Store_CeilingLight_mdl
+[2018.02.15-01.02.58:101][658]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Store_CeilingLight_mdl)
+[2018.02.15-01.03.23:698][978]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (StoreDoor_mdl)
+[2018.02.15-01.03.43:295][211]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoreFridge_mdl)
+[2018.02.15-01.03.43:988][218]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoreFront)
+[2018.02.15-01.03.45:207][229]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Store_CeilingLight_mdl)
+[2018.02.15-01.03.47:004][249]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Store_CeilingLight_mdl2)
+[2018.02.15-01.03.49:404][277]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Store_CeilingLight_mdl3)
+[2018.02.15-01.03.50:413][288]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Store_CeilingLight_mdl4)
+[2018.02.15-01.03.53:083][319]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (StoreShelf_B_mdl)
+[2018.02.15-01.03.59:162][391]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2018.02.15-01.05.38:014][715]LogSavePackage: Save=1047.57ms
+[2018.02.15-01.05.38:014][715]LogSavePackage: Moving '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/ThirdPersonExampleMap_Auto86A54DA17406BBE22B6EFED90C5868DB2.tmp' to '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto8.umap'
+[2018.02.15-01.05.38:026][715]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto8.umap
+[2018.02.15-01.05.38:051][715]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 1.248
+[2018.02.15-01.05.38:051][715]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.248
+[2018.02.15-01.06.02:433][839]LogSavePackage: Save=657.08ms
+[2018.02.15-01.06.02:433][839]LogSavePackage: Moving '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Saved/ThirdPersonExampleMap1A0593844C2E50C1AD3BDBB0C18CA46D.tmp' to '../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.02.15-01.06.02:474][839]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/MattParker/Documents/Uni final year backup/Team Project (Games) Final year/TeamProject/Survival/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.02.15-01.06.02:564][839]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.003
