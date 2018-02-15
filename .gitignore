@@ -75,3 +75,7 @@ Intermediate/*
 DerivedDataCache/*
 *.ini
 *.log
+Survival/Intermediate/CachedAssetRegistry.bin
+*.png
+*.ini
+*.log
