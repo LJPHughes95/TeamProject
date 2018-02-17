@@ -81,3 +81,5 @@ Survival/Intermediate/CachedAssetRegistry.bin
 *.log
 *.bin
 *.bin
+*.log
+*.ini
