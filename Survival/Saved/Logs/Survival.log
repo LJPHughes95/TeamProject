@@ -1,9 +1,9 @@
-﻿Log file open, 03/02/18 15:54:05
+﻿Log file open, 03/09/18 10:10:33
 LogInit:Display: Running engine for game: Survival
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1646133243) SRandInit(1646133243).
+LogInit:Display: RandInit(1842209648) SRandInit(1842209649).
 LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.846707
+LogStats: Stats thread started at 0.102934
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -50,781 +50,548 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.03.02-15.54.09:955][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.02-15.54.09:955][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.03.02-15.54.14:478][  0]LogInit: Computer: LAPTOP-RA57JA6K
-[2018.03.02-15.54.14:478][  0]LogInit: User: Jamesrigby777
-[2018.03.02-15.54.14:478][  0]LogInit: CPU Page size=4096, Cores=2
-[2018.03.02-15.54.14:478][  0]LogInit: High frequency timer resolution =1.945311 MHz
-[2018.03.02-15.54.14:494][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.03.02-15.54.14:494][  0]LogMemory: Platform Memory Stats for Windows
-[2018.03.02-15.54.14:494][  0]LogMemory: Process Physical Memory: 273.66 MB used, 273.66 MB peak
-[2018.03.02-15.54.14:494][  0]LogMemory: Process Virtual Memory: 266.74 MB used, 266.74 MB peak
-[2018.03.02-15.54.14:494][  0]LogMemory: Physical Memory: 2770.89 MB used,  5312.52 MB free, 8083.41 MB total
-[2018.03.02-15.54.14:494][  0]LogMemory: Virtual Memory: 680.40 MB used,  5312.52 MB free, 134217728.00 MB total
-[2018.03.02-15.54.23:124][  0]LogInit: Using OS detected language (en-GB).
-[2018.03.02-15.54.23:124][  0]LogInit: Using OS detected locale (en-GB).
-[2018.03.02-15.54.23:381][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2018.03.02-15.54.39:063][  0]LogD3D11RHI: D3D11 adapters:
-[2018.03.02-15.54.39:598][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
-[2018.03.02-15.54.39:598][  0]LogD3D11RHI:       128/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2018.03.02-15.54.39:614][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.03.02-15.54.39:614][  0]LogD3D11RHI:       0/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.03.02-15.54.39:614][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.03.02-15.54.39:684][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.03.02-15.54.39:684][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
-[2018.03.02-15.54.39:684][  0]LogWindows: EnumDisplayDevices:
-[2018.03.02-15.54.39:685][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
-[2018.03.02-15.54.39:687][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2018.03.02-15.54.39:687][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2018.03.02-15.54.39:687][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.03.02-15.54.39:687][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
-[2018.03.02-15.54.39:687][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.03.02-15.54.39:687][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.03.02-15.54.39:688][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.03.02-15.54.39:759][  0]LogD3D11RHI: Async texture creation enabled
-[2018.03.02-15.54.41:025][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
-[2018.03.02-15.54.41:209][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Intermediate/Shaders/WorkingDirectory/14548/).
-[2018.03.02-15.54.41:210][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jamesrigby777/AppData/Local/Temp/UnrealShaderWorkingDir/DC32DDF94E53377F16A42D84D979C920/'.
-[2018.03.02-15.54.41:314][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2018.03.02-15.54.55:361][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2018.03.02-15.54.55:590][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2018.03.02-15.54.55:753][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2018.03.02-15.54.56:889][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2018.03.02-15.54.57:928][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2018.03.02-15.54.58:233][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2018.03.02-15.54.59:481][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.03.02-15.54.59:732][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2018.03.02-15.55.00:048][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2018.03.02-15.55.00:254][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2018.03.02-15.55.00:432][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2018.03.02-15.55.00:681][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2018.03.02-15.55.00:856][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2018.03.02-15.55.01:045][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2018.03.02-15.55.01:296][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2018.03.02-15.55.01:792][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2018.03.02-15.55.01:792][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.03.02-15.55.01:942][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2018.03.02-15.55.02:433][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2018.03.02-15.55.02:540][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2018.03.02-15.55.02:760][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2018.03.02-15.55.02:927][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.03.02-15.55.03:225][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2018.03.02-15.55.03:538][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2018.03.02-15.55.03:538][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2018.03.02-15.55.09:400][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2018.03.02-15.55.16:138][  0]LogDerivedDataCache: Loaded boot cache 6.72s 90MB C:/Users/Jamesrigby777/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.03.02-15.55.16:160][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jamesrigby777/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2018.03.02-15.55.16:160][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.02-15.55.16:173][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.03.02-15.55.16:174][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.03.02-15.55.16:174][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.03.02-15.55.16:351][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.03.02-15.55.16:379][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jamesrigby777/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.03.02-15.55.16:821][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.03.02-15.55.16:970][  0]LogSlate: Using Freetype 2.6.0
-[2018.03.02-15.55.17:110][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.02-15.55.17:110][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.02-15.55.46:105][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.02-15.55.50:768][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.03.02-15.55.53:488][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.03.02-15.55.53:933][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.03.02-15.55.54:245][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.03.02-15.55.54:245][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2018.03.02-15.55.54:246][  0]LogMeshUtilities: No automatic mesh merging module available
-[2018.03.02-15.56.07:877][  0]LogNetVersion: Survival , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3038584403)
-[2018.03.02-15.56.08:787][  0]LogAssetRegistry: FAssetRegistry took 0.0750 seconds to start up
-[2018.03.02-15.56.10:408][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 1.374870 seconds
-[2018.03.02-15.56.10:488][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2018.03.02-15.56.10:488][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
-[2018.03.02-15.56.10:488][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.03.02-15.56.11:052][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.03.02-15.57.03:129][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.03.02-15.57.03:325][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.03.02-15.57.07:739][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.03.02-15.57.11:593][  0]SourceControl: Info Source control is disabled
-[2018.03.02-15.57.11:741][  0]SourceControl: Info Source control is disabled
-[2018.03.02-15.57.12:953][  0]SourceControl: Info Source control is disabled
-[2018.03.02-15.57.13:317][  0]SourceControl: Info Source control is disabled
-[2018.03.02-15.57.18:952][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.03.02-15.57.24:719][  0]LogEngine: Initializing Engine...
-[2018.03.02-15.57.24:776][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.03.02-15.57.26:109][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.02-15.57.26:110][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.03.02-15.57.27:354][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.03.02-15.57.28:586][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.02-15.57.28:883][  0]LogInit: FAudioDevice initialized.
-[2018.03.02-15.57.30:294][  0]LogDerivedDataCache: Saved boot cache 1.30s 90MB C:/Users/Jamesrigby777/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.03.02-15.57.30:306][  0]LogInit: Texture streaming: Enabled
-[2018.03.02-15.57.31:599][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.03.02-15.57.39:429][  0]LogInit: Transaction tracking system initialized
-[2018.03.02-15.57.43:291][  0]BlueprintLog: New page: Editor Load
-[2018.03.02-15.58.04:985][  0]LocalizationService: Info Localization service is disabled
-[2018.03.02-15.58.22:031][  0]LogConsoleResponse:Display: 
-[2018.03.02-15.58.42:393][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/' took 0.32s
-[2018.03.02-15.58.42:393][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.03.02-15.58.42:426][  0]LogCook:Display: Mobile HDR setting 1
-[2018.03.02-15.59.15:575][  0]SourceControl: Info Source control is disabled
-[2018.03.02-15.59.16:439][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.02-15.59.16:726][  0]LightingResults: New page: Lighting Build
-[2018.03.02-15.59.21:367][  0]MapCheck: New page: Map Check
-[2018.03.02-15.59.21:367][  0]LightingResults: New page: Lighting Build
-[2018.03.02-16.01.53:395][  0]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.16+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 934) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
-[2018.03.02-16.01.53:433][  0]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.16+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 934) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
-[2018.03.02-16.01.53:452][  0]LogPhysics:Warning: Failed to cook convex: /Game/NewModels/key.key 0 (FlipX:1). The remaining elements will not get cooked.
-[2018.03.02-16.02.51:710][  0]LogAIModule: Creating AISystem for world Level1
-[2018.03.02-16.02.57:285][  0]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.02-16.02.57:296][  0]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.02-16.03.02:256][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
-[2018.03.02-16.03.03:918][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.02-16.03.04:413][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 487.874ms to complete.
-[2018.03.02-16.03.04:413][  0]LogFileHelpers: Loading map 'Level1' took 228.512
-[2018.03.02-16.03.13:611][  0]LogCollectionManager: Loaded 0 collections in 0.024061 seconds
-[2018.03.02-16.03.14:852][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Collections/' took 0.01s
-[2018.03.02-16.03.14:853][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Developers/Jamesrigby777/Collections/' took 0.01s
-[2018.03.02-16.03.14:853][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Collections/' took 0.01s
-[2018.03.02-16.03.14:853][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000010 seconds
-[2018.03.02-16.03.14:941][  0]LogContentBrowser: Native class hierarchy populated in 0.0646 seconds. Added 2329 classes and 491 folders.
-[2018.03.02-16.03.15:903][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2018.03.02-16.03.17:680][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0039 seconds. Added 0 classes and 0 folders.
-[2018.03.02-16.03.17:931][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2018.03.02-16.03.18:698][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2018.03.02-16.03.19:097][  0]LogSlate: Took 0.010638 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.02-16.03.19:130][  0]LogSlate: Took 0.020303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.03.02-16.03.19:314][  0]LogSlate: Took 0.033323 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.03.02-16.03.20:780][  0]LogRenderer: Reallocating scene render targets to support 724x404 NumSamples 1 (Frame:1).
-[2018.03.02-16.03.24:747][  0]LogSlate: Took 0.046494 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.02-16.03.26:066][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2018.03.02-16.03.26:713][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0027 seconds. Added 1 classes and 2 folders.
-[2018.03.02-16.03.26:714][  0]LogLoad: (Engine Initialization) Total time: 573.60 seconds
-[2018.03.02-16.03.26:714][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 20.93 seconds
-[2018.03.02-16.03.26:714][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.03.02-16.03.27:240][  0]LogOcInput: OculusInput pre-init called
-[2018.03.02-16.03.27:257][  0]LogHMD: Starting GearVRController plugin
-[2018.03.02-16.03.31:443][  0]LogContentStreaming: Texture pool size now 400 MB
-[2018.03.02-16.03.32:428][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
-[2018.03.02-16.03.34:361][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/' took 6.89s
-[2018.03.02-16.03.40:964][  8]LogAssetRegistry: Asset discovery search completed in 452.2126 seconds
-[2018.03.02-16.03.41:016][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
-[2018.03.02-16.04.27:366][147]LogHttp:Warning: 000001A7E38B7580: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.04.27:366][147]LogHttp:Warning: 000001A7E38B7580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.04.27:366][147]LogHttp:Warning: 000001A7E38B7580: libcurl info message cache 1 (Closing connection 0)
-[2018.03.02-16.04.49:156][271]LogSlate: Took 0.000695 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.02-16.04.49:905][271]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0039 seconds. Added 1 classes and 2 folders.
-[2018.03.02-16.04.49:978][271]LogSlate: Took 0.000826 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.02-16.04.50:904][271]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.03.02-16.04.52:594][271]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 112 classes and 0 folders.
-[2018.03.02-16.04.54:588][271]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2018.03.02-16.04.56:645][271]LogSlate: Took 0.016735 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.03.02-16.04.57:008][271]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0013 seconds. Added 1 classes and 0 folders.
-[2018.03.02-16.04.57:492][272]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.03.02-16.05.01:701][375]LogSlate: Took 0.034304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.03.02-16.05.27:075][ 79]LogHttp:Warning: 000001A7F2D1DC00: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.05.27:075][ 79]LogHttp:Warning: 000001A7F2D1DC00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.05.27:075][ 79]LogHttp:Warning: 000001A7F2D1DC00: libcurl info message cache 1 (Closing connection 1)
-[2018.03.02-16.06.27:248][900]LogHttp:Warning: 000001A80CE0CB80: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.06.27:248][900]LogHttp:Warning: 000001A80CE0CB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.06.27:248][900]LogHttp:Warning: 000001A80CE0CB80: libcurl info message cache 1 (Closing connection 2)
-[2018.03.02-16.08.27:164][392]LogHttp:Warning: 000001A7A6EC4880: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.08.27:164][392]LogHttp:Warning: 000001A7A6EC4880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.08.27:164][392]LogHttp:Warning: 000001A7A6EC4880: libcurl info message cache 1 (Closing connection 3)
-[2018.03.02-16.09.25:550][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Eve/Movement_BP" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset" SILENT=true
-[2018.03.02-16.09.26:647][910]LogSavePackage: Save=610.72ms
-[2018.03.02-16.09.26:647][910]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Movement_BP3B6737494ECEF7E65CC88A808BE0B3D4.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset'
-[2018.03.02-16.09.26:763][910]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset
-[2018.03.02-16.09.27:289][921]LogHttp:Warning: 000001A7CA1FA680: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.09.27:289][921]LogHttp:Warning: 000001A7CA1FA680: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.09.27:289][921]LogHttp:Warning: 000001A7CA1FA680: libcurl info message cache 1 (Closing connection 4)
-[2018.03.02-16.09.28:600][937]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
-[2018.03.02-16.09.28:773][937]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
-[2018.03.02-16.09.30:120][937]LogRenderer: Reallocating scene render targets to support 808x404 NumSamples 1 (Frame:1).
-[2018.03.02-16.09.30:120][937]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.03.02-16.10.45:452][510]LogHttp:Warning: 000001A7E3896F80: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.10.45:452][510]LogHttp:Warning: 000001A7E3896F80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.10.45:453][510]LogHttp:Warning: 000001A7E3896F80: libcurl info message cache 1 (Closing connection 5)
-[2018.03.02-16.12.21:379][635]LogHttp:Warning: 000001A8207E6200: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.12.21:379][635]LogHttp:Warning: 000001A8207E6200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.12.21:379][635]LogHttp:Warning: 000001A8207E6200: libcurl info message cache 1 (Closing connection 6)
-[2018.03.02-16.12.56:611][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Eve/Movement_BP" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset" SILENT=true
-[2018.03.02-16.12.57:026][255]LogSavePackage: Save=380.90ms
-[2018.03.02-16.12.57:026][255]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Movement_BPE39AFF3B4078F42CD421349267FFEE09.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset'
-[2018.03.02-16.12.57:033][255]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset
-[2018.03.02-16.13.27:265][962]LogHttp:Warning: 000001A803683D00: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.13.27:265][962]LogHttp:Warning: 000001A803683D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.13.27:265][962]LogHttp:Warning: 000001A803683D00: libcurl info message cache 1 (Closing connection 7)
-[2018.03.02-16.13.51:682][166]LogSlate: Took 0.001795 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.02-16.14.00:964][208]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level1' took 0.347
-[2018.03.02-16.14.01:013][208]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/Eve/Movement_BP] ([1] browsable assets)...
-[2018.03.02-16.14.01:054][208]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Character/Eve/Movement_BP.Movement_BP]
-[2018.03.02-16.14.01:054][208]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/Eve/Movement_BP]
-[2018.03.02-16.14.01:846][208]LogSavePackage: Save=750.31ms
-[2018.03.02-16.14.01:846][208]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Movement_BP_Auto1CDA8055A4523121908B03697E3B053B5.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/Character/Eve/Movement_BP_Auto1.uasset'
-[2018.03.02-16.14.01:867][208]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/Character/Eve/Movement_BP_Auto1.uasset
-[2018.03.02-16.14.01:867][208]LogFileHelpers: Auto-saving content packages took 0.895
-[2018.03.02-16.14.02:331][216]BlueprintLog: New page: Compile Movement_BP
-[2018.03.02-16.14.02:404][216]LogBlueprint:Warning: [Compiler Movement_BP] Warning  idle to Crouching  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.02:404][216]LogBlueprint:Warning: [Compiler Movement_BP] Warning  Crouching to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.02:404][216]LogBlueprint:Warning: [Compiler Movement_BP] Warning  idle to Jumping  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.02:404][216]LogBlueprint:Warning: [Compiler Movement_BP] Warning  Jumping to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.02:404][216]LogBlueprint:Warning: [Compiler Movement_BP] Warning  idle to AttackNorm  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.02:404][216]LogBlueprint:Warning: [Compiler Movement_BP] Warning  AttackNorm to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.02:404][216]LogBlueprint:Warning: [Compiler Movement_BP] Warning  idle to SlideAttack  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.02:405][216]LogBlueprint:Warning: [Compiler Movement_BP] Warning  SlideAttack to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.02:405][216]LogBlueprint:Warning: [Compiler Movement_BP] Warning  idle to BeserkAttack  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.02:405][216]LogBlueprint:Warning: [Compiler Movement_BP] Warning  BeserkAttack to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.03:423][216]BlueprintEditorCompileResults:Warning: Warning  idle to Crouching  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.03:423][216]BlueprintEditorCompileResults:Warning: Warning  Crouching to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.03:423][216]BlueprintEditorCompileResults:Warning: Warning  idle to Jumping  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.03:423][216]BlueprintEditorCompileResults:Warning: Warning  Jumping to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.03:423][216]BlueprintEditorCompileResults:Warning: Warning  idle to AttackNorm  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.03:423][216]BlueprintEditorCompileResults:Warning: Warning  AttackNorm to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.03:423][216]BlueprintEditorCompileResults:Warning: Warning  idle to SlideAttack  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.03:423][216]BlueprintEditorCompileResults:Warning: Warning  SlideAttack to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.03:423][216]BlueprintEditorCompileResults:Warning: Warning  idle to BeserkAttack  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.03:423][216]BlueprintEditorCompileResults:Warning: Warning  BeserkAttack to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.03:424][216]LogBlueprint:Warning: [Compiler Movement_BP] Warning [1210.31] Compile of Movement_BP successful, but with 10 Warning(s) [in 1,092 ms] (/Game/Character/Eve/Movement_BP.Movement_BP)
-[2018.03.02-16.14.04:113][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Eve/Movement_BP" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset" SILENT=true
-[2018.03.02-16.14.04:501][227]LogSavePackage: Save=373.35ms
-[2018.03.02-16.14.04:501][227]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Movement_BP7BFE44754A5AF33C98AC37B7D61133C4.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset'
-[2018.03.02-16.14.04:508][227]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset
-[2018.03.02-16.14.55:657][319]BlueprintLog: New page: Compile Movement_BP
-[2018.03.02-16.14.55:743][319]LogBlueprint:Warning: [Compiler Movement_BP] Warning  idle to Jumping  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.55:743][319]LogBlueprint:Warning: [Compiler Movement_BP] Warning  Jumping to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.55:743][319]LogBlueprint:Warning: [Compiler Movement_BP] Warning  idle to AttackNorm  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.55:743][319]LogBlueprint:Warning: [Compiler Movement_BP] Warning  AttackNorm to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.55:743][319]LogBlueprint:Warning: [Compiler Movement_BP] Warning  idle to SlideAttack  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.55:744][319]LogBlueprint:Warning: [Compiler Movement_BP] Warning  SlideAttack to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.55:744][319]LogBlueprint:Warning: [Compiler Movement_BP] Warning  idle to BeserkAttack  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.55:744][319]LogBlueprint:Warning: [Compiler Movement_BP] Warning  BeserkAttack to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.56:068][319]BlueprintEditorCompileResults:Warning: Warning  idle to Jumping  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.56:068][319]BlueprintEditorCompileResults:Warning: Warning  Jumping to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.56:068][319]BlueprintEditorCompileResults:Warning: Warning  idle to AttackNorm  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.56:068][319]BlueprintEditorCompileResults:Warning: Warning  AttackNorm to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.56:068][319]BlueprintEditorCompileResults:Warning: Warning  idle to SlideAttack  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.56:068][319]BlueprintEditorCompileResults:Warning: Warning  SlideAttack to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.56:068][319]BlueprintEditorCompileResults:Warning: Warning  idle to BeserkAttack  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.56:068][319]BlueprintEditorCompileResults:Warning: Warning  BeserkAttack to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.14.56:069][319]LogBlueprint:Warning: [Compiler Movement_BP] Warning [1262.96] Compile of Movement_BP successful, but with 8 Warning(s) [in 411 ms] (/Game/Character/Eve/Movement_BP.Movement_BP)
-[2018.03.02-16.14.57:323][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Eve/Movement_BP" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset" SILENT=true
-[2018.03.02-16.14.58:232][338]LogSavePackage: Save=827.16ms
-[2018.03.02-16.14.58:232][338]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Movement_BP275F535C48FF28CC2F87C6B8BB398093.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset'
-[2018.03.02-16.14.58:240][338]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset
-[2018.03.02-16.15.02:451][427]LogHttp:Warning: 000001A803141D80: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.15.02:451][427]LogHttp:Warning: 000001A803141D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.15.02:451][427]LogHttp:Warning: 000001A803141D80: libcurl info message cache 1 (Closing connection 8)
-[2018.03.02-16.15.41:755][208]BlueprintLog: New page: Compile Movement_BP
-[2018.03.02-16.15.41:843][208]LogBlueprint:Warning: [Compiler Movement_BP] Warning  idle to AttackNorm  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.15.41:843][208]LogBlueprint:Warning: [Compiler Movement_BP] Warning  AttackNorm to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.15.41:843][208]LogBlueprint:Warning: [Compiler Movement_BP] Warning  idle to SlideAttack  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.15.41:843][208]LogBlueprint:Warning: [Compiler Movement_BP] Warning  SlideAttack to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.15.41:843][208]LogBlueprint:Warning: [Compiler Movement_BP] Warning  idle to BeserkAttack  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.15.41:844][208]LogBlueprint:Warning: [Compiler Movement_BP] Warning  BeserkAttack to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.15.42:156][208]BlueprintEditorCompileResults:Warning: Warning  idle to AttackNorm  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.15.42:156][208]BlueprintEditorCompileResults:Warning: Warning  AttackNorm to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.15.42:156][208]BlueprintEditorCompileResults:Warning: Warning  idle to SlideAttack  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.15.42:156][208]BlueprintEditorCompileResults:Warning: Warning  SlideAttack to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.15.42:156][208]BlueprintEditorCompileResults:Warning: Warning  idle to BeserkAttack  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.15.42:156][208]BlueprintEditorCompileResults:Warning: Warning  BeserkAttack to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.15.42:156][208]LogBlueprint:Warning: [Compiler Movement_BP] Warning [1309.04] Compile of Movement_BP successful, but with 6 Warning(s) [in 401 ms] (/Game/Character/Eve/Movement_BP.Movement_BP)
-[2018.03.02-16.15.43:028][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Eve/Movement_BP" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset" SILENT=true
-[2018.03.02-16.15.43:531][222]LogSavePackage: Save=488.58ms
-[2018.03.02-16.15.43:531][222]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Movement_BP2BBD2DC74861A3C47833A5B1558310D1.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset'
-[2018.03.02-16.15.43:540][222]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset
-[2018.03.02-16.16.17:155][993]LogHttp:Warning: 000001A7C612AE00: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.16.17:155][993]LogHttp:Warning: 000001A7C612AE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.16.17:155][993]LogHttp:Warning: 000001A7C612AE00: libcurl info message cache 1 (Closing connection 9)
-[2018.03.02-16.16.57:506][823]BlueprintLog: New page: Compile Movement_BP
-[2018.03.02-16.16.57:586][823]LogBlueprint:Warning: [Compiler Movement_BP] Warning  AttackNorm to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.16.57:586][823]LogBlueprint:Warning: [Compiler Movement_BP] Warning  SlideAttack to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.16.57:586][823]LogBlueprint:Warning: [Compiler Movement_BP] Warning  BeserkAttack to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.16.57:947][823]BlueprintEditorCompileResults:Warning: Warning  AttackNorm to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.16.57:947][823]BlueprintEditorCompileResults:Warning: Warning  SlideAttack to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.16.57:947][823]BlueprintEditorCompileResults:Warning: Warning  BeserkAttack to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.16.57:947][823]LogBlueprint:Warning: [Compiler Movement_BP] Warning [1384.84] Compile of Movement_BP successful, but with 3 Warning(s) [in 441 ms] (/Game/Character/Eve/Movement_BP.Movement_BP)
-[2018.03.02-16.16.59:805][853]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Eve/Movement_BP" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset" SILENT=true
-[2018.03.02-16.17.00:476][853]LogSavePackage: Save=641.29ms
-[2018.03.02-16.17.00:476][853]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Movement_BP21673314416F856AC7289BB16ED61D1E.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset'
-[2018.03.02-16.17.00:482][853]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset
-[2018.03.02-16.17.27:233][392]LogHttp:Warning: 000001A81E2E2200: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.17.27:233][392]LogHttp:Warning: 000001A81E2E2200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.17.27:233][392]LogHttp:Warning: 000001A81E2E2200: libcurl info message cache 1 (Closing connection 10)
-[2018.03.02-16.17.27:234][392]BlueprintLog: New page: Compile Movement_BP
-[2018.03.02-16.17.27:319][392]LogBlueprint:Warning: [Compiler Movement_BP] Warning  SlideAttack to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.17.27:319][392]LogBlueprint:Warning: [Compiler Movement_BP] Warning  BeserkAttack to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.17.27:591][392]BlueprintEditorCompileResults:Warning: Warning  SlideAttack to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.17.27:591][392]BlueprintEditorCompileResults:Warning: Warning  BeserkAttack to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.17.27:591][392]LogBlueprint:Warning: [Compiler Movement_BP] Warning [1414.48] Compile of Movement_BP successful, but with 2 Warning(s) [in 357 ms] (/Game/Character/Eve/Movement_BP.Movement_BP)
-[2018.03.02-16.17.28:643][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Eve/Movement_BP" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset" SILENT=true
-[2018.03.02-16.17.29:131][410]LogSavePackage: Save=469.02ms
-[2018.03.02-16.17.29:131][410]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Movement_BP4718A1FD47215B9F243568A422089D12.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset'
-[2018.03.02-16.17.29:139][410]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset
-[2018.03.02-16.17.58:472][997]BlueprintLog: New page: Compile Movement_BP
-[2018.03.02-16.17.58:556][997]LogBlueprint:Warning: [Compiler Movement_BP] Warning  BeserkAttack to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.17.58:918][997]BlueprintEditorCompileResults:Warning: Warning  BeserkAttack to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.17.58:919][997]LogBlueprint:Warning: [Compiler Movement_BP] Warning [1445.81] Compile of Movement_BP successful, but with 1 Warning(s) [in 446 ms] (/Game/Character/Eve/Movement_BP.Movement_BP)
-[2018.03.02-16.17.59:775][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Eve/Movement_BP" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset" SILENT=true
-[2018.03.02-16.18.00:228][ 11]LogSavePackage: Save=438.48ms
-[2018.03.02-16.18.00:228][ 11]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Movement_BP8A1FAC02423E494D4CDB509BAF1DD8E4.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset'
-[2018.03.02-16.18.00:235][ 11]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset
-[2018.03.02-16.18.27:256][539]LogHttp:Warning: 000001A835BBB700: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.18.27:256][539]LogHttp:Warning: 000001A835BBB700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.18.27:256][539]LogHttp:Warning: 000001A835BBB700: libcurl info message cache 1 (Closing connection 11)
-[2018.03.02-16.18.46:098][936]BlueprintLog: New page: Compile Movement_BP
-[2018.03.02-16.18.47:623][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Eve/Movement_BP" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset" SILENT=true
-[2018.03.02-16.18.48:204][956]LogSavePackage: Save=566.30ms
-[2018.03.02-16.18.48:204][956]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Movement_BPEF19CB93486FEBB8CB83189D040C3CE8.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset'
-[2018.03.02-16.18.48:211][956]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset
-[2018.03.02-16.19.41:740][785]LogHttp:Warning: 000001A7C6105600: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.19.41:740][785]LogHttp:Warning: 000001A7C6105600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.19.41:740][785]LogHttp:Warning: 000001A7C6105600: libcurl info message cache 1 (Closing connection 12)
-[2018.03.02-16.19.54:635][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Eve/Movement_BP" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset" SILENT=true
-[2018.03.02-16.19.55:444][326]LogSavePackage: Save=788.81ms
-[2018.03.02-16.19.55:444][326]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Movement_BPB2EC49784191DFFEE4F3D6811DDDD8C5.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset'
-[2018.03.02-16.19.55:452][326]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset
-[2018.03.02-16.20.43:939][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Eve/Movement_BP" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset" SILENT=true
-[2018.03.02-16.20.44:675][529]LogSavePackage: Save=715.22ms
-[2018.03.02-16.20.44:676][529]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Movement_BP03A239EE4DAB6AD65EC4B6A94B0E6FF7.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset'
-[2018.03.02-16.20.44:682][529]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset
-[2018.03.02-16.21.04:775][715]LogTemp: Repeting last play command: Selected Viewport
-[2018.03.02-16.21.05:269][715]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2018.03.02-16.21.05:295][715]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.02-16.21.05:381][715]PIE: New page: PIE session: Level1 (2 Mar 2018 16:21:05)
-[2018.03.02-16.21.05:393][715]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
-[2018.03.02-16.21.05:717][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.323444s)
-[2018.03.02-16.21.05:718][715]LogAIModule: Creating AISystem for world Level1
-[2018.03.02-16.21.05:719][715]LogPlayLevel: PIE: World Init took: (0.002138s)
-[2018.03.02-16.21.05:736][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.342979s)
-[2018.03.02-16.21.05:874][715]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.02-16.21.05:933][715]LogInit: FAudioDevice initialized.
-[2018.03.02-16.21.06:142][715]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.03.02-16.21.06:234][715]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.02-16.21.06:234][715]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.02-16.21.06:297][715]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.03.02-16.21.06
-[2018.03.02-16.21.06:546][715]LogWorld: Bringing up level for play took: 0.377440
-[2018.03.02-16.21.06:936][715]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0026 seconds. Added 11 classes and 0 folders.
-[2018.03.02-16.21.07:119][715]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 1.66
-[2018.03.02-16.21.07:122][715]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2018.03.02-16.21.27:024][293]LogHttp:Warning: 000001A8165B1480: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.21.27:024][293]LogHttp:Warning: 000001A8165B1480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.21.27:024][293]LogHttp:Warning: 000001A8165B1480: libcurl info message cache 1 (Closing connection 13)
-[2018.03.02-16.21.47:096][759]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2018.03.02-16.21.47:334][759]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2018.03.02-16.22.24:048][263]BlueprintLog: New page: Compile Movement_BP
-[2018.03.02-16.22.25:255][275]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Eve/Movement_BP" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset" SILENT=true
-[2018.03.02-16.22.25:754][275]LogSavePackage: Save=478.97ms
-[2018.03.02-16.22.25:754][275]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Movement_BP322205BD4F1A42DC6D1683B445A320E0.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset'
-[2018.03.02-16.22.25:763][275]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset
-[2018.03.02-16.22.27:256][299]LogHttp:Warning: 000001A7F4D84100: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.22.27:256][299]LogHttp:Warning: 000001A7F4D84100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.22.27:256][299]LogHttp:Warning: 000001A7F4D84100: libcurl info message cache 1 (Closing connection 14)
-[2018.03.02-16.22.42:605][525]LogTemp: Repeting last play command: Selected Viewport
-[2018.03.02-16.22.42:631][525]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2018.03.02-16.22.42:631][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.02-16.22.42:631][525]PIE: New page: PIE session: Level1 (2 Mar 2018 16:22:42)
-[2018.03.02-16.22.42:631][525]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
-[2018.03.02-16.22.42:764][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.132572s)
-[2018.03.02-16.22.42:765][525]LogAIModule: Creating AISystem for world Level1
-[2018.03.02-16.22.42:765][525]LogPlayLevel: PIE: World Init took: (0.001324s)
-[2018.03.02-16.22.42:766][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.134881s)
-[2018.03.02-16.22.42:828][525]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.02-16.22.42:844][525]LogInit: FAudioDevice initialized.
-[2018.03.02-16.22.42:878][525]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.03.02-16.22.42:930][525]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.02-16.22.42:930][525]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.02-16.22.42:943][525]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.03.02-16.22.42
-[2018.03.02-16.22.42:959][525]LogWorld: Bringing up level for play took: 0.079338
-[2018.03.02-16.22.42:966][525]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.02-16.22.42:966][525]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.02-16.22.42:968][525]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.02-16.22.42:968][525]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.02-16.22.42:970][525]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.02-16.22.42:970][525]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.02-16.22.42:973][525]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.02-16.22.42:973][525]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.02-16.22.42:977][525]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 -0.481
-[2018.03.02-16.22.42:978][525]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2018.03.02-16.23.27:165][189]LogHttp:Warning: 000001A7FD609180: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.23.27:165][189]LogHttp:Warning: 000001A7FD609180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.23.27:165][189]LogHttp:Warning: 000001A7FD609180: libcurl info message cache 1 (Closing connection 15)
-[2018.03.02-16.23.47:614][139]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2018.03.02-16.23.47:752][139]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2018.03.02-16.23.58:621][316]LogSlate: Took 0.071774 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2018.03.02-16.25.27:039][453]LogHttp:Warning: 000001A803FB0100: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.25.27:039][453]LogHttp:Warning: 000001A803FB0100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.25.27:039][453]LogHttp:Warning: 000001A803FB0100: libcurl info message cache 1 (Closing connection 16)
-[2018.03.02-16.26.27:217][315]LogHttp:Warning: 000001A835E81480: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.26.27:218][315]LogHttp:Warning: 000001A835E81480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.26.27:218][315]LogHttp:Warning: 000001A835E81480: libcurl info message cache 1 (Closing connection 17)
-[2018.03.02-16.27.13:743][983]BlueprintLog: New page: Compile Movement_BP
-[2018.03.02-16.27.13:839][983]LogBlueprint:Warning: [Compiler Movement_BP] Warning  Sprinting to Movement  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.27.13:839][983]LogBlueprint:Warning: [Compiler Movement_BP] Warning  Sprinting to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.27.14:238][983]BlueprintEditorCompileResults:Warning: Warning  Sprinting to Movement  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.27.14:238][983]BlueprintEditorCompileResults:Warning: Warning  Sprinting to idle  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.27.14:239][983]LogBlueprint:Warning: [Compiler Movement_BP] Warning [2001.13] Compile of Movement_BP successful, but with 2 Warning(s) [in 496 ms] (/Game/Character/Eve/Movement_BP.Movement_BP)
-[2018.03.02-16.27.15:117][994]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Eve/Movement_BP" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset" SILENT=true
-[2018.03.02-16.27.15:972][994]LogSavePackage: Save=787.75ms
-[2018.03.02-16.27.15:972][994]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Movement_BP95ECFCA749DADDDD60DE3AA2263C4A54.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset'
-[2018.03.02-16.27.15:980][994]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset
-[2018.03.02-16.27.27:225][158]LogHttp:Warning: 000001A7F4A3B700: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.27.27:225][158]LogHttp:Warning: 000001A7F4A3B700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.27.27:226][158]LogHttp:Warning: 000001A7F4A3B700: libcurl info message cache 1 (Closing connection 18)
-[2018.03.02-16.28.21:020][917]BlueprintLog: New page: Compile Movement_BP
-[2018.03.02-16.28.21:123][917]LogBlueprint:Warning: [Compiler Movement_BP] Warning  Sprinting to Movement  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.28.21:405][917]BlueprintEditorCompileResults:Warning: Warning  Sprinting to Movement  will never be taken, please connect something to  Can Enter Transition
-[2018.03.02-16.28.21:406][917]LogBlueprint:Warning: [Compiler Movement_BP] Warning [2068.29] Compile of Movement_BP successful, but with 1 Warning(s) [in 386 ms] (/Game/Character/Eve/Movement_BP.Movement_BP)
-[2018.03.02-16.28.22:257][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Eve/Movement_BP" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset" SILENT=true
-[2018.03.02-16.28.23:084][928]LogSavePackage: Save=773.56ms
-[2018.03.02-16.28.23:084][928]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Movement_BP3B971C4E495E96B68FA5E0B89A5765D1.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset'
-[2018.03.02-16.28.23:090][928]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset
-[2018.03.02-16.28.27:274][991]LogHttp:Warning: 000001A81F140B80: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.28.27:275][991]LogHttp:Warning: 000001A81F140B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.28.27:275][991]LogHttp:Warning: 000001A81F140B80: libcurl info message cache 1 (Closing connection 19)
-[2018.03.02-16.28.53:217][360]BlueprintLog: New page: Compile Movement_BP
-[2018.03.02-16.28.54:589][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Eve/Movement_BP" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset" SILENT=true
-[2018.03.02-16.28.55:593][373]LogSavePackage: Save=969.71ms
-[2018.03.02-16.28.55:593][373]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Movement_BPE406F0B74AD5EE522837FD83D9025D13.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset'
-[2018.03.02-16.28.55:602][373]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/Movement_BP.uasset
-[2018.03.02-16.28.59:041][408]LogTemp: Repeting last play command: Selected Viewport
-[2018.03.02-16.28.59:106][408]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2018.03.02-16.28.59:106][408]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.02-16.28.59:106][408]PIE: New page: PIE session: Level1 (2 Mar 2018 16:28:59)
-[2018.03.02-16.28.59:107][408]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
-[2018.03.02-16.28.59:246][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.138987s)
-[2018.03.02-16.28.59:247][408]LogAIModule: Creating AISystem for world Level1
-[2018.03.02-16.28.59:247][408]LogPlayLevel: PIE: World Init took: (0.001001s)
-[2018.03.02-16.28.59:247][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.140730s)
-[2018.03.02-16.28.59:311][408]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.02-16.28.59:326][408]LogInit: FAudioDevice initialized.
-[2018.03.02-16.28.59:373][408]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.03.02-16.28.59:475][408]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.02-16.28.59:475][408]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.02-16.28.59:490][408]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.02-16.28.59
-[2018.03.02-16.28.59:511][408]LogWorld: Bringing up level for play took: 0.135020
-[2018.03.02-16.28.59:520][408]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.02-16.28.59:520][408]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.02-16.28.59:532][408]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 0.074
-[2018.03.02-16.28.59:533][408]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2018.03.02-16.29.32:891][711]LogHttp:Warning: 000001A790B9C400: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.29.32:891][711]LogHttp:Warning: 000001A790B9C400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.29.32:891][711]LogHttp:Warning: 000001A790B9C400: libcurl info message cache 1 (Closing connection 20)
-[2018.03.02-16.29.40:944][177]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2018.03.02-16.29.41:001][177]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2018.03.02-16.29.43:470][264]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.Actor_2.DebugSkelMeshComponent_10) Already registered. Aborting.
-[2018.03.02-16.29.43:801][264]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.Actor_2.DebugSkelMeshComponent_10) - call TermArticulated first.
-[2018.03.02-16.29.44:363][264]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.03.02-16.29.46:773][342]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_3.DebugSkelMeshComponent_12) Already registered. Aborting.
-[2018.03.02-16.29.46:813][342]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.Actor_3.DebugSkelMeshComponent_12) - call TermArticulated first.
-[2018.03.02-16.29.47:418][342]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.03.02-16.30.38:282][868]LogTemp: Repeting last play command: Selected Viewport
-[2018.03.02-16.30.38:328][868]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2018.03.02-16.30.38:328][868]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.02-16.30.38:328][868]PIE: New page: PIE session: Level1 (2 Mar 2018 16:30:38)
-[2018.03.02-16.30.38:328][868]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
-[2018.03.02-16.30.38:444][868]LogPlayLevel: PIE: StaticDuplicateObject took: (0.116663s)
-[2018.03.02-16.30.38:445][868]LogAIModule: Creating AISystem for world Level1
-[2018.03.02-16.30.38:446][868]LogPlayLevel: PIE: World Init took: (0.001111s)
-[2018.03.02-16.30.38:446][868]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.118641s)
-[2018.03.02-16.30.38:525][868]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.02-16.30.38:542][868]LogInit: FAudioDevice initialized.
-[2018.03.02-16.30.38:574][868]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.03.02-16.30.38:621][868]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.02-16.30.38:621][868]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.02-16.30.38:633][868]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.02-16.30.38
-[2018.03.02-16.30.38:658][868]LogWorld: Bringing up level for play took: 0.083102
-[2018.03.02-16.30.38:676][868]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.02-16.30.38:676][868]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.02-16.30.38:684][868]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 1.225
-[2018.03.02-16.30.38:684][868]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2018.03.02-16.30.53:227][218]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2018.03.02-16.30.53:388][218]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2018.03.02-16.31.01:442][336]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_25:PersistentLevel.Actor_4.DebugSkelMeshComponent_18) Already registered. Aborting.
-[2018.03.02-16.31.01:503][336]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_25:PersistentLevel.Actor_4.DebugSkelMeshComponent_18) - call TermArticulated first.
-[2018.03.02-16.31.02:019][336]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.03.02-16.31.27:276][712]LogHttp:Warning: 000001A7C5FEFB80: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.31.27:276][712]LogHttp:Warning: 000001A7C5FEFB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.31.27:276][712]LogHttp:Warning: 000001A7C5FEFB80: libcurl info message cache 1 (Closing connection 21)
-[2018.03.02-16.33.16:571][219]LogRenderer: Reallocating scene render targets to support 808x464 NumSamples 1 (Frame:1).
-[2018.03.02-16.33.27:623][293]LogHttp:Warning: 000001A835A94E80: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.33.27:623][293]LogHttp:Warning: 000001A835A94E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.33.27:624][293]LogHttp:Warning: 000001A835A94E80: libcurl info message cache 1 (Closing connection 22)
-[2018.03.02-16.35.27:153][106]LogHttp:Warning: 000001A804CCFA00: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.35.27:153][106]LogHttp:Warning: 000001A804CCFA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.35.27:153][106]LogHttp:Warning: 000001A804CCFA00: libcurl info message cache 1 (Closing connection 23)
-[2018.03.02-16.36.27:304][970]LogHttp:Warning: 000001A8073E8880: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.36.27:304][970]LogHttp:Warning: 000001A8073E8880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.36.27:304][970]LogHttp:Warning: 000001A8073E8880: libcurl info message cache 1 (Closing connection 24)
-[2018.03.02-16.37.11:470][460]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_30:PersistentLevel.zombietut_C_0.CharacterMesh0) Not currently registered. Aborting.
-[2018.03.02-16.37.11:470][460]LogActorComponent: ReregisterComponent: (/Game/Level1.Level1:PersistentLevel.zombietut10_387.CharacterMesh0) Not currently registered. Aborting.
-[2018.03.02-16.37.11:470][460]LogActorComponent: ReregisterComponent: (/Game/Level1.Level1:PersistentLevel.zombietut11_449.CharacterMesh0) Not currently registered. Aborting.
-[2018.03.02-16.37.11:470][460]LogActorComponent: ReregisterComponent: (/Game/Level1.Level1:PersistentLevel.zombietut12_547.CharacterMesh0) Not currently registered. Aborting.
-[2018.03.02-16.37.11:470][460]LogActorComponent: ReregisterComponent: (/Game/Level1.Level1:PersistentLevel.zombietut13_581.CharacterMesh0) Not currently registered. Aborting.
-[2018.03.02-16.37.11:470][460]LogActorComponent: ReregisterComponent: (/Game/Level1.Level1:PersistentLevel.zombietut14_603.CharacterMesh0) Not currently registered. Aborting.
-[2018.03.02-16.37.11:470][460]LogActorComponent: ReregisterComponent: (/Game/Level1.Level1:PersistentLevel.zombietut15_629.CharacterMesh0) Not currently registered. Aborting.
-[2018.03.02-16.37.11:470][460]LogActorComponent: ReregisterComponent: (/Game/Level1.Level1:PersistentLevel.zombietut16_712.CharacterMesh0) Not currently registered. Aborting.
-[2018.03.02-16.37.11:470][460]LogActorComponent: ReregisterComponent: (/Game/Level1.Level1:PersistentLevel.zombietut17_755.CharacterMesh0) Not currently registered. Aborting.
-[2018.03.02-16.37.11:470][460]LogActorComponent: ReregisterComponent: (/Game/Level1.Level1:PersistentLevel.zombietut2_65.CharacterMesh0) Not currently registered. Aborting.
-[2018.03.02-16.37.11:470][460]LogActorComponent: ReregisterComponent: (/Game/Level1.Level1:PersistentLevel.zombietut3_116.CharacterMesh0) Not currently registered. Aborting.
-[2018.03.02-16.37.11:470][460]LogActorComponent: ReregisterComponent: (/Game/Level1.Level1:PersistentLevel.zombietut4_137.CharacterMesh0) Not currently registered. Aborting.
-[2018.03.02-16.37.11:470][460]LogActorComponent: ReregisterComponent: (/Game/Level1.Level1:PersistentLevel.zombietut5_182.CharacterMesh0) Not currently registered. Aborting.
-[2018.03.02-16.37.11:470][460]LogActorComponent: ReregisterComponent: (/Game/Level1.Level1:PersistentLevel.zombietut6_252.CharacterMesh0) Not currently registered. Aborting.
-[2018.03.02-16.37.11:470][460]LogActorComponent: ReregisterComponent: (/Game/Level1.Level1:PersistentLevel.zombietut7_274.CharacterMesh0) Not currently registered. Aborting.
-[2018.03.02-16.37.11:470][460]LogActorComponent: ReregisterComponent: (/Game/Level1.Level1:PersistentLevel.zombietut8_327.CharacterMesh0) Not currently registered. Aborting.
-[2018.03.02-16.37.11:470][460]LogActorComponent: ReregisterComponent: (/Game/Level1.Level1:PersistentLevel.zombietut9_342.CharacterMesh0) Not currently registered. Aborting.
-[2018.03.02-16.37.11:470][460]LogActorComponent: ReregisterComponent: (/Game/Level1.Level1:PersistentLevel.zombietut_33.CharacterMesh0) Not currently registered. Aborting.
-[2018.03.02-16.37.11:470][460]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_31:PersistentLevel.zombietut_C_1.CharacterMesh0) Not currently registered. Aborting.
-[2018.03.02-16.37.31:399][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/zombietut" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/AI/zombietut.uasset" SILENT=true
-[2018.03.02-16.37.31:642][595]LogSavePackage: Save=189.47ms
-[2018.03.02-16.37.31:642][595]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/zombietut30F2291E434804262CA295B0D23371D8.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/AI/zombietut.uasset'
-[2018.03.02-16.37.31:667][595]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/AI/zombietut.uasset
-[2018.03.02-16.38.13:595][851]LogSavePackage: Save=2952.99ms
-[2018.03.02-16.38.13:595][851]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Level1_Auto27DA156F84A3D942DF0934DB0CBC3D36E.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/Level1_Auto2.umap'
-[2018.03.02-16.38.13:688][851]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/Level1_Auto2.umap
-[2018.03.02-16.38.13:738][851]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level1' took 3.415
-[2018.03.02-16.38.13:738][851]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.415
-[2018.03.02-16.38.27:470][894]LogHttp:Warning: 000001A806722080: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.38.27:470][894]LogHttp:Warning: 000001A806722080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.38.27:471][894]LogHttp:Warning: 000001A806722080: libcurl info message cache 1 (Closing connection 25)
-[2018.03.02-16.39.27:613][252]LogHttp:Warning: 000001A78CDFB100: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.39.27:613][252]LogHttp:Warning: 000001A78CDFB100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.39.27:613][252]LogHttp:Warning: 000001A78CDFB100: libcurl info message cache 1 (Closing connection 26)
-[2018.03.02-16.40.32:203][837]LogHttp:Warning: 000001A86296B580: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.40.32:203][837]LogHttp:Warning: 000001A86296B580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.40.32:203][837]LogHttp:Warning: 000001A86296B580: libcurl info message cache 1 (Closing connection 27)
-[2018.03.02-16.42.27:496][329]LogHttp:Warning: 000001A821BC4D00: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.42.27:496][329]LogHttp:Warning: 000001A821BC4D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.42.27:496][329]LogHttp:Warning: 000001A821BC4D00: libcurl info message cache 1 (Closing connection 28)
-[2018.03.02-16.43.39:147][343]LogHttp:Warning: 000001A821BC6080: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.43.39:147][343]LogHttp:Warning: 000001A821BC6080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.43.39:147][343]LogHttp:Warning: 000001A821BC6080: libcurl info message cache 1 (Closing connection 29)
-[2018.03.02-16.44.46:127][153]LogHttp:Warning: 000001A83FBA4D00: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.44.46:127][153]LogHttp:Warning: 000001A83FBA4D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.44.46:127][153]LogHttp:Warning: 000001A83FBA4D00: libcurl info message cache 1 (Closing connection 30)
-[2018.03.02-16.46.27:405][  4]LogHttp:Warning: 000001A8654B0E80: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.46.27:405][  4]LogHttp:Warning: 000001A8654B0E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.46.27:405][  4]LogHttp:Warning: 000001A8654B0E80: libcurl info message cache 1 (Closing connection 31)
-[2018.03.02-16.47.27:226][721]LogHttp:Warning: 000001A833CCD900: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.47.27:226][721]LogHttp:Warning: 000001A833CCD900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.47.27:226][721]LogHttp:Warning: 000001A833CCD900: libcurl info message cache 1 (Closing connection 32)
-[2018.03.02-16.48.27:269][464]LogHttp:Warning: 000001A86A1AAE00: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.48.27:269][464]LogHttp:Warning: 000001A86A1AAE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.48.27:269][464]LogHttp:Warning: 000001A86A1AAE00: libcurl info message cache 1 (Closing connection 33)
-[2018.03.02-16.49.38:337][346]LogHttp:Warning: 000001A86B0C4D00: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.49.38:337][346]LogHttp:Warning: 000001A86B0C4D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.49.38:337][346]LogHttp:Warning: 000001A86B0C4D00: libcurl info message cache 1 (Closing connection 34)
-[2018.03.02-16.50.41:917][268]LogHttp:Warning: 000001A86BFE6B00: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.50.41:917][268]LogHttp:Warning: 000001A86BFE6B00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.50.41:918][268]LogHttp:Warning: 000001A86BFE6B00: libcurl info message cache 1 (Closing connection 35)
-[2018.03.02-16.51.18:445][521]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level1' took 0.076
-[2018.03.02-16.51.18:448][521]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/zombietut] ([1] browsable assets)...
-[2018.03.02-16.51.18:502][521]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/zombietut.zombietut]
-[2018.03.02-16.51.18:503][521]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/zombietut]
-[2018.03.02-16.51.18:651][521]LogSavePackage: Save=121.83ms
-[2018.03.02-16.51.18:651][521]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/zombietut_Auto3CDE5692645473E34F5D71B8DBD07C1F7.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/AI/zombietut_Auto3.uasset'
-[2018.03.02-16.51.18:675][521]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/AI/zombietut_Auto3.uasset
-[2018.03.02-16.51.18:675][521]LogFileHelpers: Auto-saving content packages took 0.230
-[2018.03.02-16.52.27:241][208]LogHttp:Warning: 000001A81C22B700: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.52.27:241][208]LogHttp:Warning: 000001A81C22B700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.52.27:241][208]LogHttp:Warning: 000001A81C22B700: libcurl info message cache 1 (Closing connection 36)
-[2018.03.02-16.53.27:747][  8]LogHttp:Warning: 000001A870F32080: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.53.27:747][  8]LogHttp:Warning: 000001A870F32080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.53.27:747][  8]LogHttp:Warning: 000001A870F32080: libcurl info message cache 1 (Closing connection 37)
-[2018.03.02-16.54.46:632][924]LogHttp:Warning: 000001A8218DFA00: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.54.46:632][924]LogHttp:Warning: 000001A8218DFA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.54.46:633][924]LogHttp:Warning: 000001A8218DFA00: libcurl info message cache 1 (Closing connection 38)
-[2018.03.02-16.55.03:887][181]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.Actor_5.DebugSkelMeshComponent_20) Already registered. Aborting.
-[2018.03.02-16.55.03:992][181]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_33:PersistentLevel.Actor_5.DebugSkelMeshComponent_20) - call TermArticulated first.
-[2018.03.02-16.55.04:548][181]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.03.02-16.56.21:593][285]LogHttp:Warning: 000001A8351F1300: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.56.21:593][285]LogHttp:Warning: 000001A8351F1300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.56.21:593][285]LogHttp:Warning: 000001A8351F1300: libcurl info message cache 1 (Closing connection 39)
-[2018.03.02-16.57.08:452][581]BlueprintLog: New page: Compile zombietut
-[2018.03.02-16.57.12:068][583]LogHttp:Warning: 000001A7C74EF100: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.57.12:069][583]LogHttp:Warning: 000001A7C74EF100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.57.12:069][583]LogHttp:Warning: 000001A7C74EF100: libcurl info message cache 1 (Closing connection 40)
-[2018.03.02-16.57.12:916][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/zombietut" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/AI/zombietut.uasset" SILENT=true
-[2018.03.02-16.57.13:081][593]LogSavePackage: Save=140.98ms
-[2018.03.02-16.57.13:082][593]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/zombietut97976296497D35325FF2099FA46C44EC.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/AI/zombietut.uasset'
-[2018.03.02-16.57.13:091][593]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/AI/zombietut.uasset
-[2018.03.02-16.58.27:212][927]LogHttp:Warning: 000001A880F15600: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.58.27:212][927]LogHttp:Warning: 000001A880F15600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.58.27:212][927]LogHttp:Warning: 000001A880F15600: libcurl info message cache 1 (Closing connection 41)
-[2018.03.02-16.59.27:201][107]LogHttp:Warning: 000001A817E76800: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-16.59.27:201][107]LogHttp:Warning: 000001A817E76800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-16.59.27:201][107]LogHttp:Warning: 000001A817E76800: libcurl info message cache 1 (Closing connection 42)
-[2018.03.02-17.00.26:983][633]LogHttp:Warning: 000001A809954880: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-17.00.26:983][633]LogHttp:Warning: 000001A809954880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-17.00.26:983][633]LogHttp:Warning: 000001A809954880: libcurl info message cache 1 (Closing connection 43)
-[2018.03.02-17.01.27:205][504]LogHttp:Warning: 000001A876213B80: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-17.01.27:205][504]LogHttp:Warning: 000001A876213B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-17.01.27:205][504]LogHttp:Warning: 000001A876213B80: libcurl info message cache 1 (Closing connection 44)
-[2018.03.02-17.02.27:305][216]LogHttp:Warning: 000001A881CA0A00: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-17.02.27:305][216]LogHttp:Warning: 000001A881CA0A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-17.02.27:305][216]LogHttp:Warning: 000001A881CA0A00: libcurl info message cache 1 (Closing connection 45)
-[2018.03.02-17.04.08:678][375]LogSavePackage: Save=2485.73ms
-[2018.03.02-17.04.08:679][375]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Level1_Auto43155FB6A4E70E7F021E418AA43DC215F.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/Level1_Auto4.umap'
-[2018.03.02-17.04.08:685][375]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/Level1_Auto4.umap
-[2018.03.02-17.04.08:690][375]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level1' took 2.651
-[2018.03.02-17.04.08:690][375]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.651
-[2018.03.02-17.04.08:698][375]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/zombietut] ([1] browsable assets)...
-[2018.03.02-17.04.08:729][375]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/zombietut.zombietut]
-[2018.03.02-17.04.08:729][375]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/zombietut]
-[2018.03.02-17.04.08:898][375]LogSavePackage: Save=150.64ms
-[2018.03.02-17.04.08:898][375]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/zombietut_Auto4F5ED2F6449010DF7C260BABC5041BABC.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/AI/zombietut_Auto4.uasset'
-[2018.03.02-17.04.08:901][375]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/AI/zombietut_Auto4.uasset
-[2018.03.02-17.04.08:902][375]LogFileHelpers: Auto-saving content packages took 0.208
-[2018.03.02-17.04.27:235][456]LogHttp:Warning: 000001A881D6FE80: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-17.04.27:235][456]LogHttp:Warning: 000001A881D6FE80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-17.04.27:235][456]LogHttp:Warning: 000001A881D6FE80: libcurl info message cache 1 (Closing connection 46)
-[2018.03.02-17.05.27:477][135]LogHttp:Warning: 000001A81F1BE680: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-17.05.27:477][135]LogHttp:Warning: 000001A81F1BE680: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-17.05.27:477][135]LogHttp:Warning: 000001A81F1BE680: libcurl info message cache 1 (Closing connection 47)
-[2018.03.02-17.06.33:669][672]BlueprintLog: New page: Compile zombietut
-[2018.03.02-17.06.37:420][674]LogHttp:Warning: 000001A882002F80: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-17.06.37:420][674]LogHttp:Warning: 000001A882002F80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-17.06.37:420][674]LogHttp:Warning: 000001A882002F80: libcurl info message cache 1 (Closing connection 48)
-[2018.03.02-17.06.41:348][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/zombietut" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/AI/zombietut.uasset" SILENT=true
-[2018.03.02-17.06.41:556][729]LogSavePackage: Save=188.23ms
-[2018.03.02-17.06.41:556][729]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/zombietut80A9566A4FEA1531C3A81F9C4DC10224.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/AI/zombietut.uasset'
-[2018.03.02-17.06.41:565][729]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/AI/zombietut.uasset
-[2018.03.02-17.08.27:305][844]LogHttp:Warning: 000001A8821EAB00: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-17.08.27:305][844]LogHttp:Warning: 000001A8821EAB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-17.08.27:305][844]LogHttp:Warning: 000001A8821EAB00: libcurl info message cache 1 (Closing connection 49)
-[2018.03.02-17.09.40:107][903]LogHttp:Warning: 000001A8327B3700: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-17.09.40:108][903]LogHttp:Warning: 000001A8327B3700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-17.09.40:108][903]LogHttp:Warning: 000001A8327B3700: libcurl info message cache 1 (Closing connection 50)
-[2018.03.02-17.11.27:312][473]LogHttp:Warning: 000001A80739FB80: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-17.11.27:312][473]LogHttp:Warning: 000001A80739FB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-17.11.27:312][473]LogHttp:Warning: 000001A80739FB80: libcurl info message cache 1 (Closing connection 51)
-[2018.03.02-17.12.32:851][438]LogHttp:Warning: 000001A8814D0700: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-17.12.32:851][438]LogHttp:Warning: 000001A8814D0700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-17.12.32:851][438]LogHttp:Warning: 000001A8814D0700: libcurl info message cache 1 (Closing connection 52)
-[2018.03.02-17.13.38:028][394]BlueprintLog: New page: Compile zombietut
-[2018.03.02-17.13.41:744][397]LogHttp:Warning: 000001A881D55780: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-17.13.41:744][397]LogHttp:Warning: 000001A881D55780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-17.13.41:744][397]LogHttp:Warning: 000001A881D55780: libcurl info message cache 1 (Closing connection 53)
-[2018.03.02-17.13.42:677][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/zombietut" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/AI/zombietut.uasset" SILENT=true
-[2018.03.02-17.13.42:859][408]LogSavePackage: Save=162.03ms
-[2018.03.02-17.13.42:859][408]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/zombietut8A2FF28C4C50218AFCB2A48AA9264653.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/AI/zombietut.uasset'
-[2018.03.02-17.13.42:866][408]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/AI/zombietut.uasset
-[2018.03.02-17.15.15:279][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.03.02-17.15.17:644][740]LogSavePackage: Save=2214.80ms
-[2018.03.02-17.15.17:644][740]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Level1D368B7B1455834B64ACDBC94A34CF0AD.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap'
-[2018.03.02-17.15.17:652][740]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap
-[2018.03.02-17.15.27:238][898]LogHttp:Warning: 000001A884FA4100: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-17.15.27:238][898]LogHttp:Warning: 000001A884FA4100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-17.15.27:238][898]LogHttp:Warning: 000001A884FA4100: libcurl info message cache 1 (Closing connection 54)
-[2018.03.02-17.16.41:664][838]LogTemp: Repeting last play command: Selected Viewport
-[2018.03.02-17.16.41:711][838]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2018.03.02-17.16.41:711][838]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.02-17.16.41:711][838]PIE: New page: PIE session: Level1 (2 Mar 2018 17:16:41)
-[2018.03.02-17.16.41:711][838]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
-[2018.03.02-17.16.41:834][838]LogPlayLevel: PIE: StaticDuplicateObject took: (0.122600s)
-[2018.03.02-17.16.41:836][838]LogAIModule: Creating AISystem for world Level1
-[2018.03.02-17.16.41:836][838]LogPlayLevel: PIE: World Init took: (0.001704s)
-[2018.03.02-17.16.41:837][838]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.125887s)
-[2018.03.02-17.16.41:929][838]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.02-17.16.41:947][838]LogInit: FAudioDevice initialized.
-[2018.03.02-17.16.41:982][838]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.03.02-17.16.42:022][838]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.02-17.16.42:022][838]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.02-17.16.42:037][838]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.02-17.16.42
-[2018.03.02-17.16.42:051][838]LogWorld: Bringing up level for play took: 0.068425
-[2018.03.02-17.16.42:059][838]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.02-17.16.42:059][838]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.02-17.16.42:062][838]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.02-17.16.42:062][838]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.02-17.16.42:066][838]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.02-17.16.42:066][838]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.02-17.16.42:070][838]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 0.611
-[2018.03.02-17.16.42:071][838]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2018.03.02-17.17.26:596][669]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2018.03.02-17.17.26:878][669]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2018.03.02-17.17.27:171][674]LogHttp:Warning: 000001A820957E80: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-17.17.27:171][674]LogHttp:Warning: 000001A820957E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-17.17.27:171][674]LogHttp:Warning: 000001A820957E80: libcurl info message cache 1 (Closing connection 55)
-[2018.03.02-17.18.27:260][740]LogHttp:Warning: 000001A835AA0A00: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-17.18.27:260][740]LogHttp:Warning: 000001A835AA0A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-17.18.27:260][740]LogHttp:Warning: 000001A835AA0A00: libcurl info message cache 1 (Closing connection 56)
-[2018.03.02-17.19.23:009][759]BlueprintLog: New page: Compile zombietut
-[2018.03.02-17.19.25:955][762]LogHttp:Warning: 000001A7F6056200: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-17.19.25:955][762]LogHttp:Warning: 000001A7F6056200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-17.19.25:955][762]LogHttp:Warning: 000001A7F6056200: libcurl info message cache 1 (Closing connection 57)
-[2018.03.02-17.19.26:519][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/zombietut" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/AI/zombietut.uasset" SILENT=true
-[2018.03.02-17.19.26:714][770]LogSavePackage: Save=172.72ms
-[2018.03.02-17.19.26:714][770]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/zombietutAE80B5AD429A097352E267BB4ACFD82D.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/AI/zombietut.uasset'
-[2018.03.02-17.19.26:723][770]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/AI/zombietut.uasset
-[2018.03.02-17.19.28:759][811]LogTemp: Repeting last play command: Selected Viewport
-[2018.03.02-17.19.28:793][811]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2018.03.02-17.19.28:793][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.02-17.19.28:793][811]PIE: New page: PIE session: Level1 (2 Mar 2018 17:19:28)
-[2018.03.02-17.19.28:793][811]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
-[2018.03.02-17.19.28:922][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.128557s)
-[2018.03.02-17.19.28:923][811]LogAIModule: Creating AISystem for world Level1
-[2018.03.02-17.19.28:923][811]LogPlayLevel: PIE: World Init took: (0.001095s)
-[2018.03.02-17.19.28:924][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.130470s)
-[2018.03.02-17.19.28:982][811]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.02-17.19.28:997][811]LogInit: FAudioDevice initialized.
-[2018.03.02-17.19.29:033][811]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.03.02-17.19.29:087][811]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.02-17.19.29:087][811]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.02-17.19.29:098][811]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.02-17.19.29
-[2018.03.02-17.19.29:114][811]LogWorld: Bringing up level for play took: 0.079649
-[2018.03.02-17.19.29:123][811]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.02-17.19.29:123][811]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.02-17.19.29:129][811]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.02-17.19.29:129][811]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.02-17.19.29:130][811]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.02-17.19.29:130][811]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.02-17.19.29:133][811]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 -0.326
-[2018.03.02-17.19.29:133][811]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2018.03.02-17.20.08:564][ 50]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2018.03.02-17.20.08:749][ 50]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
-[2018.03.02-17.20.27:239][372]LogHttp:Warning: 000001A880F43A00: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-17.20.27:239][372]LogHttp:Warning: 000001A880F43A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-17.20.27:239][372]LogHttp:Warning: 000001A880F43A00: libcurl info message cache 1 (Closing connection 58)
-[2018.03.02-17.21.25:397][306]LogSavePackage: Save=18.83ms
-[2018.03.02-17.21.25:397][306]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/zombie_death35C63B374103E0A423390CBA32D093C1.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/zombies_models/animations/zombie_death.uasset'
-[2018.03.02-17.21.25:402][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/zombies_models/animations/zombie_death.uasset
-[2018.03.02-17.21.27:274][336]LogHttp:Warning: 000001A885364580: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-17.21.27:274][336]LogHttp:Warning: 000001A885364580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-17.21.27:274][336]LogHttp:Warning: 000001A885364580: libcurl info message cache 1 (Closing connection 59)
-[2018.03.02-17.22.00:223][849]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.03.02-17.22.00:369][849]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.03.02-17.22.03:313][895]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.03.02-17.22.05:632][895]LogSavePackage: Save=2179.76ms
-[2018.03.02-17.22.05:632][895]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Level19B7EBAEE49496E32698A2EAAC99BAFDA.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap'
-[2018.03.02-17.22.05:639][895]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap
-[2018.03.02-17.22.48:331][780]LogEditorViewport: Clicking on Actor (LMB): zombietut_C (zombietut10)
-[2018.03.02-17.22.52:262][859]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long11)
-[2018.03.02-17.23.00:006][993]LogHttp:Warning: 000001A80830E980: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-17.23.00:006][993]LogHttp:Warning: 000001A80830E980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-17.23.00:006][993]LogHttp:Warning: 000001A80830E980: libcurl info message cache 1 (Closing connection 60)
-[2018.03.02-17.23.32:949][618]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_40:PersistentLevel.Actor_6.DebugSkelMeshComponent_23) Already registered. Aborting.
-[2018.03.02-17.23.33:008][618]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_40:PersistentLevel.Actor_6.DebugSkelMeshComponent_23) - call TermArticulated first.
-[2018.03.02-17.23.33:693][618]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.03.02-17.23.37:196][674]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_43:PersistentLevel.Actor_7.DebugSkelMeshComponent_26) Already registered. Aborting.
-[2018.03.02-17.23.37:257][674]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_43:PersistentLevel.Actor_7.DebugSkelMeshComponent_26) - call TermArticulated first.
-[2018.03.02-17.23.37:790][674]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
-[2018.03.02-17.24.01:476][792]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_25' or package '/Engine/Transient'.
-[2018.03.02-17.24.01:476][792]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_28' or package '/Engine/Transient'.
-[2018.03.02-17.24.11:162][954]LogHttp:Warning: 000001A7C64EE200: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-17.24.11:162][954]LogHttp:Warning: 000001A7C64EE200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-17.24.11:162][954]LogHttp:Warning: 000001A7C64EE200: libcurl info message cache 1 (Closing connection 61)
-[2018.03.02-17.25.17:414][230]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Zelkova_A)
-[2018.03.02-17.25.23:971][357]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
-[2018.03.02-17.25.27:193][414]LogHttp:Warning: 000001A80C0BA200: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-17.25.27:193][414]LogHttp:Warning: 000001A80C0BA200: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-17.25.27:193][414]LogHttp:Warning: 000001A80C0BA200: libcurl info message cache 1 (Closing connection 62)
-[2018.03.02-17.25.30:533][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.03.02-17.25.32:787][475]LogSavePackage: Save=2189.02ms
-[2018.03.02-17.25.32:787][475]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Level16628C45E4A002CF6FB28CB980F47284B.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap'
-[2018.03.02-17.25.32:795][475]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap
-[2018.03.02-17.26.27:588][681]LogHttp:Warning: 000001A7C64EF100: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-17.26.27:588][681]LogHttp:Warning: 000001A7C64EF100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-17.26.27:588][681]LogHttp:Warning: 000001A7C64EF100: libcurl info message cache 1 (Closing connection 63)
-[2018.03.02-17.28.27:328][ 38]LogHttp:Warning: 000001A7C64EEE00: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-17.28.27:329][ 38]LogHttp:Warning: 000001A7C64EEE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-17.28.27:329][ 38]LogHttp:Warning: 000001A7C64EEE00: libcurl info message cache 1 (Closing connection 64)
-[2018.03.02-17.29.27:334][218]LogHttp:Warning: 000001A807861F00: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2018.03.02-17.29.27:334][218]LogHttp:Warning: 000001A807861F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2018.03.02-17.29.27:334][218]LogHttp:Warning: 000001A807861F00: libcurl info message cache 1 (Closing connection 65)
+[2018.03.09-10.10.34:412][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.09-10.10.34:413][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.09-10.10.34:509][  0]LogInit: Computer: LAPTOP-RA57JA6K
+[2018.03.09-10.10.34:509][  0]LogInit: User: Jamesrigby777
+[2018.03.09-10.10.34:509][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.03.09-10.10.34:509][  0]LogInit: High frequency timer resolution =1.945315 MHz
+[2018.03.09-10.10.34:510][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.03.09-10.10.34:510][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.09-10.10.34:510][  0]LogMemory: Process Physical Memory: 273.43 MB used, 273.43 MB peak
+[2018.03.09-10.10.34:510][  0]LogMemory: Process Virtual Memory: 266.69 MB used, 266.69 MB peak
+[2018.03.09-10.10.34:510][  0]LogMemory: Physical Memory: 2701.29 MB used,  5382.12 MB free, 8083.41 MB total
+[2018.03.09-10.10.34:510][  0]LogMemory: Virtual Memory: 680.40 MB used,  5382.12 MB free, 134217728.00 MB total
+[2018.03.09-10.10.35:243][  0]LogInit: Using OS detected language (en-GB).
+[2018.03.09-10.10.35:243][  0]LogInit: Using OS detected locale (en-GB).
+[2018.03.09-10.10.35:477][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.03.09-10.10.38:381][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.09-10.10.38:391][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2018.03.09-10.10.38:391][  0]LogD3D11RHI:       128/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.03.09-10.10.38:395][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.09-10.10.38:395][  0]LogD3D11RHI:       0/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.09-10.10.38:395][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.09-10.10.38:402][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.09-10.10.38:402][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.09-10.10.38:402][  0]LogWindows: EnumDisplayDevices:
+[2018.03.09-10.10.38:402][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2018.03.09-10.10.38:402][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2018.03.09-10.10.38:402][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2018.03.09-10.10.38:402][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.09-10.10.38:402][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
+[2018.03.09-10.10.38:402][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.09-10.10.38:402][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.09-10.10.38:403][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.03.09-10.10.38:410][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.09-10.10.38:418][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.03.09-10.10.38:420][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Intermediate/Shaders/WorkingDirectory/9324/).
+[2018.03.09-10.10.38:420][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jamesrigby777/AppData/Local/Temp/UnrealShaderWorkingDir/6B5400024CD742BF6CE526A82F691C54/'.
+[2018.03.09-10.10.38:420][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.03.09-10.10.41:191][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.09-10.10.41:303][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.03.09-10.10.41:414][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.09-10.10.41:522][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.03.09-10.10.41:654][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.03.09-10.10.41:764][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.09-10.10.41:874][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.09-10.10.41:982][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.09-10.10.42:084][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.03.09-10.10.42:207][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.03.09-10.10.42:319][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.09-10.10.42:425][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.09-10.10.42:535][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.09-10.10.42:644][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.09-10.10.42:751][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.09-10.10.42:966][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.09-10.10.42:966][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.09-10.10.43:064][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.03.09-10.10.43:266][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.03.09-10.10.43:330][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.03.09-10.10.43:436][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.09-10.10.43:542][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.09-10.10.43:647][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.09-10.10.44:240][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.03.09-10.10.44:240][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.03.09-10.10.45:390][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.03.09-10.10.46:390][  0]LogDerivedDataCache: Loaded boot cache 1.00s 90MB C:/Users/Jamesrigby777/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.03.09-10.10.46:390][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jamesrigby777/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.03.09-10.10.46:390][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.09-10.10.46:390][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.09-10.10.46:390][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.09-10.10.46:390][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.09-10.10.46:415][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.09-10.10.46:428][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jamesrigby777/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.09-10.10.46:442][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.09-10.10.46:443][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.09-10.10.46:805][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.09-10.10.46:805][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.09-10.10.47:423][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.09-10.10.47:540][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.03.09-10.10.47:855][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.09-10.10.47:967][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.09-10.10.48:090][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.09-10.10.48:090][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.03.09-10.10.48:090][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.03.09-10.10.49:254][  0]LogNetVersion: Survival , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3038584403)
+[2018.03.09-10.10.49:365][  0]LogAssetRegistry: FAssetRegistry took 0.0299 seconds to start up
+[2018.03.09-10.10.49:497][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.063323 seconds
+[2018.03.09-10.10.49:505][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.03.09-10.10.49:505][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.03.09-10.10.49:505][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.09-10.10.49:672][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.09-10.11.02:255][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.09-10.11.02:334][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.09-10.11.03:623][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.09-10.11.04:537][  0]SourceControl: Info Source control is disabled
+[2018.03.09-10.11.04:541][  0]SourceControl: Info Source control is disabled
+[2018.03.09-10.11.04:660][  0]SourceControl: Info Source control is disabled
+[2018.03.09-10.11.04:772][  0]SourceControl: Info Source control is disabled
+[2018.03.09-10.11.06:460][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.09-10.11.07:792][  0]LogEngine: Initializing Engine...
+[2018.03.09-10.11.07:793][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.09-10.11.08:092][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.09-10.11.08:092][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.09-10.11.08:424][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.09-10.11.08:436][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.09-10.11.08:667][  0]LogInit: FAudioDevice initialized.
+[2018.03.09-10.11.08:866][  0]LogDerivedDataCache: Saved boot cache 0.20s 90MB C:/Users/Jamesrigby777/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.03.09-10.11.08:881][  0]LogInit: Texture streaming: Enabled
+[2018.03.09-10.11.09:112][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.09-10.11.09:708][  0]LogInit: Transaction tracking system initialized
+[2018.03.09-10.11.10:443][  0]BlueprintLog: New page: Editor Load
+[2018.03.09-10.11.12:724][  0]LocalizationService: Info Localization service is disabled
+[2018.03.09-10.11.15:651][  0]LogConsoleResponse:Display: 
+[2018.03.09-10.11.16:044][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.09-10.11.16:045][  0]LogCook:Display: Mobile HDR setting 1
+[2018.03.09-10.11.16:949][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/' took 0.06s
+[2018.03.09-10.11.19:192][  0]SourceControl: Info Source control is disabled
+[2018.03.09-10.11.19:192][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.09-10.11.19:193][  0]LightingResults: New page: Lighting Build
+[2018.03.09-10.11.19:291][  0]MapCheck: New page: Map Check
+[2018.03.09-10.11.19:291][  0]LightingResults: New page: Lighting Build
+[2018.03.09-10.11.32:972][  0]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.16+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 934) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.03.09-10.11.32:972][  0]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.16+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 934) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.03.09-10.11.32:972][  0]LogPhysics:Warning: Failed to cook convex: /Game/NewModels/key.key 0 (FlipX:1). The remaining elements will not get cooked.
+[2018.03.09-10.11.33:735][  0]LogAIModule: Creating AISystem for world Level1
+[2018.03.09-10.11.33:850][  0]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-10.11.33:851][  0]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-10.11.33:967][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.09-10.11.34:162][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.09-10.11.34:379][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 216.448ms to complete.
+[2018.03.09-10.11.34:379][  0]LogFileHelpers: Loading map 'Level1' took 15.187
+[2018.03.09-10.11.34:646][  0]LogCollectionManager: Loaded 0 collections in 0.002863 seconds
+[2018.03.09-10.11.34:785][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Collections/' took 0.01s
+[2018.03.09-10.11.34:785][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Developers/Jamesrigby777/Collections/' took 0.01s
+[2018.03.09-10.11.34:785][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Collections/' took 0.01s
+[2018.03.09-10.11.34:785][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2018.03.09-10.11.34:799][  0]LogContentBrowser: Native class hierarchy populated in 0.0136 seconds. Added 2329 classes and 491 folders.
+[2018.03.09-10.11.34:951][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.03.09-10.11.35:475][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0028 seconds. Added 0 classes and 0 folders.
+[2018.03.09-10.11.35:620][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.03.09-10.11.35:727][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.03.09-10.11.35:757][  0]LogSlate: Took 0.025360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.09-10.11.35:764][  0]LogSlate: Took 0.004362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.09-10.11.35:793][  0]LogSlate: Took 0.016570 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.09-10.11.35:980][  0]LogRenderer: Reallocating scene render targets to support 724x404 NumSamples 1 (Frame:1).
+[2018.03.09-10.11.36:832][  0]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.09-10.11.36:968][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.03.09-10.11.37:098][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2018.03.09-10.11.37:098][  0]LogLoad: (Engine Initialization) Total time: 66.19 seconds
+[2018.03.09-10.11.37:098][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.97 seconds
+[2018.03.09-10.11.37:098][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.09-10.11.37:116][  0]LogOcInput: OculusInput pre-init called
+[2018.03.09-10.11.37:116][  0]LogHMD: Starting GearVRController plugin
+[2018.03.09-10.11.37:183][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.03.09-10.11.38:089][  3]LogAssetRegistry: Asset discovery search completed in 48.7463 seconds
+[2018.03.09-10.11.38:094][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.03.09-10.11.38:094][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000075 seconds (updated 0 objects)
+[2018.03.09-10.11.38:206][  5]LogSlate: Took 0.000478 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.09-10.11.42:325][167]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/' took 5.19s
+[2018.03.09-10.11.47:837][358]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.09-10.11.48:560][358]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 112 classes and 0 folders.
+[2018.03.09-10.11.49:578][358]LogSlate: Took 0.000264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.09-10.11.49:686][358]LogSlate: Took 0.012255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.09-10.11.53:212][458]LogSlate: Took 0.018173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.09-10.13.30:703][464]BlueprintLog: New page: Compile zombietut
+[2018.03.09-10.17.09:945][551]BlueprintLog: New page: Compile zombietut
+[2018.03.09-10.17.14:404][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/zombietut" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/AI/zombietut.uasset" SILENT=true
+[2018.03.09-10.17.14:638][570]LogSavePackage: Save=213.16ms
+[2018.03.09-10.17.14:638][570]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/zombietut29EEC06446BC5887B6E0A69F10E88523.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/AI/zombietut.uasset'
+[2018.03.09-10.17.14:645][570]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/AI/zombietut.uasset
+[2018.03.09-10.17.27:080][950]LogSlate: Took 0.003901 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.03.09-10.17.50:811][602]BlueprintLog: New page: Compile HUD
+[2018.03.09-10.17.51:525][602]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.03.09-10.17.52:296][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/HUD" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/HUD.uasset" SILENT=true
+[2018.03.09-10.17.53:748][623]LogSavePackage: Save=1426.20ms
+[2018.03.09-10.17.53:748][623]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/HUD33A032C143375872EF8EAC8978C8218F.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/HUD.uasset'
+[2018.03.09-10.17.53:757][623]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/HUD.uasset
+[2018.03.09-10.17.56:527][705]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.09-10.17.56:751][705]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-10.17.56:751][705]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.09-10.17.56:751][705]PIE: New page: PIE session: Level1 (9 Mar 2018 10:17:56)
+[2018.03.09-10.17.56:752][705]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2018.03.09-10.17.56:970][705]LogPlayLevel: PIE: StaticDuplicateObject took: (0.218049s)
+[2018.03.09-10.17.56:971][705]LogAIModule: Creating AISystem for world Level1
+[2018.03.09-10.17.56:971][705]LogPlayLevel: PIE: World Init took: (0.001356s)
+[2018.03.09-10.17.56:972][705]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.220867s)
+[2018.03.09-10.17.57:057][705]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.09-10.17.57:075][705]LogInit: FAudioDevice initialized.
+[2018.03.09-10.17.57:169][705]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.09-10.17.57:220][705]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-10.17.57:220][705]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-10.17.57:237][705]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.03.09-10.17.57
+[2018.03.09-10.17.57:256][705]LogWorld: Bringing up level for play took: 0.086181
+[2018.03.09-10.17.57:377][705]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 11 classes and 0 folders.
+[2018.03.09-10.17.57:384][705]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-10.17.57:384][705]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-10.17.57:388][705]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-10.17.57:388][705]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-10.17.57:391][705]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-10.17.57:391][705]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-10.17.57:394][705]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-10.17.57:394][705]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-10.17.57:398][705]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-10.17.57:398][705]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-10.17.57:405][705]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 0.971
+[2018.03.09-10.17.57:406][705]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-10.17.58:008][707]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.089195 > MaxSimulationTimeStep (0.050) for 'zombietut14_603', movement 'Walking'
+[2018.03.09-10.18.08:399][940]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-10.18.08:547][940]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-10.18.12:397][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.09-10.18.15:428][996]LogSavePackage: Save=2866.08ms
+[2018.03.09-10.18.15:428][996]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Level1B281455F465CA65E318067B20D085E84.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap'
+[2018.03.09-10.18.15:437][996]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap
+[2018.03.09-10.19.54:279][295]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.03.09-10.19.55:503][295]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.03.09-10.19.55:503][295]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.03.09-10.19.57:270][305]LogSavePackage: Save=549.94ms
+[2018.03.09-10.19.57:270][305]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonCharacter1294973A40FC7BF9D25AF99C19C65AD4.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.03.09-10.19.57:278][305]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.03.09-10.20.39:561][892]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.09-10.20.39:601][892]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-10.20.39:602][892]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.09-10.20.39:602][892]LogPlayLevel: [PlayLevel] Compiling HUD before play...
+[2018.03.09-10.20.40:173][892]LogPlayLevel: PlayLevel: Blueprint regeneration took 571 ms (1 blueprints)
+[2018.03.09-10.20.40:173][892]PIE: New page: PIE session: Level1 (9 Mar 2018 10:20:40)
+[2018.03.09-10.20.40:173][892]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2018.03.09-10.20.40:379][892]LogPlayLevel: PIE: StaticDuplicateObject took: (0.205259s)
+[2018.03.09-10.20.40:381][892]LogAIModule: Creating AISystem for world Level1
+[2018.03.09-10.20.40:382][892]LogPlayLevel: PIE: World Init took: (0.002386s)
+[2018.03.09-10.20.40:383][892]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.209544s)
+[2018.03.09-10.20.40:449][892]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.09-10.20.40:466][892]LogInit: FAudioDevice initialized.
+[2018.03.09-10.20.40:503][892]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.09-10.20.40:547][892]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-10.20.40:547][892]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-10.20.40:559][892]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.03.09-10.20.40
+[2018.03.09-10.20.40:574][892]LogWorld: Bringing up level for play took: 0.071239
+[2018.03.09-10.20.40:589][892]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-10.20.40:589][892]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-10.20.40:591][892]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 0.158
+[2018.03.09-10.20.40:592][892]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-10.21.18:288][710]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-10.21.18:465][710]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-10.21.20:429][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.09-10.21.22:840][737]LogSavePackage: Save=2334.48ms
+[2018.03.09-10.21.22:840][737]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Level14E31854E4CA79F298D0335BBD6B02F3E.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap'
+[2018.03.09-10.21.22:847][737]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap
+[2018.03.09-10.21.35:912][926]BlueprintLog: New page: Compile HUD
+[2018.03.09-10.21.36:445][926]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.03.09-10.21.37:143][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/HUD" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/HUD.uasset" SILENT=true
+[2018.03.09-10.21.38:408][936]LogSavePackage: Save=1229.09ms
+[2018.03.09-10.21.38:408][936]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/HUD4B9E1E9B46AEB7853B19C79FF2366B12.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/HUD.uasset'
+[2018.03.09-10.21.38:414][936]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/HUD.uasset
+[2018.03.09-10.21.58:720][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.09-10.22.01:295][250]LogSavePackage: Save=2504.21ms
+[2018.03.09-10.22.01:295][250]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Level1FD20973E45220A1F317573BEDB49484A.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap'
+[2018.03.09-10.22.01:304][250]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap
+[2018.03.09-10.55.49:222][663]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.03.09-10.55.50:417][663]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.03.09-11.17.30:215][ 85]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Survival
+[2018.03.09-11.17.30:215][ 85]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.03.09-11.17.30:215][ 85]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2018.03.09-11.17.30:215][ 85]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.03.09-11.17.30:215][ 85]LogTemp: BranchPath = LAPTOP-RA57JA6K/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = LAPTOP-RA57JA6K/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2018.03.09-11.17.30:215][ 85]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Jamesrigby777\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.03.09-11.17.30:215][ 85]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.03.09-11.17.45:235][159]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.09-11.17.49:262][193]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.03.09-11.17.49:748][194]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Survival
+[2018.03.09-11.17.49:748][194]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.03.09-11.17.49:748][194]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2018.03.09-11.17.49:748][194]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.03.09-11.17.49:748][194]LogTemp: BranchPath = LAPTOP-RA57JA6K/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = LAPTOP-RA57JA6K/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2018.03.09-11.17.49:748][194]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Jamesrigby777\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.03.09-11.20.20:451][389]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.09-11.20.20:841][389]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.20.20:913][389]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.09-11.20.21:016][389]PIE: New page: PIE session: Level1 (9 Mar 2018 11:20:21)
+[2018.03.09-11.20.21:296][389]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2018.03.09-11.20.25:884][389]LogPlayLevel: PIE: StaticDuplicateObject took: (4.585811s)
+[2018.03.09-11.20.27:097][389]LogAIModule: Creating AISystem for world Level1
+[2018.03.09-11.20.27:786][389]LogPlayLevel: PIE: World Init took: (1.902723s)
+[2018.03.09-11.20.27:791][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (6.526848s)
+[2018.03.09-11.20.31:782][389]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.09-11.20.31:918][389]LogInit: FAudioDevice initialized.
+[2018.03.09-11.20.32:445][389]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.09-11.20.33:586][389]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.20.33:586][389]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.20.34:479][389]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.09-11.20.34
+[2018.03.09-11.20.36:059][389]LogWorld: Bringing up level for play took: 3.454149
+[2018.03.09-11.20.38:021][389]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.20.38:021][389]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.20.38:148][389]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 17.049
+[2018.03.09-11.20.38:215][389]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.21.08:795][933]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2018.03.09-11.21.09:595][951]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2018.03.09-11.21.28:780][474]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2018.03.09-11.21.29:955][520]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2018.03.09-11.21.31:238][575]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2018.03.09-11.21.40:316][974]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2018.03.09-11.21.44:738][190]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.21.45:188][190]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.21.52:452][374]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.03.09-11.21.53:084][394]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Survival
+[2018.03.09-11.21.53:084][394]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.03.09-11.21.53:084][394]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2018.03.09-11.21.53:084][394]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.03.09-11.21.53:084][394]LogTemp: BranchPath = LAPTOP-RA57JA6K/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = LAPTOP-RA57JA6K/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2018.03.09-11.21.53:156][396]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Jamesrigby777\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.03.09-11.22.10:773][970]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.09-11.22.10:809][970]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.22.10:809][970]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.09-11.22.10:809][970]PIE: New page: PIE session: Level1 (9 Mar 2018 11:22:10)
+[2018.03.09-11.22.10:810][970]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2018.03.09-11.22.10:922][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.113119s)
+[2018.03.09-11.22.10:923][970]LogAIModule: Creating AISystem for world Level1
+[2018.03.09-11.22.10:924][970]LogPlayLevel: PIE: World Init took: (0.001209s)
+[2018.03.09-11.22.10:925][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.115527s)
+[2018.03.09-11.22.10:994][970]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.09-11.22.11:017][970]LogInit: FAudioDevice initialized.
+[2018.03.09-11.22.11:052][970]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.09-11.22.11:094][970]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.22.11:094][970]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.22.11:107][970]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.09-11.22.11
+[2018.03.09-11.22.11:123][970]LogWorld: Bringing up level for play took: 0.070119
+[2018.03.09-11.22.11:132][970]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.22.11:132][970]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.22.11:134][970]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.22.11:134][970]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.22.11:135][970]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.22.11:135][970]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.22.11:141][970]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 0.086
+[2018.03.09-11.22.11:142][970]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.26.11:086][549]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	Buggy_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Buggy2_170
+	Function /Game/Vehicles/VH_Buggy/Blueprint/Buggy.Buggy_C:ExecuteUbergraph_Buggy:006C
+[2018.03.09-11.26.11:123][549]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character from function: 'ExecuteUbergraph_Buggy' from node: Play Animation in graph: EventGraph in object: Buggy with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+[2018.03.09-11.26.11:124][549]LogScript:Warning: Accessed None
+	Buggy_C /Game/UEDPIE_0_Level1.Level1:PersistentLevel.Buggy2_170
+	Function /Game/Vehicles/VH_Buggy/Blueprint/Buggy.Buggy_C:ExecuteUbergraph_Buggy:0081
+[2018.03.09-11.26.11:124][549]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Buggy' from node: Play Animation in graph: EventGraph in object: Buggy with description: Accessed None
+[2018.03.09-11.26.25:699][ 65]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.26.25:797][ 65]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.27.30:151][315]BlueprintLog: New page: Compile Buggy
+[2018.03.09-11.27.32:599][329]LogSavePackage: Save=228.33ms
+[2018.03.09-11.27.32:599][329]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Buggy8BF673284B72957FA3BB8EA1409F6291.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Vehicles/VH_Buggy/Blueprint/Buggy.uasset'
+[2018.03.09-11.27.32:637][329]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Vehicles/VH_Buggy/Blueprint/Buggy.uasset
+[2018.03.09-11.27.33:989][355]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.03.09-11.27.35:821][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.09-11.27.38:647][398]LogSavePackage: Save=2403.54ms
+[2018.03.09-11.27.38:647][398]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Level11725EF8040697D6EFE1FA882362BF072.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap'
+[2018.03.09-11.27.38:670][398]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap
+[2018.03.09-11.28.41:972][661]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.09-11.28.42:014][661]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.28.42:014][661]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.09-11.28.42:014][661]PIE: New page: PIE session: Level1 (9 Mar 2018 11:28:42)
+[2018.03.09-11.28.42:015][661]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2018.03.09-11.28.42:219][661]LogPlayLevel: PIE: StaticDuplicateObject took: (0.204194s)
+[2018.03.09-11.28.42:220][661]LogAIModule: Creating AISystem for world Level1
+[2018.03.09-11.28.42:220][661]LogPlayLevel: PIE: World Init took: (0.001538s)
+[2018.03.09-11.28.42:221][661]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.206969s)
+[2018.03.09-11.28.42:336][661]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.09-11.28.42:391][661]LogInit: FAudioDevice initialized.
+[2018.03.09-11.28.42:431][661]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.09-11.28.42:478][661]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.28.42:478][661]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.28.42:496][661]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.09-11.28.42
+[2018.03.09-11.28.42:521][661]LogWorld: Bringing up level for play took: 0.089442
+[2018.03.09-11.28.42:545][661]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.28.42:545][661]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.28.42:548][661]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.28.42:548][661]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.28.42:556][661]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.28.42:556][661]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.28.42:560][661]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.28.42:560][661]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.28.42:561][661]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.28.42:561][661]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.28.42:562][661]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 1.506
+[2018.03.09-11.28.42:563][661]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.28.44:390][692]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.28.44:519][692]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.29.48:784][346]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.09-11.29.48:825][346]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.29.48:825][346]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.09-11.29.48:825][346]PIE: New page: PIE session: Level1 (9 Mar 2018 11:29:48)
+[2018.03.09-11.29.48:825][346]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2018.03.09-11.29.49:004][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.178088s)
+[2018.03.09-11.29.49:005][346]LogAIModule: Creating AISystem for world Level1
+[2018.03.09-11.29.49:005][346]LogPlayLevel: PIE: World Init took: (0.001136s)
+[2018.03.09-11.29.49:006][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.180373s)
+[2018.03.09-11.29.49:072][346]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.09-11.29.49:088][346]LogInit: FAudioDevice initialized.
+[2018.03.09-11.29.49:122][346]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.09-11.29.49:163][346]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.29.49:163][346]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.29.49:174][346]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.09-11.29.49
+[2018.03.09-11.29.49:190][346]LogWorld: Bringing up level for play took: 0.067940
+[2018.03.09-11.29.49:200][346]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.29.49:200][346]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.29.49:204][346]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.29.49:204][346]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.29.49:208][346]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.29.49:208][346]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.29.49:210][346]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.29.49:210][346]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.29.49:213][346]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 0.158
+[2018.03.09-11.29.49:214][346]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.29.50:772][375]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2018.03.09-11.29.57:817][533]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2018.03.09-11.30.01:682][618]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.30.01:804][618]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.30.29:607][ 21]LogRenderer: Reallocating scene render targets to support 808x464 NumSamples 1 (Frame:1).
+[2018.03.09-11.32.34:184][598]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0021 seconds. Added 1 classes and 2 folders.
+[2018.03.09-11.32.35:830][598]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.03.09-11.32.36:154][598]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.03.09-11.32.37:325][598]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0135 seconds. Added 1 classes and 0 folders.
+[2018.03.09-11.32.37:489][599]LogRenderer: Reallocating scene render targets to support 808x576 NumSamples 1 (Frame:1).
+[2018.03.09-11.35.11:844][430]LogSavePackage: Save=6.02ms
+[2018.03.09-11.35.11:844][430]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/eve_j_gonzales_Skeleton071F511D47331FA0544CEBBCE2209325.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/eve_j_gonzales_Skeleton.uasset'
+[2018.03.09-11.35.11:850][430]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/eve_j_gonzales_Skeleton.uasset
+[2018.03.09-11.35.14:154][463]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.09-11.35.14:219][463]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.35.14:220][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.09-11.35.14:220][463]PIE: New page: PIE session: Level1 (9 Mar 2018 11:35:14)
+[2018.03.09-11.35.14:220][463]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2018.03.09-11.35.14:398][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.178075s)
+[2018.03.09-11.35.14:400][463]LogAIModule: Creating AISystem for world Level1
+[2018.03.09-11.35.14:400][463]LogPlayLevel: PIE: World Init took: (0.001462s)
+[2018.03.09-11.35.14:401][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.180733s)
+[2018.03.09-11.35.14:526][463]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.09-11.35.14:551][463]LogInit: FAudioDevice initialized.
+[2018.03.09-11.35.14:590][463]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.09-11.35.14:623][463]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.35.14:623][463]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.35.14:636][463]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.09-11.35.14
+[2018.03.09-11.35.14:659][463]LogWorld: Bringing up level for play took: 0.068469
+[2018.03.09-11.35.14:676][463]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.35.14:676][463]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.35.14:680][463]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.35.14:680][463]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.35.14:687][463]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 -0.368
+[2018.03.09-11.35.14:688][463]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.35.21:624][612]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.35.21:770][612]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.38.12:322][726]LogSavePackage: Save=4.43ms
+[2018.03.09-11.38.12:322][726]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/eve_j_gonzales_SkeletonFA14891A4C3915F3EFE34BA618BBDF18.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/eve_j_gonzales_Skeleton.uasset'
+[2018.03.09-11.38.12:328][726]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/eve_j_gonzales_Skeleton.uasset
+[2018.03.09-11.38.14:691][761]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.09-11.38.14:727][761]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.38.14:727][761]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.09-11.38.14:727][761]PIE: New page: PIE session: Level1 (9 Mar 2018 11:38:14)
+[2018.03.09-11.38.14:727][761]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2018.03.09-11.38.14:861][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.134238s)
+[2018.03.09-11.38.14:862][761]LogAIModule: Creating AISystem for world Level1
+[2018.03.09-11.38.14:863][761]LogPlayLevel: PIE: World Init took: (0.001354s)
+[2018.03.09-11.38.14:864][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.136979s)
+[2018.03.09-11.38.14:943][761]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.09-11.38.14:967][761]LogInit: FAudioDevice initialized.
+[2018.03.09-11.38.15:006][761]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.09-11.38.15:051][761]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.38.15:051][761]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.38.15:067][761]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.09-11.38.15
+[2018.03.09-11.38.15:086][761]LogWorld: Bringing up level for play took: 0.079807
+[2018.03.09-11.38.15:095][761]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.38.15:095][761]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.38.15:100][761]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.38.15:100][761]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.38.15:104][761]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.38.15:104][761]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.38.15:105][761]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.38.15:105][761]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.38.15:107][761]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 0.051
+[2018.03.09-11.38.15:107][761]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.38.22:259][913]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.38.22:401][913]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.38.42:362][145]LogSavePackage: Save=4.10ms
+[2018.03.09-11.38.42:362][145]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/eve_j_gonzales_Skeleton4C683C95475826F3B70A74A6FE464C0A.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/eve_j_gonzales_Skeleton.uasset'
+[2018.03.09-11.38.42:367][145]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/eve_j_gonzales_Skeleton.uasset
+[2018.03.09-11.38.44:798][181]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.09-11.38.44:829][181]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.38.44:830][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.09-11.38.44:830][181]PIE: New page: PIE session: Level1 (9 Mar 2018 11:38:44)
+[2018.03.09-11.38.44:830][181]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2018.03.09-11.38.44:967][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.137121s)
+[2018.03.09-11.38.44:968][181]LogAIModule: Creating AISystem for world Level1
+[2018.03.09-11.38.44:968][181]LogPlayLevel: PIE: World Init took: (0.001076s)
+[2018.03.09-11.38.44:970][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.139393s)
+[2018.03.09-11.38.45:024][181]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.09-11.38.45:038][181]LogInit: FAudioDevice initialized.
+[2018.03.09-11.38.45:074][181]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.09-11.38.45:113][181]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.38.45:113][181]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.38.45:127][181]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.09-11.38.45
+[2018.03.09-11.38.45:145][181]LogWorld: Bringing up level for play took: 0.071027
+[2018.03.09-11.38.45:152][181]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.38.45:152][181]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.38.45:155][181]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.38.45:155][181]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.38.45:157][181]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.38.45:157][181]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.38.45:163][181]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.38.45:163][181]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.38.45:165][181]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.38.45:165][181]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.38.45:165][181]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 0.11
+[2018.03.09-11.38.45:166][181]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.38.55:528][398]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.38.55:665][398]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.39.12:566][592]LogSavePackage: Save=4.33ms
+[2018.03.09-11.39.12:566][592]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/eve_j_gonzales_SkeletonADD8F0864C9E693B7144D1BE6DB9DCCF.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/eve_j_gonzales_Skeleton.uasset'
+[2018.03.09-11.39.12:574][592]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/eve_j_gonzales_Skeleton.uasset
+[2018.03.09-11.39.15:263][631]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.09-11.39.15:320][631]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.39.15:320][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.09-11.39.15:320][631]PIE: New page: PIE session: Level1 (9 Mar 2018 11:39:15)
+[2018.03.09-11.39.15:320][631]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2018.03.09-11.39.15:476][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.156086s)
+[2018.03.09-11.39.15:477][631]LogAIModule: Creating AISystem for world Level1
+[2018.03.09-11.39.15:478][631]LogPlayLevel: PIE: World Init took: (0.001205s)
+[2018.03.09-11.39.15:479][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.158604s)
+[2018.03.09-11.39.15:542][631]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.09-11.39.15:582][631]LogInit: FAudioDevice initialized.
+[2018.03.09-11.39.15:619][631]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.09-11.39.15:659][631]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.39.15:659][631]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.39.15:675][631]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.09-11.39.15
+[2018.03.09-11.39.15:695][631]LogWorld: Bringing up level for play took: 0.075584
+[2018.03.09-11.39.15:703][631]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.39.15:703][631]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.39.15:710][631]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.39.15:710][631]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.39.15:712][631]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.39.15:712][631]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.39.15:713][631]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.03.09-11.39.15:713][631]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.03.09-11.39.15:715][631]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 0.66
+[2018.03.09-11.39.15:716][631]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.40.41:200][332]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.40.41:309][332]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.03.09-11.40.48:120][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.09-11.40.50:746][459]LogSavePackage: Save=2514.92ms
+[2018.03.09-11.40.50:746][459]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Level144FAD04041188EA1CD91B3A7A05B7D14.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap'
+[2018.03.09-11.40.50:752][459]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap
+[2018.03.09-11.41.12:610][821]LogSavePackage: Save=5.43ms
+[2018.03.09-11.41.12:610][821]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/eve_j_gonzales_SkeletonFA7AACB44C918649A9B76E9212A147AA.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/eve_j_gonzales_Skeleton.uasset'
+[2018.03.09-11.41.12:613][821]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Character/Eve/eve_j_gonzales_Skeleton.uasset
