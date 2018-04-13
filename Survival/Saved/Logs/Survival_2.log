@@ -1,19 +1,9 @@
-﻿Log file open, 03/23/18 09:43:31
+﻿Log file open, 04/13/18 14:25:13
 LogInit:Display: Running engine for game: Survival
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1509704170) SRandInit(-1509704170).
+LogInit:Display: RandInit(1267995366) SRandInit(1267995366).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.219863
-LogConfig:Warning: Failed to saved backup for config[Input]
-LogConfig:Warning: Failed to saved backup for config[EditorKeyBindings]
-LogConfig:Warning: Failed to saved backup for config[Compat]
-LogConfig:Warning: Failed to saved backup for config[Scalability]
-LogConfig:Warning: Failed to saved backup for config[Hardware]
-LogConfig:Warning: Failed to saved backup for config[LightPropagationVolume]
-LogConfig:Warning: Failed to saved backup for config[VisualStudioSourceCodeAccess]
-LogConfig:Warning: Failed to saved backup for config[PluginBrowser]
-LogConfig:Warning: Failed to saved backup for config[TcpMessaging]
-LogConfig:Warning: Failed to saved backup for config[AndroidPermission]
+LogStats: Stats thread started at 0.099718
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -55,490 +45,498 @@ LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.16
-LogInit: Command line:  
-LogInit: Base directory: D:/UE_4.16/Engine/Binaries/Win64/
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.03.23-09.43.35:504][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.23-09.43.35:504][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.03.23-09.43.35:568][  0]LogInit: Computer: DESKTOP-HS3FJOD
-[2018.03.23-09.43.35:568][  0]LogInit: User: alex
-[2018.03.23-09.43.35:568][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.03.23-09.43.35:568][  0]LogInit: High frequency timer resolution =2.435780 MHz
-[2018.03.23-09.43.35:568][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.03.23-09.43.35:568][  0]LogMemory: Platform Memory Stats for Windows
-[2018.03.23-09.43.35:568][  0]LogMemory: Process Physical Memory: 273.63 MB used, 273.63 MB peak
-[2018.03.23-09.43.35:568][  0]LogMemory: Process Virtual Memory: 260.91 MB used, 260.91 MB peak
-[2018.03.23-09.43.35:568][  0]LogMemory: Physical Memory: 6031.66 MB used,  2083.61 MB free, 8115.27 MB total
-[2018.03.23-09.43.35:568][  0]LogMemory: Virtual Memory: 676.39 MB used,  2083.61 MB free, 134217728.00 MB total
-[2018.03.23-09.43.36:297][  0]LogInit: Using OS detected language (en-GB).
-[2018.03.23-09.43.36:297][  0]LogInit: Using OS detected locale (en-GB).
-[2018.03.23-09.43.36:447][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2018.03.23-09.43.41:483][  0]LogD3D11RHI: D3D11 adapters:
-[2018.03.23-09.43.41:564][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 860M' (Feature Level 11_0)
-[2018.03.23-09.43.41:564][  0]LogD3D11RHI:       2010/0/4057 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.03.23-09.43.41:571][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2018.03.23-09.43.41:571][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.03.23-09.43.41:575][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.03.23-09.43.41:575][  0]LogD3D11RHI:       0/0/4057 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.03.23-09.43.41:575][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.03.23-09.43.41:638][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.03.23-09.43.41:638][  0]LogD3D11RHI:     GPU DeviceId: 0x1392 (for the marketing name, search the web for "GPU Device Id")
-[2018.03.23-09.43.41:638][  0]LogWindows: EnumDisplayDevices:
-[2018.03.23-09.43.41:638][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2018.03.23-09.43.41:638][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.03.23-09.43.41:638][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.03.23-09.43.41:639][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.03.23-09.43.41:639][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 860M
-[2018.03.23-09.43.41:639][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.03.23-09.43.41:639][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.03.23-09.43.41:639][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.03.23-09.43.41:688][  0]LogD3D11RHI: Async texture creation enabled
-[2018.03.23-09.43.41:849][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.03.23-09.43.41:849][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (C:/Users/alex/Documents/GitHub/TeamProject/Survival/Intermediate/Shaders/WorkingDirectory/171228/).
-[2018.03.23-09.43.41:850][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/alex/AppData/Local/Temp/UnrealShaderWorkingDir/C3D7AB2F4877F3E489292F947D0D2D72/'.
-[2018.03.23-09.43.41:850][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2018.03.23-09.43.46:390][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2018.03.23-09.43.46:559][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2018.03.23-09.43.46:740][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2018.03.23-09.43.46:911][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2018.03.23-09.43.47:132][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2018.03.23-09.43.47:301][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2018.03.23-09.43.47:465][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.03.23-09.43.47:679][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2018.03.23-09.43.47:853][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2018.03.23-09.43.48:093][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2018.03.23-09.43.48:309][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2018.03.23-09.43.48:473][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2018.03.23-09.43.48:669][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2018.03.23-09.43.48:837][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2018.03.23-09.43.49:033][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2018.03.23-09.43.49:340][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2018.03.23-09.43.49:340][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.03.23-09.43.49:503][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2018.03.23-09.43.49:831][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2018.03.23-09.43.49:918][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2018.03.23-09.43.50:124][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2018.03.23-09.43.50:287][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.03.23-09.43.50:435][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2018.03.23-09.43.50:629][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2018.03.23-09.43.50:629][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2018.03.23-09.43.52:688][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2018.03.23-09.43.53:038][  0]LogDerivedDataCache: Loaded boot cache 0.35s 90MB C:/Users/alex/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.03.23-09.43.53:038][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/alex/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2018.03.23-09.43.53:038][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/alex/Documents/GitHub/TeamProject/Survival/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.23-09.43.53:038][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.03.23-09.43.53:038][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/alex/Documents/GitHub/TeamProject/Survival/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.03.23-09.43.53:038][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.03.23-09.43.53:078][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.03.23-09.43.53:090][  0]LogDerivedDataCache: Using Local data cache path C:/Users/alex/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.03.23-09.43.53:101][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.03.23-09.43.53:101][  0]LogSlate: Using Freetype 2.6.0
-[2018.03.23-09.43.53:154][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.23-09.43.53:155][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.23-09.43.57:650][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.23-09.43.58:582][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.03.23-09.43.59:613][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.03.23-09.43.59:859][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.03.23-09.44.00:107][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.03.23-09.44.00:107][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2018.03.23-09.44.00:107][  0]LogMeshUtilities: No automatic mesh merging module available
-[2018.03.23-09.44.05:451][  0]LogNetVersion: Survival , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3038584403)
-[2018.03.23-09.44.05:749][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
-[2018.03.23-09.44.05:942][  0]LogAssetRegistry:Error: Failed to open file for write C:/Users/alex/Documents/GitHub/TeamProject/Survival/Intermediate/AssetRegistryCache/2657c409.bin
-[2018.03.23-09.44.05:978][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.095171 seconds
-[2018.03.23-09.44.06:005][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2018.03.23-09.44.06:005][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
-[2018.03.23-09.44.06:005][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.03.23-09.44.06:262][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.03.23-09.44.21:763][  0]LogAssetRegistry:Error: Failed to open file for write C:/Users/alex/Documents/GitHub/TeamProject/Survival/Intermediate/CachedAssetRegistry.bin
-[2018.03.23-09.44.23:813][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.03.23-09.44.23:956][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.03.23-09.44.26:965][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.03.23-09.44.28:733][  0]SourceControl: Info Source control is disabled
-[2018.03.23-09.44.28:931][  0]SourceControl: Info Source control is disabled
-[2018.03.23-09.44.29:163][  0]SourceControl: Info Source control is disabled
-[2018.03.23-09.44.29:357][  0]SourceControl: Info Source control is disabled
-[2018.03.23-09.44.32:537][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.03.23-09.44.35:035][  0]LogEngine: Initializing Engine...
-[2018.03.23-09.44.35:081][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.03.23-09.44.36:033][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.23-09.44.36:035][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.03.23-09.44.37:439][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.03.23-09.44.37:876][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.23-09.44.37:921][  0]LogInit: FAudioDevice initialized.
-[2018.03.23-09.44.37:989][  0]LogDerivedDataCache: Saved boot cache 0.07s 90MB C:/Users/alex/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.03.23-09.44.38:009][  0]LogInit: Texture streaming: Enabled
-[2018.03.23-09.44.38:463][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.03.23-09.44.39:815][  0]LogInit: Transaction tracking system initialized
-[2018.03.23-09.44.41:459][  0]BlueprintLog: New page: Editor Load
-[2018.03.23-09.44.46:564][  0]LocalizationService: Info Localization service is disabled
-[2018.03.23-09.44.49:841][  0]LogConsoleResponse:Display: 
-[2018.03.23-09.44.54:523][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/' took 0.11s
-[2018.03.23-09.44.54:523][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.03.23-09.44.54:564][  0]LogCook:Display: Mobile HDR setting 1
-[2018.03.23-09.44.59:798][  0]SourceControl: Info Source control is disabled
-[2018.03.23-09.44.59:859][  0]Cmd: MAP LOAD FILE="C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Maps/newMAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.23-09.44.59:878][  0]LightingResults: New page: Lighting Build
-[2018.03.23-09.45.00:460][  0]MapCheck: New page: Map Check
-[2018.03.23-09.45.00:460][  0]LightingResults: New page: Lighting Build
-[2018.03.23-09.45.11:983][  0]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.16+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 934) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
-[2018.03.23-09.45.11:988][  0]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.16+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 934) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
-[2018.03.23-09.45.11:998][  0]LogPhysics:Warning: Failed to cook convex: /Game/NewModels/key.key 0 (FlipX:1). The remaining elements will not get cooked.
-[2018.03.23-09.45.14:528][  0]LogAIModule: Creating AISystem for world newMAP
-[2018.03.23-09.45.16:714][  0]LogEditorServer: Finished looking for orphan Actors (0.003 secs)
-[2018.03.23-09.45.17:350][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.23-09.45.17:676][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 315.469ms to complete.
-[2018.03.23-09.45.17:677][  0]LogFileHelpers: Loading map 'newMAP' took 17.849
-[2018.03.23-09.45.21:078][  0]LogCollectionManager: Loaded 0 collections in 0.002025 seconds
-[2018.03.23-09.45.21:674][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Collections/' took 0.01s
-[2018.03.23-09.45.21:674][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Developers/alex/Collections/' took 0.01s
-[2018.03.23-09.45.21:674][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Collections/' took 0.01s
-[2018.03.23-09.45.21:674][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
-[2018.03.23-09.45.21:696][  0]LogContentBrowser: Native class hierarchy populated in 0.0139 seconds. Added 2329 classes and 491 folders.
-[2018.03.23-09.45.22:204][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.03.23-09.45.23:393][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.03.23-09.45.23:618][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2018.03.23-09.45.24:418][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2018.03.23-09.45.24:711][  0]LogSlate: Took 0.012852 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.23-09.45.24:748][  0]LogSlate: Took 0.013069 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.03.23-09.45.24:852][  0]LogSlate: Took 0.037409 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.03.23-09.45.25:813][  0]LogRenderer: Reallocating scene render targets to support 1232x612 NumSamples 1 (Frame:1).
-[2018.03.23-09.45.27:352][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2018.03.23-09.45.27:726][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
-[2018.03.23-09.45.27:727][  0]LogLoad: (Engine Initialization) Total time: 118.20 seconds
-[2018.03.23-09.45.27:727][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 2.30 seconds
-[2018.03.23-09.45.27:727][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.03.23-09.45.28:239][  0]LogOcInput: OculusInput pre-init called
-[2018.03.23-09.45.28:272][  0]LogHMD: Starting GearVRController plugin
-[2018.03.23-09.45.28:815][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.03.23-09.45.29:207][  0]LogSlate: Took 0.025278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.23-09.45.29:423][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/' took 0.98s
-[2018.03.23-09.45.29:836][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.03.23-09.45.31:509][  6]LogAssetRegistry: Asset discovery search completed in 85.7816 seconds
-[2018.03.23-09.45.31:758][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000000 seconds (updated 0 objects)
-[2018.03.23-09.46.40:170][398]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.23-09.46.40:890][398]LogSlate: Took 0.006626 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.23-09.46.41:737][398]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
-[2018.03.23-09.46.44:210][398]LogSlate: Took 0.036054 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.03.23-09.46.52:815][654]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
-[2018.03.23-09.47.09:074][237]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube648)
-[2018.03.23-09.47.09:993][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube648)
-[2018.03.23-09.47.25:479][978]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseA_FrontPorch10)
-[2018.03.23-09.47.26:868][ 49]LogEditorViewport: Clicking on Actor (LMB): jerry_can_C (jerry_can4)
-[2018.03.23-09.47.30:355][156]LogSlate: Took 0.063340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.03.23-09.47.31:026][170]LogRenderer: Reallocating scene render targets to support 1232x712 NumSamples 1 (Frame:1).
-[2018.03.23-09.47.45:364][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseA_FrontPorch10)
-[2018.03.23-09.48.02:837][627]LogEditorViewport: Clicking on Actor (LMB): jerry_can_C (jerry_can4)
-[2018.03.23-09.48.18:786][303]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.23-09.48.18:840][303]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.23-09.48.22:055][401]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.23-09.48.22:055][401]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.23-09.48.22:057][401]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.23-09.48.22:057][401]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.23-09.48.22:057][401]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.23-09.48.22:057][401]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.23-09.48.22:058][401]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.23-09.48.22:058][401]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.23-09.48.22:058][401]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.23-09.48.22:058][401]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.23-09.48.23:356][460]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.23-09.48.23:356][460]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.23-09.48.23:358][460]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.23-09.48.23:358][460]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.23-09.48.23:358][460]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.23-09.48.23:358][460]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.23-09.48.23:382][460]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.23-09.48.23:382][460]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.23-09.48.23:382][460]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.23-09.48.23:382][460]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.23-09.48.29:955][754]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_Long30)
-[2018.03.23-09.50.04:832][180]BlueprintLog: New page: Compile Buggy
-[2018.03.23-09.50.05:809][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Vehicles/VH_Buggy/Blueprint/Buggy" FILE="C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Vehicles/VH_Buggy/Blueprint/Buggy.uasset" SILENT=true
-[2018.03.23-09.50.05:999][186]LogSavePackage: Save=134.25ms
-[2018.03.23-09.50.05:999][186]LogSavePackage: Moving 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Buggy0A82B8884125E17B3F3987920B4EC586.tmp' to 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Vehicles/VH_Buggy/Blueprint/Buggy.uasset'
-[2018.03.23-09.50.06:001][186]LogSavePackage:Display: Finished SavePackage C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Vehicles/VH_Buggy/Blueprint/Buggy.uasset
-[2018.03.23-09.50.56:905][517]LogTemp: Repeting last play command: Selected Viewport
-[2018.03.23-09.51.01:360][517]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
-[2018.03.23-09.51.01:383][517]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.23-09.51.01:425][517]PIE: New page: PIE session: newMAP (23 Mar 2018 09:51:01)
-[2018.03.23-09.51.01:425][517]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_newMAP
-[2018.03.23-09.51.01:848][517]LogPlayLevel: PIE: StaticDuplicateObject took: (0.423183s)
-[2018.03.23-09.51.01:848][517]LogAIModule: Creating AISystem for world newMAP
-[2018.03.23-09.51.01:848][517]LogPlayLevel: PIE: World Init took: (0.000662s)
-[2018.03.23-09.51.01:850][517]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/newMAP.newMAP to /Game/Maps/UEDPIE_0_newMAP.newMAP (0.424994s)
-[2018.03.23-09.51.01:919][517]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.23-09.51.01:934][517]LogInit: FAudioDevice initialized.
-[2018.03.23-09.51.02:033][517]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.03.23-09.51.02:210][517]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.23-09.51.02:210][517]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.23-09.51.02:227][517]LogWorld: Bringing World /Game/Maps/UEDPIE_0_newMAP.newMAP up for play (max tick rate 0) at 2018.03.23-09.51.02
-[2018.03.23-09.51.02:418][517]LogWorld: Bringing up level for play took: 0.256424
-[2018.03.23-09.51.02:480][517]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.03.23-09.51.02:685][517]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2018.03.23-09.51.02:784][517]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_newMAP 2.176
-[2018.03.23-09.51.02:785][517]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
-[2018.03.23-09.51.10:089][707]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=51.01 Y=19.30 Z=0.00 Location: X=1608.97 Y=1718.53 Z=217.30 Normal: X=0.14 Y=0.99 Z=0.00 PenetrationDepth:46.691 Actor:CZombie5_237 Component:Capsule BoneName:None (0 other events since notify)
-[2018.03.23-09.51.11:108][739]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=691.43 Y=-313.87 Z=0.00 Location: X=1608.97 Y=1718.53 Z=217.30 Normal: X=0.14 Y=0.99 Z=0.00 PenetrationDepth:46.691 Actor:CZombie5_237 Component:Capsule BoneName:None (12 other events since notify)
-[2018.03.23-09.51.12:113][766]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=544.00 Y=-253.11 Z=0.00 Location: X=1608.97 Y=1718.53 Z=217.30 Normal: X=0.14 Y=0.99 Z=0.00 PenetrationDepth:47.272 Actor:CZombie5_237 Component:Capsule BoneName:None (26 other events since notify)
-[2018.03.23-09.51.29:993][ 58]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
-[2018.03.23-09.51.30:457][ 58]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
-[2018.03.23-09.51.33:907][ 94]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Road_Long21)
-[2018.03.23-09.51.35:947][ 99]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
-[2018.03.23-09.52.37:226][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/newMAP" FILE="C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Maps/newMAP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.03.23-09.52.42:624][563]LogSavePackage: Save=5258.30ms
-[2018.03.23-09.52.42:624][563]LogSavePackage: Moving 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/newMAP591CEBC049902116D99917BE657D6C6A.tmp' to 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Maps/newMAP.umap'
-[2018.03.23-09.52.42:636][563]LogSavePackage:Display: Finished SavePackage C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Maps/newMAP.umap
-[2018.03.23-09.53.15:878][537]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (HouseA_TopFloor3)
-[2018.03.23-09.55.12:598][983]BlueprintLog: New page: Compile CZombie
-[2018.03.23-09.55.29:782][225]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.23-09.56.00:742][683]BlueprintLog: New page: Compile CZombie
-[2018.03.23-09.56.00:792][683]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie.CollisionCylinder is already used by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_0.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:792][683]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie.Arrow is already used by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_0.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:792][683]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_0.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:792][683]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_0.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:794][683]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie10_722.CollisionCylinder is already used by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_3.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:794][683]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie10_722.Arrow is already used by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_3.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:794][683]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie10_722.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_3.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:794][683]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie10_722.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_3.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:797][683]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie11_841.CollisionCylinder is already used by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_6.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:797][683]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie11_841.Arrow is already used by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_6.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:797][683]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie11_841.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_6.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:797][683]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie11_841.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_6.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:799][683]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie12_952.CollisionCylinder is already used by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_9.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:799][683]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie12_952.Arrow is already used by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_9.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:799][683]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie12_952.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_9.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:799][683]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie12_952.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_9.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:802][683]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie13_1035.CollisionCylinder is already used by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_12.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:802][683]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie13_1035.Arrow is already used by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_12.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:802][683]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie13_1035.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_12.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:802][683]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie13_1035.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_12.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:805][683]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie14_1086.CollisionCylinder is already used by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_15.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:805][683]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie14_1086.Arrow is already used by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_15.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:805][683]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie14_1086.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_15.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:805][683]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie14_1086.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_15.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:808][683]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie15_1165.CollisionCylinder is already used by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_18.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:808][683]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie15_1165.Arrow is already used by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_18.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:808][683]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie15_1165.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_18.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:808][683]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie15_1165.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_18.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:811][683]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie16_1194.CollisionCylinder is already used by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_21.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:811][683]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie16_1194.Arrow is already used by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_21.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:811][683]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie16_1194.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_21.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:811][683]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie16_1194.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_21.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:814][683]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie17_1267.CollisionCylinder is already used by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_24.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:814][683]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie17_1267.Arrow is already used by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_24.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:814][683]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie17_1267.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_24.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:815][683]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie17_1267.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_24.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:818][683]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie2.CollisionCylinder is already used by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_27.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:818][683]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie2.Arrow is already used by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_27.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:818][683]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie2.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_27.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:818][683]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie2.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_27.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:823][683]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie3_145.CollisionCylinder is already used by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_30.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:823][683]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie3_145.Arrow is already used by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_30.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:823][683]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie3_145.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_30.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:823][683]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie3_145.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_30.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:827][683]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie4_184.CollisionCylinder is already used by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_33.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:827][683]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie4_184.Arrow is already used by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_33.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:827][683]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie4_184.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_33.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:828][683]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie4_184.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_33.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:831][683]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie5_237.CollisionCylinder is already used by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_36.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:831][683]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie5_237.Arrow is already used by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_36.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:831][683]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie5_237.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_36.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:831][683]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie5_237.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_36.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:835][683]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie6_300.CollisionCylinder is already used by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_39.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:835][683]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie6_300.Arrow is already used by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_39.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:835][683]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie6_300.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_39.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:835][683]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie6_300.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_39.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:838][683]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie7_377.CollisionCylinder is already used by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_42.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:838][683]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie7_377.Arrow is already used by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_42.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:838][683]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie7_377.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_42.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:839][683]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie7_377.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_42.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:841][683]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie8_512.CollisionCylinder is already used by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_45.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:842][683]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie8_512.Arrow is already used by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_45.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:842][683]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie8_512.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_45.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:842][683]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie8_512.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_45.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:846][683]LogUObjectGlobals:Warning: Guid referenced by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie9_631.CollisionCylinder is already used by CapsuleComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_48.CollisionCylinder, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:846][683]LogUObjectGlobals:Warning: Guid referenced by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie9_631.Arrow is already used by ArrowComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_48.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:846][683]LogUObjectGlobals:Warning: Guid referenced by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie9_631.CharMoveComp is already used by CharacterMovementComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_48.CharMoveComp, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.00:846][683]LogUObjectGlobals:Warning: Guid referenced by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.CZombie9_631.CharacterMesh0 is already used by SkeletalMeshComponent /Game/Maps/newMAP.newMAP:PersistentLevel.REINST_CZombie_C_48.CharacterMesh0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
-[2018.03.23-09.56.45:135][343]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/CZTree" FILE="C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/AI/CZTree.uasset" SILENT=true
-[2018.03.23-09.56.45:536][343]LogSavePackage: Save=391.10ms
-[2018.03.23-09.56.45:536][343]LogSavePackage: Moving 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/CZTree7689FB6E4558FE6AC3E9DF9D24D2074B.tmp' to 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/AI/CZTree.uasset'
-[2018.03.23-09.56.45:541][343]LogSavePackage:Display: Finished SavePackage C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/AI/CZTree.uasset
-[2018.03.23-09.58.30:481][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/CZTree" FILE="C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/AI/CZTree.uasset" SILENT=true
-[2018.03.23-09.58.30:510][300]LogSavePackage: Save=26.02ms
-[2018.03.23-09.58.30:510][300]LogSavePackage: Moving 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/CZTree58BEDCBB4037D62AF77D90930612B311.tmp' to 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/AI/CZTree.uasset'
-[2018.03.23-09.58.30:514][300]LogSavePackage:Display: Finished SavePackage C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/AI/CZTree.uasset
-[2018.03.23-10.02.35:794][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/newMAP" FILE="C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/Maps/newMAP_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.03.23-10.02.40:885][982]LogSavePackage: Save=5055.75ms
-[2018.03.23-10.02.40:885][982]LogSavePackage: Moving 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/newMAP_Auto192C4F21545545675105888AF49E59B3A.tmp' to 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/Maps/newMAP_Auto1.umap'
-[2018.03.23-10.02.40:892][982]LogSavePackage:Display: Finished SavePackage C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/Maps/newMAP_Auto1.umap
-[2018.03.23-10.02.40:900][982]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/newMAP' took 5.218
-[2018.03.23-10.02.40:900][982]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 5.218
-[2018.03.23-10.02.41:071][982]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AI/CZombie] ([1] browsable assets)...
-[2018.03.23-10.02.41:114][982]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/AI/CZombie.CZombie]
-[2018.03.23-10.02.41:114][982]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/CZombie]
-[2018.03.23-10.02.41:115][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/CZombie" FILE="C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/AI/CZombie_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2018.03.23-10.02.41:299][982]LogSavePackage: Save=175.34ms
-[2018.03.23-10.02.41:299][982]LogSavePackage: Moving 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/CZombie_Auto17985D99E49317D95E23FA19E2FD8C2EA.tmp' to 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/AI/CZombie_Auto1.uasset'
-[2018.03.23-10.02.41:302][982]LogSavePackage:Display: Finished SavePackage C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/AI/CZombie_Auto1.uasset
-[2018.03.23-10.02.41:302][982]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/CZController] ([1] browsable assets)...
-[2018.03.23-10.02.41:302][982]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/CZController]
-[2018.03.23-10.02.41:302][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/CZController" FILE="C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/AI/CZController_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2018.03.23-10.02.41:356][982]LogSavePackage: Save=45.23ms
-[2018.03.23-10.02.41:356][982]LogSavePackage: Moving 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/CZController_Auto1B07615B84618F6E76809A78A94D480C3.tmp' to 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/AI/CZController_Auto1.uasset'
-[2018.03.23-10.02.41:358][982]LogSavePackage:Display: Finished SavePackage C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/AI/CZController_Auto1.uasset
-[2018.03.23-10.02.41:359][982]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/normal/GSController] ([1] browsable assets)...
-[2018.03.23-10.02.41:359][982]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/normal/GSController]
-[2018.03.23-10.02.41:359][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/normal/GSController" FILE="C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/AI/normal/GSController_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2018.03.23-10.02.41:418][982]LogSavePackage: Save=45.43ms
-[2018.03.23-10.02.41:418][982]LogSavePackage: Moving 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/GSController_Auto1E3A74E294B97F2AE23804FB666F820DC.tmp' to 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/AI/normal/GSController_Auto1.uasset'
-[2018.03.23-10.02.41:421][982]LogSavePackage:Display: Finished SavePackage C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/AI/normal/GSController_Auto1.uasset
-[2018.03.23-10.02.41:421][982]LogFileHelpers: Auto-saving content packages took 0.351
-[2018.03.23-10.03.14:362][987]LogTemp: Repeting last play command: Selected Viewport
-[2018.03.23-10.03.14:400][987]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
-[2018.03.23-10.03.14:400][987]BlueprintLog: New page: Pre-Play auto-recompile
-[2018.03.23-10.03.14:400][987]LogPlayLevel: [PlayLevel] Compiling GSController before play...
-[2018.03.23-10.03.14:751][987]LogPlayLevel: PlayLevel: Blueprint regeneration took 350 ms (1 blueprints)
-[2018.03.23-10.03.14:751][987]PIE: New page: PIE session: newMAP (23 Mar 2018 10:03:14)
-[2018.03.23-10.03.14:751][987]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_newMAP
-[2018.03.23-10.03.15:117][987]LogPlayLevel: PIE: StaticDuplicateObject took: (0.366037s)
-[2018.03.23-10.03.15:118][987]LogAIModule: Creating AISystem for world newMAP
-[2018.03.23-10.03.15:119][987]LogPlayLevel: PIE: World Init took: (0.001290s)
-[2018.03.23-10.03.15:120][987]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/newMAP.newMAP to /Game/Maps/UEDPIE_0_newMAP.newMAP (0.369004s)
-[2018.03.23-10.03.15:159][987]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.23-10.03.15:175][987]LogInit: FAudioDevice initialized.
-[2018.03.23-10.03.17:551][987]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.03.23-10.03.17:610][987]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.23-10.03.17:610][987]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.23-10.03.17:623][987]LogWorld: Bringing World /Game/Maps/UEDPIE_0_newMAP.newMAP up for play (max tick rate 0) at 2018.03.23-10.03.17
-[2018.03.23-10.03.17:642][987]LogWorld: Bringing up level for play took: 0.088470
-[2018.03.23-10.03.17:642][987]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.03.23-10.03.17:647][987]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_newMAP 3.039
-[2018.03.23-10.03.17:648][987]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
-[2018.03.23-10.09.39:122][429]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
-[2018.03.23-10.09.39:227][429]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
-[2018.03.23-10.09.40:847][460]LogTemp: Repeting last play command: Selected Viewport
-[2018.03.23-10.09.40:901][460]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
-[2018.03.23-10.09.40:901][460]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.23-10.09.40:901][460]PIE: New page: PIE session: newMAP (23 Mar 2018 10:09:40)
-[2018.03.23-10.09.40:901][460]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_newMAP
-[2018.03.23-10.09.41:460][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.558484s)
-[2018.03.23-10.09.41:460][460]LogAIModule: Creating AISystem for world newMAP
-[2018.03.23-10.09.41:461][460]LogPlayLevel: PIE: World Init took: (0.001083s)
-[2018.03.23-10.09.41:462][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/newMAP.newMAP to /Game/Maps/UEDPIE_0_newMAP.newMAP (0.561178s)
-[2018.03.23-10.09.41:587][460]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.23-10.09.41:619][460]LogInit: FAudioDevice initialized.
-[2018.03.23-10.09.41:659][460]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.03.23-10.09.41:738][460]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.03.23-10.09.41:738][460]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.03.23-10.09.41:758][460]LogWorld: Bringing World /Game/Maps/UEDPIE_0_newMAP.newMAP up for play (max tick rate 0) at 2018.03.23-10.09.41
-[2018.03.23-10.09.41:780][460]LogWorld: Bringing up level for play took: 0.118865
-[2018.03.23-10.09.41:781][460]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.03.23-10.09.41:788][460]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_newMAP 1.181
-[2018.03.23-10.09.41:790][460]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
-[2018.03.23-10.10.26:487][181]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
-[2018.03.23-10.10.26:660][181]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
-[2018.03.23-10.10.40:731][345]LogAIModule: Creating AISystem for world Level1
-[2018.03.23-10.10.43:226][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/CZController" FILE="C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/AI/CZController.uasset" SILENT=true
-[2018.03.23-10.10.43:308][345]LogSavePackage: Save=68.88ms
-[2018.03.23-10.10.43:308][345]LogSavePackage: Moving 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/CZController29B55F1D4B6D6B0C770BCF9099939AFE.tmp' to 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/AI/CZController.uasset'
-[2018.03.23-10.10.43:320][345]LogSavePackage:Display: Finished SavePackage C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/AI/CZController.uasset
-[2018.03.23-10.10.43:321][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/CZombie" FILE="C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/AI/CZombie.uasset" SILENT=true
-[2018.03.23-10.10.43:492][345]LogSavePackage: Save=161.70ms
-[2018.03.23-10.10.43:492][345]LogSavePackage: Moving 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/CZombie18B3D7DB44B8DCB5AAF87CBFCFFBDF3A.tmp' to 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/AI/CZombie.uasset'
-[2018.03.23-10.10.43:500][345]LogSavePackage:Display: Finished SavePackage C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/AI/CZombie.uasset
-[2018.03.23-10.10.43:501][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/normal/GSController" FILE="C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/AI/normal/GSController.uasset" SILENT=true
-[2018.03.23-10.10.43:539][345]LogSavePackage: Save=26.94ms
-[2018.03.23-10.10.43:539][345]LogSavePackage: Moving 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/GSController1333055F40BC8CDE602D598674A95473.tmp' to 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/AI/normal/GSController.uasset'
-[2018.03.23-10.10.43:546][345]LogSavePackage:Display: Finished SavePackage C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/AI/normal/GSController.uasset
-[2018.03.23-10.10.43:798][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/newMAP" FILE="C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Maps/newMAP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.03.23-10.10.49:506][345]LogSavePackage: Save=5630.25ms
-[2018.03.23-10.10.49:506][345]LogSavePackage: Moving 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/newMAP217E6FFC417BF1E1A68C0193E001B351.tmp' to 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Maps/newMAP.umap'
-[2018.03.23-10.10.49:531][345]LogSavePackage:Display: Finished SavePackage C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Maps/newMAP.umap
-[2018.03.23-10.10.49:615][345]LogFileHelpers: Saving map 'newMAP' took 6.069
-[2018.03.23-10.10.49:617][345]Cmd: MAP LOAD FILE="C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.23-10.10.49:617][345]LightingResults: New page: Lighting Build
-[2018.03.23-10.10.49:619][345]LoadErrors: New page: Loading map: Level1.umap
-[2018.03.23-10.10.49:663][345]MapCheck: New page: Map Check
-[2018.03.23-10.10.49:664][345]LightingResults: New page: Lighting Build
-[2018.03.23-10.10.49:749][345]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.23-10.10.50:166][345]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.23-10.10.50:407][345]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 241.553ms to complete.
-[2018.03.23-10.10.50:409][345]LogFileHelpers: Loading map 'Level1' took 0.794
-[2018.03.23-10.15.15:782][607]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
-[2018.03.23-10.15.17:228][687]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bench_mdl4)
-[2018.03.23-10.15.18:115][738]Cmd: DELETE
-[2018.03.23-10.15.18:115][738]Cmd: ACTOR DELETE
-[2018.03.23-10.15.20:850][738]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.03.23-10.15.20:871][738]LogEditorActor: Deleted 1 Actors (0.038 secs)
-[2018.03.23-10.15.21:520][772]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bench_mdl3)
-[2018.03.23-10.15.21:958][796]Cmd: DELETE
-[2018.03.23-10.15.21:958][796]Cmd: ACTOR DELETE
-[2018.03.23-10.15.21:959][796]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.03.23-10.15.21:978][796]LogEditorActor: Deleted 1 Actors (0.020 secs)
-[2018.03.23-10.15.23:551][891]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bench_mdl2)
-[2018.03.23-10.15.23:825][905]Cmd: DELETE
-[2018.03.23-10.15.23:825][905]Cmd: ACTOR DELETE
-[2018.03.23-10.15.23:826][905]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.03.23-10.15.23:845][905]LogEditorActor: Deleted 1 Actors (0.020 secs)
-[2018.03.23-10.15.25:629][ 12]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
-[2018.03.23-10.15.25:836][ 21]Cmd: DELETE
-[2018.03.23-10.15.25:836][ 21]Cmd: ACTOR DELETE
-[2018.03.23-10.15.25:840][ 21]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.03.23-10.15.25:867][ 21]LogEditorActor: Deleted 1 Actors (0.031 secs)
-[2018.03.23-10.15.26:841][ 80]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint9)
-[2018.03.23-10.15.27:391][108]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bench_mdl)
-[2018.03.23-10.15.27:707][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bench_mdl)
-[2018.03.23-10.15.28:026][142]Cmd: DELETE
-[2018.03.23-10.15.28:026][142]Cmd: ACTOR DELETE
-[2018.03.23-10.15.28:027][142]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.03.23-10.15.28:054][142]LogEditorActor: Deleted 1 Actors (0.029 secs)
-[2018.03.23-10.15.54:457][520]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
-[2018.03.23-10.16.09:404][351]LogTexture:Display: Building textures: Gradient (AutoDXT, 256X256)
-[2018.03.23-10.16.09:514][351]LogMaterial: Missing cached shader map for material Grass_a_mat, compiling. 
-[2018.03.23-10.17.00:609][133]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 128X128)
-[2018.03.23-10.17.00:674][133]LogMaterial: Missing cached shader map for material Grass_a_mat, compiling. 
-[2018.03.23-10.17.22:898][307]Cmd: TRANSACTION UNDO
-[2018.03.23-10.17.22:898][307]LogEditorTransaction: Undo Landscape Editing: Component Selection
-[2018.03.23-10.17.30:532][745]Cmd: TRANSACTION UNDO
-[2018.03.23-10.17.30:532][745]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2018.03.23-10.17.30:770][757]Cmd: TRANSACTION UNDO
-[2018.03.23-10.17.30:771][757]LogEditorTransaction: Undo Landscape Editing: Component Selection
-[2018.03.23-10.17.31:015][770]Cmd: TRANSACTION UNDO
-[2018.03.23-10.17.31:015][770]LogEditorTransaction: Undo Creating New Landscape
-[2018.03.23-10.18.10:409][900]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 128X128)
-[2018.03.23-10.18.22:596][467]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2018.03.23-10.20.18:677][995]Cmd: TRANSACTION UNDO
-[2018.03.23-10.20.18:677][995]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2018.03.23-10.20.47:716][726]Cmd: TRANSACTION UNDO
-[2018.03.23-10.20.47:716][726]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2018.03.23-10.20.47:743][726]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 128X128)
-[2018.03.23-10.20.48:131][745]Cmd: TRANSACTION UNDO
-[2018.03.23-10.20.48:131][745]LogEditorTransaction: Undo Landscape Editing: Sculpt
-[2018.03.23-10.20.49:053][797]Cmd: TRANSACTION UNDO
-[2018.03.23-10.20.49:053][797]LogEditorTransaction: Undo Edit Brush Size
-[2018.03.23-10.21.27:481][846]Cmd: TRANSACTION UNDO
-[2018.03.23-10.21.27:482][846]LogEditorTransaction: Undo Landscape Editing: Flatten
-[2018.03.23-10.21.57:722][511]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.03.23-10.21.57:722][511]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.03.23-10.23.03:694][266]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/Level1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.03.23-10.23.06:253][266]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 128X128)
-[2018.03.23-10.23.06:651][266]LogSavePackage: Save=2939.04ms
-[2018.03.23-10.23.06:651][266]LogSavePackage: Moving 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Level1_Auto2EC9867D14943C3E4B125A09EAFA5EEF4.tmp' to 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/Level1_Auto2.umap'
-[2018.03.23-10.23.06:655][266]LogSavePackage:Display: Finished SavePackage C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/Level1_Auto2.umap
-[2018.03.23-10.23.06:661][266]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level1' took 3.011
-[2018.03.23-10.23.06:662][266]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.011
-[2018.03.23-10.25.27:644][357]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
-[2018.03.23-10.26.21:022][320]LogMaterial: Missing cached shader map for material T_ground_Moss_D_Mat, compiling. 
-[2018.03.23-10.32.05:277][917]LogActorFactory: Actor Factory created Cube
-[2018.03.23-10.32.07:184][ 22]LogActorFactory: Actor Factory created Cube
-[2018.03.23-10.32.18:825][715]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.23-10.34.24:295][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/Level1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.03.23-10.34.24:522][982]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 128X128)
-[2018.03.23-10.34.24:946][982]LogSavePackage: Save=633.87ms
-[2018.03.23-10.34.24:946][982]LogSavePackage: Moving 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Level1_Auto35CDA4C934AF3C352746EC09B6989F2B1.tmp' to 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/Level1_Auto3.umap'
-[2018.03.23-10.34.24:949][982]LogSavePackage:Display: Finished SavePackage C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/Level1_Auto3.umap
-[2018.03.23-10.34.24:952][982]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level1' took 0.696
-[2018.03.23-10.34.24:952][982]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.696
+[2018.04.13-13.25.14:412][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.13-13.25.14:412][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.13-13.25.14:426][  0]LogInit: Computer: DESKTOP-I8SOV01
+[2018.04.13-13.25.14:426][  0]LogInit: User: sonic
+[2018.04.13-13.25.14:426][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.13-13.25.14:426][  0]LogInit: High frequency timer resolution =3.914064 MHz
+[2018.04.13-13.25.14:426][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2018.04.13-13.25.14:426][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.13-13.25.14:426][  0]LogMemory: Process Physical Memory: 276.23 MB used, 276.23 MB peak
+[2018.04.13-13.25.14:426][  0]LogMemory: Process Virtual Memory: 261.15 MB used, 261.15 MB peak
+[2018.04.13-13.25.14:426][  0]LogMemory: Physical Memory: 13801.83 MB used,  18923.07 MB free, 32724.91 MB total
+[2018.04.13-13.25.14:426][  0]LogMemory: Virtual Memory: 677.17 MB used,  18923.07 MB free, 134217728.00 MB total
+[2018.04.13-13.25.14:522][  0]LogInit: Using OS detected language (en-US).
+[2018.04.13-13.25.14:522][  0]LogInit: Using OS detected locale (en-GB).
+[2018.04.13-13.25.14:525][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.13-13.25.15:414][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.13-13.25.15:456][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980' (Feature Level 11_0)
+[2018.04.13-13.25.15:456][  0]LogD3D11RHI:       8144/0/16362 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.13-13.25.15:457][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.13-13.25.15:457][  0]LogD3D11RHI:       0/0/16362 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.13-13.25.15:457][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.13-13.25.15:481][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.13-13.25.15:481][  0]LogD3D11RHI:     GPU DeviceId: 0x161a (for the marketing name, search the web for "GPU Device Id")
+[2018.04.13-13.25.15:481][  0]LogWindows: EnumDisplayDevices:
+[2018.04.13-13.25.15:481][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980' (P:1 D:1)
+[2018.04.13-13.25.15:481][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2018.04.13-13.25.15:481][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2018.04.13-13.25.15:481][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980' (P:0 D:0)
+[2018.04.13-13.25.15:481][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.13-13.25.15:481][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980
+[2018.04.13-13.25.15:481][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.13-13.25.15:481][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.13-13.25.15:481][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.04.13-13.25.15:515][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.13-13.25.15:585][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.13-13.25.15:628][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../../Users/sonic/OneDrive/Documents/Unreal Projects/TeamProject/Survival/Intermediate/Shaders/WorkingDirectory/33196/).
+[2018.04.13-13.25.15:628][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/sonic/AppData/Local/Temp/UnrealShaderWorkingDir/489337784FA4BE2413ADDDAD9FE1CDE4/'.
+[2018.04.13-13.25.15:628][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.04.13-13.25.16:747][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.13-13.25.16:820][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.04.13-13.25.16:892][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.13-13.25.16:967][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.04.13-13.25.17:041][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.04.13-13.25.17:105][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.13-13.25.17:173][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.13-13.25.17:233][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.13-13.25.17:284][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.04.13-13.25.17:345][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.04.13-13.25.17:403][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.13-13.25.17:468][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.13-13.25.17:532][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.13-13.25.17:597][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.13-13.25.17:661][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.13-13.25.17:798][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.13-13.25.17:798][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.13-13.25.17:852][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.04.13-13.25.17:966][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.04.13-13.25.18:001][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.04.13-13.25.18:059][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.13-13.25.18:119][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.13-13.25.18:178][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.13-13.25.18:234][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.04.13-13.25.18:234][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.04.13-13.25.18:804][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.04.13-13.25.18:872][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/sonic/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.13-13.25.18:872][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/sonic/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.04.13-13.25.18:872][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/sonic/OneDrive/Documents/Unreal Projects/TeamProject/Survival/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.13-13.25.18:872][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.13-13.25.18:872][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/sonic/OneDrive/Documents/Unreal Projects/TeamProject/Survival/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.13-13.25.18:872][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.13-13.25.18:888][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.13-13.25.18:900][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sonic/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.13-13.25.18:911][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.13-13.25.18:911][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.13-13.25.18:912][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.13-13.25.18:912][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.13-13.25.19:212][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.13-13.25.19:263][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.04.13-13.25.19:417][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.13-13.25.19:466][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.13-13.25.19:513][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.13-13.25.19:513][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.04.13-13.25.19:513][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.04.13-13.25.19:998][  0]LogNetVersion: Survival , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3038584403)
+[2018.04.13-13.25.20:058][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2018.04.13-13.25.20:126][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.039180 seconds
+[2018.04.13-13.25.20:131][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.04.13-13.25.20:131][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.04.13-13.25.20:131][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.13-13.25.20:211][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.13-13.25.22:662][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.13-13.25.22:712][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.13-13.25.23:278][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.13-13.25.23:700][  0]SourceControl: Info Source control is disabled
+[2018.04.13-13.25.23:745][  0]SourceControl: Info Source control is disabled
+[2018.04.13-13.25.23:806][  0]SourceControl: Info Source control is disabled
+[2018.04.13-13.25.23:862][  0]SourceControl: Info Source control is disabled
+[2018.04.13-13.25.24:598][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.13-13.25.25:294][  0]LogEngine: Initializing Engine...
+[2018.04.13-13.25.25:294][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.13-13.25.25:464][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.13-13.25.25:464][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.13-13.25.25:610][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.13-13.25.25:619][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.13-13.25.25:636][  0]LogInit: FAudioDevice initialized.
+[2018.04.13-13.25.25:673][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/sonic/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.13-13.25.25:684][  0]LogInit: Texture streaming: Enabled
+[2018.04.13-13.25.25:792][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.13-13.25.26:051][  0]LogInit: Transaction tracking system initialized
+[2018.04.13-13.25.26:422][  0]BlueprintLog: New page: Editor Load
+[2018.04.13-13.25.27:487][  0]LocalizationService: Info Localization service is disabled
+[2018.04.13-13.25.28:396][  0]LogConsoleResponse:Display: 
+[2018.04.13-13.25.28:598][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.13-13.25.28:598][  0]LogCook:Display: Mobile HDR setting 1
+[2018.04.13-13.25.29:337][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sonic/OneDrive/Documents/Unreal Projects/TeamProject/Survival/Content/' took 0.03s
+[2018.04.13-13.25.29:953][  0]SourceControl: Info Source control is disabled
+[2018.04.13-13.25.29:953][  0]Cmd: MAP LOAD FILE="../../../../../../Users/sonic/OneDrive/Documents/Unreal Projects/TeamProject/Survival/Content/Maps/newMAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.13-13.25.29:954][  0]LightingResults: New page: Lighting Build
+[2018.04.13-13.25.29:998][  0]MapCheck: New page: Map Check
+[2018.04.13-13.25.29:998][  0]LightingResults: New page: Lighting Build
+[2018.04.13-13.25.32:943][  0]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.16+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 934) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.04.13-13.25.32:943][  0]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.16+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 934) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.04.13-13.25.32:943][  0]LogPhysics:Warning: Failed to cook convex: /Game/NewModels/key.key 0 (FlipX:1). The remaining elements will not get cooked.
+[2018.04.13-13.25.34:474][  0]LogAIModule: Creating AISystem for world newMAP
+[2018.04.13-13.25.34:572][  0]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.13-13.25.34:572][  0]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.04.13-13.25.34:646][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.13-13.25.34:854][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.13-13.25.35:015][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 161.17ms to complete.
+[2018.04.13-13.25.35:015][  0]LogFileHelpers: Loading map 'newMAP' took 5.062
+[2018.04.13-13.25.35:163][  0]LogCollectionManager: Loaded 0 collections in 0.001663 seconds
+[2018.04.13-13.25.35:247][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sonic/OneDrive/Documents/Unreal Projects/TeamProject/Survival/Saved/Collections/' took 0.01s
+[2018.04.13-13.25.35:247][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sonic/OneDrive/Documents/Unreal Projects/TeamProject/Survival/Content/Developers/sonic/Collections/' took 0.01s
+[2018.04.13-13.25.35:247][  0]LogFileCache: Scanning file cache for directory 'C:/Users/sonic/OneDrive/Documents/Unreal Projects/TeamProject/Survival/Content/Collections/' took 0.01s
+[2018.04.13-13.25.35:247][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.04.13-13.25.35:255][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2329 classes and 491 folders.
+[2018.04.13-13.25.35:333][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.04.13-13.25.35:643][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.04.13-13.25.35:698][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.04.13-13.25.35:748][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.04.13-13.25.35:766][  0]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.13-13.25.35:771][  0]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.13-13.25.35:778][  0]LogSlate: Took 0.002386 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.13-13.25.35:904][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2018.04.13-13.25.36:036][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.04.13-13.25.36:109][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.04.13-13.25.36:109][  0]LogLoad: (Engine Initialization) Total time: 23.75 seconds
+[2018.04.13-13.25.36:109][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.98 seconds
+[2018.04.13-13.25.36:109][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.13-13.25.36:109][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.13-13.25.36:443][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.13-13.25.36:449][  0]LogOcInput: OculusInput pre-init called
+[2018.04.13-13.25.36:449][  0]LogHMD: Starting GearVRController plugin
+[2018.04.13-13.25.36:500][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.13-13.25.36:842][  0]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.13-13.25.38:130][  3]LogAssetRegistry: Asset discovery search completed in 18.0937 seconds
+[2018.04.13-13.25.38:134][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.13-13.25.38:134][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
+[2018.04.13-13.25.38:182][  3]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.13-13.25.42:114][ 15]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/sonic/OneDrive/Documents/Unreal Projects/TeamProject/Survival/Content/' took 5.64s
+[2018.04.13-13.26.10:852][194]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.13-13.26.11:156][194]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.13-13.26.11:156][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.13-13.26.11:156][194]PIE: New page: PIE session: newMAP (13 Apr 2018 15:26:11)
+[2018.04.13-13.26.11:156][194]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_newMAP
+[2018.04.13-13.26.11:406][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.249611s)
+[2018.04.13-13.26.11:406][194]LogAIModule: Creating AISystem for world newMAP
+[2018.04.13-13.26.11:406][194]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2018.04.13-13.26.11:407][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/newMAP.newMAP to /Game/Maps/UEDPIE_0_newMAP.newMAP (0.251293s)
+[2018.04.13-13.26.11:427][194]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.13-13.26.11:439][194]LogInit: FAudioDevice initialized.
+[2018.04.13-13.26.11:486][194]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.13-13.26.11:528][194]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.13-13.26.11:528][194]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.04.13-13.26.11:536][194]LogWorld: Bringing World /Game/Maps/UEDPIE_0_newMAP.newMAP up for play (max tick rate 60) at 2018.04.13-14.26.11
+[2018.04.13-13.26.11:548][194]LogWorld: Bringing up level for play took: 0.060491
+[2018.04.13-13.26.11:548][194]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.13-13.26.11:590][194]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2018.04.13-13.26.11:595][194]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_newMAP 0.462
+[2018.04.13-13.26.11:596][194]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.13-13.26.11:673][195]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.090178 > MaxSimulationTimeStep (0.050) for 'CZombie3_145', movement 'Walking'
+[2018.04.13-13.26.32:125][966]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.13-13.26.32:169][966]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.13-13.26.33:901][ 34]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.13-13.26.33:941][ 34]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.13-13.26.33:941][ 34]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.13-13.26.33:941][ 34]PIE: New page: PIE session: newMAP (13 Apr 2018 15:26:33)
+[2018.04.13-13.26.33:941][ 34]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_newMAP
+[2018.04.13-13.26.34:167][ 34]LogPlayLevel: PIE: StaticDuplicateObject took: (0.225843s)
+[2018.04.13-13.26.34:167][ 34]LogAIModule: Creating AISystem for world newMAP
+[2018.04.13-13.26.34:167][ 34]LogPlayLevel: PIE: World Init took: (0.000584s)
+[2018.04.13-13.26.34:168][ 34]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/newMAP.newMAP to /Game/Maps/UEDPIE_0_newMAP.newMAP (0.227464s)
+[2018.04.13-13.26.34:183][ 34]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.13-13.26.34:195][ 34]LogInit: FAudioDevice initialized.
+[2018.04.13-13.26.34:225][ 34]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.13-13.26.34:263][ 34]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.13-13.26.34:263][ 34]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.04.13-13.26.34:270][ 34]LogWorld: Bringing World /Game/Maps/UEDPIE_0_newMAP.newMAP up for play (max tick rate 60) at 2018.04.13-14.26.34
+[2018.04.13-13.26.34:283][ 34]LogWorld: Bringing up level for play took: 0.056764
+[2018.04.13-13.26.34:283][ 34]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.13-13.26.34:287][ 34]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_newMAP 1.153
+[2018.04.13-13.26.34:287][ 34]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.13-13.26.34:337][ 35]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.090755 > MaxSimulationTimeStep (0.050) for 'CZombie3_145', movement 'Walking'
+[2018.04.13-13.26.43:804][403]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.13-13.26.43:856][403]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.13-13.26.46:686][523]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.13-13.26.46:927][524]Cmd: QUIT_EDITOR
+[2018.04.13-13.26.47:722][524]LogExit: Preparing to exit.
+[2018.04.13-13.26.48:856][524]LogDirectoryWatcher: A directory notification for 'C:/Users/sonic/OneDrive/Documents/Unreal Projects/TeamProject/Survival/Content/' was aborted.
+[2018.04.13-13.26.48:939][524]LogExit: Editor shut down
+[2018.04.13-13.26.48:941][524]LogExit: Transaction tracking system shut down
+[2018.04.13-13.26.49:023][524]LogObj: Freed 0b from 0 cluster array pools.
+[2018.04.13-13.26.49:023][524]LogExit: Object subsystem successfully closed.
+[2018.04.13-13.26.49:042][524]LogD3D11RHI: Shutdown
+[2018.04.13-13.26.49:042][524]LogD3D11RHI: CleanupD3DDevice
+[2018.04.13-13.26.49:179][524]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.13-13.26.49:192][524]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2018.04.13-13.26.49:192][524]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.04.13-13.26.49:192][524]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.04.13-13.26.49:192][524]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.04.13-13.26.49:192][524]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.04.13-13.26.49:192][524]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.04.13-13.26.49:192][524]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.04.13-13.26.49:192][524]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.04.13-13.26.49:192][524]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.04.13-13.26.49:193][524]LogDirectoryWatcher: A directory notification for 'C:/Users/sonic/OneDrive/Documents/Unreal Projects/TeamProject/Survival/Content/Collections/' was aborted.
+[2018.04.13-13.26.49:193][524]LogDirectoryWatcher: A directory notification for 'C:/Users/sonic/OneDrive/Documents/Unreal Projects/TeamProject/Survival/Content/Developers/sonic/Collections/' was aborted.
+[2018.04.13-13.26.49:193][524]LogDirectoryWatcher: A directory notification for 'C:/Users/sonic/OneDrive/Documents/Unreal Projects/TeamProject/Survival/Saved/Collections/' was aborted.
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.04.13-13.26.49:193][524]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.04.13-13.26.49:950][524]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.04.13-13.26.49:950][524]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.04.13-13.26.49:950][524]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.04.13-13.26.49:950][524]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.04.13-13.26.49:950][524]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.04.13-13.26.49:950][524]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.04.13-13.26.49:950][524]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.04.13-13.26.49:950][524]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.04.13-13.26.49:950][524]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.04.13-13.26.49:950][524]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.04.13-13.26.49:950][524]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.04.13-13.26.49:950][524]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.04.13-13.26.49:950][524]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.04.13-13.26.49:950][524]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.04.13-13.26.49:950][524]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.04.13-13.26.49:950][524]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.04.13-13.26.49:950][524]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.04.13-13.26.49:950][524]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.04.13-13.26.49:950][524]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.04.13-13.26.49:950][524]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.04.13-13.26.49:951][524]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.04.13-13.26.49:951][524]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.04.13-13.26.49:951][524]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.04.13-13.26.49:951][524]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.04.13-13.26.50:003][524]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.04.13-13.26.50:003][524]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.04.13-13.26.50:003][524]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.04.13-13.26.50:003][524]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.04.13-13.26.50:003][524]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.04.13-13.26.50:003][524]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.04.13-13.26.50:003][524]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.04.13-13.26.50:003][524]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.04.13-13.26.50:003][524]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.04.13-13.26.50:003][524]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.04.13-13.26.50:006][524]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.04.13-13.26.50:006][524]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.04.13-13.26.50:006][524]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.04.13-13.26.50:006][524]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.04.13-13.26.50:006][524]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.04.13-13.26.50:006][524]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.04.13-13.26.50:006][524]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.04.13-13.26.50:006][524]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.04.13-13.26.50:006][524]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.04.13-13.26.50:006][524]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.04.13-13.26.50:006][524]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.04.13-13.26.50:006][524]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.04.13-13.26.50:006][524]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.04.13-13.26.50:006][524]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.04.13-13.26.50:006][524]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.04.13-13.26.50:006][524]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.04.13-13.26.50:006][524]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.04.13-13.26.50:006][524]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.04.13-13.26.50:006][524]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.04.13-13.26.50:006][524]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.04.13-13.26.50:022][524]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.04.13-13.26.50:022][524]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.04.13-13.26.50:023][524]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.04.13-13.26.50:024][524]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.04.13-13.26.50:024][524]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.04.13-13.26.50:024][524]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.04.13-13.26.50:024][524]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.04.13-13.26.50:024][524]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.04.13-13.26.50:024][524]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.04.13-13.26.50:124][524]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.04.13-13.26.50:224][524]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.04.13-13.26.50:224][524]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.04.13-13.26.50:224][524]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.04.13-13.26.50:224][524]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.04.13-13.26.50:224][524]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.04.13-13.26.50:224][524]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.04.13-13.26.50:225][524]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.04.13-13.26.50:225][524]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.04.13-13.26.50:225][524]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.04.13-13.26.50:225][524]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.04.13-13.26.50:226][524]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.04.13-13.26.50:226][524]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.04.13-13.26.50:226][524]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.04.13-13.26.50:226][524]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.04.13-13.26.50:226][524]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.04.13-13.26.50:226][524]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.04.13-13.26.50:226][524]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.04.13-13.26.50:226][524]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.04.13-13.26.50:226][524]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.04.13-13.26.50:226][524]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.04.13-13.26.50:226][524]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.04.13-13.26.50:226][524]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.04.13-13.26.50:227][524]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.04.13-13.26.50:227][524]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.04.13-13.26.50:227][524]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.04.13-13.26.50:227][524]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.04.13-13.26.50:227][524]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.04.13-13.26.50:227][524]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.04.13-13.26.50:227][524]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.04.13-13.26.50:229][524]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.04.13-13.26.50:229][524]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.04.13-13.26.50:229][524]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.04.13-13.26.50:229][524]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.04.13-13.26.50:229][524]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.04.13-13.26.50:229][524]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.04.13-13.26.50:362][524]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.13-13.26.50:362][524]LogDirectoryWatcher: A directory notification for '../../../../../../Users/sonic/OneDrive/Documents/Unreal Projects/TeamProject/Survival/Content/' was aborted.
+[2018.04.13-13.26.50:362][524]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.13-13.26.50:362][524]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.04.13-13.26.50:367][524]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.04.13-13.26.50:367][524]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.04.13-13.26.50:367][524]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.04.13-13.26.50:367][524]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.04.13-13.26.50:367][524]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.04.13-13.26.50:367][524]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.04.13-13.26.50:367][524]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.04.13-13.26.50:367][524]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.04.13-13.26.50:367][524]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.04.13-13.26.50:766][524]LogDerivedDataCache: Shutdown
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.13-13.26.50:766][524]LogOnline:Display: Unloading online subsystem: NULL
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.13-13.26.50:766][524]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.13-13.26.50:766][524]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.13-13.26.50:766][524]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B130351F1-48AC-B786-B914-A69D2B8AD21B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=bf634870427a88e549fa43883fc0a9ce%7Cf1d1094c8f334ccf928b2bee1ea5d1c2%7C89e28614-f2d4-4c1a-b0c4-b5a74c1b4272&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.13-13.26.50:796][524]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.13-13.26.50:797][524]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.04.13-13.26.50:797][524]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.04.13-13.26.50:797][524]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.04.13-13.26.50:797][524]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.04.13-13.26.50:797][524]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.04.13-13.26.50:797][524]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.04.13-13.26.50:797][524]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.04.13-13.26.50:797][524]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.04.13-13.26.50:798][524]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.04.13-13.26.50:798][524]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.04.13-13.26.50:798][524]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.04.13-13.26.50:798][524]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.04.13-13.26.50:798][524]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.04.13-13.26.50:798][524]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.04.13-13.26.50:798][524]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.04.13-13.26.50:798][524]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.13-13.26.50:798][524]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.13-13.26.50:798][524]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.13-13.26.50:799][524]LogExit: Exiting.
+[2018.04.13-13.26.50:824][524]Log file closed, 04/13/18 14:26:50
