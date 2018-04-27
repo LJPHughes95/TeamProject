@@ -1,27 +1,9 @@
-﻿Log file open, 04/22/18 15:20:26
+﻿Log file open, 04/27/18 10:28:30
 LogInit:Display: Running engine for game: Survival
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(643458992) SRandInit(643458992).
+LogInit:Display: RandInit(-396975220) SRandInit(-396975220).
 LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.553957
-LogConfig:Warning: Failed to saved backup for config[LightPropagationVolume]
-LogConfig:Warning: Failed to saved backup for config[KDevelopSourceCodeAccess]
-LogConfig:Warning: Failed to saved backup for config[SpeedTreeImporter]
-LogConfig:Warning: Failed to saved backup for config[AvfMedia]
-LogConfig:Warning: Failed to saved backup for config[MediaPlayerEditor]
-LogConfig:Warning: Failed to saved backup for config[TcpMessaging]
-LogConfig:Warning: Failed to saved backup for config[LevelSequenceEditor]
-LogConfig:Warning: Failed to saved backup for config[MatineeToLevelSequence]
-LogConfig:Warning: Failed to saved backup for config[OnlineSubsystemGooglePlay]
-LogConfig:Warning: Failed to saved backup for config[HTTPChunkInstaller]
-LogConfig:Warning: Failed to saved backup for config[OnlineSubsystem]
-LogConfig:Warning: Failed to saved backup for config[AndroidPermission]
-LogConfig:Warning: Failed to saved backup for config[ArchVisCharacter]
-LogConfig:Warning: Failed to saved backup for config[CustomMeshComponent]
-LogConfig:Warning: Failed to saved backup for config[IOSDeviceProfileSelector]
-LogConfig:Warning: Failed to saved backup for config[LinuxDeviceProfileSelector]
-LogConfig:Warning: Failed to saved backup for config[OculusLibrary]
-LogConfig:Warning: Failed to saved backup for config[OculusRift]
+LogStats: Stats thread started at 0.123275
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -63,243 +45,295 @@ LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.16
-LogInit: Command line:  
+LogInit: Command line:  /Temp/Autosaves/Game/Maps/UEDPCnewMAP -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.04.22-14.20.40:238][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.22-14.20.40:238][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.04.22-14.20.41:746][  0]LogInit: Computer: LAPTOP-RA57JA6K
-[2018.04.22-14.20.41:746][  0]LogInit: User: Jamesrigby777
-[2018.04.22-14.20.41:746][  0]LogInit: CPU Page size=4096, Cores=2
-[2018.04.22-14.20.41:746][  0]LogInit: High frequency timer resolution =1.945311 MHz
-[2018.04.22-14.20.41:762][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.04.22-14.20.41:762][  0]LogMemory: Platform Memory Stats for Windows
-[2018.04.22-14.20.41:762][  0]LogMemory: Process Physical Memory: 273.09 MB used, 273.09 MB peak
-[2018.04.22-14.20.41:762][  0]LogMemory: Process Virtual Memory: 270.74 MB used, 270.74 MB peak
-[2018.04.22-14.20.41:762][  0]LogMemory: Physical Memory: 3365.04 MB used,  4718.37 MB free, 8083.41 MB total
-[2018.04.22-14.20.41:762][  0]LogMemory: Virtual Memory: 684.40 MB used,  4718.37 MB free, 134217728.00 MB total
-[2018.04.22-14.20.47:306][  0]LogInit: Using OS detected language (en-GB).
-[2018.04.22-14.20.47:306][  0]LogInit: Using OS detected locale (en-GB).
-[2018.04.22-14.20.47:854][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2018.04.22-14.20.56:546][  0]LogD3D11RHI: D3D11 adapters:
-[2018.04.22-14.20.56:642][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
-[2018.04.22-14.20.56:642][  0]LogD3D11RHI:       128/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2018.04.22-14.20.56:656][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.04.22-14.20.56:656][  0]LogD3D11RHI:       0/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.04.22-14.20.56:656][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.04.22-14.20.56:726][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.04.22-14.20.56:727][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
-[2018.04.22-14.20.56:727][  0]LogWindows: EnumDisplayDevices:
-[2018.04.22-14.20.56:727][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
-[2018.04.22-14.20.56:728][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2018.04.22-14.20.56:728][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2018.04.22-14.20.56:729][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.04.22-14.20.56:729][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
-[2018.04.22-14.20.56:729][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.04.22-14.20.56:729][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.04.22-14.20.56:729][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.04.22-14.20.56:746][  0]LogD3D11RHI: Async texture creation enabled
-[2018.04.22-14.20.57:206][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
-[2018.04.22-14.20.57:351][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Intermediate/Shaders/WorkingDirectory/6140/).
-[2018.04.22-14.20.57:353][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jamesrigby777/AppData/Local/Temp/UnrealShaderWorkingDir/2B0FE39A4B9C862957793AA1E3354752/'.
-[2018.04.22-14.20.57:366][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2018.04.22-14.21.06:883][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2018.04.22-14.21.07:075][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2018.04.22-14.21.07:233][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2018.04.22-14.21.07:373][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2018.04.22-14.21.07:575][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2018.04.22-14.21.07:831][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2018.04.22-14.21.08:006][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.04.22-14.21.08:149][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2018.04.22-14.21.08:313][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2018.04.22-14.21.09:167][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2018.04.22-14.21.09:404][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2018.04.22-14.21.09:605][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2018.04.22-14.21.09:753][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2018.04.22-14.21.09:889][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2018.04.22-14.21.10:030][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2018.04.22-14.21.10:335][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2018.04.22-14.21.10:335][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.04.22-14.21.10:564][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2018.04.22-14.21.11:160][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2018.04.22-14.21.11:231][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2018.04.22-14.21.11:379][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2018.04.22-14.21.11:583][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.04.22-14.21.11:795][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2018.04.22-14.21.12:070][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2018.04.22-14.21.12:070][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2018.04.22-14.21.16:027][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2018.04.22-14.21.18:176][  0]LogDerivedDataCache: Loaded boot cache 2.15s 90MB C:/Users/Jamesrigby777/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.04.22-14.21.18:176][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jamesrigby777/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2018.04.22-14.21.18:176][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.04.22-14.21.18:177][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.04.22-14.21.18:177][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.04.22-14.21.18:177][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.04.22-14.21.18:312][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.04.22-14.21.18:328][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jamesrigby777/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.04.22-14.21.18:486][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.04.22-14.21.18:568][  0]LogSlate: Using Freetype 2.6.0
-[2018.04.22-14.21.18:708][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.22-14.21.18:709][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.22-14.21.41:061][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.22-14.21.42:859][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.04.22-14.21.44:616][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.04.22-14.21.45:120][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.04.22-14.21.45:460][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.04.22-14.21.45:460][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2018.04.22-14.21.45:460][  0]LogMeshUtilities: No automatic mesh merging module available
-[2018.04.22-14.21.59:137][  0]LogNetVersion: Survival , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3038584403)
-[2018.04.22-14.21.59:977][  0]LogAssetRegistry: FAssetRegistry took 0.0918 seconds to start up
-[2018.04.22-14.22.00:747][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.413330 seconds
-[2018.04.22-14.22.00:915][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2018.04.22-14.22.00:916][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
-[2018.04.22-14.22.00:934][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.04.22-14.22.01:691][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.04.22-14.23.13:879][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.04.22-14.23.14:009][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.04.22-14.23.22:122][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.04.22-14.23.25:508][  0]SourceControl: Info Source control is disabled
-[2018.04.22-14.23.25:545][  0]SourceControl: Info Source control is disabled
-[2018.04.22-14.23.26:143][  0]SourceControl: Info Source control is disabled
-[2018.04.22-14.23.26:452][  0]SourceControl: Info Source control is disabled
-[2018.04.22-14.23.30:182][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.04.22-14.23.33:073][  0]LogEngine: Initializing Engine...
-[2018.04.22-14.23.33:130][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.04.22-14.23.34:552][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.22-14.23.34:555][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.22-14.23.35:834][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.04.22-14.23.36:395][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.22-14.23.37:348][  0]LogInit: FAudioDevice initialized.
-[2018.04.22-14.23.37:472][  0]LogDerivedDataCache: Saved boot cache 0.11s 90MB C:/Users/Jamesrigby777/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.04.22-14.23.37:510][  0]LogInit: Texture streaming: Enabled
-[2018.04.22-14.23.38:679][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.04.22-14.23.40:924][  0]LogInit: Transaction tracking system initialized
-[2018.04.22-14.23.43:326][  0]BlueprintLog: New page: Editor Load
-[2018.04.22-14.23.50:715][  0]LocalizationService: Info Localization service is disabled
-[2018.04.22-14.23.57:199][  0]LogConsoleResponse:Display: 
-[2018.04.22-14.23.59:270][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.04.22-14.23.59:270][  0]LogCook:Display: Mobile HDR setting 1
-[2018.04.22-14.24.00:359][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/' took 0.12s
-[2018.04.22-14.24.06:295][  0]SourceControl: Info Source control is disabled
-[2018.04.22-14.24.07:010][  0]LogSlate: Took 0.013052 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.22-14.24.12:764][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.04.22-14.24.12:799][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.04.22-14.24.12:917][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Maps/newMAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.22-14.24.12:938][  0]LightingResults: New page: Lighting Build
-[2018.04.22-14.24.13:505][  0]MapCheck: New page: Map Check
-[2018.04.22-14.24.13:505][  0]LightingResults: New page: Lighting Build
-[2018.04.22-14.24.21:177][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'PunchCombo' for  InputAction PunchCombo
-[2018.04.22-14.24.21:178][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Kick' for  InputAction Kick
-[2018.04.22-14.24.21:178][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Punch' for  InputAction Punch
-[2018.04.22-14.24.21:178][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'NoWeapon' for  InputAction NoWeapon
-[2018.04.22-14.24.21:183][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'AimCamera' for  InputAction AimCamera
-[2018.04.22-14.24.21:302][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0270.96] Compile of ThirdPersonCharacter successful, but with 5 Warning(s) [in 197 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2018.04.22-14.24.21:317][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0270.99] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 14 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2018.04.22-14.24.21:317][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0270.99] Compile of ThirdPersonCharacter successful, but with 7 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2018.04.22-14.24.21:858][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'PunchCombo' for  InputAction PunchCombo
-[2018.04.22-14.24.21:859][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Kick' for  InputAction Kick
-[2018.04.22-14.24.21:859][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Punch' for  InputAction Punch
-[2018.04.22-14.24.21:859][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'NoWeapon' for  InputAction NoWeapon
-[2018.04.22-14.24.21:862][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'AimCamera' for  InputAction AimCamera
-[2018.04.22-14.24.21:912][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0271.58] Compile of ThirdPersonCharacter successful, but with 5 Warning(s) [in 111 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2018.04.22-14.24.21:912][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0271.58] Compile of ThirdPersonCharacter successful, but with 6 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2018.04.22-14.24.21:921][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0271.59] Compile of ThirdPersonCharacter successful, but with 7 Warning(s) [in 9 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2018.04.22-14.24.46:911][  0]LogTexture:Display: Building textures: kitchen_draw__small__1_wire_088144225_Normal (BC5, 1024X1024)
-[2018.04.22-14.24.47:468][  0]LogTexture:Display: Building textures: kitchen_draw__small__1_wire_088144225_BaseColor (AutoDXT, 1024X1024)
-[2018.04.22-14.24.56:670][  0]LogStaticMesh: Building static mesh Bush_A_small...
-[2018.04.22-14.24.57:225][  0]LogStaticMesh: Built static mesh [0.56s] /Game/PostApoc/Models/Foilage/Bush_A_small.Bush_A_small
-[2018.04.22-14.24.57:345][  0]LogStaticMesh: Building static mesh Bush_B_small...
-[2018.04.22-14.24.57:369][  0]LogStaticMesh: Built static mesh [0.10s] /Game/PostApoc/Models/Foilage/Bush_B_small.Bush_B_small
-[2018.04.22-14.24.57:549][  0]LogStaticMesh: Building static mesh grass_c...
-[2018.04.22-14.24.57:613][  0]LogStaticMesh: Built static mesh [0.15s] /Game/PostApoc/Models/Foilage/grass_c.grass_c
-[2018.04.22-14.24.57:784][  0]LogStaticMesh: Building static mesh Weed_b...
-[2018.04.22-14.24.57:805][  0]LogStaticMesh: Built static mesh [0.02s] /Game/PostApoc/Models/Foilage/Weed_b.Weed_b
-[2018.04.22-14.24.57:862][  0]LogStaticMesh: Building static mesh Ivy_Medium...
-[2018.04.22-14.24.57:866][  0]LogStaticMesh: Built static mesh [0.00s] /Game/PostApoc/Models/Foilage/Ivy_Medium.Ivy_Medium
-[2018.04.22-14.24.59:693][  0]LogStaticMesh: Building static mesh Concrete_VariationA_mdl...
-[2018.04.22-14.24.59:874][  0]LogStaticMesh: Built static mesh [0.18s] /Game/PostApoc/Models/Foilage/Concrete_VariationA_mdl.Concrete_VariationA_mdl
-[2018.04.22-14.25.00:494][  0]LogStaticMesh: Building static mesh Bricks_VariationB_mdl...
-[2018.04.22-14.25.00:650][  0]LogStaticMesh: Built static mesh [0.25s] /Game/PostApoc/Models/Foilage/Bricks_VariationB_mdl.Bricks_VariationB_mdl
-[2018.04.22-14.25.00:762][  0]LogStaticMesh: Building static mesh Bricks_VariationA_mdl...
-[2018.04.22-14.25.00:779][  0]LogStaticMesh: Built static mesh [0.09s] /Game/PostApoc/Models/Foilage/Bricks_VariationA_mdl.Bricks_VariationA_mdl
-[2018.04.22-14.25.01:895][  0]LogStaticMesh: Building static mesh axe_v3_axe_lp_Cube_001...
-[2018.04.22-14.25.02:012][  0]LogStaticMesh: Built static mesh [0.20s] /Game/NewModels/Thomasprop/models/axe_v3_axe_lp_Cube_001.axe_v3_axe_lp_Cube_001
-[2018.04.22-14.25.04:762][  0]LogStaticMesh: Building static mesh desk_draw_v2_Object001...
-[2018.04.22-14.25.04:826][  0]LogStaticMesh: Built static mesh [0.10s] /Game/NewModels/Thomasprop/models/desk_draw_v2_Object001.desk_draw_v2_Object001
-[2018.04.22-14.25.04:994][  0]LogStaticMesh: Building static mesh desk_table_v2_Desk_Plane_005...
-[2018.04.22-14.25.05:047][  0]LogStaticMesh: Built static mesh [0.12s] /Game/NewModels/Thomasprop/models/desk_table_v2_Desk_Plane_005.desk_table_v2_Desk_Plane_005
-[2018.04.22-14.25.05:536][  0]LogStaticMesh: Building static mesh dinner_table...
-[2018.04.22-14.25.06:029][  0]LogStaticMesh: Built static mesh [0.64s] /Game/NewModels/Thomasprop/models/dinner_table.dinner_table
-[2018.04.22-14.25.06:127][  0]LogStaticMesh: Building static mesh Door_Exterior...
-[2018.04.22-14.25.06:202][  0]LogStaticMesh: Built static mesh [0.11s] /Game/PostApoc/Models/DoorsWindows/Door_Exterior.Door_Exterior
-[2018.04.22-14.25.06:250][  0]LogStaticMesh: Building static mesh Door_Interior...
-[2018.04.22-14.25.06:296][  0]LogStaticMesh: Built static mesh [0.08s] /Game/PostApoc/Models/DoorsWindows/Door_Interior.Door_Interior
-[2018.04.22-14.25.06:369][  0]LogStaticMesh: Building static mesh DoorDoubleFrame_Exterior...
-[2018.04.22-14.25.06:385][  0]LogStaticMesh: Built static mesh [0.02s] /Game/PostApoc/Models/DoorsWindows/DoorDoubleFrame_Exterior.DoorDoubleFrame_Exterior
-[2018.04.22-14.25.10:341][  0]LogStaticMesh: Building static mesh HouseC_FrontPorch...
-[2018.04.22-14.25.11:425][  0]LogStaticMesh: Built static mesh [1.14s] /Game/PostApoc/Models/Buildings/HouseC_FrontPorch.HouseC_FrontPorch
-[2018.04.22-14.25.11:651][  0]LogStaticMesh: Building static mesh HouseC_MainFloor...
-[2018.04.22-14.25.11:661][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
-[2018.04.22-14.25.18:798][  0]LogStaticMesh: Built static mesh [7.19s] /Game/PostApoc/Models/Buildings/HouseC_MainFloor.HouseC_MainFloor
-[2018.04.22-14.25.18:830][  0]LogStaticMesh: Building static mesh HouseC_MidFloor...
-[2018.04.22-14.25.18:854][  0]LogStaticMesh: Built static mesh [0.02s] /Game/PostApoc/Models/Buildings/HouseC_MidFloor.HouseC_MidFloor
-[2018.04.22-14.25.18:882][  0]LogStaticMesh: Building static mesh HouseC_TopFloor...
-[2018.04.22-14.25.27:901][  0]LogStaticMesh: Built static mesh [9.04s] /Game/PostApoc/Models/Buildings/HouseC_TopFloor.HouseC_TopFloor
-[2018.04.22-14.25.28:073][  0]LogStaticMesh: Building static mesh jerry_can_v2_jerry_can...
-[2018.04.22-14.25.28:124][  0]LogStaticMesh: Built static mesh [0.05s] /Game/NewModels/Thomasprop/models/jerry_can_v2_jerry_can.jerry_can_v2_jerry_can
-[2018.04.22-14.25.28:190][  0]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.16+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 934) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
-[2018.04.22-14.25.28:190][  0]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.16+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 934) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
-[2018.04.22-14.25.28:205][  0]LogPhysics:Warning: Failed to cook convex: /Game/NewModels/key.key 0 (FlipX:1). The remaining elements will not get cooked.
-[2018.04.22-14.25.28:206][  0]LogStaticMesh: Building static mesh kitchen_cupboard__long_...
-[2018.04.22-14.25.28:226][  0]LogStaticMesh: Built static mesh [0.02s] /Game/NewModels/Thomasprop/models/kitchen_cupboard__long_.kitchen_cupboard__long_
-[2018.04.22-14.25.28:259][  0]LogStaticMesh: Building static mesh kitchen_cupboard__middle_...
-[2018.04.22-14.25.28:285][  0]LogStaticMesh: Built static mesh [0.03s] /Game/NewModels/Thomasprop/models/kitchen_cupboard__middle_.kitchen_cupboard__middle_
-[2018.04.22-14.25.28:399][  0]LogStaticMesh: Building static mesh kitchen_cupboard__small_...
-[2018.04.22-14.25.28:416][  0]LogStaticMesh: Built static mesh [0.06s] /Game/NewModels/Thomasprop/models/kitchen_cupboard__small_.kitchen_cupboard__small_
-[2018.04.22-14.25.28:493][  0]LogStaticMesh: Building static mesh kitchen_draw__long__v2...
-[2018.04.22-14.25.28:540][  0]LogStaticMesh: Built static mesh [0.07s] /Game/NewModels/Thomasprop/models/kitchen_draw__long__v2.kitchen_draw__long__v2
-[2018.04.22-14.25.28:632][  0]LogStaticMesh: Building static mesh kitchen_draw__middle__v2...
-[2018.04.22-14.25.28:693][  0]LogStaticMesh: Built static mesh [0.12s] /Game/NewModels/Thomasprop/models/kitchen_draw__middle__v2.kitchen_draw__middle__v2
-[2018.04.22-14.25.28:754][  0]LogStaticMesh: Building static mesh kitchen_draw__small__1_v2...
-[2018.04.22-14.25.28:823][  0]LogStaticMesh: Built static mesh [0.07s] /Game/NewModels/Thomasprop/models/kitchen_draw__small__1_v2.kitchen_draw__small__1_v2
-[2018.04.22-14.25.28:855][  0]LogStaticMesh: Building static mesh kitchen_draw__small__2_v2...
-[2018.04.22-14.25.28:904][  0]LogStaticMesh: Built static mesh [0.05s] /Game/NewModels/Thomasprop/models/kitchen_draw__small__2_v2.kitchen_draw__small__2_v2
-[2018.04.22-14.25.28:968][  0]LogStaticMesh: Building static mesh laptop_v2_Laptop001...
-[2018.04.22-14.25.29:192][  0]LogStaticMesh: Built static mesh [0.22s] /Game/NewModels/Thomasprop/models/laptop_v2_Laptop001.laptop_v2_Laptop001
-[2018.04.22-14.25.29:215][  0]LogStaticMesh: Building static mesh laptop_v2_Connectors001...
-[2018.04.22-14.25.29:228][  0]LogStaticMesh: Built static mesh [0.01s] /Game/NewModels/Thomasprop/models/laptop_v2_Connectors001.laptop_v2_Connectors001
-[2018.04.22-14.25.29:245][  0]LogStaticMesh: Building static mesh laptop_v2_ScreenCustom001...
-[2018.04.22-14.25.29:246][  0]LogStaticMesh: Built static mesh [0.02s] /Game/NewModels/Thomasprop/models/laptop_v2_ScreenCustom001.laptop_v2_ScreenCustom001
-[2018.04.22-14.25.29:378][  0]LogStaticMesh: Building static mesh laptop_v2_ScreenDust001...
-[2018.04.22-14.25.29:381][  0]LogStaticMesh: Built static mesh [0.00s] /Game/NewModels/Thomasprop/models/laptop_v2_ScreenDust001.laptop_v2_ScreenDust001
-[2018.04.22-14.25.29:430][  0]LogStaticMesh: Building static mesh laptop_v2_ScreenOFF001...
-[2018.04.22-14.25.29:433][  0]LogStaticMesh: Built static mesh [0.03s] /Game/NewModels/Thomasprop/models/laptop_v2_ScreenOFF001.laptop_v2_ScreenOFF001
-[2018.04.22-14.25.29:436][  0]LogStaticMesh: Building static mesh nightstand_low...
-[2018.04.22-14.25.29:481][  0]LogStaticMesh: Built static mesh [0.05s] /Game/NewModels/Thomasprop/models/nightstand_low.nightstand_low
-[2018.04.22-14.25.29:496][  0]LogStaticMesh: Building static mesh oil_tank_1__high__v2...
-[2018.04.22-14.25.29:576][  0]LogStaticMesh: Built static mesh [0.08s] /Game/NewModels/Thomasprop/models/oil_tank_1__high__v2.oil_tank_1__high__v2
-[2018.04.22-14.25.30:806][  0]LogStaticMesh: Building static mesh Wall_C...
-[2018.04.22-14.25.30:874][  0]LogStaticMesh: Built static mesh [0.07s] /Game/PostApoc/Models/Exterior/Wall_C.Wall_C
-[2018.04.22-14.25.30:986][  0]LogStaticMesh: Building static mesh Wall_C_Post...
-[2018.04.22-14.25.31:002][  0]LogStaticMesh: Built static mesh [0.03s] /Game/PostApoc/Models/Exterior/Wall_C_Post.Wall_C_Post
-[2018.04.22-14.25.31:077][  0]LogStaticMesh: Building static mesh WindowLarge_Broken...
-[2018.04.22-14.25.31:097][  0]LogStaticMesh: Built static mesh [0.02s] /Game/PostApoc/Models/DoorsWindows/WindowLarge_Broken.WindowLarge_Broken
-[2018.04.22-14.25.31:114][  0]LogStaticMesh: Building static mesh WindowMedium...
-[2018.04.22-14.25.31:129][  0]LogStaticMesh: Built static mesh [0.01s] /Game/PostApoc/Models/DoorsWindows/WindowMedium.WindowMedium
-[2018.04.22-14.25.31:186][  0]LogStaticMesh: Building static mesh WindowShort...
-[2018.04.22-14.25.31:236][  0]LogStaticMesh: Built static mesh [0.05s] /Game/PostApoc/Models/DoorsWindows/WindowShort.WindowShort
-[2018.04.22-14.25.31:363][  0]LogStaticMesh: Building static mesh WindowTall_Broken...
-[2018.04.22-14.25.31:383][  0]LogStaticMesh: Built static mesh [0.02s] /Game/PostApoc/Models/DoorsWindows/WindowTall_Broken.WindowTall_Broken
-[2018.04.22-14.25.31:416][  0]LogStaticMesh: Building static mesh WindowTall_Open...
-[2018.04.22-14.25.31:435][  0]LogStaticMesh: Built static mesh [0.04s] /Game/PostApoc/Models/DoorsWindows/WindowTall_Open.WindowTall_Open
-[2018.04.22-14.25.31:520][  0]LogStaticMesh: Building static mesh wooden_Chair_default...
-[2018.04.22-14.25.31:540][  0]LogStaticMesh: Built static mesh [0.03s] /Game/NewModels/Thomasprop/models/wooden_Chair_default.wooden_Chair_default
-[2018.04.22-14.25.34:940][  0]LogTexture:Display: Building textures: grass_c_n (BC5, 1024X1024)
-[2018.04.22-14.25.35:199][  0]LogTexture:Display: Building textures: grass_c_a (AutoDXT, 1024X1024)
-[2018.04.22-14.25.36:656][  0]LogTexture:Display: Building textures: Ivy_Medium_n (BC5, 2048X2048)
-[2018.04.22-14.25.37:801][  0]LogTexture:Display: Building textures: Ivy_Medium_c (AutoDXT, 2048X2048)
-[2018.04.22-14.25.40:543][  0]LogTexture:Display: Building textures: Ivy_Medium_a (AutoDXT, 2048X2048)
-[2018.04.22-14.25.45:735][  0]LogTexture:Display: Building textures: Weed_B_n (BC5, 1024X1024)
-[2018.04.22-14.25.46:004][  0]LogTexture:Display: Building textures: Weed_B_a (AutoDXT, 1024X1024)
+[2018.04.27-09.28.33:431][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.27-09.28.33:431][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.27-09.28.33:486][  0]LogInit: Computer: LAPTOP-RA57JA6K
+[2018.04.27-09.28.33:486][  0]LogInit: User: Jamesrigby777
+[2018.04.27-09.28.33:486][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.04.27-09.28.33:486][  0]LogInit: High frequency timer resolution =1.945311 MHz
+[2018.04.27-09.28.33:487][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.04.27-09.28.33:487][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.27-09.28.33:487][  0]LogMemory: Process Physical Memory: 273.69 MB used, 273.69 MB peak
+[2018.04.27-09.28.33:487][  0]LogMemory: Process Virtual Memory: 270.90 MB used, 270.90 MB peak
+[2018.04.27-09.28.33:487][  0]LogMemory: Physical Memory: 4703.09 MB used,  3380.32 MB free, 8083.41 MB total
+[2018.04.27-09.28.33:487][  0]LogMemory: Virtual Memory: 684.40 MB used,  3380.32 MB free, 134217728.00 MB total
+[2018.04.27-09.28.36:348][  0]LogInit: Using OS detected language (en-GB).
+[2018.04.27-09.28.36:348][  0]LogInit: Using OS detected locale (en-GB).
+[2018.04.27-09.28.36:395][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.04.27-09.28.38:044][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.27-09.28.38:055][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2018.04.27-09.28.38:055][  0]LogD3D11RHI:       128/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.04.27-09.28.38:060][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.27-09.28.38:060][  0]LogD3D11RHI:       0/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.27-09.28.38:060][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.27-09.28.38:071][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.27-09.28.38:071][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.27-09.28.38:071][  0]LogWindows: EnumDisplayDevices:
+[2018.04.27-09.28.38:071][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2018.04.27-09.28.38:072][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2018.04.27-09.28.38:072][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2018.04.27-09.28.38:072][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.27-09.28.38:072][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
+[2018.04.27-09.28.38:072][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.27-09.28.38:072][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.27-09.28.38:072][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.04.27-09.28.38:085][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.27-09.28.38:097][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.04.27-09.28.38:099][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Intermediate/Shaders/WorkingDirectory/12368/).
+[2018.04.27-09.28.38:099][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jamesrigby777/AppData/Local/Temp/UnrealShaderWorkingDir/6F613BE345E7615D04DF14BB27718904/'.
+[2018.04.27-09.28.38:099][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.04.27-09.28.41:606][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.27-09.28.41:751][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.27-09.28.41:903][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.27-09.28.42:043][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.04.27-09.28.42:043][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.04.27-09.28.43:858][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.04.27-09.28.45:025][  0]LogDerivedDataCache: Loaded boot cache 1.17s 90MB C:/Users/Jamesrigby777/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.04.27-09.28.45:025][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jamesrigby777/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.04.27-09.28.45:025][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.27-09.28.45:025][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.27-09.28.45:026][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.27-09.28.45:026][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.27-09.28.45:069][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.27-09.28.45:083][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jamesrigby777/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.27-09.28.45:101][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.27-09.28.45:101][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.27-09.28.45:117][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.27-09.28.45:117][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.27-09.28.47:295][  0]LogAssetRegistry: FAssetRegistry took 0.0064 seconds to start up
+[2018.04.27-09.28.47:307][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.012221 seconds
+[2018.04.27-09.28.47:489][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.27-09.28.47:603][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2018.04.27-09.28.48:005][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.27-09.28.48:164][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.27-09.28.48:331][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.27-09.28.48:331][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.04.27-09.28.48:331][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.04.27-09.28.49:740][  0]LogNetVersion: Survival , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3038584403)
+[2018.04.27-09.28.49:919][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.27-09.28.54:067][  0]LogMoviePlayer: Initializing movie player
+[2018.04.27-09.28.55:170][  0]LogCollectionManager: Loaded 0 collections in 0.003184 seconds
+[2018.04.27-09.28.55:296][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Collections/' took 0.01s
+[2018.04.27-09.28.55:297][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Developers/Jamesrigby777/Collections/' took 0.01s
+[2018.04.27-09.28.55:297][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Collections/' took 0.01s
+[2018.04.27-09.28.55:297][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2018.04.27-09.28.55:297][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000173 seconds (updated 0 objects)
+[2018.04.27-09.28.55:779][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.27-09.28.55:893][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.27-09.28.56:974][  0]SourceControl: Info Source control is disabled
+[2018.04.27-09.28.56:974][  0]SourceControl: Info Source control is disabled
+[2018.04.27-09.28.57:121][  0]SourceControl: Info Source control is disabled
+[2018.04.27-09.28.57:914][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.27-09.28.59:234][  0]LogUObjectArray: 37220 objects as part of root set at end of initial load.
+[2018.04.27-09.28.59:234][  0]LogUObjectAllocator: 8398840 out of 0 bytes used by permanent object pool.
+[2018.04.27-09.28.59:234][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.27-09.28.59:571][  0]LogEngine: Initializing Engine...
+[2018.04.27-09.28.59:572][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.27-09.28.59:867][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.27-09.28.59:867][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.27-09.28.59:908][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.27-09.28.59:950][  0]LogInit: FAudioDevice initialized.
+[2018.04.27-09.28.59:980][  0]LogInit: Texture streaming: Enabled
+[2018.04.27-09.29.00:021][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.27-09.29.00:730][  0]LogSlateStyle:Warning: Unable to find Slate Widget Style 'NormalText'. Using FTextBlockStyle defaults instead.
+[2018.04.27-09.29.00:730][  0]LogSlateStyle:Warning: Unable to find Slate Widget Style 'SpinBox'. Using FSpinBoxStyle defaults instead.
+[2018.04.27-09.29.01:345][  0]LogInit:Display: Game Engine Initialized.
+[2018.04.27-09.29.01:825][  0]LogInit:Display: Starting Game.
+[2018.04.27-09.29.01:825][  0]LogNet: Browse: /Temp/Autosaves/Game/Maps/UEDPCnewMAP?Name=Player
+[2018.04.27-09.29.01:825][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Maps/UEDPCnewMAP?Name=Player
+[2018.04.27-09.29.01:876][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.27-09.29.01:876][  0]LogMemory: Process Physical Memory: 798.01 MB used, 900.66 MB peak
+[2018.04.27-09.29.01:876][  0]LogMemory: Process Virtual Memory: 812.11 MB used, 866.73 MB peak
+[2018.04.27-09.29.01:876][  0]LogMemory: Physical Memory: 5276.54 MB used,  2806.87 MB free, 8083.41 MB total
+[2018.04.27-09.29.01:876][  0]LogMemory: Virtual Memory: 1473.63 MB used,  2806.87 MB free, 134217728.00 MB total
+[2018.04.27-09.29.01:876][  0]LogMemory: 
+[2018.04.27-09.29.01:876][  0]Allocator Stats for TBB: (not implemented)
+[2018.04.27-09.29.09:250][  0]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.16+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 934) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.04.27-09.29.09:250][  0]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.16+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 934) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.04.27-09.29.09:250][  0]LogPhysics:Warning: Failed to cook convex: /Game/NewModels/key.key 0 (FlipX:1). The remaining elements will not get cooked.
+[2018.04.27-09.29.21:166][  0]LogAIModule: Creating AISystem for world newMAP
+[2018.04.27-09.29.21:481][  0]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.27-09.29.21:705][  0]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.27-09.29.21:705][  0]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.04.27-09.29.21:837][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Maps/UEDPCnewMAP.newMAP up for play (max tick rate 0) at 2018.04.27-10.29.21
+[2018.04.27-09.29.21:858][  0]LogWorld: Bringing up level for play took: 0.373802
+[2018.04.27-09.29.21:859][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.27-09.29.21:898][  0]LogLoad: Took 20.073036 seconds to LoadMap(/Temp/Autosaves/Game/Maps/UEDPCnewMAP)
+[2018.04.27-09.29.21:946][  0]LogSlate: Took 0.038321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.04.27-09.29.22:571][  0]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:1).
+[2018.04.27-09.29.22:571][  0]LogLoad: (Engine Initialization) Total time: 56.64 seconds
+[2018.04.27-09.29.22:571][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.43 seconds
+[2018.04.27-09.29.22:571][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.04.27-09.29.22:600][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.27-09.29.22:600][  0]LogOcInput: OculusInput pre-init called
+[2018.04.27-09.29.22:600][  0]LogHMD: Starting GearVRController plugin
+[2018.04.27-09.30.08:006][172]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=23.05 Y=-99.77 Z=0.00 Location: X=2390.46 Y=-2913.07 Z=205.92 Normal: X=-0.96 Y=-0.30 Z=0.00 PenetrationDepth:61.248 Actor:CZombie5_237 Component:Capsule BoneName:None (0 other events since notify)
+[2018.04.27-09.30.43:879][323]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.27-09.30.43:891][323]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.27-09.30.43:897][323]LogEngine: All Windows Closed
+[2018.04.27-09.30.43:897][323]LogWindows: FPlatformMisc::RequestExit(0)
+[2018.04.27-09.30.44:749][324]LogExit: Preparing to exit.
+[2018.04.27-09.30.44:749][324]LogMoviePlayer: Shutting down movie player
+[2018.04.27-09.30.45:612][324]LogExit: Game engine shut down
+[2018.04.27-09.30.46:813][324]LogObj: Freed 0b from 0 cluster array pools.
+[2018.04.27-09.30.46:813][324]LogExit: Object subsystem successfully closed.
+[2018.04.27-09.30.46:983][324]LogD3D11RHI: Shutdown
+[2018.04.27-09.30.46:984][324]LogD3D11RHI: CleanupD3DDevice
+[2018.04.27-09.30.47:440][324]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.27-09.30.48:096][324]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (296)
+[2018.04.27-09.30.48:096][324]LogModuleManager: Shutting down and abandoning module SequenceRecorder (294)
+[2018.04.27-09.30.48:097][324]LogModuleManager: Shutting down and abandoning module AutomationController (292)
+[2018.04.27-09.30.48:124][324]LogModuleManager: Shutting down and abandoning module AutomationWorker (290)
+[2018.04.27-09.30.48:132][324]LogModuleManager: Shutting down and abandoning module AIModule (288)
+[2018.04.27-09.30.48:132][324]LogModuleManager: Shutting down and abandoning module GameplayDebugger (287)
+[2018.04.27-09.30.48:133][324]LogModuleManager: Shutting down and abandoning module AITestSuite (285)
+[2018.04.27-09.30.48:133][324]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (282)
+[2018.04.27-09.30.48:133][324]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (280)
+[2018.04.27-09.30.48:133][324]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (278)
+[2018.04.27-09.30.48:133][324]LogModuleManager: Shutting down and abandoning module Media (277)
+[2018.04.27-09.30.48:133][324]LogModuleManager: Shutting down and abandoning module CharacterAI (274)
+[2018.04.27-09.30.48:133][324]LogModuleManager: Shutting down and abandoning module SessionServices (272)
+[2018.04.27-09.30.48:133][324]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (270)
+[2018.04.27-09.30.48:133][324]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (268)
+[2018.04.27-09.30.48:133][324]LogModuleManager: Shutting down and abandoning module MovieScene (266)
+[2018.04.27-09.30.48:133][324]LogModuleManager: Shutting down and abandoning module GeometryCache (264)
+[2018.04.27-09.30.48:133][324]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (263)
+[2018.04.27-09.30.48:133][324]LogModuleManager: Shutting down and abandoning module Niagara (260)
+[2018.04.27-09.30.48:133][324]LogModuleManager: Shutting down and abandoning module NiagaraEditor (259)
+[2018.04.27-09.30.48:202][324]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (256)
+[2018.04.27-09.30.48:202][324]LogModuleManager: Shutting down and abandoning module PortalServices (254)
+[2018.04.27-09.30.48:202][324]LogModuleManager: Shutting down and abandoning module PortalRpc (252)
+[2018.04.27-09.30.48:202][324]LogModuleManager: Shutting down and abandoning module MessagingRpc (250)
+[2018.04.27-09.30.48:202][324]LogModuleManager: Shutting down and abandoning module ProfilerService (248)
+[2018.04.27-09.30.48:400][324]LogModuleManager: Shutting down and abandoning module TaskGraph (246)
+[2018.04.27-09.30.48:419][324]LogModuleManager: Shutting down and abandoning module SteamVRController (244)
+[2018.04.27-09.30.48:419][324]LogModuleManager: Shutting down and abandoning module SteamVR (242)
+[2018.04.27-09.30.48:419][324]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (240)
+[2018.04.27-09.30.48:419][324]LogModuleManager: Shutting down and abandoning module OculusLibrary (238)
+[2018.04.27-09.30.48:419][324]LogModuleManager: Shutting down and abandoning module OculusInput (236)
+[2018.04.27-09.30.48:419][324]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (234)
+[2018.04.27-09.30.48:419][324]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (232)
+[2018.04.27-09.30.48:419][324]LogModuleManager: Shutting down and abandoning module CableComponent (230)
+[2018.04.27-09.30.48:419][324]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (228)
+[2018.04.27-09.30.48:419][324]LogModuleManager: Shutting down and abandoning module AndroidPermission (226)
+[2018.04.27-09.30.48:419][324]LogModuleManager: Shutting down and abandoning module HTML5Networking (222)
+[2018.04.27-09.30.48:419][324]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (220)
+[2018.04.27-09.30.48:420][324]LogModuleManager: Shutting down and abandoning module DesktopPlatform (219)
+[2018.04.27-09.30.48:420][324]LogModuleManager: Shutting down and abandoning module HotReload (217)
+[2018.04.27-09.30.48:421][324]LogModuleManager: Shutting down and abandoning module UObjectPlugin (214)
+[2018.04.27-09.30.48:421][324]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (212)
+[2018.04.27-09.30.48:434][324]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (210)
+[2018.04.27-09.30.48:443][324]LogModuleManager: Shutting down and abandoning module SourceControl (209)
+[2018.04.27-09.30.48:454][324]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (206)
+[2018.04.27-09.30.48:464][324]LogModuleManager: Shutting down and abandoning module PhysXVehicles (204)
+[2018.04.27-09.30.48:464][324]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (202)
+[2018.04.27-09.30.48:465][324]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (200)
+[2018.04.27-09.30.48:465][324]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (198)
+[2018.04.27-09.30.48:472][324]LogModuleManager: Shutting down and abandoning module UdpMessaging (196)
+[2018.04.27-09.30.48:572][324]LogModuleManager: Shutting down and abandoning module TcpMessaging (194)
+[2018.04.27-09.30.48:701][324]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (192)
+[2018.04.27-09.30.49:064][324]LogModuleManager: Shutting down and abandoning module FacialAnimation (190)
+[2018.04.27-09.30.49:064][324]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (188)
+[2018.04.27-09.30.49:069][324]LogModuleManager: Shutting down and abandoning module GraphEditor (187)
+[2018.04.27-09.30.49:069][324]LogModuleManager: Shutting down and abandoning module ContentBrowser (185)
+[2018.04.27-09.30.49:088][324]LogModuleManager: Shutting down and abandoning module CollectionManager (184)
+[2018.04.27-09.30.49:088][324]LogDirectoryWatcher: A directory notification for 'C:/Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Collections/' was aborted.
+[2018.04.27-09.30.49:089][324]LogDirectoryWatcher: A directory notification for 'C:/Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Developers/Jamesrigby777/Collections/' was aborted.
+[2018.04.27-09.30.49:089][324]LogDirectoryWatcher: A directory notification for 'C:/Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Collections/' was aborted.
+[2018.04.27-09.30.49:089][324]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (183)
+[2018.04.27-09.30.49:090][324]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (178)
+[2018.04.27-09.30.49:090][324]LogModuleManager: Shutting down and abandoning module Paper2D (176)
+[2018.04.27-09.30.49:101][324]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (174)
+[2018.04.27-09.30.49:101][324]LogModuleManager: Shutting down and abandoning module WmfMedia (172)
+[2018.04.27-09.30.49:107][324]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (170)
+[2018.04.27-09.30.49:107][324]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (168)
+[2018.04.27-09.30.49:108][324]LogModuleManager: Shutting down and abandoning module MediaAssets (166)
+[2018.04.27-09.30.49:108][324]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (164)
+[2018.04.27-09.30.49:123][324]LogModuleManager: Shutting down and abandoning module VREditor (162)
+[2018.04.27-09.30.49:123][324]LogModuleManager: Shutting down and abandoning module StringTableEditor (160)
+[2018.04.27-09.30.49:206][324]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (158)
+[2018.04.27-09.30.49:206][324]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (156)
+[2018.04.27-09.30.49:246][324]LogModuleManager: Shutting down and abandoning module FunctionalTesting (154)
+[2018.04.27-09.30.49:246][324]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (152)
+[2018.04.27-09.30.49:262][324]LogModuleManager: Shutting down and abandoning module UMG (150)
+[2018.04.27-09.30.49:276][324]LogModuleManager: Shutting down and abandoning module UMGEditor (149)
+[2018.04.27-09.30.49:303][324]LogModuleManager: Shutting down and abandoning module Sequencer (148)
+[2018.04.27-09.30.49:379][324]LogModuleManager: Shutting down and abandoning module AssetTools (146)
+[2018.04.27-09.30.49:445][324]LogModuleManager: Shutting down and abandoning module MessageLog (145)
+[2018.04.27-09.30.49:445][324]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (144)
+[2018.04.27-09.30.49:445][324]LogModuleManager: Shutting down and abandoning module SlateReflector (138)
+[2018.04.27-09.30.49:472][324]LogModuleManager: Shutting down and abandoning module Slate (136)
+[2018.04.27-09.30.49:473][324]LogModuleManager: Shutting down and abandoning module EditorStyle (134)
+[2018.04.27-09.30.49:481][324]LogModuleManager: Shutting down and abandoning module Messaging (132)
+[2018.04.27-09.30.49:481][324]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (130)
+[2018.04.27-09.30.49:481][324]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (128)
+[2018.04.27-09.30.49:481][324]LogModuleManager: Shutting down and abandoning module XAudio2 (126)
+[2018.04.27-09.30.49:481][324]LogModuleManager: Shutting down and abandoning module Networking (124)
+[2018.04.27-09.30.49:481][324]LogModuleManager: Shutting down and abandoning module Core (120)
+[2018.04.27-09.30.49:481][324]LogModuleManager: Shutting down and abandoning module KismetCompiler (118)
+[2018.04.27-09.30.49:481][324]LogModuleManager: Shutting down and abandoning module LevelSequence (116)
+[2018.04.27-09.30.49:481][324]LogModuleManager: Shutting down and abandoning module PhysXFormats (114)
+[2018.04.27-09.30.49:481][324]LogModuleManager: Shutting down and abandoning module MeshUtilities (112)
+[2018.04.27-09.30.49:513][324]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (111)
+[2018.04.27-09.30.49:537][324]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (109)
+[2018.04.27-09.30.49:537][324]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (107)
+[2018.04.27-09.30.49:557][324]LogModuleManager: Shutting down and abandoning module AssetRegistry (104)
+[2018.04.27-09.30.49:558][324]LogModuleManager: Shutting down and abandoning module DerivedDataCache (102)
+[2018.04.27-09.30.49:625][324]LogDerivedDataCache: Shutdown
+[2018.04.27-09.30.49:637][324]LogModuleManager: Shutting down and abandoning module TargetPlatform (100)
+[2018.04.27-09.30.49:637][324]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (99)
+[2018.04.27-09.30.49:652][324]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (97)
+[2018.04.27-09.30.49:666][324]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (95)
+[2018.04.27-09.30.49:678][324]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (93)
+[2018.04.27-09.30.49:678][324]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (91)
+[2018.04.27-09.30.49:702][324]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (89)
+[2018.04.27-09.30.49:702][324]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (87)
+[2018.04.27-09.30.49:702][324]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (85)
+[2018.04.27-09.30.49:702][324]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (83)
+[2018.04.27-09.30.49:702][324]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (81)
+[2018.04.27-09.30.49:702][324]LogModuleManager: Shutting down and abandoning module ImageWrapper (80)
+[2018.04.27-09.30.49:702][324]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (77)
+[2018.04.27-09.30.49:703][324]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (75)
+[2018.04.27-09.30.49:703][324]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (73)
+[2018.04.27-09.30.49:703][324]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (71)
+[2018.04.27-09.30.49:703][324]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2018.04.27-09.30.49:703][324]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2018.04.27-09.30.49:703][324]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2018.04.27-09.30.49:703][324]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2018.04.27-09.30.49:703][324]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.04.27-09.30.49:703][324]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.04.27-09.30.49:703][324]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.04.27-09.30.49:723][324]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.04.27-09.30.49:723][324]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.04.27-09.30.49:747][324]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.04.27-09.30.49:747][324]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.27-09.30.49:747][324]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.27-09.30.49:747][324]LogOnline:Display: Unloading online subsystem: NULL
+[2018.04.27-09.30.49:784][324]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.27-09.30.49:798][324]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.27-09.30.49:801][324]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.27-09.30.49:821][324]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.04.27-09.30.49:836][324]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.04.27-09.30.49:855][324]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.04.27-09.30.49:855][324]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.04.27-09.30.49:879][324]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.04.27-09.30.49:879][324]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.04.27-09.30.49:879][324]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.04.27-09.30.49:879][324]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.04.27-09.30.49:888][324]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.04.27-09.30.49:916][324]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.04.27-09.30.49:916][324]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.04.27-09.30.49:926][324]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.04.27-09.30.49:926][324]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.04.27-09.30.49:926][324]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.04.27-09.30.49:926][324]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.04.27-09.30.49:938][324]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.27-09.30.49:948][324]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.27-09.30.49:948][324]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.27-09.30.49:980][324]LogExit: Exiting.
+[2018.04.27-09.30.49:984][324]Log file closed, 04/27/18 10:30:49
