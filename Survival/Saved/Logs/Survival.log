@@ -10573,3 +10573,618 @@ LogInit: Object subsystem initialized
 [2018.04.27-10.45.15:743][704]LogHttp:Warning: 0000017E11190D00: request failed, libcurl error: 6 (Couldn't resolve host name)
 [2018.04.27-10.45.15:743][704]LogHttp:Warning: 0000017E11190D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
 [2018.04.27-10.45.15:743][704]LogHttp:Warning: 0000017E11190D00: libcurl info message cache 1 (Closing connection 120)
+[2018.04.27-10.50.47:054][739]LogTemp: Repeting last play command: Standalone Game
+[2018.04.27-10.51.13:798][739]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.04.27-10.51.21:324][802]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-10.51.21:324][802]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.27-10.51.21:325][802]PIE: New page: PIE session: newMAP (27 Apr 2018 12:51:21)
+[2018.04.27-10.51.21:325][802]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_newMAP
+[2018.04.27-10.51.22:577][802]LogPlayLevel: PIE: StaticDuplicateObject took: (1.251858s)
+[2018.04.27-10.51.22:597][802]LogAIModule: Creating AISystem for world newMAP
+[2018.04.27-10.51.22:648][802]LogPlayLevel: PIE: World Init took: (0.069991s)
+[2018.04.27-10.51.22:652][802]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/newMAP.newMAP to /Game/Maps/UEDPIE_0_newMAP.newMAP (1.326530s)
+[2018.04.27-10.51.23:272][802]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.27-10.51.23:537][802]LogInit: FAudioDevice initialized.
+[2018.04.27-10.51.23:868][802]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.27-10.51.24:608][802]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.27-10.51.24:608][802]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.04.27-10.51.24:970][802]LogWorld: Bringing World /Game/Maps/UEDPIE_0_newMAP.newMAP up for play (max tick rate 60) at 2018.04.27-11.51.24
+[2018.04.27-10.51.25:589][802]LogWorld: Bringing up level for play took: 1.695171
+[2018.04.27-10.51.25:682][802]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.27-10.51.25:817][802]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_newMAP 4.429
+[2018.04.27-10.51.25:821][802]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-10.51.34:959][883]LogHttp:Warning: 0000017DEE1DE500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-10.51.34:959][883]LogHttp:Warning: 0000017DEE1DE500: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x17dbcd93e98 [can pipeline])
+[2018.04.27-10.51.34:959][883]LogHttp:Warning: 0000017DEE1DE500: libcurl info message cache 1 (Re-using existing connection! (#122) with host datarouter.ol.epicgames.com)
+[2018.04.27-10.51.34:959][883]LogHttp:Warning: 0000017DEE1DE500: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.201.7.125) port 443 (#122))
+[2018.04.27-10.51.34:959][883]LogHttp:Warning: 0000017DEE1DE500: libcurl info message cache 3 (upload completely sent off: 553 out of 553 bytes)
+[2018.04.27-10.51.34:959][883]LogHttp:Warning: 0000017DEE1DE500: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2018.04.27-10.51.34:959][883]LogHttp:Warning: 0000017DEE1DE500: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2018.04.27-10.51.34:959][883]LogHttp:Warning: 0000017DEE1DE500: libcurl info message cache 6 (Closing connection 122)
+[2018.04.27-10.51.34:959][883]LogHttp:Warning: 0000017DEE1DE500: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B436DA3FC-4D2B-AEFB-9423-85B80B6CF5D0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=6140b6574f24a1073c856d9d824d9450%7Cb7b84c186b104f498b17bcb99c9ae371%7C0dd6eb62-b4f9-4fb0-8495-cc4890088561&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2018.04.27-10.51.34:959][883]LogHttp:Warning: 0000017DEE1DE500: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-10.51.34:960][883]LogHttp:Warning: 0000017DEE1DE500: libcurl info message cache 9 (Closing connection 123)
+[2018.04.27-10.51.41:550][962]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-10.51.41:948][962]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-10.52.15:832][293]LogHttp:Warning: 0000017E12208100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-10.52.15:832][293]LogHttp:Warning: 0000017E12208100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-10.52.15:832][293]LogHttp:Warning: 0000017E12208100: libcurl info message cache 1 (Closing connection 124)
+[2018.04.27-10.52.18:195][317]BlueprintLog: New page: Compile HUD
+[2018.04.27-10.52.19:395][317]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.04.27-10.52.20:743][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/HUD" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/HUD.uasset" SILENT=true
+[2018.04.27-10.52.22:112][331]LogSavePackage: Save=1358.84ms
+[2018.04.27-10.52.22:112][331]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/HUD66551F4345D41DA8337216B7691ACFED.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/HUD.uasset'
+[2018.04.27-10.52.22:128][331]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/HUD.uasset
+[2018.04.27-10.52.29:387][407]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.27-10.52.29:446][407]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-10.52.29:446][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.27-10.52.29:447][407]PIE: New page: PIE session: newMAP (27 Apr 2018 12:52:29)
+[2018.04.27-10.52.29:447][407]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_newMAP
+[2018.04.27-10.52.29:958][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.511251s)
+[2018.04.27-10.52.29:959][407]LogAIModule: Creating AISystem for world newMAP
+[2018.04.27-10.52.29:960][407]LogPlayLevel: PIE: World Init took: (0.001601s)
+[2018.04.27-10.52.29:963][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/newMAP.newMAP to /Game/Maps/UEDPIE_0_newMAP.newMAP (0.515774s)
+[2018.04.27-10.52.30:116][407]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.27-10.52.30:135][407]LogInit: FAudioDevice initialized.
+[2018.04.27-10.52.30:173][407]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.27-10.52.30:289][407]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.27-10.52.30:289][407]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.04.27-10.52.30:306][407]LogWorld: Bringing World /Game/Maps/UEDPIE_0_newMAP.newMAP up for play (max tick rate 60) at 2018.04.27-11.52.30
+[2018.04.27-10.52.30:334][407]LogWorld: Bringing up level for play took: 0.160214
+[2018.04.27-10.52.30:334][407]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.27-10.52.30:343][407]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_newMAP 0.955
+[2018.04.27-10.52.30:344][407]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-10.52.50:356][669]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-10.52.50:589][669]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-10.53.09:458][860]BlueprintLog: New page: Compile HUD
+[2018.04.27-10.53.10:297][860]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.04.27-10.53.11:158][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/HUD" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/HUD.uasset" SILENT=true
+[2018.04.27-10.53.12:438][869]LogSavePackage: Save=1271.85ms
+[2018.04.27-10.53.12:438][869]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/HUD3DB901B046652C398CB5ED89EE0AC89E.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/HUD.uasset'
+[2018.04.27-10.53.12:445][869]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/HUD.uasset
+[2018.04.27-10.53.16:504][913]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.27-10.53.16:558][913]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-10.53.16:558][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.27-10.53.16:558][913]PIE: New page: PIE session: newMAP (27 Apr 2018 12:53:16)
+[2018.04.27-10.53.16:558][913]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_newMAP
+[2018.04.27-10.53.17:050][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.492112s)
+[2018.04.27-10.53.17:051][913]LogAIModule: Creating AISystem for world newMAP
+[2018.04.27-10.53.17:052][913]LogPlayLevel: PIE: World Init took: (0.001375s)
+[2018.04.27-10.53.17:054][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/newMAP.newMAP to /Game/Maps/UEDPIE_0_newMAP.newMAP (0.496167s)
+[2018.04.27-10.53.17:155][913]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.27-10.53.17:179][913]LogInit: FAudioDevice initialized.
+[2018.04.27-10.53.17:213][913]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.27-10.53.17:317][913]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.27-10.53.17:317][913]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.04.27-10.53.17:333][913]LogWorld: Bringing World /Game/Maps/UEDPIE_0_newMAP.newMAP up for play (max tick rate 60) at 2018.04.27-11.53.17
+[2018.04.27-10.53.17:366][913]LogWorld: Bringing up level for play took: 0.152164
+[2018.04.27-10.53.17:367][913]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.27-10.53.17:376][913]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_newMAP -0.012
+[2018.04.27-10.53.17:378][913]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-10.53.18:334][920]LogHttp:Warning: 0000017E03DFA080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-10.53.18:334][920]LogHttp:Warning: 0000017E03DFA080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-10.53.18:334][920]LogHttp:Warning: 0000017E03DFA080: libcurl info message cache 1 (Closing connection 125)
+[2018.04.27-10.53.36:949][145]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-10.53.37:213][145]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-10.54.22:014][557]BlueprintLog: New page: Compile HUD
+[2018.04.27-10.54.22:700][557]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.04.27-10.54.23:528][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/HUD" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/HUD.uasset" SILENT=true
+[2018.04.27-10.54.24:750][565]LogSavePackage: Save=1190.55ms
+[2018.04.27-10.54.24:750][565]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/HUD7E8329AA445EDB270B7C148D904B4C06.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/HUD.uasset'
+[2018.04.27-10.54.24:757][565]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/HUD.uasset
+[2018.04.27-10.54.36:258][675]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.27-10.54.36:307][675]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-10.54.36:307][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.27-10.54.36:307][675]PIE: New page: PIE session: newMAP (27 Apr 2018 12:54:36)
+[2018.04.27-10.54.36:308][675]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_newMAP
+[2018.04.27-10.54.36:745][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.437232s)
+[2018.04.27-10.54.36:746][675]LogAIModule: Creating AISystem for world newMAP
+[2018.04.27-10.54.36:746][675]LogPlayLevel: PIE: World Init took: (0.001119s)
+[2018.04.27-10.54.36:748][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/newMAP.newMAP to /Game/Maps/UEDPIE_0_newMAP.newMAP (0.439789s)
+[2018.04.27-10.54.36:853][675]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.27-10.54.36:867][675]LogInit: FAudioDevice initialized.
+[2018.04.27-10.54.36:928][675]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.27-10.54.37:029][675]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.27-10.54.37:029][675]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.04.27-10.54.37:048][675]LogWorld: Bringing World /Game/Maps/UEDPIE_0_newMAP.newMAP up for play (max tick rate 60) at 2018.04.27-11.54.37
+[2018.04.27-10.54.37:069][675]LogWorld: Bringing up level for play took: 0.139019
+[2018.04.27-10.54.37:069][675]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.27-10.54.37:077][675]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_newMAP 1.688
+[2018.04.27-10.54.37:078][675]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-10.54.40:318][710]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-10.54.40:564][710]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-10.55.15:780][  0]LogHttp:Warning: 0000017E12D47E80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-10.55.15:780][  0]LogHttp:Warning: 0000017E12D47E80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-10.55.15:780][  0]LogHttp:Warning: 0000017E12D47E80: libcurl info message cache 1 (Closing connection 126)
+[2018.04.27-10.55.49:276][269]BlueprintLog: New page: Compile HUD
+[2018.04.27-10.55.49:976][269]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.04.27-10.55.54:193][307]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.27-10.55.54:232][307]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-10.55.54:232][307]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.27-10.55.54:232][307]PIE: New page: PIE session: newMAP (27 Apr 2018 12:55:54)
+[2018.04.27-10.55.54:233][307]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_newMAP
+[2018.04.27-10.55.54:717][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.484255s)
+[2018.04.27-10.55.54:718][307]LogAIModule: Creating AISystem for world newMAP
+[2018.04.27-10.55.54:719][307]LogPlayLevel: PIE: World Init took: (0.001413s)
+[2018.04.27-10.55.54:720][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/newMAP.newMAP to /Game/Maps/UEDPIE_0_newMAP.newMAP (0.487369s)
+[2018.04.27-10.55.54:822][307]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.27-10.55.54:867][307]LogInit: FAudioDevice initialized.
+[2018.04.27-10.55.54:912][307]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.27-10.55.55:039][307]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.27-10.55.55:039][307]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.04.27-10.55.55:057][307]LogWorld: Bringing World /Game/Maps/UEDPIE_0_newMAP.newMAP up for play (max tick rate 60) at 2018.04.27-11.55.55
+[2018.04.27-10.55.55:079][307]LogWorld: Bringing up level for play took: 0.165010
+[2018.04.27-10.55.55:079][307]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.27-10.55.55:086][307]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_newMAP 1.698
+[2018.04.27-10.55.55:088][307]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-10.56.15:440][594]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=-45.41 Y=-89.06 Z=0.00 Location: X=2269.79 Y=-4780.76 Z=205.73 Normal: X=-0.87 Y=-0.49 Z=0.00 PenetrationDepth:61.233 Actor:CZombie7_377 Component:Capsule BoneName:None (0 other events since notify)
+[2018.04.27-10.56.15:683][598]LogHttp:Warning: 0000017E135E3D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-10.56.15:683][598]LogHttp:Warning: 0000017E135E3D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-10.56.15:683][598]LogHttp:Warning: 0000017E135E3D00: libcurl info message cache 1 (Closing connection 127)
+[2018.04.27-10.56.30:348][761]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-10.56.30:635][761]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-10.57.15:961][ 78]LogHttp:Warning: 0000017E10BA7A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-10.57.15:961][ 78]LogHttp:Warning: 0000017E10BA7A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-10.57.15:961][ 78]LogHttp:Warning: 0000017E10BA7A00: libcurl info message cache 1 (Closing connection 128)
+[2018.04.27-10.58.15:142][497]BlueprintLog: New page: Compile HUD
+[2018.04.27-10.58.16:099][497]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.04.27-10.58.17:840][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/HUD" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/HUD.uasset" SILENT=true
+[2018.04.27-10.58.19:006][510]LogSavePackage: Save=1153.83ms
+[2018.04.27-10.58.19:006][510]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/HUD5CB076464990613BD2F4B9AB1BB38AF8.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/HUD.uasset'
+[2018.04.27-10.58.19:013][510]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/HUD.uasset
+[2018.04.27-10.58.56:236][779]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.27-10.58.56:301][779]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-10.58.56:301][779]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.27-10.58.56:301][779]PIE: New page: PIE session: newMAP (27 Apr 2018 12:58:56)
+[2018.04.27-10.58.56:301][779]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_newMAP
+[2018.04.27-10.58.56:724][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.422633s)
+[2018.04.27-10.58.56:785][779]LogAIModule: Creating AISystem for world newMAP
+[2018.04.27-10.58.56:786][779]LogPlayLevel: PIE: World Init took: (0.061741s)
+[2018.04.27-10.58.56:790][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/newMAP.newMAP to /Game/Maps/UEDPIE_0_newMAP.newMAP (0.488261s)
+[2018.04.27-10.58.56:992][779]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.27-10.58.57:007][779]LogInit: FAudioDevice initialized.
+[2018.04.27-10.58.57:041][779]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.27-10.58.57:139][779]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.27-10.58.57:139][779]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.04.27-10.58.57:154][779]LogWorld: Bringing World /Game/Maps/UEDPIE_0_newMAP.newMAP up for play (max tick rate 60) at 2018.04.27-11.58.57
+[2018.04.27-10.58.57:176][779]LogWorld: Bringing up level for play took: 0.134326
+[2018.04.27-10.58.57:176][779]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.27-10.58.57:184][779]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_newMAP 1.796
+[2018.04.27-10.58.57:185][779]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-10.59.10:677][950]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=69.68 Y=18.56 Z=0.00 Location: X=2640.50 Y=-2430.86 Z=205.73 Normal: X=-0.46 Y=-0.89 Z=0.00 PenetrationDepth:53.144 Actor:CZombie5_237 Component:Capsule BoneName:None (0 other events since notify)
+[2018.04.27-10.59.15:111][ 34]LogHttp:Warning: 0000017E165EF880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-10.59.15:111][ 34]LogHttp:Warning: 0000017E165EF880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-10.59.15:111][ 34]LogHttp:Warning: 0000017E165EF880: libcurl info message cache 1 (Closing connection 129)
+[2018.04.27-10.59.23:232][267]LogCharacterMovement: ThirdPersonCharacter_167 is stuck and failed to move! Velocity: X=57.25 Y=-5.94 Z=0.00 Location: X=2640.50 Y=-2430.86 Z=205.73 Normal: X=-0.49 Y=-0.87 Z=0.00 PenetrationDepth:43.068 Actor:CZombie5_237 Component:Capsule BoneName:None (0 other events since notify)
+[2018.04.27-10.59.47:715][925]LogCharacterMovement: CZombie4_184 is stuck and failed to move! Velocity: X=-54.68 Y=1.53 Z=0.00 Location: X=4751.99 Y=7755.56 Z=207.17 Normal: X=0.71 Y=-0.70 Z=0.00 PenetrationDepth:3.167 Actor:CZombie Component:Capsule BoneName:None (0 other events since notify)
+[2018.04.27-11.00.15:608][934]LogHttp:Warning: 0000017E165ED780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-11.00.15:608][934]LogHttp:Warning: 0000017E165ED780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-11.00.15:608][934]LogHttp:Warning: 0000017E165ED780: libcurl info message cache 1 (Closing connection 130)
+[2018.04.27-11.00.39:490][679]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2018.04.27-11.01.15:730][491]LogHttp:Warning: 0000017DB79A1480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-11.01.15:730][491]LogHttp:Warning: 0000017DB79A1480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-11.01.15:730][491]LogHttp:Warning: 0000017DB79A1480: libcurl info message cache 1 (Closing connection 131)
+[2018.04.27-11.01.56:120][151]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-11.01.56:389][151]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-11.03.15:993][ 46]LogHttp:Warning: 0000017E133BAE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-11.03.15:993][ 46]LogHttp:Warning: 0000017E133BAE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-11.03.15:993][ 46]LogHttp:Warning: 0000017E133BAE00: libcurl info message cache 1 (Closing connection 132)
+[2018.04.27-11.03.28:214][409]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.27-11.03.28:257][409]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-11.03.28:257][409]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.27-11.03.28:257][409]PIE: New page: PIE session: newMAP (27 Apr 2018 13:03:28)
+[2018.04.27-11.03.28:257][409]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_newMAP
+[2018.04.27-11.03.28:678][409]LogPlayLevel: PIE: StaticDuplicateObject took: (0.420912s)
+[2018.04.27-11.03.28:679][409]LogAIModule: Creating AISystem for world newMAP
+[2018.04.27-11.03.28:679][409]LogPlayLevel: PIE: World Init took: (0.001444s)
+[2018.04.27-11.03.28:681][409]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/newMAP.newMAP to /Game/Maps/UEDPIE_0_newMAP.newMAP (0.424173s)
+[2018.04.27-11.03.28:837][409]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.27-11.03.28:894][409]LogInit: FAudioDevice initialized.
+[2018.04.27-11.03.28:957][409]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.04.27-11.03.29:060][409]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.04.27-11.03.29:060][409]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.04.27-11.03.29:078][409]LogWorld: Bringing World /Game/Maps/UEDPIE_0_newMAP.newMAP up for play (max tick rate 60) at 2018.04.27-12.03.29
+[2018.04.27-11.03.29:100][409]LogWorld: Bringing up level for play took: 0.139946
+[2018.04.27-11.03.29:100][409]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.27-11.03.29:152][409]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_newMAP 1.764
+[2018.04.27-11.03.29:156][409]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-11.03.29:256][410]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.085113 > MaxSimulationTimeStep (0.050) for 'CZombie3_145', movement 'Walking'
+[2018.04.27-11.03.56:718][868]LogCharacter: ThirdPersonCharacter_167 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2018.04.27-11.04.19:965][141]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-11.04.20:211][141]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/newMAP.newMAP:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP' with GeneratedClass '/Game/Maps/newMAP.newMAP_C' with ClassGeneratedBy '/Game/Maps/newMAP.newMAP:PersistentLevel.newMAP'
+[2018.04.27-11.04.28:541][218]LogHttp:Warning: 0000017E2E5F3D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-11.04.28:541][218]LogHttp:Warning: 0000017E2E5F3D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-11.04.28:541][218]LogHttp:Warning: 0000017E2E5F3D00: libcurl info message cache 1 (Closing connection 133)
+[2018.04.27-11.04.51:800][371]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0574 seconds. Added 1 classes and 2 folders.
+[2018.04.27-11.04.54:037][371]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.27-11.04.55:112][371]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_27:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.04.27-11.04.56:686][371]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0010 seconds. Added 1 classes and 0 folders.
+[2018.04.27-11.04.57:001][371]LogRenderer: Reallocating scene render targets to support 788x576 NumSamples 1 (Frame:1).
+[2018.04.27-11.05.38:417][725]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
+[2018.04.27-11.05.38:572][725]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_29:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
+[2018.04.27-11.05.39:270][726]LogRenderer: Reallocating scene render targets to support 808x576 NumSamples 1 (Frame:1).
+[2018.04.27-11.06.15:796][ 44]LogHttp:Warning: 0000017E2FD9CD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-11.06.15:796][ 44]LogHttp:Warning: 0000017E2FD9CD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-11.06.15:797][ 44]LogHttp:Warning: 0000017E2FD9CD00: libcurl info message cache 1 (Closing connection 134)
+[2018.04.27-11.06.19:052][ 66]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2018.04.27-11.06.19:232][ 66]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_30:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2018.04.27-11.06.20:681][ 66]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.04.27-11.07.32:540][706]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.Actor_3.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2018.04.27-11.07.33:245][706]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_33:PersistentLevel.Actor_3.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2018.04.27-11.08.15:782][ 94]LogHttp:Warning: 0000017EA8BFA680: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-11.08.15:782][ 94]LogHttp:Warning: 0000017EA8BFA680: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-11.08.15:782][ 94]LogHttp:Warning: 0000017EA8BFA680: libcurl info message cache 1 (Closing connection 135)
+[2018.04.27-11.10.15:746][220]LogHttp:Warning: 0000017EA0BB9780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-11.10.15:747][220]LogHttp:Warning: 0000017EA0BB9780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-11.10.15:747][220]LogHttp:Warning: 0000017EA0BB9780: libcurl info message cache 1 (Closing connection 136)
+[2018.04.27-11.11.11:566][720]LogContentBrowser: Native class hierarchy updated for 'PhAT' in 0.0037 seconds. Added 2 classes and 3 folders.
+[2018.04.27-11.11.12:459][720]LogRenderer: Reallocating scene render targets to support 808x612 NumSamples 1 (Frame:1).
+[2018.04.27-11.11.15:819][753]LogHttp:Warning: 0000017E13B8E500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-11.11.15:819][753]LogHttp:Warning: 0000017E13B8E500: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-11.11.15:819][753]LogHttp:Warning: 0000017E13B8E500: libcurl info message cache 1 (Closing connection 137)
+[2018.04.27-11.13.15:825][454]LogHttp:Warning: 0000017EA887E800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-11.13.15:825][454]LogHttp:Warning: 0000017EA887E800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-11.13.15:826][454]LogHttp:Warning: 0000017EA887E800: libcurl info message cache 1 (Closing connection 138)
+[2018.04.27-11.14.15:828][634]LogHttp:Warning: 0000017EA887E980: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-11.14.15:828][634]LogHttp:Warning: 0000017EA887E980: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-11.14.15:828][634]LogHttp:Warning: 0000017EA887E980: libcurl info message cache 1 (Closing connection 139)
+[2018.04.27-11.15.15:701][203]LogHttp:Warning: 0000017D8ACE9A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-11.15.15:701][203]LogHttp:Warning: 0000017D8ACE9A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-11.15.15:701][203]LogHttp:Warning: 0000017D8ACE9A80: libcurl info message cache 1 (Closing connection 140)
+[2018.04.27-11.16.15:779][994]LogHttp:Warning: 0000017E347AD600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-11.16.15:779][994]LogHttp:Warning: 0000017E347AD600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-11.16.15:780][994]LogHttp:Warning: 0000017E347AD600: libcurl info message cache 1 (Closing connection 141)
+[2018.04.27-11.18.15:762][573]LogHttp:Warning: 0000017E04057400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-11.18.15:763][573]LogHttp:Warning: 0000017E04057400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-11.18.15:763][573]LogHttp:Warning: 0000017E04057400: libcurl info message cache 1 (Closing connection 142)
+[2018.04.27-11.20.15:673][153]LogHttp:Warning: 0000017DBA6DCA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-11.20.15:673][153]LogHttp:Warning: 0000017DBA6DCA00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-11.20.15:673][153]LogHttp:Warning: 0000017DBA6DCA00: libcurl info message cache 1 (Closing connection 143)
+[2018.04.27-11.21.15:717][941]LogHttp:Warning: 0000017E09B8CB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-11.21.15:717][941]LogHttp:Warning: 0000017E09B8CB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-11.21.15:717][941]LogHttp:Warning: 0000017E09B8CB80: libcurl info message cache 1 (Closing connection 144)
+[2018.04.27-11.23.15:683][371]LogHttp:Warning: 0000017E13511780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-11.23.15:683][371]LogHttp:Warning: 0000017E13511780: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-11.23.15:683][371]LogHttp:Warning: 0000017E13511780: libcurl info message cache 1 (Closing connection 145)
+[2018.04.27-11.24.15:766][102]LogHttp:Warning: 0000017E266D9180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-11.24.15:766][102]LogHttp:Warning: 0000017E266D9180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-11.24.15:766][102]LogHttp:Warning: 0000017E266D9180: libcurl info message cache 1 (Closing connection 146)
+[2018.04.27-11.24.28:122][231]LogSavePackage: Save=1359.78ms
+[2018.04.27-11.24.28:122][231]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonCharacter749175074D48C46810529BA3ADC3DB06.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.04.27-11.24.28:149][231]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.04.27-11.25.14:067][780]LogSavePackage: Save=985.29ms
+[2018.04.27-11.25.14:067][780]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonCharacter7D210B7E44B5739C513792A25B6D126E.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.04.27-11.25.14:073][780]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.04.27-11.25.45:434][152]LogSavePackage: Save=975.24ms
+[2018.04.27-11.25.45:434][152]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonCharacterD3B79A6B4D17850F793B38A95D1D4E9B.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.04.27-11.25.45:438][152]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.04.27-11.26.15:647][542]LogHttp:Warning: 0000017EA0D17880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-11.26.15:648][542]LogHttp:Warning: 0000017EA0D17880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-11.26.15:648][542]LogHttp:Warning: 0000017EA0D17880: libcurl info message cache 1 (Closing connection 147)
+[2018.04.27-11.27.15:806][291]LogHttp:Warning: 0000017EA2BE0280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-11.27.15:806][291]LogHttp:Warning: 0000017EA2BE0280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-11.27.15:806][291]LogHttp:Warning: 0000017EA2BE0280: libcurl info message cache 1 (Closing connection 148)
+[2018.04.27-11.29.12:826][711]LogHttp:Warning: 0000017E047D5600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-11.29.12:826][711]LogHttp:Warning: 0000017E047D5600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-11.29.12:826][711]LogHttp:Warning: 0000017E047D5600: libcurl info message cache 1 (Closing connection 149)
+[2018.04.27-11.29.19:138][789]BlueprintLog: New page: Compile SunPath
+[2018.04.27-11.29.21:152][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sky/SunPath" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Sky/SunPath.uasset" SILENT=true
+[2018.04.27-11.29.21:286][799]LogSavePackage: Save=109.47ms
+[2018.04.27-11.29.21:286][799]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/SunPathBCBF7F3C48E2C8BCF349B0A031BD9879.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Sky/SunPath.uasset'
+[2018.04.27-11.29.21:293][799]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Sky/SunPath.uasset
+[2018.04.27-11.30.03:744][243]LogSavePackage: Save=7163.24ms
+[2018.04.27-11.30.03:744][243]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/newMAP_Auto32FB48B1A406E9481D2873391CB6C6727.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/Maps/newMAP_Auto3.umap'
+[2018.04.27-11.30.03:750][243]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/Maps/newMAP_Auto3.umap
+[2018.04.27-11.30.03:753][243]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/newMAP' took 7.524
+[2018.04.27-11.30.03:753][243]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 7.524
+[2018.04.27-11.30.15:416][395]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/newMAP" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Maps/newMAP.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.27-11.30.22:508][395]LogSavePackage: Save=6814.46ms
+[2018.04.27-11.30.22:508][395]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/newMAP203026E84A1D02E18A4D33859A53F716.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Maps/newMAP.umap'
+[2018.04.27-11.30.22:588][395]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Maps/newMAP.umap
+[2018.04.27-11.30.23:523][399]LogHttp:Warning: 0000017E05D84580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-11.30.23:523][399]LogHttp:Warning: 0000017E05D84580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-11.30.23:523][399]LogHttp:Warning: 0000017E05D84580: libcurl info message cache 1 (Closing connection 150)
+[2018.04.27-11.32.15:491][405]LogHttp:Warning: 0000017DBDDF3D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-11.32.15:491][405]LogHttp:Warning: 0000017DBDDF3D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-11.32.15:491][405]LogHttp:Warning: 0000017DBDDF3D00: libcurl info message cache 1 (Closing connection 151)
+[2018.04.27-11.33.15:684][253]LogHttp:Warning: 0000017EA2C91300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-11.33.15:685][253]LogHttp:Warning: 0000017EA2C91300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-11.33.15:685][253]LogHttp:Warning: 0000017EA2C91300: libcurl info message cache 1 (Closing connection 152)
+[2018.04.27-11.33.19:744][263]Cmd: QUIT_EDITOR
+[2018.04.27-11.33.24:522][263]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.27-11.33.25:418][263]LogExit: Preparing to exit.
+[2018.04.27-13.52.23:232][263]LogDirectoryWatcher: A directory notification for 'C:/Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/' was aborted.
+[2018.04.27-13.53.03:784][263]LogExit: Editor shut down
+[2018.04.27-13.53.04:030][263]LogExit: Transaction tracking system shut down
+[2018.04.27-13.53.26:936][263]LogObj: Freed 0b from 0 cluster array pools.
+[2018.04.27-13.53.26:936][263]LogExit: Object subsystem successfully closed.
+[2018.04.27-13.53.28:644][263]LogD3D11RHI: Shutdown
+[2018.04.27-13.53.28:644][263]LogD3D11RHI: CleanupD3DDevice
+[2018.04.27-13.53.30:430][263]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.27-13.53.36:117][263]LogModuleManager: Shutting down and abandoning module PhAT (546)
+[2018.04.27-13.53.36:144][263]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (544)
+[2018.04.27-13.53.36:173][263]LogModuleManager: Shutting down and abandoning module AnimationEditor (542)
+[2018.04.27-13.53.36:173][263]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (540)
+[2018.04.27-13.53.36:173][263]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (538)
+[2018.04.27-13.53.36:173][263]LogModuleManager: Shutting down and abandoning module SkeletonEditor (536)
+[2018.04.27-13.53.36:173][263]LogModuleManager: Shutting down and abandoning module UATHelper (534)
+[2018.04.27-13.53.36:205][263]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2018.04.27-13.53.36:237][263]LogModuleManager: Shutting down and abandoning module SequencerWidgets (530)
+[2018.04.27-13.53.36:237][263]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2018.04.27-13.53.36:237][263]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2018.04.27-13.53.36:341][263]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.04.27-13.53.36:365][263]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.04.27-13.53.36:407][263]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.04.27-13.53.36:407][263]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.04.27-13.53.36:665][263]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.04.27-13.53.36:826][263]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.04.27-13.53.36:826][263]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.04.27-13.53.36:840][263]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.04.27-13.53.36:878][263]LogDirectoryWatcher: A directory notification for 'C:/Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Collections/' was aborted.
+[2018.04.27-13.53.36:879][263]LogDirectoryWatcher: A directory notification for 'C:/Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Developers/Jamesrigby777/Collections/' was aborted.
+[2018.04.27-13.53.36:879][263]LogDirectoryWatcher: A directory notification for 'C:/Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Collections/' was aborted.
+[2018.04.27-13.53.36:879][263]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.04.27-13.53.36:936][263]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.04.27-13.53.36:936][263]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.04.27-13.53.37:260][263]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.04.27-13.53.37:346][263]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.04.27-13.53.37:346][263]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.04.27-13.53.37:346][263]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.04.27-13.53.37:370][263]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.04.27-13.53.37:370][263]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.04.27-13.53.37:471][263]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.04.27-13.53.37:500][263]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.04.27-13.53.37:500][263]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.04.27-13.53.37:556][263]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.04.27-13.53.37:596][263]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.04.27-13.53.37:873][263]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.04.27-13.53.37:874][263]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.04.27-13.53.37:874][263]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.04.27-13.53.37:874][263]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.04.27-13.53.37:874][263]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.04.27-13.53.37:874][263]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.04.27-13.53.37:887][263]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.04.27-13.53.37:887][263]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.04.27-13.53.37:887][263]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.04.27-13.53.37:887][263]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.04.27-13.53.37:925][263]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.04.27-13.53.37:959][263]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.04.27-13.53.37:959][263]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.04.27-13.53.37:969][263]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.04.27-13.53.37:969][263]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.04.27-13.53.37:993][263]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.04.27-13.53.38:027][263]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.04.27-13.53.38:158][263]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.04.27-13.53.38:220][263]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.04.27-13.53.38:256][263]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.04.27-13.53.38:268][263]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.04.27-13.53.38:282][263]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.04.27-13.53.38:282][263]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.04.27-13.53.38:295][263]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.04.27-13.53.38:823][263]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.04.27-13.53.38:823][263]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.04.27-13.53.38:823][263]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.04.27-13.53.38:855][263]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.04.27-13.53.38:866][263]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.04.27-13.53.38:883][263]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.04.27-13.53.38:898][263]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.04.27-13.53.38:911][263]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.04.27-13.53.38:995][263]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.04.27-13.53.39:010][263]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.04.27-13.53.39:025][263]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.04.27-13.53.39:044][263]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.04.27-13.53.39:055][263]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.04.27-13.53.39:055][263]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.04.27-13.53.39:077][263]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.04.27-13.53.39:077][263]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.04.27-13.53.39:077][263]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.04.27-13.53.39:078][263]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.04.27-13.53.39:093][263]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.04.27-13.53.39:099][263]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.04.27-13.53.39:124][263]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.04.27-13.53.39:140][263]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.04.27-13.53.39:155][263]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.04.27-13.53.39:170][263]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.04.27-13.53.39:222][263]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.04.27-13.53.39:256][263]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.04.27-13.53.39:276][263]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.04.27-13.53.39:294][263]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.04.27-13.53.39:294][263]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.04.27-13.53.39:317][263]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.04.27-13.53.39:336][263]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.04.27-13.53.39:336][263]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.04.27-13.53.39:336][263]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.04.27-13.53.39:336][263]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.04.27-13.53.39:409][263]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.04.27-13.53.39:437][263]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.04.27-13.53.39:449][263]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.04.27-13.53.39:462][263]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.04.27-13.53.39:530][263]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.04.27-13.53.39:544][263]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.04.27-13.53.39:564][263]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.04.27-13.53.39:627][263]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.04.27-13.53.39:644][263]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.04.27-13.53.39:644][263]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.04.27-13.53.39:644][263]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.04.27-13.53.39:759][263]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.04.27-13.53.39:764][263]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.04.27-13.53.39:764][263]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.04.27-13.53.39:764][263]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.04.27-13.53.39:764][263]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.04.27-13.53.39:764][263]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.04.27-13.53.39:781][263]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.04.27-13.53.39:781][263]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.04.27-13.53.39:792][263]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.04.27-13.53.39:808][263]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.04.27-13.53.39:817][263]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.04.27-13.53.39:817][263]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.04.27-13.53.39:832][263]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.04.27-13.53.39:832][263]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.04.27-13.53.39:846][263]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.04.27-13.53.39:846][263]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.04.27-13.53.39:846][263]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.04.27-13.53.39:846][263]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.04.27-13.53.39:846][263]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.04.27-13.53.39:858][263]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.04.27-13.53.39:858][263]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.04.27-13.53.39:858][263]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.04.27-13.53.39:877][263]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.04.27-13.53.39:877][263]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.04.27-13.53.39:890][263]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.04.27-13.53.39:895][263]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.04.27-13.53.39:895][263]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.04.27-13.53.39:895][263]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.04.27-13.53.39:895][263]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.04.27-13.53.39:895][263]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.04.27-13.53.39:895][263]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.04.27-13.53.39:921][263]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.04.27-13.53.39:938][263]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.04.27-13.53.39:951][263]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.04.27-13.53.39:969][263]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.04.27-13.53.39:969][263]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.04.27-13.53.39:993][263]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.04.27-13.53.40:022][263]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.04.27-13.53.40:034][263]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.04.27-13.53.40:063][263]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.04.27-13.53.40:063][263]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.04.27-13.53.40:063][263]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.04.27-13.53.40:063][263]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.04.27-13.53.40:095][263]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.04.27-13.53.40:121][263]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.04.27-13.53.40:172][263]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.04.27-13.53.40:194][263]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.04.27-13.53.40:229][263]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.04.27-13.53.40:281][263]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.04.27-13.53.40:294][263]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.04.27-13.53.40:294][263]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.04.27-13.53.40:294][263]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.04.27-13.53.40:294][263]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.04.27-13.53.40:294][263]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.04.27-13.53.40:402][263]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.04.27-13.53.40:531][263]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.04.27-13.53.40:567][263]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.04.27-13.53.40:576][263]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.04.27-13.53.40:576][263]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.04.27-13.53.40:590][263]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.04.27-13.53.40:590][263]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.04.27-13.53.40:592][263]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.04.27-13.53.40:592][263]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.04.27-13.53.40:592][263]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.04.27-13.53.40:606][263]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.04.27-13.53.40:621][263]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.04.27-13.53.40:621][263]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.04.27-13.53.40:644][263]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.04.27-13.53.40:644][263]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.04.27-13.53.40:667][263]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.04.27-13.53.40:681][263]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.04.27-13.53.40:694][263]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.04.27-13.53.40:694][263]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.04.27-13.53.40:733][263]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.04.27-13.53.40:748][263]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.04.27-13.53.40:781][263]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.04.27-13.53.40:796][263]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.04.27-13.53.40:796][263]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.04.27-13.53.40:806][263]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.04.27-13.53.40:879][263]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.04.27-13.53.40:879][263]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.04.27-13.53.40:904][263]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.04.27-13.53.40:930][263]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.04.27-13.53.40:930][263]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.04.27-13.53.41:103][263]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.04.27-13.53.41:114][263]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.04.27-13.53.41:114][263]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.04.27-13.53.41:114][263]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.04.27-13.53.41:114][263]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.04.27-13.53.41:114][263]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.04.27-13.53.41:507][263]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.27-13.53.41:507][263]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/' was aborted.
+[2018.04.27-13.53.41:507][263]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.27-13.53.41:507][263]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.04.27-13.53.41:598][263]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.04.27-13.53.41:606][263]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.04.27-13.53.41:606][263]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.04.27-13.53.41:606][263]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.04.27-13.53.41:629][263]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.04.27-13.53.41:666][263]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.04.27-13.53.41:690][263]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.04.27-13.53.41:698][263]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.04.27-13.53.41:721][263]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.04.27-13.53.41:776][263]LogDerivedDataCache: Shutdown
+[2018.04.27-13.53.41:776][263]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.04.27-13.53.41:807][263]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.04.27-13.53.41:837][263]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.04.27-13.53.41:887][263]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.04.27-13.53.41:952][263]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.04.27-13.53.41:980][263]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.04.27-13.53.42:047][263]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.04.27-13.53.42:076][263]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.04.27-13.53.42:076][263]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.04.27-13.53.42:114][263]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.04.27-13.53.42:172][263]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.04.27-13.53.42:184][263]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.04.27-13.53.42:184][263]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.04.27-13.53.42:211][263]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.04.27-13.53.42:211][263]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.04.27-13.53.42:237][263]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.04.27-13.53.42:256][263]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.04.27-13.53.42:357][263]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.04.27-13.53.42:385][263]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.04.27-13.53.42:399][263]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.04.27-13.53.42:427][263]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.04.27-13.53.42:427][263]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.04.27-13.53.42:470][263]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.04.27-13.53.42:488][263]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.04.27-13.53.42:488][263]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.04.27-13.53.42:508][263]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.04.27-13.53.42:508][263]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.04.27-13.53.42:543][263]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.04.27-13.53.42:576][263]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.04.27-13.53.42:620][263]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.04.27-13.53.42:659][263]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.04.27-13.53.42:659][263]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.04.27-13.53.42:685][263]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.04.27-13.53.42:685][263]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.04.27-13.53.42:754][263]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.04.27-13.53.42:754][263]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.04.27-13.53.42:754][263]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.04.27-13.53.42:782][263]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.04.27-13.53.42:795][263]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.04.27-13.53.42:795][263]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.04.27-13.53.42:808][263]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.04.27-13.53.42:808][263]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.04.27-13.53.42:808][263]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.04.27-13.53.42:847][263]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.04.27-13.53.42:874][263]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.04.27-13.53.42:874][263]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.04.27-13.53.42:921][263]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.04.27-13.53.42:921][263]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.27-13.53.42:921][263]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.27-13.53.42:952][263]LogOnline:Display: Unloading online subsystem: NULL
+[2018.04.27-13.53.43:162][263]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.27-13.53.43:502][263]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.27-13.53.43:502][263]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.27-13.53.43:506][263]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B436DA3FC-4D2B-AEFB-9423-85B80B6CF5D0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=6140b6574f24a1073c856d9d824d9450%7Cb7b84c186b104f498b17bcb99c9ae371%7C0dd6eb62-b4f9-4fb0-8495-cc4890088561&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.27-13.53.43:506][263]LogHttp:Warning: 0000017EA2C91D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.04.27-13.53.43:506][263]LogHttp:Warning: 0000017EA2C91D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.04.27-13.53.43:506][263]LogHttp:Warning: 0000017EA2C91D80: libcurl info message cache 1 (Closing connection 153)
+[2018.04.27-13.53.43:646][263]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.27-13.53.43:708][263]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.04.27-13.53.43:720][263]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.04.27-13.53.43:751][263]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.04.27-13.53.43:787][263]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.04.27-13.53.43:803][263]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.04.27-13.53.43:815][263]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.04.27-13.53.43:815][263]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.04.27-13.53.43:815][263]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.04.27-13.53.44:112][263]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.04.27-13.53.44:132][263]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.04.27-13.53.44:132][263]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.04.27-13.53.44:132][263]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.04.27-13.53.44:132][263]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.04.27-13.53.44:132][263]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.04.27-13.53.44:132][263]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.04.27-13.53.44:154][263]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.27-13.53.44:164][263]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.27-13.53.44:164][263]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.27-13.53.44:244][263]LogExit: Exiting.
+[2018.04.27-13.53.44:462][263]Log file closed, 04/27/18 14:53:44
