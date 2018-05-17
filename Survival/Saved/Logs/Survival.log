@@ -1,21 +1,9 @@
-﻿Log file open, 05/17/18 14:12:59
+﻿Log file open, 05/17/18 14:21:30
 LogInit:Display: Running engine for game: Survival
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-935423271) SRandInit(-935423271).
+LogInit:Display: RandInit(308924771) SRandInit(308924771).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.099827
-LogConfig:Warning: Failed to saved backup for config[Engine]
-LogConfig:Warning: Failed to saved backup for config[Compat]
-LogConfig:Warning: Failed to saved backup for config[Hardware]
-LogConfig:Warning: Failed to saved backup for config[LightPropagationVolume]
-LogConfig:Warning: Failed to saved backup for config[SuperSearchEditor]
-LogConfig:Warning: Failed to saved backup for config[LevelSequenceEditor]
-LogConfig:Warning: Failed to saved backup for config[OnlineSubsystemUtils]
-LogConfig:Warning: Failed to saved backup for config[AndroidDeviceProfileSelector]
-LogConfig:Warning: Failed to saved backup for config[OculusInput]
-LogConfig:Warning: Failed to saved backup for config[OculusRift]
-LogConfig:Warning: Failed to saved backup for config[PhysXVehicles]
-LogConfig:Warning: Failed to saved backup for config[SteamVR]
+LogStats: Stats thread started at 0.095013
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -62,470 +50,722 @@ LogInit: Base directory: D:/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.17-13.13.02:346][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.17-13.13.02:346][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.17-13.13.02:370][  0]LogConfig:Warning: Failed to saved backup for config[DeviceProfiles]
-[2018.05.17-13.13.02:376][  0]LogInit: Computer: DESKTOP-HS3FJOD
-[2018.05.17-13.13.02:376][  0]LogInit: User: alex
-[2018.05.17-13.13.02:376][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.05.17-13.13.02:376][  0]LogInit: High frequency timer resolution =2.435773 MHz
-[2018.05.17-13.13.02:376][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.05.17-13.13.02:376][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.17-13.13.02:376][  0]LogMemory: Process Physical Memory: 274.55 MB used, 274.55 MB peak
-[2018.05.17-13.13.02:376][  0]LogMemory: Process Virtual Memory: 260.98 MB used, 260.98 MB peak
-[2018.05.17-13.13.02:376][  0]LogMemory: Physical Memory: 3481.79 MB used,  4633.48 MB free, 8115.27 MB total
-[2018.05.17-13.13.02:376][  0]LogMemory: Virtual Memory: 662.52 MB used,  4633.48 MB free, 134217728.00 MB total
-[2018.05.17-13.13.02:984][  0]LogInit: Using OS detected language (en-GB).
-[2018.05.17-13.13.02:984][  0]LogInit: Using OS detected locale (en-GB).
-[2018.05.17-13.13.03:188][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2018.05.17-13.13.05:742][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.17-13.13.06:093][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 860M' (Feature Level 11_0)
-[2018.05.17-13.13.06:093][  0]LogD3D11RHI:       2010/0/4057 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.05.17-13.13.06:156][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2018.05.17-13.13.06:156][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.05.17-13.13.06:159][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.17-13.13.06:159][  0]LogD3D11RHI:       0/0/4057 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.17-13.13.06:159][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.05.17-13.13.06:168][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.17-13.13.06:169][  0]LogD3D11RHI:     GPU DeviceId: 0x1392 (for the marketing name, search the web for "GPU Device Id")
-[2018.05.17-13.13.06:169][  0]LogWindows: EnumDisplayDevices:
-[2018.05.17-13.13.06:169][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2018.05.17-13.13.06:169][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.05.17-13.13.06:169][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2018.05.17-13.13.06:169][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.05.17-13.13.06:170][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 860M
-[2018.05.17-13.13.06:170][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.05.17-13.13.06:170][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.05.17-13.13.06:170][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.05.17-13.13.06:218][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.17-13.13.06:245][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.05.17-13.13.06:246][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (C:/Users/alex/Documents/GitHub/TeamProject/Survival/Intermediate/Shaders/WorkingDirectory/33996/).
-[2018.05.17-13.13.06:246][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/alex/AppData/Local/Temp/UnrealShaderWorkingDir/AD29C7524848BA25F71BF8AE7E201E6D/'.
-[2018.05.17-13.13.06:246][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2018.05.17-13.13.09:857][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.17-13.13.09:924][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2018.05.17-13.13.09:990][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.17-13.13.10:054][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2018.05.17-13.13.10:148][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2018.05.17-13.13.10:211][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.17-13.13.10:272][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.17-13.13.10:331][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.17-13.13.10:381][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2018.05.17-13.13.10:479][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2018.05.17-13.13.10:564][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.17-13.13.10:619][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.17-13.13.10:673][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.17-13.13.10:727][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.17-13.13.10:783][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.17-13.13.10:888][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.17-13.13.10:888][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.17-13.13.10:954][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2018.05.17-13.13.11:115][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2018.05.17-13.13.11:141][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2018.05.17-13.13.11:208][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.17-13.13.11:277][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.17-13.13.11:346][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.17-13.13.11:428][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2018.05.17-13.13.11:428][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2018.05.17-13.13.12:486][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2018.05.17-13.13.12:813][  0]LogDerivedDataCache: Loaded boot cache 0.33s 90MB C:/Users/alex/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.05.17-13.13.12:813][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/alex/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2018.05.17-13.13.12:813][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/alex/Documents/GitHub/TeamProject/Survival/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.17-13.13.12:813][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.17-13.13.12:813][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/alex/Documents/GitHub/TeamProject/Survival/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.17-13.13.12:813][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.17-13.13.12:830][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.17-13.13.12:844][  0]LogDerivedDataCache: Using Local data cache path C:/Users/alex/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.17-13.13.12:861][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.17-13.13.12:861][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.17-13.13.12:947][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.17-13.13.12:947][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.17-13.13.16:511][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.17-13.13.16:622][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.05.17-13.13.17:092][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.17-13.13.17:281][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.17-13.13.17:381][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.17-13.13.17:381][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2018.05.17-13.13.17:381][  0]LogMeshUtilities: No automatic mesh merging module available
-[2018.05.17-13.13.18:326][  0]LogNetVersion: Survival , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3038584403)
-[2018.05.17-13.13.18:454][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
-[2018.05.17-13.13.18:485][  0]LogAssetRegistry:Error: Failed to open file for write C:/Users/alex/Documents/GitHub/TeamProject/Survival/Intermediate/AssetRegistryCache/2657c409.bin
-[2018.05.17-13.13.18:528][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.053071 seconds
-[2018.05.17-13.13.18:534][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2018.05.17-13.13.18:534][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
-[2018.05.17-13.13.18:534][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.17-13.13.18:583][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.05.17-13.13.34:436][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.17-13.13.34:510][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.17-13.13.35:387][  0]LogConfig:Warning: Failed to saved backup for config[TranslationPickerSettings]
-[2018.05.17-13.13.35:491][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.05.17-13.13.36:093][  0]LogConfig:Warning: Failed to saved backup for config[SourceControlSettings]
-[2018.05.17-13.13.36:096][  0]SourceControl: Info Source control is disabled
-[2018.05.17-13.13.39:169][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.17-13.13.40:163][  0]LogEngine: Initializing Engine...
-[2018.05.17-13.13.40:164][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.05.17-13.13.40:435][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.17-13.13.40:435][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.17-13.13.40:658][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.17-13.13.40:671][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.17-13.13.40:727][  0]LogInit: FAudioDevice initialized.
-[2018.05.17-13.13.40:739][  0]LogDerivedDataCache:Error: Could not save memory cache C:/Users/alex/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.05.17-13.13.40:766][  0]LogInit: Texture streaming: Enabled
-[2018.05.17-13.13.40:910][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.17-13.13.41:303][  0]LogInit: Transaction tracking system initialized
-[2018.05.17-13.13.41:732][  0]BlueprintLog: New page: Editor Load
-[2018.05.17-13.13.43:308][  0]LocalizationService: Info Localization service is disabled
-[2018.05.17-13.13.44:414][  0]LogConsoleResponse:Display: 
-[2018.05.17-13.13.45:062][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.17-13.13.45:062][  0]LogCook:Display: Mobile HDR setting 1
-[2018.05.17-13.13.45:301][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/' took 0.04s
-[2018.05.17-13.13.47:870][  0]Cmd: MAP LOAD FILE="C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Maps/newMAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.17-13.13.47:873][  0]LightingResults: New page: Lighting Build
-[2018.05.17-13.13.47:923][  0]MapCheck: New page: Map Check
-[2018.05.17-13.13.47:923][  0]LightingResults: New page: Lighting Build
-[2018.05.17-13.13.49:660][  0]LogClass:Warning: Type mismatch in set of GSSPFocus_C - Previous (BoolProperty) Current(StructProperty) for package:  FObjectReader
-[2018.05.17-13.13.51:554][  0]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.16+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 934) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
-[2018.05.17-13.13.51:554][  0]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.16+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 934) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
-[2018.05.17-13.13.51:554][  0]LogPhysics:Warning: Failed to cook convex: /Game/NewModels/key.key 0 (FlipX:1). The remaining elements will not get cooked.
-[2018.05.17-13.13.52:967][  0]LogAIModule: Creating AISystem for world newMAP
-[2018.05.17-13.13.53:092][  0]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
-[2018.05.17-13.13.53:092][  0]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
-[2018.05.17-13.13.53:187][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.17-13.13.53:334][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.17-13.13.53:611][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 277.348ms to complete.
-[2018.05.17-13.13.53:613][  0]LogFileHelpers: Loading map 'newMAP' took 5.743
-[2018.05.17-13.13.53:911][  0]LogCollectionManager: Loaded 0 collections in 0.002076 seconds
-[2018.05.17-13.13.54:058][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Collections/' took 0.01s
-[2018.05.17-13.13.54:058][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Developers/alex/Collections/' took 0.01s
-[2018.05.17-13.13.54:058][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Collections/' took 0.01s
-[2018.05.17-13.13.54:058][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2018.05.17-13.13.54:084][  0]LogContentBrowser: Native class hierarchy populated in 0.0254 seconds. Added 2329 classes and 491 folders.
-[2018.05.17-13.13.54:202][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2018.05.17-13.13.55:096][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.05.17-13.13.55:203][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2018.05.17-13.13.55:464][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2018.05.17-13.13.55:487][  0]LogSlate: Took 0.014776 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.17-13.13.55:502][  0]LogSlate: Took 0.013727 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.17-13.13.55:515][  0]LogSlate: Took 0.007773 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.17-13.13.55:722][  0]LogRenderer: Reallocating scene render targets to support 980x612 NumSamples 1 (Frame:1).
-[2018.05.17-13.13.55:973][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2018.05.17-13.13.56:102][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2018.05.17-13.13.56:102][  0]LogLoad: (Engine Initialization) Total time: 58.20 seconds
-[2018.05.17-13.13.56:102][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.28 seconds
-[2018.05.17-13.13.56:102][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.05.17-13.13.56:102][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.05.17-13.13.56:442][  0]LogOcInput: OculusInput pre-init called
-[2018.05.17-13.13.56:442][  0]LogHMD: Starting GearVRController plugin
-[2018.05.17-13.13.56:486][  0]SourceControl: Info On branch master
-[2018.05.17-13.13.56:486][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
-[2018.05.17-13.13.56:486][  0]SourceControl: Info Changes not staged for commit:
-[2018.05.17-13.13.56:486][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
-[2018.05.17-13.13.56:486][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
-[2018.05.17-13.13.56:486][  0]SourceControl: Info 	deleted:    Survival/Intermediate/AssetRegistryCache/5eb44d7c.bin
-[2018.05.17-13.13.56:486][  0]SourceControl: Info 	modified:   Survival/Intermediate/CachedAssetRegistry.bin
-[2018.05.17-13.13.56:486][  0]SourceControl: Info 	modified:   Survival/Saved/Config/Windows/Editor.ini
-[2018.05.17-13.13.56:486][  0]SourceControl: Info 	modified:   Survival/Saved/Logs/Survival.log
-[2018.05.17-13.13.56:486][  0]SourceControl: Info 	modified:   Survival/Saved/Logs/Survival_2.log
-[2018.05.17-13.13.56:486][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
-[2018.05.17-13.13.56:486][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.05.17-13.13.56:629][  0]LogSlate: Took 0.015086 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.17-13.13.56:785][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/' took 0.32s
-[2018.05.17-13.13.57:118][  2]LogAssetRegistry: Asset discovery search completed in 38.6857 seconds
-[2018.05.17-13.13.57:224][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.05.17-13.13.57:224][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
-[2018.05.17-13.19.39:545][118]LogEditorViewport: Clicking on Actor (context menu): InstancedFoliageActor (InstancedFoliageActor)
-[2018.05.17-13.19.42:852][224]LogSlate: Took 0.000661 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.17-13.19.43:663][224]LogAIModule: Creating AISystem for world Level1
-[2018.05.17-13.19.43:915][224]Cmd: MAP LOAD FILE="C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.17-13.19.43:915][224]LightingResults: New page: Lighting Build
-[2018.05.17-13.19.43:916][224]LoadErrors: New page: Loading map: Level1.umap
-[2018.05.17-13.19.43:944][224]MapCheck: New page: Map Check
-[2018.05.17-13.19.43:944][224]LightingResults: New page: Lighting Build
-[2018.05.17-13.19.44:873][224]LogSlate: Took 0.000426 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.17-13.19.44:883][224]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.17-13.19.44:961][224]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.17-13.19.45:378][224]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 416.381ms to complete.
-[2018.05.17-13.19.45:380][224]LogFileHelpers: Loading map 'Level1' took 1.466
-[2018.05.17-13.19.51:372][374]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.05.17-13.19.51:657][375]Cmd: QUIT_EDITOR
-[2018.05.17-13.19.51:707][375]LogExit: Preparing to exit.
-[2018.05.17-13.19.52:210][375]LogExit: Editor shut down
-[2018.05.17-13.19.52:214][375]LogExit: Transaction tracking system shut down
-[2018.05.17-13.19.52:453][375]LogObj: Freed 0b from 0 cluster array pools.
-[2018.05.17-13.19.52:453][375]LogExit: Object subsystem successfully closed.
-[2018.05.17-13.19.52:492][375]LogD3D11RHI: Shutdown
-[2018.05.17-13.19.52:492][375]LogD3D11RHI: CleanupD3DDevice
-[2018.05.17-13.19.52:740][375]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.05.17-13.19.52:758][375]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
-[2018.05.17-13.19.52:758][375]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
-[2018.05.17-13.19.52:758][375]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
-[2018.05.17-13.19.52:758][375]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
-[2018.05.17-13.19.52:758][375]LogDirectoryWatcher: A directory notification for 'D:/UE_4.16/FeaturePacks/' was aborted.
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
-[2018.05.17-13.19.52:760][375]LogDirectoryWatcher: A directory notification for 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Collections/' was aborted.
-[2018.05.17-13.19.52:760][375]LogDirectoryWatcher: A directory notification for 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Developers/alex/Collections/' was aborted.
-[2018.05.17-13.19.52:760][375]LogDirectoryWatcher: A directory notification for 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Collections/' was aborted.
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module BspMode (494)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module Media (471)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module SessionServices (458)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
-[2018.05.17-13.19.52:760][375]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
-[2018.05.17-13.19.53:142][375]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
-[2018.05.17-13.19.53:142][375]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
-[2018.05.17-13.19.53:142][375]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
-[2018.05.17-13.19.53:142][375]LogModuleManager: Shutting down and abandoning module MergeActors (428)
-[2018.05.17-13.19.53:143][375]LogModuleManager: Shutting down and abandoning module SizeMap (426)
-[2018.05.17-13.19.53:143][375]LogModuleManager: Shutting down and abandoning module TreeMap (424)
-[2018.05.17-13.19.53:143][375]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
-[2018.05.17-13.19.53:143][375]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
-[2018.05.17-13.19.53:144][375]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
-[2018.05.17-13.19.53:144][375]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
-[2018.05.17-13.19.53:145][375]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
-[2018.05.17-13.19.53:145][375]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
-[2018.05.17-13.19.53:145][375]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
-[2018.05.17-13.19.53:145][375]LogModuleManager: Shutting down and abandoning module XmlParser (408)
-[2018.05.17-13.19.53:145][375]LogModuleManager: Shutting down and abandoning module Blutility (406)
-[2018.05.17-13.19.53:145][375]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
-[2018.05.17-13.19.53:148][375]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
-[2018.05.17-13.19.53:151][375]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
-[2018.05.17-13.19.53:151][375]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
-[2018.05.17-13.19.53:152][375]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
-[2018.05.17-13.19.53:152][375]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
-[2018.05.17-13.19.53:152][375]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
-[2018.05.17-13.19.53:154][375]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
-[2018.05.17-13.19.53:155][375]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
-[2018.05.17-13.19.53:199][375]LogModuleManager: Shutting down and abandoning module AutomationController (386)
-[2018.05.17-13.19.53:199][375]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
-[2018.05.17-13.19.53:199][375]LogModuleManager: Shutting down and abandoning module Layers (382)
-[2018.05.17-13.19.53:199][375]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
-[2018.05.17-13.19.53:199][375]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
-[2018.05.17-13.19.53:199][375]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
-[2018.05.17-13.19.53:200][375]LogModuleManager: Shutting down and abandoning module Persona (374)
-[2018.05.17-13.19.53:200][375]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
-[2018.05.17-13.19.53:200][375]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
-[2018.05.17-13.19.53:200][375]LogModuleManager: Shutting down and abandoning module Kismet (368)
-[2018.05.17-13.19.53:219][375]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
-[2018.05.17-13.19.53:219][375]LogModuleManager: Shutting down and abandoning module Toolbox (364)
-[2018.05.17-13.19.53:219][375]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
-[2018.05.17-13.19.53:219][375]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
-[2018.05.17-13.19.53:219][375]LogModuleManager: Shutting down and abandoning module OutputLog (358)
-[2018.05.17-13.19.53:219][375]LogModuleManager: Shutting down and abandoning module GammaUI (356)
-[2018.05.17-13.19.53:219][375]LogModuleManager: Shutting down and abandoning module Documentation (354)
-[2018.05.17-13.19.53:219][375]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
-[2018.05.17-13.19.53:219][375]LogModuleManager: Shutting down and abandoning module MovieScene (350)
-[2018.05.17-13.19.53:219][375]LogModuleManager: Shutting down and abandoning module Niagara (348)
-[2018.05.17-13.19.53:219][375]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
-[2018.05.17-13.19.53:219][375]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
-[2018.05.17-13.19.53:220][375]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
-[2018.05.17-13.19.53:220][375]LogModuleManager: Shutting down and abandoning module PortalServices (340)
-[2018.05.17-13.19.53:220][375]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
-[2018.05.17-13.19.53:220][375]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
-[2018.05.17-13.19.53:220][375]LogModuleManager: Shutting down and abandoning module AIModule (334)
-[2018.05.17-13.19.53:220][375]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
-[2018.05.17-13.19.53:220][375]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
-[2018.05.17-13.19.53:220][375]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
-[2018.05.17-13.19.53:457][375]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
-[2018.05.17-13.19.53:457][375]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
-[2018.05.17-13.19.53:458][375]LogModuleManager: Shutting down and abandoning module SteamVR (322)
-[2018.05.17-13.19.53:458][375]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
-[2018.05.17-13.19.53:458][375]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
-[2018.05.17-13.19.53:458][375]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
-[2018.05.17-13.19.53:458][375]LogModuleManager: Shutting down and abandoning module OculusInput (314)
-[2018.05.17-13.19.53:458][375]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
-[2018.05.17-13.19.53:458][375]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
-[2018.05.17-13.19.53:458][375]LogModuleManager: Shutting down and abandoning module CableComponent (308)
-[2018.05.17-13.19.53:458][375]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
-[2018.05.17-13.19.53:458][375]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
-[2018.05.17-13.19.53:458][375]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
-[2018.05.17-13.19.53:458][375]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
-[2018.05.17-13.19.53:458][375]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
-[2018.05.17-13.19.53:458][375]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
-[2018.05.17-13.19.53:458][375]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
-[2018.05.17-13.19.53:458][375]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
-[2018.05.17-13.19.53:458][375]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
-[2018.05.17-13.19.53:458][375]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
-[2018.05.17-13.19.53:458][375]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
-[2018.05.17-13.19.53:458][375]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
-[2018.05.17-13.19.53:458][375]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
-[2018.05.17-13.19.53:459][375]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
-[2018.05.17-13.19.53:459][375]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
-[2018.05.17-13.19.53:459][375]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
-[2018.05.17-13.19.53:459][375]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
-[2018.05.17-13.19.53:459][375]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
-[2018.05.17-13.19.53:459][375]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
-[2018.05.17-13.19.53:460][375]LogModuleManager: Shutting down and abandoning module SourceControl (267)
-[2018.05.17-13.19.53:460][375]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
-[2018.05.17-13.19.53:460][375]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
-[2018.05.17-13.19.53:460][375]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
-[2018.05.17-13.19.53:460][375]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
-[2018.05.17-13.19.53:460][375]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
-[2018.05.17-13.19.53:460][375]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
-[2018.05.17-13.19.53:467][375]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
-[2018.05.17-13.19.53:468][375]LogModuleManager: Shutting down and abandoning module MainFrame (252)
-[2018.05.17-13.19.53:468][375]LogModuleManager: Shutting down and abandoning module HotReload (251)
-[2018.05.17-13.19.53:469][375]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
-[2018.05.17-13.19.53:470][375]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
-[2018.05.17-13.19.53:470][375]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
-[2018.05.17-13.19.53:470][375]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
-[2018.05.17-13.19.53:470][375]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
-[2018.05.17-13.19.53:470][375]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
-[2018.05.17-13.19.53:571][375]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
-[2018.05.17-13.19.53:673][375]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
-[2018.05.17-13.19.53:673][375]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
-[2018.05.17-13.19.53:673][375]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
-[2018.05.17-13.19.53:673][375]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
-[2018.05.17-13.19.53:673][375]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
-[2018.05.17-13.19.53:673][375]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
-[2018.05.17-13.19.53:677][375]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
-[2018.05.17-13.19.53:677][375]LogModuleManager: Shutting down and abandoning module Paper2D (218)
-[2018.05.17-13.19.53:677][375]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
-[2018.05.17-13.19.53:677][375]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
-[2018.05.17-13.19.53:681][375]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
-[2018.05.17-13.19.53:681][375]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
-[2018.05.17-13.19.53:681][375]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
-[2018.05.17-13.19.53:681][375]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
-[2018.05.17-13.19.53:682][375]LogModuleManager: Shutting down and abandoning module VREditor (204)
-[2018.05.17-13.19.53:682][375]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
-[2018.05.17-13.19.53:682][375]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
-[2018.05.17-13.19.53:682][375]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
-[2018.05.17-13.19.53:682][375]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
-[2018.05.17-13.19.53:682][375]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
-[2018.05.17-13.19.53:682][375]LogModuleManager: Shutting down and abandoning module UMG (192)
-[2018.05.17-13.19.53:682][375]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
-[2018.05.17-13.19.53:682][375]LogModuleManager: Shutting down and abandoning module Sequencer (190)
-[2018.05.17-13.19.53:682][375]LogModuleManager: Shutting down and abandoning module AssetTools (188)
-[2018.05.17-13.19.53:682][375]LogModuleManager: Shutting down and abandoning module MessageLog (187)
-[2018.05.17-13.19.53:682][375]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
-[2018.05.17-13.19.53:682][375]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
-[2018.05.17-13.19.53:682][375]LogModuleManager: Shutting down and abandoning module Slate (178)
-[2018.05.17-13.19.53:682][375]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
-[2018.05.17-13.19.53:688][375]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
-[2018.05.17-13.19.53:689][375]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
-[2018.05.17-13.19.53:689][375]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
-[2018.05.17-13.19.53:689][375]LogModuleManager: Shutting down and abandoning module Networking (168)
-[2018.05.17-13.19.53:689][375]LogModuleManager: Shutting down and abandoning module Core (164)
-[2018.05.17-13.19.53:689][375]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
-[2018.05.17-13.19.54:015][375]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.05.17-13.19.54:015][375]LogDirectoryWatcher: A directory notification for 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/' was aborted.
-[2018.05.17-13.19.54:015][375]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.05.17-13.19.54:015][375]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
-[2018.05.17-13.19.54:027][375]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
-[2018.05.17-13.19.54:028][375]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
-[2018.05.17-13.19.54:028][375]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
-[2018.05.17-13.19.54:028][375]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
-[2018.05.17-13.19.54:028][375]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
-[2018.05.17-13.19.54:028][375]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
-[2018.05.17-13.19.54:028][375]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
-[2018.05.17-13.19.54:028][375]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
-[2018.05.17-13.19.54:028][375]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2018.05.17-13.19.54:033][375]LogDerivedDataCache: Shutdown
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2018.05.17-13.19.54:033][375]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2018.05.17-13.19.54:034][375]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2018.05.17-13.19.54:034][375]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2018.05.17-13.19.54:034][375]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2018.05.17-13.19.54:034][375]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2018.05.17-13.19.54:034][375]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2018.05.17-13.19.54:034][375]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2018.05.17-13.19.54:034][375]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2018.05.17-13.19.54:034][375]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2018.05.17-13.19.54:034][375]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2018.05.17-13.19.54:034][375]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2018.05.17-13.19.54:034][375]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2018.05.17-13.19.54:034][375]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2018.05.17-13.19.54:034][375]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2018.05.17-13.19.54:034][375]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2018.05.17-13.19.54:034][375]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2018.05.17-13.19.54:034][375]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2018.05.17-13.19.54:034][375]LogModuleManager: Shutting down and abandoning module OculusRift (56)
-[2018.05.17-13.19.54:034][375]LogModuleManager: Shutting down and abandoning module GearVRController (54)
-[2018.05.17-13.19.54:034][375]LogModuleManager: Shutting down and abandoning module GearVR (52)
-[2018.05.17-13.19.54:034][375]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2018.05.17-13.19.54:034][375]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.05.17-13.19.54:034][375]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.05.17-13.19.54:034][375]LogOnline:Display: Unloading online subsystem: NULL
-[2018.05.17-13.19.54:034][375]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.05.17-13.19.54:034][375]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.05.17-13.19.54:034][375]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.05.17-13.19.54:034][375]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B176975C4-4513-BA9F-C31E-43A928BC44EA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=45990d8c459c3705c0a9cb87f027e809%7Cf70a4014985c4f248ed4a27b6789fab9%7Cb90d7bb2-1687-4024-89a9-e6b1c227c3ec&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.05.17-13.19.54:067][375]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.05.17-13.19.54:069][375]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
-[2018.05.17-13.19.54:069][375]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
-[2018.05.17-13.19.54:069][375]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
-[2018.05.17-13.19.54:069][375]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2018.05.17-13.19.54:069][375]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2018.05.17-13.19.54:069][375]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2018.05.17-13.19.54:069][375]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2018.05.17-13.19.54:069][375]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2018.05.17-13.19.54:070][375]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2018.05.17-13.19.54:070][375]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2018.05.17-13.19.54:070][375]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2018.05.17-13.19.54:070][375]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2018.05.17-13.19.54:070][375]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2018.05.17-13.19.54:070][375]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2018.05.17-13.19.54:070][375]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2018.05.17-13.19.54:070][375]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.05.17-13.19.54:070][375]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.05.17-13.19.54:070][375]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.05.17-13.19.54:096][375]LogExit: Exiting.
-[2018.05.17-13.19.54:131][375]Log file closed, 05/17/18 14:19:54
+[2018.05.17-13.21.30:825][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.17-13.21.30:825][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.17-13.21.30:834][  0]LogInit: Computer: DESKTOP-HS3FJOD
+[2018.05.17-13.21.30:834][  0]LogInit: User: alex
+[2018.05.17-13.21.30:834][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.17-13.21.30:834][  0]LogInit: High frequency timer resolution =2.435773 MHz
+[2018.05.17-13.21.30:835][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.05.17-13.21.30:835][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.17-13.21.30:835][  0]LogMemory: Process Physical Memory: 274.52 MB used, 274.52 MB peak
+[2018.05.17-13.21.30:835][  0]LogMemory: Process Virtual Memory: 260.95 MB used, 260.95 MB peak
+[2018.05.17-13.21.30:835][  0]LogMemory: Physical Memory: 3147.60 MB used,  4967.68 MB free, 8115.27 MB total
+[2018.05.17-13.21.30:835][  0]LogMemory: Virtual Memory: 662.52 MB used,  4967.68 MB free, 134217728.00 MB total
+[2018.05.17-13.21.30:896][  0]LogInit: Using OS detected language (en-GB).
+[2018.05.17-13.21.30:896][  0]LogInit: Using OS detected locale (en-GB).
+[2018.05.17-13.21.30:902][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.05.17-13.21.32:116][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.17-13.21.32:194][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 860M' (Feature Level 11_0)
+[2018.05.17-13.21.32:194][  0]LogD3D11RHI:       2010/0/4057 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.05.17-13.21.32:200][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2018.05.17-13.21.32:201][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.05.17-13.21.32:203][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.17-13.21.32:203][  0]LogD3D11RHI:       0/0/4057 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.17-13.21.32:203][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.17-13.21.32:213][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.17-13.21.32:213][  0]LogD3D11RHI:     GPU DeviceId: 0x1392 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.17-13.21.32:213][  0]LogWindows: EnumDisplayDevices:
+[2018.05.17-13.21.32:213][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2018.05.17-13.21.32:213][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.05.17-13.21.32:213][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.05.17-13.21.32:213][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.17-13.21.32:213][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 860M
+[2018.05.17-13.21.32:213][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.17-13.21.32:213][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.17-13.21.32:213][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.05.17-13.21.32:259][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.17-13.21.32:287][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.05.17-13.21.32:287][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (C:/Users/alex/Documents/GitHub/TeamProject/Survival/Intermediate/Shaders/WorkingDirectory/32696/).
+[2018.05.17-13.21.32:288][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/alex/AppData/Local/Temp/UnrealShaderWorkingDir/EA04C4A444616BE4A5888AA1A1EB6892/'.
+[2018.05.17-13.21.32:288][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.05.17-13.21.33:668][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.17-13.21.33:722][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.05.17-13.21.33:785][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.17-13.21.33:836][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.05.17-13.21.33:888][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.05.17-13.21.33:941][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.17-13.21.33:997][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.17-13.21.34:065][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.17-13.21.34:111][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.05.17-13.21.34:167][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.05.17-13.21.34:227][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.17-13.21.34:298][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.17-13.21.34:348][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.17-13.21.34:405][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.17-13.21.34:462][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.17-13.21.34:582][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.17-13.21.34:582][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.17-13.21.34:623][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.05.17-13.21.34:713][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.05.17-13.21.34:739][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.05.17-13.21.34:788][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.17-13.21.34:839][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.17-13.21.34:890][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.17-13.21.34:940][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.05.17-13.21.34:940][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.05.17-13.21.35:432][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.05.17-13.21.35:601][  0]LogDerivedDataCache: Loaded boot cache 0.17s 90MB C:/Users/alex/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.05.17-13.21.35:601][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/alex/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.05.17-13.21.35:602][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/alex/Documents/GitHub/TeamProject/Survival/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.17-13.21.35:602][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.17-13.21.35:602][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/alex/Documents/GitHub/TeamProject/Survival/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.17-13.21.35:602][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.17-13.21.35:622][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.17-13.21.35:638][  0]LogDerivedDataCache: Using Local data cache path C:/Users/alex/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.17-13.21.35:652][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.17-13.21.35:652][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.17-13.21.35:653][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.17-13.21.35:653][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.17-13.21.36:067][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.17-13.21.36:156][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.05.17-13.21.36:329][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.17-13.21.36:385][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.17-13.21.36:475][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.17-13.21.36:475][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.05.17-13.21.36:475][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.05.17-13.21.37:126][  0]LogNetVersion: Survival , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3038584403)
+[2018.05.17-13.21.37:189][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2018.05.17-13.21.37:294][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.080471 seconds
+[2018.05.17-13.21.37:301][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.05.17-13.21.37:301][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.05.17-13.21.37:301][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.17-13.21.37:364][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.17-13.21.40:163][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.17-13.21.40:210][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.17-13.21.40:897][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.17-13.21.41:357][  0]SourceControl: Info Source control is disabled
+[2018.05.17-13.21.43:785][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.17-13.21.44:508][  0]LogEngine: Initializing Engine...
+[2018.05.17-13.21.44:510][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.17-13.21.44:770][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.17-13.21.44:770][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.17-13.21.44:897][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.17-13.21.44:906][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.17-13.21.44:950][  0]LogInit: FAudioDevice initialized.
+[2018.05.17-13.21.45:011][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/alex/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.05.17-13.21.45:030][  0]LogInit: Texture streaming: Enabled
+[2018.05.17-13.21.45:105][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.17-13.21.45:330][  0]LogInit: Transaction tracking system initialized
+[2018.05.17-13.21.45:659][  0]BlueprintLog: New page: Editor Load
+[2018.05.17-13.21.46:607][  0]LocalizationService: Info Localization service is disabled
+[2018.05.17-13.21.47:313][  0]LogConsoleResponse:Display: 
+[2018.05.17-13.21.47:464][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.17-13.21.47:464][  0]LogCook:Display: Mobile HDR setting 1
+[2018.05.17-13.21.48:635][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/' took 0.03s
+[2018.05.17-13.21.49:197][  0]Cmd: MAP LOAD FILE="C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Maps/newMAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.17-13.21.49:199][  0]LightingResults: New page: Lighting Build
+[2018.05.17-13.21.49:258][  0]MapCheck: New page: Map Check
+[2018.05.17-13.21.49:258][  0]LightingResults: New page: Lighting Build
+[2018.05.17-13.21.51:032][  0]LogClass:Warning: Type mismatch in set of GSSPFocus_C - Previous (BoolProperty) Current(StructProperty) for package:  FObjectReader
+[2018.05.17-13.21.53:441][  0]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.16+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 934) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.05.17-13.21.53:441][  0]LogPhysics:Warning: PHYSX: (D:\Build\++UE4+Release-4.16+PhysX_Compile\Sync\Engine\Source\ThirdParty\PhysX\PhysX_3.4\Source\PhysXCooking\src\convex\QuickHullConvexHullLib.cpp 934) eINTERNAL_ERROR : QuickHullConvexHullLib::findSimplex: Simplex input points appers to be coplanar.
+[2018.05.17-13.21.53:441][  0]LogPhysics:Warning: Failed to cook convex: /Game/NewModels/key.key 0 (FlipX:1). The remaining elements will not get cooked.
+[2018.05.17-13.21.53:927][  0]LogAIModule: Creating AISystem for world newMAP
+[2018.05.17-13.21.54:024][  0]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.05.17-13.21.54:024][  0]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.05.17-13.21.54:087][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.17-13.21.54:194][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.17-13.21.54:451][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 256.47ms to complete.
+[2018.05.17-13.21.54:451][  0]LogFileHelpers: Loading map 'newMAP' took 5.254
+[2018.05.17-13.21.54:523][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.05.17-13.21.54:621][  0]LogCollectionManager: Loaded 0 collections in 0.001809 seconds
+[2018.05.17-13.21.54:720][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Collections/' took 0.01s
+[2018.05.17-13.21.54:720][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Developers/alex/Collections/' took 0.01s
+[2018.05.17-13.21.54:720][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Collections/' took 0.01s
+[2018.05.17-13.21.54:720][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2018.05.17-13.21.54:747][  0]LogContentBrowser: Native class hierarchy populated in 0.0264 seconds. Added 2329 classes and 491 folders.
+[2018.05.17-13.21.54:844][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.05.17-13.21.54:963][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.05.17-13.21.55:034][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.05.17-13.21.55:168][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.05.17-13.21.55:174][  0]LogSlate: Took 0.000542 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.17-13.21.55:177][  0]LogSlate: Took 0.000385 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.17-13.21.55:181][  0]LogSlate: Took 0.000396 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.17-13.21.55:336][  0]LogRenderer: Reallocating scene render targets to support 980x612 NumSamples 1 (Frame:1).
+[2018.05.17-13.21.55:576][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.05.17-13.21.55:649][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.05.17-13.21.55:649][  0]LogLoad: (Engine Initialization) Total time: 26.88 seconds
+[2018.05.17-13.21.55:649][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.05 seconds
+[2018.05.17-13.21.55:649][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.05.17-13.21.55:649][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.05.17-13.21.55:669][  0]LogOcInput: OculusInput pre-init called
+[2018.05.17-13.21.55:669][  0]LogHMD: Starting GearVRController plugin
+[2018.05.17-13.21.55:711][  0]SourceControl: Info On branch master
+[2018.05.17-13.21.55:711][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2018.05.17-13.21.55:711][  0]SourceControl: Info Changes not staged for commit:
+[2018.05.17-13.21.55:711][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2018.05.17-13.21.55:711][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.05.17-13.21.55:711][  0]SourceControl: Info 	modified:   Survival/Saved/Config/Windows/Editor.ini
+[2018.05.17-13.21.55:711][  0]SourceControl: Info 	modified:   Survival/Saved/Config/Windows/Engine.ini
+[2018.05.17-13.21.55:711][  0]SourceControl: Info 	modified:   Survival/Saved/Logs/Survival.log
+[2018.05.17-13.21.55:711][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2018.05.17-13.21.55:711][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.17-13.21.55:756][  0]LogSlate: Took 0.000327 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.17-13.21.55:787][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/' took 0.09s
+[2018.05.17-13.21.55:955][  2]LogAssetRegistry: Asset discovery search completed in 18.7886 seconds
+[2018.05.17-13.21.55:958][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.05.17-13.21.55:958][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2018.05.17-13.21.59:172][ 90]LogSlate: Took 0.000335 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.17-13.22.00:054][ 90]LogAIModule: Creating AISystem for world Level1
+[2018.05.17-13.22.00:176][ 90]Cmd: MAP LOAD FILE="C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.17-13.22.00:176][ 90]LightingResults: New page: Lighting Build
+[2018.05.17-13.22.00:177][ 90]LoadErrors: New page: Loading map: Level1.umap
+[2018.05.17-13.22.00:199][ 90]MapCheck: New page: Map Check
+[2018.05.17-13.22.00:199][ 90]LightingResults: New page: Lighting Build
+[2018.05.17-13.22.00:887][ 90]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.17-13.22.00:981][ 90]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.17-13.22.01:276][ 90]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 295.522ms to complete.
+[2018.05.17-13.22.01:277][ 90]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.17-13.22.01:286][ 90]LogFileHelpers: Loading map 'Level1' took 1.111
+[2018.05.17-13.22.21:366][575]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.17-13.22.21:588][575]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.05.17-13.22.21:588][575]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.17-13.22.22:046][575]PIE: New page: PIE session: Level1 (17 May 2018 15:22:21)
+[2018.05.17-13.22.22:054][575]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2018.05.17-13.22.22:523][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.469062s)
+[2018.05.17-13.22.22:524][575]LogAIModule: Creating AISystem for world Level1
+[2018.05.17-13.22.22:524][575]LogPlayLevel: PIE: World Init took: (0.001143s)
+[2018.05.17-13.22.22:525][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.470804s)
+[2018.05.17-13.22.22:544][575]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.17-13.22.22:560][575]LogInit: FAudioDevice initialized.
+[2018.05.17-13.22.22:611][575]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.17-13.22.22:663][575]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.05.17-14.22.22
+[2018.05.17-13.22.22:665][575]LogWorld: Bringing up level for play took: 0.051529
+[2018.05.17-13.22.22:725][575]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.05.17-13.22.22:807][575]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 1.89
+[2018.05.17-13.22.22:808][575]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.05.17-13.22.22:879][575]LogSlate: Took 0.044301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.05.17-13.22.22:910][576]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+	HUD_C /Engine/Transient.UnrealEdEngine_0:NewGameInstance1_C_0.HUD_C_0
+	Function /Game/ThirdPersonBP/Blueprints/HUD.HUD_C:ExecuteUbergraph_HUD:05DA
+[2018.05.17-13.22.22:910][576]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.22:910][576]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+	HUD_C /Engine/Transient.UnrealEdEngine_0:NewGameInstance1_C_0.HUD_C_0
+	Function /Game/ThirdPersonBP/Blueprints/HUD.HUD_C:ExecuteUbergraph_HUD:089B
+[2018.05.17-13.22.22:910][576]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.22:910][576]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+	HUD_C /Engine/Transient.UnrealEdEngine_0:NewGameInstance1_C_0.HUD_C_0
+	Function /Game/ThirdPersonBP/Blueprints/HUD.HUD_C:ExecuteUbergraph_HUD:0B89
+[2018.05.17-13.22.22:910][576]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.22:910][576]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+	HUD_C /Engine/Transient.UnrealEdEngine_0:NewGameInstance1_C_0.HUD_C_0
+	Function /Game/ThirdPersonBP/Blueprints/HUD.HUD_C:ExecuteUbergraph_HUD:0061
+[2018.05.17-13.22.22:910][576]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.23:234][584]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+	HUD_C /Engine/Transient.UnrealEdEngine_0:NewGameInstance1_C_0.HUD_C_0
+	Function /Game/ThirdPersonBP/Blueprints/HUD.HUD_C:ExecuteUbergraph_HUD:05DA
+[2018.05.17-13.22.23:235][584]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.23:235][584]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+	HUD_C /Engine/Transient.UnrealEdEngine_0:NewGameInstance1_C_0.HUD_C_0
+	Function /Game/ThirdPersonBP/Blueprints/HUD.HUD_C:ExecuteUbergraph_HUD:089B
+[2018.05.17-13.22.23:235][584]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.23:235][584]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+	HUD_C /Engine/Transient.UnrealEdEngine_0:NewGameInstance1_C_0.HUD_C_0
+	Function /Game/ThirdPersonBP/Blueprints/HUD.HUD_C:ExecuteUbergraph_HUD:0B89
+[2018.05.17-13.22.23:235][584]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.23:235][584]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+	HUD_C /Engine/Transient.UnrealEdEngine_0:NewGameInstance1_C_0.HUD_C_0
+	Function /Game/ThirdPersonBP/Blueprints/HUD.HUD_C:ExecuteUbergraph_HUD:0061
+[2018.05.17-13.22.23:235][584]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.23:562][594]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+	HUD_C /Engine/Transient.UnrealEdEngine_0:NewGameInstance1_C_0.HUD_C_0
+	Function /Game/ThirdPersonBP/Blueprints/HUD.HUD_C:ExecuteUbergraph_HUD:05DA
+[2018.05.17-13.22.23:562][594]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.23:563][594]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+	HUD_C /Engine/Transient.UnrealEdEngine_0:NewGameInstance1_C_0.HUD_C_0
+	Function /Game/ThirdPersonBP/Blueprints/HUD.HUD_C:ExecuteUbergraph_HUD:089B
+[2018.05.17-13.22.23:563][594]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.23:563][594]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+	HUD_C /Engine/Transient.UnrealEdEngine_0:NewGameInstance1_C_0.HUD_C_0
+	Function /Game/ThirdPersonBP/Blueprints/HUD.HUD_C:ExecuteUbergraph_HUD:0B89
+[2018.05.17-13.22.23:563][594]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.23:563][594]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+	HUD_C /Engine/Transient.UnrealEdEngine_0:NewGameInstance1_C_0.HUD_C_0
+	Function /Game/ThirdPersonBP/Blueprints/HUD.HUD_C:ExecuteUbergraph_HUD:0061
+[2018.05.17-13.22.23:563][594]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.23:870][604]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+	HUD_C /Engine/Transient.UnrealEdEngine_0:NewGameInstance1_C_0.HUD_C_0
+	Function /Game/ThirdPersonBP/Blueprints/HUD.HUD_C:ExecuteUbergraph_HUD:05DA
+[2018.05.17-13.22.23:870][604]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.23:870][604]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+	HUD_C /Engine/Transient.UnrealEdEngine_0:NewGameInstance1_C_0.HUD_C_0
+	Function /Game/ThirdPersonBP/Blueprints/HUD.HUD_C:ExecuteUbergraph_HUD:089B
+[2018.05.17-13.22.23:870][604]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.23:870][604]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+	HUD_C /Engine/Transient.UnrealEdEngine_0:NewGameInstance1_C_0.HUD_C_0
+	Function /Game/ThirdPersonBP/Blueprints/HUD.HUD_C:ExecuteUbergraph_HUD:0B89
+[2018.05.17-13.22.23:870][604]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.23:870][604]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+	HUD_C /Engine/Transient.UnrealEdEngine_0:NewGameInstance1_C_0.HUD_C_0
+	Function /Game/ThirdPersonBP/Blueprints/HUD.HUD_C:ExecuteUbergraph_HUD:0061
+[2018.05.17-13.22.23:870][604]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.24:184][614]LogScript:Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+	HUD_C /Engine/Transient.UnrealEdEngine_0:NewGameInstance1_C_0.HUD_C_0
+	Function /Game/ThirdPersonBP/Blueprints/HUD.HUD_C:ExecuteUbergraph_HUD:05DA
+[2018.05.17-13.22.24:184][614]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.24:184][614]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.24:184][614]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.24:184][614]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.24:498][624]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.24:498][624]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.24:498][624]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.24:498][624]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.24:811][634]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.24:811][634]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.24:811][634]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.24:812][634]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.25:126][644]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.25:126][644]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.25:126][644]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.25:126][644]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.25:344][649]Set new viewmode: Wireframe
+[2018.05.17-13.22.25:863][651]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.25:863][651]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.25:863][651]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.25:863][651]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.26:178][655]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.26:178][655]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.26:179][655]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.26:179][655]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.26:552][660]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.26:552][660]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.26:552][660]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.26:552][660]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.26:871][667]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.26:871][667]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.26:872][667]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.26:872][667]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.27:198][674]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.27:198][674]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.27:199][674]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.27:199][674]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.27:527][681]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.27:527][681]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.27:527][681]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.27:527][681]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.27:855][688]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.27:855][688]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.27:855][688]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.27:855][688]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.28:181][695]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.28:182][695]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.28:182][695]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.28:182][695]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.28:509][702]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.28:509][702]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.28:509][702]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.28:509][702]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.28:836][709]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.28:836][709]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.28:836][709]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.28:836][709]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.29:163][716]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.29:163][716]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.29:163][716]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.29:164][716]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.29:491][723]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.29:491][723]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.29:491][723]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.29:491][723]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.29:817][730]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.29:818][730]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.29:818][730]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.29:818][730]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.30:145][737]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.30:145][737]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.30:145][737]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.30:145][737]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.30:471][744]Set new viewmode: Unlit
+[2018.05.17-13.22.30:472][744]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.30:472][744]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.30:472][744]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.30:473][744]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.30:796][754]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.30:796][754]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.30:796][754]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.30:797][754]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.31:098][765]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.31:098][765]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.31:099][765]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.31:099][765]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.31:400][776]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.31:400][776]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.31:400][776]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.31:400][776]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.31:702][787]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.31:702][787]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.31:702][787]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.31:702][787]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.32:004][798]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.32:004][798]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.32:005][798]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.32:005][798]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31 from function: 'ExecuteUbergraph_HUD' from node: Switch on Int in graph: EventGraph in object: HUD with description: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character31
+[2018.05.17-13.22.32:285][808]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.05.17-13.22.32:383][808]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.05.17-13.23.51:781][  1]LogActorFactory: Actor Factory created Bricks_VariationA_mdl
+[2018.05.17-13.23.54:587][ 37]LogActorFactory: Actor Factory created Bricks_VariationB_mdl
+[2018.05.17-13.23.56:659][ 63]LogActorFactory: Actor Factory created Concrete_VariationB_mdl
+[2018.05.17-13.23.58:825][ 90]LogActorFactory: Actor Factory created Concrete_VariationA_mdl
+[2018.05.17-13.24.02:975][143]LogActorFactory: Actor Factory created Trash_VariationB_mdl
+[2018.05.17-13.24.07:166][197]LogActorFactory: Actor Factory created Paper_mdl
+[2018.05.17-13.24.09:094][221]LogActorFactory: Actor Factory created Trash_VariationC_mdl
+[2018.05.17-13.24.14:821][296]Cmd: TRANSACTION UNDO
+[2018.05.17-13.24.14:821][296]LogEditorTransaction: Undo Foliage Editing
+[2018.05.17-13.24.15:138][296]LogSlate: Took 0.000970 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.17-13.24.15:745][306]Cmd: TRANSACTION UNDO
+[2018.05.17-13.24.15:745][306]LogEditorTransaction: Undo Foliage Editing
+[2018.05.17-13.24.16:309][313]Cmd: TRANSACTION UNDO
+[2018.05.17-13.24.16:309][313]LogEditorTransaction: Undo Foliage Editing
+[2018.05.17-13.25.10:962][160]LogActorFactory: Actor Factory created Ivy_Climb
+[2018.05.17-13.25.13:009][189]LogActorFactory: Actor Factory created Ivy_Large
+[2018.05.17-13.25.16:103][232]LogActorFactory: Actor Factory created Ivy_Medium
+[2018.05.17-13.26.42:143][618]LogEditorViewport: Clicking on Actor (LMB): dampster_main_C (dampster_main)
+[2018.05.17-13.26.42:624][625]LogSlate: Took 0.000728 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.17-13.28.00:641][ 40]LogEditorViewport: Clicking on Actor (LMB): dampster_main_C (dampster_main2)
+[2018.05.17-13.30.40:096][171]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0027 seconds. Added 112 classes and 0 folders.
+[2018.05.17-13.30.41:401][171]LogSlate: Took 0.000355 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.17-13.31.01:951][308]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.05.17-13.31.05:008][308]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.05.17-13.31.05:008][308]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.05.17-13.31.06:897][308]LogSavePackage: Save=1223.32ms
+[2018.05.17-13.31.06:897][308]LogSavePackage: Moving 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonCharacter6F1553204949F0562E8309AF2F1D795E.tmp' to 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.05.17-13.31.06:910][308]LogSavePackage:Display: Finished SavePackage C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.05.17-13.31.19:001][376]LogSavePackage: Save=1302.75ms
+[2018.05.17-13.31.19:001][376]LogSavePackage: Moving 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonCharacter61D97BAB46E8F2FEB5F1EEACF6A5E83D.tmp' to 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.05.17-13.31.19:015][376]LogSavePackage:Display: Finished SavePackage C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.05.17-13.31.47:925][606]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.05.17-13.32.04:200][765]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.05.17-13.33.16:607][793]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.05.17-13.33.16:607][793]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.05.17-13.33.16:610][793]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.05.17-13.33.16:611][793]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.05.17-13.33.16:611][793]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.05.17-13.33.16:612][793]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.05.17-13.33.16:613][793]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.05.17-13.33.16:613][793]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.05.17-13.33.16:613][793]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.05.17-13.33.16:613][793]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.05.17-13.33.17:074][799]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.05.17-13.33.17:074][799]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.05.17-13.33.17:076][799]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.05.17-13.33.17:076][799]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.05.17-13.33.17:077][799]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.05.17-13.33.17:077][799]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.05.17-13.33.17:141][799]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.05.17-13.33.17:141][799]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.05.17-13.33.17:142][799]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.05.17-13.33.17:142][799]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.05.17-13.33.21:685][870]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.05.17-13.33.33:807][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Intersection_4way2)
+[2018.05.17-13.34.35:331][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.17-13.34.41:674][972]LogSavePackage: Save=6291.68ms
+[2018.05.17-13.34.41:674][972]LogSavePackage: Moving 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Level13E57088F42970084E370BBB1480422BE.tmp' to 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Level1.umap'
+[2018.05.17-13.34.41:685][972]LogSavePackage:Display: Finished SavePackage C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Level1.umap
+[2018.05.17-13.35.26:864][638]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (HouseC_FrontPorch18)
+[2018.05.17-13.36.28:709][730]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2018.05.17-13.41.18:295][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.17-13.41.25:003][868]LogSavePackage: Save=6611.79ms
+[2018.05.17-13.41.25:003][868]LogSavePackage: Moving 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Level1BF7C5770408D6F8EC6B47198A74D29E6.tmp' to 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Level1.umap'
+[2018.05.17-13.41.25:016][868]LogSavePackage:Display: Finished SavePackage C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Level1.umap
+[2018.05.17-13.41.43:941][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.17-13.41.49:011][ 51]LogSavePackage: Save=5041.67ms
+[2018.05.17-13.41.49:011][ 51]LogSavePackage: Moving 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Level1153443FD4B1DF396518F9C8110E35E58.tmp' to 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Level1.umap'
+[2018.05.17-13.41.49:025][ 51]LogSavePackage:Display: Finished SavePackage C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Level1.umap
+[2018.05.17-13.42.28:664][182]Cmd: QUIT_EDITOR
+[2018.05.17-13.42.28:682][182]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2018.05.17-13.42.29:058][182]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.05.17-13.42.29:077][182]LogExit: Preparing to exit.
+[2018.05.17-13.42.30:542][182]LogExit: Editor shut down
+[2018.05.17-13.42.30:571][182]LogExit: Transaction tracking system shut down
+[2018.05.17-13.42.30:850][182]LogObj: Freed 0b from 0 cluster array pools.
+[2018.05.17-13.42.30:850][182]LogExit: Object subsystem successfully closed.
+[2018.05.17-13.42.30:899][182]LogD3D11RHI: Shutdown
+[2018.05.17-13.42.30:899][182]LogD3D11RHI: CleanupD3DDevice
+[2018.05.17-13.42.31:175][182]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.05.17-13.42.31:185][182]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2018.05.17-13.42.31:185][182]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2018.05.17-13.42.31:185][182]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2018.05.17-13.42.31:185][182]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.05.17-13.42.31:185][182]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.05.17-13.42.31:185][182]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.05.17-13.42.31:185][182]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.05.17-13.42.31:185][182]LogDirectoryWatcher: A directory notification for 'D:/UE_4.16/FeaturePacks/' was aborted.
+[2018.05.17-13.42.31:189][182]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.05.17-13.42.31:189][182]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.05.17-13.42.31:189][182]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.05.17-13.42.31:189][182]LogDirectoryWatcher: A directory notification for 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Collections/' was aborted.
+[2018.05.17-13.42.31:189][182]LogDirectoryWatcher: A directory notification for 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/Developers/alex/Collections/' was aborted.
+[2018.05.17-13.42.31:189][182]LogDirectoryWatcher: A directory notification for 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Saved/Collections/' was aborted.
+[2018.05.17-13.42.31:189][182]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.05.17-13.42.31:189][182]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.05.17-13.42.31:189][182]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.05.17-13.42.31:189][182]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.05.17-13.42.31:189][182]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.05.17-13.42.31:189][182]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.05.17-13.42.31:189][182]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.05.17-13.42.31:189][182]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.05.17-13.42.31:189][182]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.05.17-13.42.31:190][182]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.05.17-13.42.31:462][182]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.05.17-13.42.31:462][182]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.05.17-13.42.31:462][182]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.05.17-13.42.31:462][182]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.05.17-13.42.31:462][182]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.05.17-13.42.31:462][182]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.05.17-13.42.31:462][182]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.05.17-13.42.31:462][182]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.05.17-13.42.31:462][182]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.05.17-13.42.31:462][182]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.05.17-13.42.31:462][182]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.05.17-13.42.31:462][182]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.05.17-13.42.31:462][182]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.05.17-13.42.31:462][182]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.05.17-13.42.31:462][182]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.05.17-13.42.31:462][182]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.05.17-13.42.31:462][182]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.05.17-13.42.31:463][182]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.05.17-13.42.31:463][182]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.05.17-13.42.31:463][182]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.05.17-13.42.31:463][182]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.05.17-13.42.31:463][182]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.05.17-13.42.31:463][182]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.05.17-13.42.31:463][182]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.05.17-13.42.31:508][182]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.05.17-13.42.31:508][182]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.05.17-13.42.31:508][182]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.05.17-13.42.31:508][182]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.05.17-13.42.31:508][182]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.05.17-13.42.31:508][182]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.05.17-13.42.31:508][182]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.05.17-13.42.31:508][182]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.05.17-13.42.31:508][182]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.05.17-13.42.31:508][182]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.05.17-13.42.31:518][182]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.05.17-13.42.31:518][182]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.05.17-13.42.31:518][182]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.05.17-13.42.31:518][182]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.05.17-13.42.31:518][182]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.05.17-13.42.31:518][182]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.05.17-13.42.31:518][182]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.05.17-13.42.31:518][182]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.05.17-13.42.31:518][182]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.05.17-13.42.31:518][182]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.05.17-13.42.31:518][182]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.05.17-13.42.31:519][182]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.05.17-13.42.31:519][182]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.05.17-13.42.31:519][182]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.05.17-13.42.31:519][182]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.05.17-13.42.31:519][182]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.05.17-13.42.31:519][182]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.05.17-13.42.31:519][182]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.05.17-13.42.31:519][182]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.05.17-13.42.31:519][182]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.05.17-13.42.31:560][182]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.05.17-13.42.31:560][182]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.05.17-13.42.31:560][182]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.05.17-13.42.31:560][182]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.05.17-13.42.31:560][182]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.05.17-13.42.31:560][182]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.05.17-13.42.31:560][182]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.05.17-13.42.31:560][182]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.05.17-13.42.31:560][182]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.05.17-13.42.31:560][182]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.05.17-13.42.31:560][182]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.05.17-13.42.31:560][182]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.05.17-13.42.31:560][182]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.05.17-13.42.31:561][182]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.05.17-13.42.31:561][182]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.05.17-13.42.31:561][182]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.05.17-13.42.31:561][182]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.05.17-13.42.31:561][182]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.05.17-13.42.31:561][182]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.05.17-13.42.31:561][182]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.05.17-13.42.31:561][182]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.05.17-13.42.31:561][182]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.05.17-13.42.31:561][182]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.05.17-13.42.31:561][182]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.05.17-13.42.31:561][182]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.05.17-13.42.31:561][182]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.05.17-13.42.31:561][182]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.05.17-13.42.31:561][182]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.05.17-13.42.31:561][182]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.05.17-13.42.31:561][182]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.05.17-13.42.31:561][182]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.05.17-13.42.31:561][182]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.05.17-13.42.31:561][182]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.05.17-13.42.31:561][182]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.05.17-13.42.31:561][182]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.05.17-13.42.31:561][182]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.05.17-13.42.31:562][182]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.05.17-13.42.31:562][182]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.05.17-13.42.31:562][182]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.05.17-13.42.31:563][182]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.05.17-13.42.31:563][182]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.05.17-13.42.31:563][182]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.05.17-13.42.31:563][182]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.05.17-13.42.31:563][182]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.05.17-13.42.31:563][182]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.05.17-13.42.31:664][182]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.05.17-13.42.31:765][182]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.05.17-13.42.31:765][182]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.05.17-13.42.31:765][182]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.05.17-13.42.31:765][182]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.05.17-13.42.31:765][182]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.05.17-13.42.31:765][182]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.05.17-13.42.31:766][182]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.05.17-13.42.31:766][182]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.05.17-13.42.31:766][182]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.05.17-13.42.31:766][182]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.05.17-13.42.31:769][182]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.05.17-13.42.31:769][182]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.05.17-13.42.31:769][182]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.05.17-13.42.31:769][182]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.05.17-13.42.31:769][182]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.05.17-13.42.31:769][182]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.05.17-13.42.31:769][182]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.05.17-13.42.31:769][182]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.05.17-13.42.31:769][182]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.05.17-13.42.31:769][182]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.05.17-13.42.31:769][182]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.05.17-13.42.31:769][182]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.05.17-13.42.31:769][182]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.05.17-13.42.31:769][182]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.05.17-13.42.31:770][182]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.05.17-13.42.31:770][182]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.05.17-13.42.31:770][182]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.05.17-13.42.31:770][182]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.05.17-13.42.31:770][182]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.05.17-13.42.31:772][182]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.05.17-13.42.31:772][182]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.05.17-13.42.31:772][182]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.05.17-13.42.31:772][182]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.05.17-13.42.31:772][182]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.05.17-13.42.31:772][182]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.05.17-13.42.31:852][182]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.05.17-13.42.31:852][182]LogDirectoryWatcher: A directory notification for 'C:/Users/alex/Documents/GitHub/TeamProject/Survival/Content/' was aborted.
+[2018.05.17-13.42.31:852][182]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.05.17-13.42.31:852][182]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.05.17-13.42.31:858][182]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.05.17-13.42.31:861][182]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.05.17-13.42.31:861][182]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.05.17-13.42.31:861][182]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.05.17-13.42.31:861][182]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.05.17-13.42.31:861][182]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.05.17-13.42.31:861][182]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.05.17-13.42.31:861][182]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.05.17-13.42.31:861][182]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.05.17-13.42.31:960][182]LogDerivedDataCache: Shutdown
+[2018.05.17-13.42.31:960][182]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.05.17-13.42.31:961][182]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.05.17-13.42.31:961][182]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.05.17-13.42.31:961][182]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.05.17-13.42.31:961][182]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.05.17-13.42.31:961][182]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.05.17-13.42.31:961][182]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.05.17-13.42.31:961][182]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.05.17-13.42.31:961][182]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.05.17-13.42.31:961][182]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.05.17-13.42.31:961][182]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.05.17-13.42.31:961][182]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.05.17-13.42.31:961][182]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.05.17-13.42.31:961][182]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.05.17-13.42.31:961][182]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.05.17-13.42.31:961][182]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.05.17-13.42.31:961][182]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.05.17-13.42.31:961][182]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.05.17-13.42.31:961][182]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.05.17-13.42.31:961][182]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.05.17-13.42.31:961][182]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.05.17-13.42.31:961][182]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.05.17-13.42.31:961][182]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.05.17-13.42.31:962][182]LogOnline:Display: Unloading online subsystem: NULL
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.05.17-13.42.31:962][182]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.05.17-13.42.31:962][182]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.05.17-13.42.31:962][182]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBA6F991E-45E9-B934-FF0A-22BB4F6C1961%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=45990d8c459c3705c0a9cb87f027e809%7Cf70a4014985c4f248ed4a27b6789fab9%7Cb90d7bb2-1687-4024-89a9-e6b1c227c3ec&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.05.17-13.42.31:978][182]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.05.17-13.42.31:980][182]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.05.17-13.42.31:980][182]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.05.17-13.42.31:980][182]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.05.17-13.42.31:980][182]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.05.17-13.42.31:980][182]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.05.17-13.42.31:980][182]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.05.17-13.42.31:980][182]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.05.17-13.42.31:980][182]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.05.17-13.42.31:982][182]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.05.17-13.42.31:982][182]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.05.17-13.42.31:982][182]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.05.17-13.42.31:982][182]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.05.17-13.42.31:982][182]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.05.17-13.42.31:982][182]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.05.17-13.42.31:982][182]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.05.17-13.42.31:982][182]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.05.17-13.42.31:982][182]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.05.17-13.42.31:982][182]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.05.17-13.42.31:985][182]LogExit: Exiting.
+[2018.05.17-13.42.32:006][182]Log file closed, 05/17/18 14:42:32
