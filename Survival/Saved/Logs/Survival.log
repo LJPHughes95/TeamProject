@@ -2513,3 +2513,265 @@ LogInit: Object subsystem initialized
 [2018.05.17-21.25.36:756][663]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
 [2018.05.17-21.25.37:773][663]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
 [2018.05.17-21.25.38:187][664]Cmd: SELECT NONE
+[2018.05.17-21.37.23:343][984]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.17-21.37.59:631][148]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.05.17-21.38.02:359][148]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.05.17-21.38.02:359][148]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.05.17-21.38.05:511][151]LogSavePackage: Save=1302.10ms
+[2018.05.17-21.38.05:511][151]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonCharacterA837A49F424FBA782079928A5458AAA3.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.05.17-21.38.05:520][151]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.05.17-21.38.09:568][167]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.17-21.38.09:641][167]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.05.17-21.38.09:642][167]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.17-21.38.09:642][167]PIE: New page: PIE session: Level1 (17 May 2018 23:38:09)
+[2018.05.17-21.38.09:643][167]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2018.05.17-21.38.10:126][167]LogPlayLevel: PIE: StaticDuplicateObject took: (0.483783s)
+[2018.05.17-21.38.10:128][167]LogAIModule: Creating AISystem for world Level1
+[2018.05.17-21.38.10:128][167]LogPlayLevel: PIE: World Init took: (0.001564s)
+[2018.05.17-21.38.10:128][167]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.486056s)
+[2018.05.17-21.38.10:209][167]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.17-21.38.10:227][167]LogInit: FAudioDevice initialized.
+[2018.05.17-21.38.10:260][167]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.17-21.38.10:352][167]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.05.17-21.38.10:353][167]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.05.17-21.38.10:371][167]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.05.17-22.38.10
+[2018.05.17-21.38.10:397][167]LogWorld: Bringing up level for play took: 0.135679
+[2018.05.17-21.38.10:412][167]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 1.386
+[2018.05.17-21.38.10:413][167]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.05.17-21.38.11:747][171]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.38.18:105][187]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.05.17-21.38.18:962][187]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.05.17-21.39.24:218][446]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.05.17-21.39.26:962][446]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.05.17-21.39.26:962][446]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2018.05.17-21.39.29:754][450]LogSavePackage: Save=1297.54ms
+[2018.05.17-21.39.29:754][450]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/ThirdPersonCharacter5ED3F2374E3B87ACB135E3B3F60954B0.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.05.17-21.39.29:763][450]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.05.17-21.40.35:908][725]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.17-21.41.58:319][ 88]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.41.59:892][ 94]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.42.01:482][100]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.42.03:094][106]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.42.05:420][114]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.42.10:235][132]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.42.18:248][162]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.42.21:869][174]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.42.29:872][203]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.42.33:087][215]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.42.34:671][221]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.42.36:256][226]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.42.37:831][231]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.42.39:414][236]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.42.40:992][242]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.42.44:140][254]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.42.45:782][260]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.42.47:362][266]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.42.50:523][276]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.42.52:131][282]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.42.53:778][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.42.55:440][294]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.42.57:047][300]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.43.07:175][335]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.43.13:584][357]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.43.20:005][381]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.43.22:193][386]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.43.25:134][392]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.43.33:036][422]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.43.34:616][428]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.43.36:195][434]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.43.37:772][440]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.43.39:350][446]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.43.40:929][452]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.43.42:508][458]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.43.44:086][464]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.44.14:116][578]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.44.15:701][584]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.44.17:285][590]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.44.18:877][596]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.44.25:262][620]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.44.26:329][624]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.44.26:861][626]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.44.27:926][630]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.44.33:249][650]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.44.33:784][652]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.44.41:233][680]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.44.41:235][680]BlueprintLog: New page: Compile Level1
+[2018.05.17-21.44.44:079][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.17-21.44.52:879][685]LogSavePackage: Save=8674.95ms
+[2018.05.17-21.44.52:879][685]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Level1D8F12A2A4F2A80DB0176B09AC6960E75.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap'
+[2018.05.17-21.44.52:894][685]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap
+[2018.05.17-21.44.52:992][685]LogFileHelpers: Saving map 'Level1' took 9.642
+[2018.05.17-21.44.54:646][690]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.44.56:332][696]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.44.57:915][701]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.44.57:919][701]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.17-21.44.57:976][701]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.05.17-21.44.57:976][701]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.17-21.44.57:977][701]PIE: New page: PIE session: Level1 (17 May 2018 23:44:57)
+[2018.05.17-21.44.57:978][701]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2018.05.17-21.44.58:483][701]LogPlayLevel: PIE: StaticDuplicateObject took: (0.504931s)
+[2018.05.17-21.44.58:484][701]LogAIModule: Creating AISystem for world Level1
+[2018.05.17-21.44.58:484][701]LogPlayLevel: PIE: World Init took: (0.001269s)
+[2018.05.17-21.44.58:485][701]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.506887s)
+[2018.05.17-21.44.58:600][701]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.17-21.44.58:618][701]LogInit: FAudioDevice initialized.
+[2018.05.17-21.44.58:654][701]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.17-21.44.58:749][701]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.05.17-21.44.58:749][701]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.05.17-21.44.58:767][701]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.05.17-22.44.58
+[2018.05.17-21.44.58:793][701]LogWorld: Bringing up level for play took: 0.137680
+[2018.05.17-21.44.58:845][701]LogBlueprintUserMessages: [Rifle_C_2] Inventory is Full
+[2018.05.17-21.44.58:846][701]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 1.819
+[2018.05.17-21.44.58:846][701]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.05.17-21.45.00:291][705]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.17-21.45.03:855][714]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.05.17-21.45.04:757][714]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.05.17-21.45.23:044][779]BlueprintLog: New page: Compile Level1
+[2018.05.17-21.45.26:696][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.17-21.45.35:177][789]LogSavePackage: Save=8398.04ms
+[2018.05.17-21.45.35:177][789]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Level165A7F9354EE5ED380E8B1FBC348AA9A5.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap'
+[2018.05.17-21.45.35:188][789]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap
+[2018.05.17-21.45.35:283][789]LogFileHelpers: Saving map 'Level1' took 8.931
+[2018.05.17-21.45.44:192][817]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.17-21.45.52:341][817]LogSavePackage: Save=8065.35ms
+[2018.05.17-21.45.52:341][817]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Level1AA19A20B45DDC9AB68075B996DA12229.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap'
+[2018.05.17-21.45.52:348][817]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap
+[2018.05.17-21.45.52:442][817]LogFileHelpers: Saving map 'Level1' took 8.599
+[2018.05.17-21.55.10:305][516]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.17-21.56.02:626][713]Cmd: DELETE
+[2018.05.17-21.56.02:626][713]Cmd: ACTOR DELETE
+[2018.05.17-21.56.02:632][713]LogEditorActor: Deleted Actor: LightmassImportanceVolume
+[2018.05.17-21.56.03:011][713]LogEditorActor: Deleted 1 Actors (0.384 secs)
+[2018.05.17-21.56.18:203][781]Cmd: TRANSACTION UNDO
+[2018.05.17-21.56.18:203][781]LogEditorTransaction: Undo Create Actors
+[2018.05.17-21.56.20:643][791]Cmd: TRANSACTION UNDO
+[2018.05.17-21.56.20:643][791]LogEditorTransaction: Undo Delete Actors
+[2018.05.17-21.57.01:964][956]LogSavePackage: Save=7934.39ms
+[2018.05.17-21.57.01:964][956]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Level1_Auto2FBFAA0CD4B8108FE9E0629BE44224873.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/Level1_Auto2.umap'
+[2018.05.17-21.57.01:989][956]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Autosaves/Game/Level1_Auto2.umap
+[2018.05.17-21.57.01:992][956]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level1' took 8.087
+[2018.05.17-21.57.01:992][956]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 8.087
+[2018.05.17-21.57.05:574][974]Cmd: DELETE
+[2018.05.17-21.57.05:574][974]Cmd: ACTOR DELETE
+[2018.05.17-21.57.05:584][974]LogEditorActor: Deleted Actor: LightmassImportanceVolume
+[2018.05.17-21.57.05:659][974]LogEditorActor: Deleted 1 Actors (0.085 secs)
+[2018.05.17-21.57.08:205][985]LogEditor: Attempting to add actor of class 'LightmassPortal' to level at 692.12,-99.61,-317.61
+[2018.05.17-21.57.09:955][990]LogEditor: Attempting to add actor of class 'LightmassPortal' to level at 5962.97,4215.04,-6780.00
+[2018.05.17-22.01.57:113][310]Cmd: TRANSACTION UNDO
+[2018.05.17-22.01.57:113][310]LogEditorTransaction: Undo Set actor scale
+[2018.05.17-22.01.59:211][321]Cmd: TRANSACTION UNDO
+[2018.05.17-22.01.59:211][321]LogEditorTransaction: Undo Scale Actors
+[2018.05.17-22.02.01:148][333]Cmd: TRANSACTION UNDO
+[2018.05.17-22.02.01:148][333]LogEditorTransaction: Undo Scale Actors
+[2018.05.17-22.02.04:297][349]Cmd: TRANSACTION UNDO
+[2018.05.17-22.02.04:297][349]LogEditorTransaction: Undo Set actor scale
+[2018.05.17-22.02.09:144][375]Cmd: TRANSACTION UNDO
+[2018.05.17-22.02.09:144][375]LogEditorTransaction: Undo Scale Actors
+[2018.05.17-22.02.12:488][392]Cmd: TRANSACTION UNDO
+[2018.05.17-22.02.12:488][392]LogEditorTransaction: Undo Set actor scale
+[2018.05.17-22.02.14:837][405]Cmd: TRANSACTION UNDO
+[2018.05.17-22.02.14:837][405]LogEditorTransaction: Undo Set actor scale
+[2018.05.17-22.02.20:299][436]LogEditorTransaction: Undo Move Actors
+[2018.05.17-22.02.20:508][436]LogEditorTransaction: Undo Set actor scale
+[2018.05.17-22.02.20:509][436]LogEditorTransaction: Undo Create Actors
+[2018.05.17-22.02.20:512][436]LogEditorTransaction: Undo Delete Actors
+[2018.05.17-22.03.24:851][736]Cmd: DELETE
+[2018.05.17-22.03.24:851][736]Cmd: ACTOR DELETE
+[2018.05.17-22.03.24:859][736]LogEditorActor: Deleted Actor: PostProcessVolume
+[2018.05.17-22.03.25:071][736]LogEditorActor: Deleted 1 Actors (0.221 secs)
+[2018.05.17-22.03.29:477][756]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.17-22.03.37:463][756]LogSavePackage: Save=7864.07ms
+[2018.05.17-22.03.37:463][756]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Level113D280FB4EBFB6B973AB49A613C77B1F.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap'
+[2018.05.17-22.03.37:474][756]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap
+[2018.05.17-22.04.39:448][970]LogAIModule: Creating AISystem for world newMAP
+[2018.05.17-22.04.39:806][970]Cmd: MAP LOAD FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Maps/newMAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.17-22.04.39:806][970]LightingResults: New page: Lighting Build
+[2018.05.17-22.04.39:807][970]LoadErrors: New page: Loading map: newMAP.umap
+[2018.05.17-22.04.40:031][970]MapCheck: New page: Map Check
+[2018.05.17-22.04.40:031][970]LightingResults: New page: Lighting Build
+[2018.05.17-22.04.40:318][970]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.05.17-22.04.40:318][970]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.05.17-22.04.40:761][970]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2018.05.17-22.04.41:022][970]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.17-22.04.41:386][970]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 363.482ms to complete.
+[2018.05.17-22.04.41:388][970]LogFileHelpers: Loading map 'newMAP' took 1.584
+[2018.05.17-22.09.12:819][699]LogAIModule: Creating AISystem for world Level1
+[2018.05.17-22.09.13:309][699]Cmd: MAP LOAD FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.17-22.09.13:309][699]LightingResults: New page: Lighting Build
+[2018.05.17-22.09.13:310][699]LoadErrors: New page: Loading map: Level1.umap
+[2018.05.17-22.09.13:351][699]MapCheck: New page: Map Check
+[2018.05.17-22.09.13:351][699]LightingResults: New page: Lighting Build
+[2018.05.17-22.09.18:757][699]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.05.17-22.09.18:757][699]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.05.17-22.09.19:155][699]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.17-22.09.19:495][699]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.17-22.09.19:880][699]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 384.838ms to complete.
+[2018.05.17-22.09.19:882][699]LogFileHelpers: Loading map 'Level1' took 6.575
+[2018.05.17-22.12.17:185][523]LogTemp: Repeting last play command: Selected Viewport
+[2018.05.17-22.12.17:238][523]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.05.17-22.12.17:238][523]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.17-22.12.17:239][523]PIE: New page: PIE session: Level1 (18 May 2018 00:12:17)
+[2018.05.17-22.12.17:240][523]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level1
+[2018.05.17-22.12.18:128][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.887673s)
+[2018.05.17-22.12.18:130][523]LogAIModule: Creating AISystem for world Level1
+[2018.05.17-22.12.18:130][523]LogPlayLevel: PIE: World Init took: (0.002384s)
+[2018.05.17-22.12.18:131][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level1.Level1 to /Game/UEDPIE_0_Level1.Level1 (0.890909s)
+[2018.05.17-22.12.18:221][523]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.17-22.12.18:243][523]LogInit: FAudioDevice initialized.
+[2018.05.17-22.12.18:279][523]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.17-22.12.18:399][523]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.05.17-22.12.18:399][523]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.05.17-22.12.18:416][523]LogWorld: Bringing World /Game/UEDPIE_0_Level1.Level1 up for play (max tick rate 60) at 2018.05.17-23.12.18
+[2018.05.17-22.12.18:443][523]LogWorld: Bringing up level for play took: 0.163602
+[2018.05.17-22.12.18:460][523]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level1 1.434
+[2018.05.17-22.12.18:461][523]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.05.17-22.12.20:522][533]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.05.17-22.12.20:857][533]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Level1.Level1_C' with ClassGeneratedBy '/Game/Level1.Level1:PersistentLevel.Level1'
+[2018.05.17-22.12.24:141][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level1" FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.05.17-22.12.32:971][552]LogSavePackage: Save=8721.67ms
+[2018.05.17-22.12.32:971][552]LogSavePackage: Moving '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Saved/Level188C3B5B445CE8285C63051838D8628CD.tmp' to '../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap'
+[2018.05.17-22.12.33:012][552]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Level1.umap
+[2018.05.17-22.15.17:899][222]LogAIModule: Creating AISystem for world newMAP
+[2018.05.17-22.15.18:225][222]Cmd: MAP LOAD FILE="../../../../../../Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/Maps/newMAP.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.17-22.15.18:225][222]LightingResults: New page: Lighting Build
+[2018.05.17-22.15.18:226][222]LoadErrors: New page: Loading map: newMAP.umap
+[2018.05.17-22.15.18:273][222]MapCheck: New page: Map Check
+[2018.05.17-22.15.18:273][222]LightingResults: New page: Lighting Build
+[2018.05.17-22.15.18:498][222]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2018.05.17-22.15.18:498][222]LogPhysics:Warning: ForeachShape(Convex): [/Game/NewModels/key.key] ScaledElem[0] invalid
+[2018.05.17-22.15.19:101][222]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2018.05.17-22.15.19:359][222]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.17-22.15.19:752][222]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 392.117ms to complete.
+[2018.05.17-22.15.19:754][222]LogFileHelpers: Loading map 'newMAP' took 1.530
+[2018.05.17-22.15.27:173][307]LogHttp:Warning: 0000011E87432B00: request failed, libcurl error: 35 (SSL connect error)
+[2018.05.17-22.15.27:173][307]LogHttp:Warning: 0000011E87432B00: libcurl info message cache 0 (Connection 56 seems to be dead!)
+[2018.05.17-22.15.27:173][307]LogHttp:Warning: 0000011E87432B00: libcurl info message cache 1 (Closing connection 56)
+[2018.05.17-22.15.27:173][307]LogHttp:Warning: 0000011E87432B00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.05.17-22.15.27:173][307]LogHttp:Warning: 0000011E87432B00: libcurl info message cache 3 (  Trying 34.206.255.118...)
+[2018.05.17-22.15.27:173][307]LogHttp:Warning: 0000011E87432B00: libcurl info message cache 4 (Connected to datarouter.ol.epicgames.com (34.206.255.118) port 443 (#57))
+[2018.05.17-22.15.27:173][307]LogHttp:Warning: 0000011E87432B00: libcurl info message cache 5 (ALPN, offering http/1.1)
+[2018.05.17-22.15.27:173][307]LogHttp:Warning: 0000011E87432B00: libcurl info message cache 6 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.17-22.15.27:173][307]LogHttp:Warning: 0000011E87432B00: libcurl info message cache 7 (SSL re-using session ID)
+[2018.05.17-22.15.27:173][307]LogHttp:Warning: 0000011E87432B00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.17-22.15.27:173][307]LogHttp:Warning: 0000011E87432B00: libcurl info message cache 9 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2018.05.17-22.15.27:173][307]LogHttp:Warning: 0000011E87432B00: libcurl info message cache 10 (Closing connection 57)
+[2018.05.17-22.16.12:118][822]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.17-22.16.14:432][848]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2018.05.17-22.21.27:303][816]LogHttp:Warning: 0000011ECEF47D00: request failed, libcurl error: 35 (SSL connect error)
+[2018.05.17-22.21.27:304][816]LogHttp:Warning: 0000011ECEF47D00: libcurl info message cache 0 (Connection 58 seems to be dead!)
+[2018.05.17-22.21.27:304][816]LogHttp:Warning: 0000011ECEF47D00: libcurl info message cache 1 (Closing connection 58)
+[2018.05.17-22.21.27:304][816]LogHttp:Warning: 0000011ECEF47D00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.05.17-22.21.27:304][816]LogHttp:Warning: 0000011ECEF47D00: libcurl info message cache 3 (  Trying 34.236.137.99...)
+[2018.05.17-22.21.27:304][816]LogHttp:Warning: 0000011ECEF47D00: libcurl info message cache 4 (Connected to datarouter.ol.epicgames.com (34.236.137.99) port 443 (#59))
+[2018.05.17-22.21.27:304][816]LogHttp:Warning: 0000011ECEF47D00: libcurl info message cache 5 (ALPN, offering http/1.1)
+[2018.05.17-22.21.27:304][816]LogHttp:Warning: 0000011ECEF47D00: libcurl info message cache 6 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.05.17-22.21.27:304][816]LogHttp:Warning: 0000011ECEF47D00: libcurl info message cache 7 (SSL re-using session ID)
+[2018.05.17-22.21.27:304][816]LogHttp:Warning: 0000011ECEF47D00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.05.17-22.21.27:304][816]LogHttp:Warning: 0000011ECEF47D00: libcurl info message cache 9 (Unknown SSL protocol error in connection to datarouter.ol.epicgames.com:443 )
+[2018.05.17-22.21.27:304][816]LogHttp:Warning: 0000011ECEF47D00: libcurl info message cache 10 (Closing connection 59)
+[2018.05.17-22.23.49:395][311]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.05.17-22.23.51:565][312]Cmd: QUIT_EDITOR
+[2018.05.17-22.23.54:126][312]LogExit: Preparing to exit.
+[2018.05.17-22.23.58:538][312]LogDirectoryWatcher: A directory notification for 'C:/Users/Jamesrigby777/Documents/GitHub/TeamProject/Survival/Content/' was aborted.
+[2018.05.17-22.24.23:732][312]LogExit: Editor shut down
+[2018.05.17-22.24.23:944][312]LogExit: Transaction tracking system shut down
